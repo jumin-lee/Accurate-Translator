@@ -30,8 +30,12 @@
 > "이거 추가해줘: 계산서 주시겠어요 / 이 자리 비었나요"
 
 처럼 **한국어 문장을 던지면** 스웨덴어 번역과 낱말 풀이를 붙여 `data/entries.json` 에
-항목이 덧붙습니다. 커밋하고 푸시하면 사이트에 반영됩니다.
-형식은 [`data/SCHEMA.md`](data/SCHEMA.md) 에 적어 두었습니다. 손으로 직접 넣어도 됩니다.
+항목이 덧붙습니다. `main` 에 푸시하면 자동으로 배포됩니다.
+
+이 규칙은 [`CLAUDE.md`](CLAUDE.md) 에 적혀 있어서, **다른 기기에서 `git pull` 한 뒤
+Claude Code 를 붙여도 똑같이 동작합니다.** 형식 명세는
+[`data/SCHEMA.md`](data/SCHEMA.md), 검사기는 `python3 tools/validate.py` 입니다.
+손으로 직접 넣어도 됩니다.
 
 지금은 회화용 문장 63개와 낱말 2개가 들어 있습니다. 13개 상황으로 나뉘어 있고,
 여기서 뽑은 낱말 118개가 단어장에 들어 있습니다.
@@ -110,6 +114,8 @@ css/style.css           스타일 (라이트/다크 모드)
 
 data/entries.json       ← 사이트의 모든 내용
 data/SCHEMA.md          그 형식 설명
+CLAUDE.md               Claude Code 가 읽는 작업 규칙 (어느 환경에서든)
+tools/validate.py       entries.json 검사기 (로컬·CI 공용)
 
 js/app.js               탭·검색·설정 배선
 js/entries.js           데이터 읽기, 날짜별 선택, 검색, 단어장·분류 집계

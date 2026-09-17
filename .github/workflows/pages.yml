@@ -39,19 +39,8 @@ jobs:
         with:
           enablement: true
 
-      - name: Check entries.json is valid
-        run: |
-          python3 -c "
-          import json, sys
-          d = json.load(open('data/entries.json', encoding='utf-8'))
-          ids = [e['id'] for e in d]
-          assert len(ids) == len(set(ids)), 'duplicate id in entries.json'
-          required = ['id','added','kind','category','ko','sv','meaning','words','notes','examples','equivalent','tags']
-          for e in d:
-              missing = [k for k in required if k not in e]
-              assert not missing, f\"{e['id']}: missing {missing}\"
-          print(f'entries.json OK — {len(d)} entries')
-          "
+      - name: Validate entries.json
+        run: python3 tools/validate.py
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
