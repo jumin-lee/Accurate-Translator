@@ -31,7 +31,8 @@
 
 ## 쓰는 법
 
-1. [console.anthropic.com](https://console.anthropic.com/settings/keys) 에서 Anthropic API 키를 발급받습니다.
+1. [platform.claude.com](https://platform.claude.com/settings/keys) 에서 Anthropic API 키를 발급받습니다.
+   (예전 주소 `console.anthropic.com` 은 여기로 바뀌었습니다. GitHub 설정과는 전혀 다른 사이트입니다.)
 2. 사이트 우측 상단 **설정** 을 열고 키를 붙여 넣은 뒤 저장합니다.
 3. 끝입니다. 키는 이 브라우저의 `localStorage` 에만 저장됩니다.
 
@@ -62,11 +63,12 @@
 
 Default Workspace 에는 한도를 걸 수 없으므로 워크스페이스를 따로 만들어야 합니다.
 
-1. Console → **Settings → Workspaces** → **Create workspace** (예: `Translator`)
+1. <https://platform.claude.com/settings/workspaces> → **Create workspace** (예: `Translator`)
 2. 그 워크스페이스 → **Spend limits** 탭 → 월 상한과 알림 임계값 설정
-3. 그 워크스페이스 안에서 API 키를 발급해 이 사이트에 등록
+3. <https://platform.claude.com/settings/keys> 에서 그 워크스페이스로 키를 발급해 이 사이트에 등록
 
-조직 전체 한도는 **Settings → Billing → Spend limits** 에서 겁니다.
+Workspaces 메뉴가 보이지 않으면(조직 관리자만 만들 수 있음) 조직 전체 한도로
+대신할 수 있습니다: <https://platform.claude.com/settings/billing> → **Spend limits**.
 자기가 건 한도를 넘으면 HTTP 400 (`You have reached your specified API usage limits`),
 티어 자동 상한을 넘으면 HTTP 429 (`enforced_spend_limit_reached`) 가 돌아옵니다.
 
