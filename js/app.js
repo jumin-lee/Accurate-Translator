@@ -12,15 +12,19 @@ import { getTotals, getRateLimit, resetTotals, formatUsd } from './usage.js';
 import {
   loadEntries,
   pickForDate,
-  nextIdiom,
+  nextPhrase,
   search,
   buildVocabulary,
   searchVocabulary,
+  categoriesOf,
+  summarize,
 } from './entries.js';
 import {
   renderEntry,
   renderEntryList,
   renderVocabulary,
+  renderSummary,
+  renderCategoryChips,
   renderTranslation,
   renderUsage,
   showLoading,
@@ -33,6 +37,7 @@ const $ = (selector) => document.querySelector(selector);
 /** 읽어 온 항목들. 첫 렌더 전까지는 빈 배열. */
 let entries = [];
 let vocabulary = [];
+let categories = [];
 
 /* ── 날짜 ──────────────────────────────────────────────── */
 
@@ -121,13 +126,13 @@ function selectTab(tabSelector) {
 
 /* ── 오늘의 숙어 ───────────────────────────────────────── */
 
-let shownIdiom = null;
+let shownPhrase = null;
 
 function showEntryInDaily(entry) {
-  shownIdiom = entry;
+  shownPhrase = entry;
   if (!entry) {
     $('#daily-card').hidden = true;
-    showError($('#daily-status'), 'data/entries.json 에 속담·관용구 항목이 아직 없습니다.');
+    showError($('#daily-status'), 'data/entries.json 에 표현 항목이 아직 없습니다.');
     return;
   }
   hideStatus($('#daily-status'));
@@ -144,14 +149,18 @@ function loadDaily() {
 
 /* ── 모아보기 ──────────────────────────────────────────── */
 
-let browseKind = 'all';
+let browseCategory = 'all';
 
 function refreshBrowse() {
   const query = $('#browse-search').value;
   let list = search(entries, query);
-  if (browseKind !== 'all') list = list.filter((entry) => entry.kind === browseKind);
+  if (browseCategory !== 'all') list = list.filter((entry) => entry.category === browseCategory);
 
   $('#browse-count').textContent = `전체 ${entries.length}개 중 ${list.length}개`;
+  renderCategoryChips($('#browse-filters'), categories, browseCategory, (name) => {
+    browseCategory = name;
+    refreshBrowse();
+  });
   renderEntryList($('#browse-list'), list, (entry) => {
     renderEntry($('#browse-detail'), entry, {
       onCopy: (button) => copyToClipboard([entry.ko, entry.sv].filter(Boolean).join('\n'), button),
@@ -166,10 +175,7 @@ function openEntryById(id) {
   if (!entry) return;
   selectTab('#tab-browse');
   $('#browse-search').value = '';
-  browseKind = 'all';
-  for (const chip of document.querySelectorAll('#browse-filters .chip')) {
-    chip.classList.toggle('is-active', chip.dataset.kind === 'all');
-  }
+  browseCategory = 'all';
   refreshBrowse();
   renderEntry($('#browse-detail'), entry, {
     onCopy: (button) => copyToClipboard([entry.ko, entry.sv].filter(Boolean).join('\n'), button),
@@ -288,19 +294,10 @@ async function init() {
   }
 
   $('#daily-refresh').addEventListener('click', () => {
-    showEntryInDaily(nextIdiom(entries, shownIdiom && shownIdiom.id));
+    showEntryInDaily(nextPhrase(entries, shownPhrase && shownPhrase.id));
   });
 
   $('#browse-search').addEventListener('input', refreshBrowse);
-  for (const chip of document.querySelectorAll('#browse-filters .chip')) {
-    chip.addEventListener('click', () => {
-      browseKind = chip.dataset.kind;
-      for (const other of document.querySelectorAll('#browse-filters .chip')) {
-        other.classList.toggle('is-active', other === chip);
-      }
-      refreshBrowse();
-    });
-  }
 
   $('#vocab-search').addEventListener('input', refreshVocabulary);
 
@@ -329,10 +326,12 @@ async function init() {
   refreshUsage();
 
   // 데이터가 사이트의 본체다. 이것만 읽히면 키 없이 전부 동작한다.
-  showLoading($('#daily-status'), '단어장을 불러오는 중입니다…');
+  showLoading($('#daily-status'), '문장을 불러오는 중입니다…');
   try {
     entries = await loadEntries();
     vocabulary = buildVocabulary(entries);
+    categories = categoriesOf(entries);
+    renderSummary($('#summary'), summarize(entries, vocabulary));
     loadDaily();
     refreshBrowse();
     refreshVocabulary();

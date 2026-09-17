@@ -1,335 +1,3542 @@
 [
   {
-    "id": "ko-bal-eomneun-mal",
-    "added": "2026-09-17",
-    "kind": "idiom",
-    "ko": "발 없는 말이 천 리 간다",
-    "romanization": "bal eomneun mari cheolli ganda",
-    "sv": "Ord färdas fort.",
-    "literal_sv": "Ett ord utan fötter går tusen mil.",
-    "meaning": "말은 순식간에 멀리까지 퍼지니 말조심하라는 뜻.",
-    "words": [
-      { "surface": "Ord", "base": "ord", "pos": "명사 (ett-단어, 복수 ord)", "meaning": "말, 단어", "note": "복수형이 단수형과 같은 중성 명사입니다." },
-      { "surface": "färdas", "base": "färdas", "pos": "동사 (현재형, 디포넌트)", "meaning": "이동하다, 퍼지다", "note": "-s 로 끝나지만 수동태가 아니라 이 형태가 원형입니다." },
-      { "surface": "fort", "base": "fort", "pos": "부사", "meaning": "빨리", "note": "" }
-    ],
-    "notes": ["스웨덴어에는 이 속담의 직역이 없어 뜻만 옮겼습니다. 아래 대응 표현이 실제로 쓰입니다."],
-    "examples": [
-      { "sv": "Var försiktig med vad du säger — ord färdas fort.", "ko": "말조심해. 말은 금방 퍼지니까." }
-    ],
-    "equivalent": { "sv": "Ett rykte går fort.", "literal": "소문은 빨리 간다", "note": "거의 같은 뜻으로 일상에서 흔히 씁니다." },
-    "tags": ["속담", "말"]
-  },
-  {
-    "id": "ko-tikkeul-moa",
-    "added": "2026-09-17",
-    "kind": "idiom",
-    "ko": "티끌 모아 태산",
-    "romanization": "tikkeul moa taesan",
-    "sv": "Många bäckar små blir en stor å.",
-    "literal_sv": "Damm som samlas blir ett stort berg.",
-    "meaning": "작은 것도 모이면 큰 것이 된다.",
-    "words": [
-      { "surface": "Många", "base": "många", "pos": "한정사", "meaning": "많은", "note": "복수 명사 앞에 씁니다." },
-      { "surface": "bäckar", "base": "bäck", "pos": "명사 (en-단어, 복수 -ar)", "meaning": "시내, 개울", "note": "" },
-      { "surface": "små", "base": "liten", "pos": "형용사 (복수형)", "meaning": "작은", "note": "liten 의 복수형은 불규칙하게 små 입니다." },
-      { "surface": "blir", "base": "bli", "pos": "동사 (현재형)", "meaning": "~이 되다", "note": "" },
-      { "surface": "en", "base": "en", "pos": "부정관사", "meaning": "하나의", "note": "en-단어 앞에 붙습니다." },
-      { "surface": "stor", "base": "stor", "pos": "형용사", "meaning": "큰", "note": "" },
-      { "surface": "å", "base": "å", "pos": "명사 (en-단어, 복수 -ar)", "meaning": "내, 작은 강", "note": "bäck 보다 크고 älv(큰 강)보다 작습니다." }
-    ],
-    "notes": ["원래 어순은 'Många små bäckar' 이지만, 속담에서는 운율을 살리려고 형용사를 명사 뒤에 두어 'bäckar små' 라고 합니다."],
-    "examples": [
-      { "sv": "Spara lite varje månad — många bäckar små blir en stor å.", "ko": "매달 조금씩 모아 봐. 티끌 모아 태산이야." }
-    ],
-    "equivalent": { "sv": "Många bäckar små blir en stor å.", "literal": "작은 시내가 여럿 모이면 큰 내가 된다", "note": "스웨덴에도 똑같은 뜻의 속담이 있어 그대로 쓰면 됩니다." },
-    "tags": ["속담", "돈", "노력"]
-  },
-  {
-    "id": "ko-sigeun-juk",
-    "added": "2026-09-17",
-    "kind": "idiom",
-    "ko": "식은 죽 먹기",
-    "romanization": "sigeun juk meokgi",
-    "sv": "Det är lätt som en plätt.",
-    "literal_sv": "Det är som att äta kall gröt.",
-    "meaning": "아주 쉬운 일.",
-    "words": [
-      { "surface": "Det", "base": "det", "pos": "대명사 (형식주어)", "meaning": "그것", "note": "뜻 없이 자리만 채우는 형식주어입니다." },
-      { "surface": "är", "base": "vara", "pos": "동사 (현재형)", "meaning": "~이다", "note": "원형 vara, 과거형 var" },
-      { "surface": "lätt", "base": "lätt", "pos": "형용사", "meaning": "쉬운, 가벼운", "note": "두 뜻을 모두 가집니다." },
-      { "surface": "som", "base": "som", "pos": "접속사", "meaning": "~처럼", "note": "" },
-      { "surface": "en", "base": "en", "pos": "부정관사", "meaning": "하나의", "note": "" },
-      { "surface": "plätt", "base": "plätt", "pos": "명사 (en-단어, 복수 -ar)", "meaning": "작은 팬케이크", "note": "" }
-    ],
-    "notes": ["lätt 와 plätt 의 각운을 맞춘 표현이라 통째로 외우는 편이 낫습니다."],
-    "examples": [
-      { "sv": "Oroa dig inte, det är lätt som en plätt.", "ko": "걱정 마, 식은 죽 먹기야." }
-    ],
-    "equivalent": { "sv": "Det är en barnlek.", "literal": "그건 애들 장난이다", "note": "같은 뜻의 다른 표현입니다." },
-    "tags": ["속담", "쉬움"]
-  },
-  {
-    "id": "ko-gosaeng-kkeute",
-    "added": "2026-09-17",
-    "kind": "idiom",
-    "ko": "고생 끝에 낙이 온다",
-    "romanization": "gosaeng kkeute nagi onda",
-    "sv": "Efter regn kommer solsken.",
-    "literal_sv": "Efter lidande kommer glädje.",
-    "meaning": "힘든 일을 견디면 좋은 날이 온다.",
-    "words": [
-      { "surface": "Efter", "base": "efter", "pos": "전치사", "meaning": "~ 뒤에", "note": "" },
-      { "surface": "regn", "base": "regn", "pos": "명사 (ett-단어)", "meaning": "비", "note": "" },
-      { "surface": "kommer", "base": "komma", "pos": "동사 (현재형)", "meaning": "오다", "note": "원형 komma, 과거형 kom" },
-      { "surface": "solsken", "base": "solsken", "pos": "명사 (ett-단어)", "meaning": "햇빛", "note": "sol(해) + sken(빛) 의 합성어입니다." }
-    ],
-    "notes": ["스웨덴어 주절의 동사는 항상 두 번째 자리에 옵니다(V2 어순). 문장을 'Efter regn' 으로 시작했으므로 동사 kommer 가 그다음에 오고 주어 solsken 이 뒤로 밀립니다."],
-    "examples": [
-      { "sv": "Ge inte upp nu. Efter regn kommer solsken.", "ko": "지금 포기하지 마. 고생 끝에 낙이 와." }
-    ],
-    "equivalent": { "sv": "Efter regn kommer solsken.", "literal": "비 온 뒤에 햇빛이 온다", "note": "스웨덴에서도 똑같이 쓰는 속담입니다." },
-    "tags": ["속담", "위로", "V2어순"]
-  },
-  {
-    "id": "ko-wonsungido-namu",
-    "added": "2026-09-17",
-    "kind": "idiom",
-    "ko": "원숭이도 나무에서 떨어진다",
-    "romanization": "wonsungido namueseo tteoreojinda",
-    "sv": "Även den bäste kan göra fel.",
-    "literal_sv": "Även apor faller från träd.",
-    "meaning": "아무리 잘하는 사람도 실수할 때가 있다.",
-    "words": [
-      { "surface": "Även", "base": "även", "pos": "부사", "meaning": "~조차, ~도", "note": "" },
-      { "surface": "den", "base": "den", "pos": "정관사", "meaning": "그", "note": "형용사가 명사처럼 쓰일 때 앞에 붙습니다." },
-      { "surface": "bäste", "base": "bra", "pos": "형용사 (최상급, 정형)", "meaning": "가장 뛰어난 사람", "note": "bra → bättre → bäst 로 불규칙 변화합니다. 정관사와 함께 쓰면 bäste 가 됩니다." },
-      { "surface": "kan", "base": "kunna", "pos": "조동사 (현재형)", "meaning": "~할 수 있다", "note": "뒤에 오는 동사는 att 없이 원형만 씁니다." },
-      { "surface": "göra", "base": "göra", "pos": "동사 (원형)", "meaning": "하다", "note": "" },
-      { "surface": "fel", "base": "fel", "pos": "명사 (ett-단어, 복수 fel)", "meaning": "실수, 잘못", "note": "göra fel 로 '실수하다'가 됩니다." }
-    ],
-    "notes": ["kan, ska, vill 같은 조동사 뒤에는 att 를 쓰지 않고 동사 원형만 옵니다."],
-    "examples": [
-      { "sv": "Var inte för hård mot dig själv — även den bäste kan göra fel.", "ko": "너무 자책하지 마. 원숭이도 나무에서 떨어져." }
-    ],
-    "equivalent": { "sv": "Ingen är fullkomlig.", "literal": "완벽한 사람은 없다", "note": "" },
-    "tags": ["속담", "실수", "조동사"]
-  },
-  {
-    "id": "ko-ganeun-mari",
-    "added": "2026-09-17",
-    "kind": "idiom",
-    "ko": "가는 말이 고와야 오는 말이 곱다",
-    "romanization": "ganeun mari gowaya oneun mari gopda",
-    "sv": "Som man ropar i skogen får man svar.",
-    "literal_sv": "Bara om orden som går är vackra blir orden som kommer vackra.",
-    "meaning": "내가 남에게 좋게 말해야 남도 나에게 좋게 말한다.",
-    "words": [
-      { "surface": "Som", "base": "som", "pos": "접속사", "meaning": "~하는 대로", "note": "" },
-      { "surface": "man", "base": "man", "pos": "부정대명사", "meaning": "(일반적인) 사람", "note": "영어 one, 독일어 man 에 해당합니다. 특정인을 가리키지 않습니다." },
-      { "surface": "ropar", "base": "ropa", "pos": "동사 (현재형)", "meaning": "외치다", "note": "" },
-      { "surface": "i", "base": "i", "pos": "전치사", "meaning": "~ 안에서", "note": "" },
-      { "surface": "skogen", "base": "skog", "pos": "명사 (en-단어, 정관사형)", "meaning": "숲", "note": "스웨덴어는 정관사를 명사 뒤에 붙입니다. skog → skogen" },
-      { "surface": "får", "base": "få", "pos": "동사 (현재형)", "meaning": "받다", "note": "원형 få, 과거형 fick" },
-      { "surface": "svar", "base": "svar", "pos": "명사 (ett-단어, 복수 svar)", "meaning": "대답", "note": "" }
-    ],
-    "notes": ["후치 정관사: 영어 the 에 해당하는 것이 명사 뒤에 붙습니다. en-단어는 -en(skog → skogen), ett-단어는 -et(hus → huset)."],
-    "examples": [
-      { "sv": "Var vänlig mot andra. Som man ropar i skogen får man svar.", "ko": "남에게 친절해. 가는 말이 고와야 오는 말이 곱지." }
-    ],
-    "equivalent": { "sv": "Som man ropar i skogen får man svar.", "literal": "숲에서 외친 대로 대답을 받는다", "note": "스웨덴에도 같은 뜻의 속담이 있습니다." },
-    "tags": ["속담", "말", "정관사"]
-  },
-  {
-    "id": "ko-baekjijangdo",
-    "added": "2026-09-17",
-    "kind": "idiom",
-    "ko": "백지장도 맞들면 낫다",
-    "romanization": "baekjijangdo matdeulmyeon natda",
-    "sv": "Många händer gör arbetet lätt.",
-    "literal_sv": "Även ett pappersark är lättare att lyfta tillsammans.",
-    "meaning": "아무리 쉬운 일이라도 함께 하면 더 낫다.",
-    "words": [
-      { "surface": "Många", "base": "många", "pos": "한정사", "meaning": "많은", "note": "" },
-      { "surface": "händer", "base": "hand", "pos": "명사 (en-단어, 복수 händer)", "meaning": "손", "note": "모음이 바뀌는 불규칙 복수형입니다. hand → händer" },
-      { "surface": "gör", "base": "göra", "pos": "동사 (현재형)", "meaning": "만들다, 하다", "note": "" },
-      { "surface": "arbetet", "base": "arbete", "pos": "명사 (ett-단어, 정관사형)", "meaning": "일, 작업", "note": "arbete → arbetet" },
-      { "surface": "lätt", "base": "lätt", "pos": "형용사", "meaning": "쉬운, 가벼운", "note": "" }
-    ],
-    "notes": ["hand → händer 처럼 복수형에서 모음이 바뀌는 명사가 있습니다. bok → böcker(책), fot → fötter(발) 도 같은 무리입니다."],
-    "examples": [
-      { "sv": "Vi hjälps åt — många händer gör arbetet lätt.", "ko": "같이 하자. 백지장도 맞들면 나아." }
-    ],
-    "equivalent": { "sv": "", "literal": "", "note": "" },
-    "tags": ["속담", "협력", "불규칙복수"]
-  },
-  {
-    "id": "sv-ingen-ko-pa-isen",
+    "id": "hej",
     "added": "2026-09-17",
     "kind": "phrase",
-    "ko": "급할 거 없어. / 별일 아니야.",
+    "category": "인사",
+    "ko": "안녕!",
+    "romanization": "",
+    "sv": "Hej!",
+    "literal_sv": "",
+    "meaning": "가장 기본적인 인사. 시간대와 상관없이 만날 때도 헤어질 때도 씁니다.",
+    "words": [
+      {
+        "surface": "Hej",
+        "base": "hej",
+        "pos": "감탄사",
+        "meaning": "안녕",
+        "note": "두 번 겹쳐 'Hej hej!' 라고 하면 더 친근합니다."
+      }
+    ],
+    "notes": [
+      "스웨덴어는 존댓말 구분이 거의 없어서 처음 보는 사람에게도 Hej 를 씁니다."
+    ],
+    "examples": [
+      {
+        "sv": "Hej! Trevligt att träffas.",
+        "ko": "안녕하세요! 만나서 반가워요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "god-morgon",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "인사",
+    "ko": "좋은 아침이에요.",
+    "romanization": "",
+    "sv": "God morgon.",
+    "literal_sv": "",
+    "meaning": "아침에 하는 인사. 대략 오전 10시까지 씁니다.",
+    "words": [
+      {
+        "surface": "God",
+        "base": "god",
+        "pos": "형용사",
+        "meaning": "좋은",
+        "note": "뒤에 오는 명사의 성에 맞춰 변합니다. morgon 은 en-단어라 god 그대로입니다."
+      },
+      {
+        "surface": "morgon",
+        "base": "morgon",
+        "pos": "명사 (en-단어, 복수 morgnar)",
+        "meaning": "아침",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "God kväll(좋은 저녁), God natt(잘 자요) 도 같은 방식입니다. kväll 과 natt 모두 en-단어입니다."
+    ],
+    "examples": [
+      {
+        "sv": "God morgon! Har du sovit gott?",
+        "ko": "좋은 아침! 잘 잤어요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "hur-ar-laget",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "인사",
+    "ko": "요즘 어때?",
+    "romanization": "",
+    "sv": "Hur är läget?",
+    "literal_sv": "",
+    "meaning": "친구나 편한 사이에서 쓰는 안부 인사.",
+    "words": [
+      {
+        "surface": "Hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "meaning": "~이다",
+        "note": "원형 vara, 과거형 var"
+      },
+      {
+        "surface": "läget",
+        "base": "läge",
+        "pos": "명사 (ett-단어, 정관사형)",
+        "meaning": "상황, 형편",
+        "note": "läge → läget"
+      }
+    ],
+    "notes": [
+      "더 격식 있는 표현은 Hur mår du? 입니다."
+    ],
+    "examples": [
+      {
+        "sv": "Tjena! Hur är läget?",
+        "ko": "야! 요즘 어때?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "구어"
+    ]
+  },
+  {
+    "id": "hur-mar-du",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "인사",
+    "ko": "잘 지내세요?",
+    "romanization": "",
+    "sv": "Hur mår du?",
+    "literal_sv": "",
+    "meaning": "상대의 안부를 묻는 표준적인 인사. 몸 상태를 묻는 뜻도 됩니다.",
+    "words": [
+      {
+        "surface": "Hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "mår",
+        "base": "må",
+        "pos": "동사 (현재형)",
+        "meaning": "(몸·기분이) ~하다",
+        "note": "원형 må. 거의 이 표현에서만 씁니다."
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "meaning": "너, 당신",
+        "note": "스웨덴어는 초면에도 du 를 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Hej Anna, hur mår du?",
+        "ko": "안나 안녕, 잘 지내?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "tack-bra-och-du",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "인사",
+    "ko": "고마워요, 잘 지내요. 그쪽은요?",
+    "romanization": "",
+    "sv": "Tack, bra. Och du?",
+    "literal_sv": "",
+    "meaning": "안부 인사에 답하고 되묻는 가장 흔한 방식.",
+    "words": [
+      {
+        "surface": "Tack",
+        "base": "tack",
+        "pos": "감탄사",
+        "meaning": "고마워",
+        "note": ""
+      },
+      {
+        "surface": "bra",
+        "base": "bra",
+        "pos": "형용사 / 부사",
+        "meaning": "좋은, 잘",
+        "note": "비교급은 bättre, 최상급은 bäst 로 불규칙합니다."
+      },
+      {
+        "surface": "Och",
+        "base": "och",
+        "pos": "접속사",
+        "meaning": "그리고",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "meaning": "너, 당신",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "되물을 때 Och du? 만 붙이면 됩니다. 문장을 다시 만들 필요가 없습니다."
+    ],
+    "examples": [
+      {
+        "sv": "— Hur mår du? — Tack, bra. Och du?",
+        "ko": "— 잘 지내? — 응 잘 지내. 너는?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "trevligt-att-traffas",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "인사",
+    "ko": "만나서 반갑습니다.",
+    "romanization": "",
+    "sv": "Trevligt att träffas.",
+    "literal_sv": "",
+    "meaning": "처음 만났을 때 하는 인사.",
+    "words": [
+      {
+        "surface": "Trevligt",
+        "base": "trevlig",
+        "pos": "형용사 (중성형)",
+        "meaning": "즐거운, 반가운",
+        "note": "trevlig → trevligt(중성) → trevliga(복수)"
+      },
+      {
+        "surface": "att",
+        "base": "att",
+        "pos": "부정사 표지",
+        "meaning": "~하는 것",
+        "note": "영어 to 에 해당합니다."
+      },
+      {
+        "surface": "träffas",
+        "base": "träffas",
+        "pos": "동사 (상호형)",
+        "meaning": "서로 만나다",
+        "note": "träffa(만나다)에 -s 가 붙어 '서로 만나다'가 됩니다."
+      }
+    ],
+    "notes": [
+      "형용사가 서술어로 홀로 쓰이면 중성형(-t)이 됩니다."
+    ],
+    "examples": [
+      {
+        "sv": "Jag heter Jumin. — Trevligt att träffas!",
+        "ko": "저는 주민이에요. — 만나서 반가워요!"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "s동사"
+    ]
+  },
+  {
+    "id": "vi-ses",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "인사",
+    "ko": "또 봐요!",
+    "romanization": "",
+    "sv": "Vi ses!",
+    "literal_sv": "",
+    "meaning": "헤어질 때 하는 가벼운 인사.",
+    "words": [
+      {
+        "surface": "Vi",
+        "base": "vi",
+        "pos": "대명사",
+        "meaning": "우리",
+        "note": ""
+      },
+      {
+        "surface": "ses",
+        "base": "ses",
+        "pos": "동사 (현재형, 상호형)",
+        "meaning": "서로 만나다",
+        "note": "se(보다) + -s"
+      }
+    ],
+    "notes": [
+      "-s 동사는 세 갈래입니다. 수동(byggas 지어지다), 상호(ses 서로 만나다), 그리고 그 형태가 원형인 디포넌트(hoppas 바라다)."
+    ],
+    "examples": [
+      {
+        "sv": "Tack för idag. Vi ses på fredag!",
+        "ko": "오늘 고마웠어. 금요일에 봐!"
+      }
+    ],
+    "equivalent": {
+      "sv": "Hej då!",
+      "literal": "안녕!",
+      "note": "가장 무난한 작별 인사입니다."
+    },
+    "tags": [
+      "기본",
+      "s동사"
+    ]
+  },
+  {
+    "id": "ha-det-bra",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "인사",
+    "ko": "잘 지내세요!",
+    "romanization": "",
+    "sv": "Ha det bra!",
+    "literal_sv": "",
+    "meaning": "헤어질 때 건네는 인사. '잘 지내'에 가깝습니다.",
+    "words": [
+      {
+        "surface": "Ha",
+        "base": "ha",
+        "pos": "동사 (명령형)",
+        "meaning": "가지다",
+        "note": "원형 ha. 명령형도 ha 입니다."
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "bra",
+        "base": "bra",
+        "pos": "부사",
+        "meaning": "잘",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "주말 앞이면 Ha en trevlig helg!(좋은 주말 보내세요) 를 씁니다."
+    ],
+    "examples": [
+      {
+        "sv": "Vi ses nästa vecka. Ha det bra!",
+        "ko": "다음 주에 봐요. 잘 지내세요!"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "jag-heter",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "소개",
+    "ko": "제 이름은 ...입니다.",
+    "romanization": "",
+    "sv": "Jag heter Jumin.",
+    "literal_sv": "",
+    "meaning": "이름을 말하는 가장 흔한 방식. heter 는 '이름이 ~이다'라는 뜻의 동사입니다.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "heter",
+        "base": "heta",
+        "pos": "동사 (현재형)",
+        "meaning": "이름이 ~이다",
+        "note": "원형 heta, 과거형 hette. '가지다(ha)'를 쓰지 않습니다."
+      }
+    ],
+    "notes": [
+      "Mitt namn är ... 도 틀리지 않지만 일상에서는 Jag heter ... 가 훨씬 자연스럽습니다.",
+      "Jumin 자리에 자기 이름을 넣으면 됩니다."
+    ],
+    "examples": [
+      {
+        "sv": "Hej, jag heter Jumin. Vad heter du?",
+        "ko": "안녕하세요, 저는 주민이에요. 이름이 어떻게 되세요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "패턴"
+    ]
+  },
+  {
+    "id": "vad-heter-du",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "소개",
+    "ko": "이름이 어떻게 되세요?",
+    "romanization": "",
+    "sv": "Vad heter du?",
+    "literal_sv": "",
+    "meaning": "이름을 묻는 표현.",
+    "words": [
+      {
+        "surface": "Vad",
+        "base": "vad",
+        "pos": "의문대명사",
+        "meaning": "무엇",
+        "note": ""
+      },
+      {
+        "surface": "heter",
+        "base": "heta",
+        "pos": "동사 (현재형)",
+        "meaning": "이름이 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "meaning": "너, 당신",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "의문사로 시작하는 의문문도 동사가 두 번째 자리에 옵니다. Vad(1) heter(2) du(3)."
+    ],
+    "examples": [
+      {
+        "sv": "Ursäkta, vad heter du?",
+        "ko": "실례지만 이름이 어떻게 되세요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "의문문"
+    ]
+  },
+  {
+    "id": "jag-kommer-fran",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "소개",
+    "ko": "저는 한국에서 왔어요.",
+    "romanization": "",
+    "sv": "Jag kommer från Sydkorea.",
+    "literal_sv": "",
+    "meaning": "출신을 말하는 표현. 현재형을 씁니다.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "kommer",
+        "base": "komma",
+        "pos": "동사 (현재형)",
+        "meaning": "오다",
+        "note": "출신을 말할 때도 현재형을 씁니다. 과거형이 아닙니다."
+      },
+      {
+        "surface": "från",
+        "base": "från",
+        "pos": "전치사",
+        "meaning": "~에서, ~로부터",
+        "note": ""
+      },
+      {
+        "surface": "Sydkorea",
+        "base": "Sydkorea",
+        "pos": "고유명사",
+        "meaning": "대한민국",
+        "note": "syd(남) + Korea. 북한은 Nordkorea 입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Var kommer du ifrån? — Jag kommer från Sydkorea.",
+        "ko": "어디서 오셨어요? — 한국에서 왔어요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "패턴"
+    ]
+  },
+  {
+    "id": "jag-bor-i",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "소개",
+    "ko": "저는 스톡홀름에 살아요.",
+    "romanization": "",
+    "sv": "Jag bor i Stockholm.",
+    "literal_sv": "",
+    "meaning": "사는 곳을 말하는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "bor",
+        "base": "bo",
+        "pos": "동사 (현재형)",
+        "meaning": "살다, 거주하다",
+        "note": "원형 bo, 과거형 bodde"
+      },
+      {
+        "surface": "i",
+        "base": "i",
+        "pos": "전치사",
+        "meaning": "~ 안에",
+        "note": "도시·나라 앞에는 i 를 씁니다."
+      },
+      {
+        "surface": "Stockholm",
+        "base": "Stockholm",
+        "pos": "고유명사",
+        "meaning": "스톡홀름",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "på 는 섬이나 작은 장소에 씁니다. i Stockholm 이지만 på Gotland(고틀란드 섬에) 입니다."
+    ],
+    "examples": [
+      {
+        "sv": "Jag bor i Stockholm men jag kommer från Sydkorea.",
+        "ko": "스톡홀름에 살지만 한국에서 왔어요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "전치사"
+    ]
+  },
+  {
+    "id": "jag-pluggar-svenska",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "소개",
+    "ko": "스웨덴어를 공부하고 있어요.",
+    "romanization": "",
+    "sv": "Jag pluggar svenska.",
+    "literal_sv": "",
+    "meaning": "무엇을 공부하는지 말하는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "pluggar",
+        "base": "plugga",
+        "pos": "동사 (현재형)",
+        "meaning": "공부하다",
+        "note": "구어입니다. 격식체는 studera 입니다."
+      },
+      {
+        "surface": "svenska",
+        "base": "svenska",
+        "pos": "명사 (en-단어)",
+        "meaning": "스웨덴어",
+        "note": "언어 이름은 소문자로 씁니다. 영어와 다릅니다."
+      }
+    ],
+    "notes": [
+      "스웨덴어에는 영어의 be -ing 같은 진행형이 없습니다. 현재형 하나로 '공부한다'와 '공부하고 있다'를 모두 나타냅니다."
+    ],
+    "examples": [
+      {
+        "sv": "Jag pluggar svenska på universitetet.",
+        "ko": "대학에서 스웨덴어를 공부해요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "시제"
+    ]
+  },
+  {
+    "id": "jag-jobbar-som",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "소개",
+    "ko": "저는 ...로 일해요.",
+    "romanization": "",
+    "sv": "Jag jobbar som lärare.",
+    "literal_sv": "",
+    "meaning": "직업을 말하는 표현. som 뒤에 직업 이름을 넣습니다.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "jobbar",
+        "base": "jobba",
+        "pos": "동사 (현재형)",
+        "meaning": "일하다",
+        "note": "구어입니다. 격식체는 arbeta 입니다."
+      },
+      {
+        "surface": "som",
+        "base": "som",
+        "pos": "전치사",
+        "meaning": "~로서",
+        "note": ""
+      },
+      {
+        "surface": "lärare",
+        "base": "lärare",
+        "pos": "명사 (en-단어, 복수 lärare)",
+        "meaning": "교사",
+        "note": "직업 이름 앞에는 관사를 붙이지 않습니다."
+      }
+    ],
+    "notes": [
+      "직업을 말할 때 부정관사를 쓰지 않습니다. Jag jobbar som lärare 이지 som en lärare 가 아닙니다."
+    ],
+    "examples": [
+      {
+        "sv": "Vad jobbar du med? — Jag jobbar som ingenjör.",
+        "ko": "무슨 일 하세요? — 엔지니어로 일해요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴"
+    ]
+  },
+  {
+    "id": "jag-forstar-inte",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "ko": "잘 못 알아듣겠어요.",
+    "romanization": "",
+    "sv": "Jag förstår inte.",
+    "literal_sv": "",
+    "meaning": "상대의 말을 이해하지 못했을 때 쓰는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "förstår",
+        "base": "förstå",
+        "pos": "동사 (현재형)",
+        "meaning": "이해하다",
+        "note": "원형 förstå, 과거형 förstod"
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "meaning": "~않다",
+        "note": "주절에서는 동사 뒤에 옵니다."
+      }
+    ],
+    "notes": [
+      "inte 의 위치가 주절과 종속절에서 다릅니다. 주절은 Jag förstår inte(동사 뒤), 종속절은 att jag inte förstår(동사 앞)."
+    ],
+    "examples": [
+      {
+        "sv": "Förlåt, jag förstår inte.",
+        "ko": "죄송해요, 못 알아들었어요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "부정",
+      "어순"
+    ]
+  },
+  {
+    "id": "kan-du-prata-langsammare",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "ko": "조금 더 천천히 말씀해 주시겠어요?",
+    "romanization": "",
+    "sv": "Kan du prata långsammare?",
+    "literal_sv": "",
+    "meaning": "상대가 빨리 말할 때 속도를 늦춰 달라고 부탁하는 표현.",
+    "words": [
+      {
+        "surface": "Kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "meaning": "~할 수 있다",
+        "note": "의문문이라 동사가 문두에 왔습니다."
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "meaning": "너, 당신",
+        "note": ""
+      },
+      {
+        "surface": "prata",
+        "base": "prata",
+        "pos": "동사 (원형)",
+        "meaning": "말하다",
+        "note": "조동사 뒤라 att 없이 원형만 옵니다."
+      },
+      {
+        "surface": "långsammare",
+        "base": "långsam",
+        "pos": "형용사 (비교급)",
+        "meaning": "더 천천히",
+        "note": "långsam → långsammare → långsammast"
+      }
+    ],
+    "notes": [
+      "예-아니오 의문문은 동사를 문두로 보내 만듭니다. Du kan prata. → Kan du prata?"
+    ],
+    "examples": [
+      {
+        "sv": "Ursäkta, kan du prata långsammare?",
+        "ko": "실례지만 조금 천천히 말씀해 주시겠어요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "의문문",
+      "비교급"
+    ]
+  },
+  {
+    "id": "kan-du-upprepa",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "ko": "다시 한 번 말씀해 주시겠어요?",
+    "romanization": "",
+    "sv": "Kan du upprepa det?",
+    "literal_sv": "",
+    "meaning": "못 들었을 때 다시 말해 달라고 하는 표현.",
+    "words": [
+      {
+        "surface": "Kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "meaning": "너, 당신",
+        "note": ""
+      },
+      {
+        "surface": "upprepa",
+        "base": "upprepa",
+        "pos": "동사 (원형)",
+        "meaning": "반복하다",
+        "note": ""
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사",
+        "meaning": "그것",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Förlåt, kan du upprepa det?",
+        "ko": "죄송해요, 다시 말씀해 주시겠어요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "Vad sa du?",
+      "literal": "뭐라고 하셨어요?",
+      "note": "더 짧은 구어 표현입니다."
+    },
+    "tags": [
+      "필수"
+    ]
+  },
+  {
+    "id": "talar-du-engelska",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "ko": "영어 하세요?",
+    "romanization": "",
+    "sv": "Talar du engelska?",
+    "literal_sv": "",
+    "meaning": "상대가 영어를 하는지 묻는 표현.",
+    "words": [
+      {
+        "surface": "Talar",
+        "base": "tala",
+        "pos": "동사 (현재형)",
+        "meaning": "말하다",
+        "note": "의문문이라 문두에 왔습니다. prata 보다 조금 격식체입니다."
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "meaning": "너, 당신",
+        "note": ""
+      },
+      {
+        "surface": "engelska",
+        "base": "engelska",
+        "pos": "명사 (en-단어)",
+        "meaning": "영어",
+        "note": "언어 이름은 소문자로 씁니다."
+      }
+    ],
+    "notes": [
+      "조동사가 없는 문장의 의문문은 본동사를 그대로 문두로 보냅니다. Du talar engelska. → Talar du engelska?"
+    ],
+    "examples": [
+      {
+        "sv": "Ursäkta, talar du engelska?",
+        "ko": "실례합니다, 영어 하세요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "의문문"
+    ]
+  },
+  {
+    "id": "vad-betyder-det",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "ko": "그게 무슨 뜻이에요?",
+    "romanization": "",
+    "sv": "Vad betyder det?",
+    "literal_sv": "",
+    "meaning": "모르는 말이 나왔을 때 뜻을 묻는 표현.",
+    "words": [
+      {
+        "surface": "Vad",
+        "base": "vad",
+        "pos": "의문대명사",
+        "meaning": "무엇",
+        "note": ""
+      },
+      {
+        "surface": "betyder",
+        "base": "betyda",
+        "pos": "동사 (현재형)",
+        "meaning": "의미하다",
+        "note": "원형 betyda, 과거형 betydde"
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사",
+        "meaning": "그것",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Lagom — vad betyder det?",
+        "ko": "lagom — 그게 무슨 뜻이에요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "의문문"
+    ]
+  },
+  {
+    "id": "hur-sager-man",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "ko": "...를 스웨덴어로 뭐라고 해요?",
+    "romanization": "",
+    "sv": "Hur säger man kaffe på svenska?",
+    "literal_sv": "",
+    "meaning": "단어를 물어볼 때 쓰는 문형. 배우는 사람에게 가장 쓸모 있는 문장입니다.",
+    "words": [
+      {
+        "surface": "Hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "säger",
+        "base": "säga",
+        "pos": "동사 (현재형)",
+        "meaning": "말하다",
+        "note": "원형 säga, 과거형 sa(sade)"
+      },
+      {
+        "surface": "man",
+        "base": "man",
+        "pos": "부정대명사",
+        "meaning": "(일반적인) 사람",
+        "note": "특정인을 가리키지 않습니다. 영어 one 에 해당합니다."
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "meaning": "~로",
+        "note": "언어를 말할 때는 på 를 씁니다."
+      },
+      {
+        "surface": "svenska",
+        "base": "svenska",
+        "pos": "명사 (en-단어)",
+        "meaning": "스웨덴어",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "언어에는 på 를 씁니다. på svenska(스웨덴어로), på koreanska(한국어로)."
+    ],
+    "examples": [
+      {
+        "sv": "Hur säger man tack på koreanska?",
+        "ko": "tack 을 한국어로 뭐라고 해요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "패턴"
+    ]
+  },
+  {
+    "id": "jag-pratar-lite-svenska",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "ko": "스웨덴어를 조금밖에 못 해요.",
+    "romanization": "",
+    "sv": "Jag pratar bara lite svenska.",
+    "literal_sv": "",
+    "meaning": "스웨덴어 실력이 부족하다고 미리 알리는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "pratar",
+        "base": "prata",
+        "pos": "동사 (현재형)",
+        "meaning": "말하다",
+        "note": ""
+      },
+      {
+        "surface": "bara",
+        "base": "bara",
+        "pos": "부사",
+        "meaning": "단지, ~밖에",
+        "note": ""
+      },
+      {
+        "surface": "lite",
+        "base": "lite",
+        "pos": "부사",
+        "meaning": "조금",
+        "note": "셀 수 없는 것에 씁니다. 셀 수 있는 것에는 några 를 씁니다."
+      },
+      {
+        "surface": "svenska",
+        "base": "svenska",
+        "pos": "명사 (en-단어)",
+        "meaning": "스웨덴어",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Förlåt, jag pratar bara lite svenska.",
+        "ko": "죄송해요, 스웨덴어를 조금밖에 못 해요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수"
+    ]
+  },
+  {
+    "id": "tack-sa-mycket",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "예의",
+    "ko": "정말 고맙습니다.",
+    "romanization": "",
+    "sv": "Tack så mycket.",
+    "literal_sv": "",
+    "meaning": "감사를 표하는 표현. 그냥 Tack 만 해도 됩니다.",
+    "words": [
+      {
+        "surface": "Tack",
+        "base": "tack",
+        "pos": "감탄사 / 명사 (ett-단어)",
+        "meaning": "고마움",
+        "note": ""
+      },
+      {
+        "surface": "så",
+        "base": "så",
+        "pos": "부사",
+        "meaning": "그렇게, 아주",
+        "note": ""
+      },
+      {
+        "surface": "mycket",
+        "base": "mycket",
+        "pos": "부사",
+        "meaning": "많이",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "스웨덴에서는 Tack 을 아주 자주 씁니다. 물건을 받을 때, 부탁할 때 문장 끝에도 붙입니다."
+    ],
+    "examples": [
+      {
+        "sv": "Tack så mycket för hjälpen!",
+        "ko": "도와주셔서 정말 고맙습니다!"
+      }
+    ],
+    "equivalent": {
+      "sv": "Tusen tack!",
+      "literal": "천 번의 감사!",
+      "note": "더 강조한 표현입니다."
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "varsagod",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "예의",
+    "ko": "여기요. / 천만에요.",
+    "romanization": "",
+    "sv": "Varsågod.",
+    "literal_sv": "",
+    "meaning": "물건을 건넬 때와 감사 인사에 답할 때 모두 씁니다.",
+    "words": [
+      {
+        "surface": "Varsågod",
+        "base": "varsågod",
+        "pos": "감탄사",
+        "meaning": "여기 있습니다; 천만에요",
+        "note": "var så god(그렇게 좋으시라)가 한 단어로 굳었습니다."
+      }
+    ],
+    "notes": [
+      "여러 사람에게는 Varsågoda 라고 합니다."
+    ],
+    "examples": [
+      {
+        "sv": "Här är din kaffe. — Tack! — Varsågod.",
+        "ko": "커피 나왔습니다. — 고마워요! — 천만에요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "ursakta",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "예의",
+    "ko": "실례합니다. / 죄송합니다.",
+    "romanization": "",
+    "sv": "Ursäkta.",
+    "literal_sv": "",
+    "meaning": "말을 걸 때, 지나갈 때, 가볍게 사과할 때 두루 씁니다.",
+    "words": [
+      {
+        "surface": "Ursäkta",
+        "base": "ursäkta",
+        "pos": "동사 (명령형) / 감탄사",
+        "meaning": "용서하다; 실례합니다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Förlåt 은 잘못을 사과할 때, Ursäkta 는 주의를 끌거나 가벼운 실례를 범할 때 씁니다."
+    ],
+    "examples": [
+      {
+        "sv": "Ursäkta, var ligger toaletten?",
+        "ko": "실례합니다, 화장실이 어디예요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "Förlåt.",
+      "literal": "미안해요.",
+      "note": "잘못을 사과할 때 씁니다."
+    },
+    "tags": [
+      "기본",
+      "필수"
+    ]
+  },
+  {
+    "id": "det-ar-lugnt",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "예의",
+    "ko": "괜찮아요.",
+    "romanization": "",
+    "sv": "Det är lugnt.",
+    "literal_sv": "",
+    "meaning": "사과를 받아 넘기거나 문제없다고 할 때 쓰는 구어 표현.",
+    "words": [
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "대명사 (형식주어)",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "lugnt",
+        "base": "lugn",
+        "pos": "형용사 (중성형)",
+        "meaning": "조용한, 괜찮은",
+        "note": "형식주어 det 에 맞춰 중성형이 됩니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Förlåt att jag är sen! — Det är lugnt.",
+        "ko": "늦어서 미안해! — 괜찮아."
+      }
+    ],
+    "equivalent": {
+      "sv": "Ingen fara.",
+      "literal": "아무 위험 없다",
+      "note": "같은 뜻으로 흔히 씁니다."
+    },
+    "tags": [
+      "구어"
+    ]
+  },
+  {
+    "id": "jag-skulle-vilja-ha",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "ko": "커피 한 잔 주세요.",
+    "romanization": "",
+    "sv": "Jag skulle vilja ha en kaffe, tack.",
+    "literal_sv": "",
+    "meaning": "주문할 때 가장 공손한 표현. skulle vilja 는 영어 would like 에 해당합니다.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "skulle",
+        "base": "skola",
+        "pos": "조동사 (과거형)",
+        "meaning": "~하겠다",
+        "note": "vilja 와 함께 쓰여 공손한 요청이 됩니다."
+      },
+      {
+        "surface": "vilja",
+        "base": "vilja",
+        "pos": "동사 (원형)",
+        "meaning": "원하다",
+        "note": ""
+      },
+      {
+        "surface": "ha",
+        "base": "ha",
+        "pos": "동사 (원형)",
+        "meaning": "가지다",
+        "note": ""
+      },
+      {
+        "surface": "en",
+        "base": "en",
+        "pos": "부정관사",
+        "meaning": "하나의",
+        "note": "kaffe 는 여기서 '커피 한 잔'을 뜻하는 en-단어로 씁니다."
+      },
+      {
+        "surface": "kaffe",
+        "base": "kaffe",
+        "pos": "명사 (ett-단어)",
+        "meaning": "커피",
+        "note": "음료 자체는 ett kaffe 지만 '한 잔'을 주문할 때는 en kaffe 라고 흔히 말합니다."
+      },
+      {
+        "surface": "tack",
+        "base": "tack",
+        "pos": "감탄사",
+        "meaning": "고마워요",
+        "note": "문장 끝에 붙여 공손함을 더합니다."
+      }
+    ],
+    "notes": [
+      "더 짧게는 Jag vill ha en kaffe 또는 En kaffe, tack 이라고 합니다. 짧을수록 덜 공손합니다."
+    ],
+    "examples": [
+      {
+        "sv": "Jag skulle vilja ha en kanelbulle också, tack.",
+        "ko": "계피빵도 하나 주세요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "패턴",
+      "주문"
+    ]
+  },
+  {
+    "id": "vad-rekommenderar-du",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "ko": "뭘 추천하시나요?",
+    "romanization": "",
+    "sv": "Vad rekommenderar du?",
+    "literal_sv": "",
+    "meaning": "메뉴를 고르기 어려울 때 묻는 표현.",
+    "words": [
+      {
+        "surface": "Vad",
+        "base": "vad",
+        "pos": "의문대명사",
+        "meaning": "무엇",
+        "note": ""
+      },
+      {
+        "surface": "rekommenderar",
+        "base": "rekommendera",
+        "pos": "동사 (현재형)",
+        "meaning": "추천하다",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "meaning": "너, 당신",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Jag vet inte vad jag ska välja. Vad rekommenderar du?",
+        "ko": "뭘 골라야 할지 모르겠어요. 뭘 추천하시나요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문"
+    ]
+  },
+  {
+    "id": "kan-jag-fa-notan",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "ko": "계산서 주시겠어요?",
+    "romanization": "",
+    "sv": "Kan jag få notan, tack?",
+    "literal_sv": "",
+    "meaning": "식당에서 계산할 때 쓰는 표현.",
+    "words": [
+      {
+        "surface": "Kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "få",
+        "base": "få",
+        "pos": "동사 (원형)",
+        "meaning": "받다",
+        "note": "원형 få, 과거형 fick"
+      },
+      {
+        "surface": "notan",
+        "base": "nota",
+        "pos": "명사 (en-단어, 정관사형)",
+        "meaning": "계산서",
+        "note": "nota → notan"
+      },
+      {
+        "surface": "tack",
+        "base": "tack",
+        "pos": "감탄사",
+        "meaning": "고마워요",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Kan jag få ...? 는 무언가를 달라고 할 때 두루 쓰는 문형입니다."
+    ],
+    "examples": [
+      {
+        "sv": "Ursäkta, kan jag få notan, tack?",
+        "ko": "실례합니다, 계산서 주시겠어요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "패턴"
+    ]
+  },
+  {
+    "id": "kan-jag-betala-med-kort",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "ko": "카드로 결제 되나요?",
+    "romanization": "",
+    "sv": "Kan jag betala med kort?",
+    "literal_sv": "",
+    "meaning": "결제 수단을 묻는 표현. 스웨덴은 카드·모바일 결제가 기본이라 현금을 안 받는 곳도 많습니다.",
+    "words": [
+      {
+        "surface": "Kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "betala",
+        "base": "betala",
+        "pos": "동사 (원형)",
+        "meaning": "지불하다",
+        "note": ""
+      },
+      {
+        "surface": "med",
+        "base": "med",
+        "pos": "전치사",
+        "meaning": "~로, ~와 함께",
+        "note": ""
+      },
+      {
+        "surface": "kort",
+        "base": "kort",
+        "pos": "명사 (ett-단어, 복수 kort)",
+        "meaning": "카드",
+        "note": "수단을 말할 때는 관사를 붙이지 않습니다."
+      }
+    ],
+    "notes": [
+      "스웨덴은 현금 없는 사회에 가깝습니다. Vi tar bara kort(카드만 받습니다) 라는 안내를 자주 봅니다."
+    ],
+    "examples": [
+      {
+        "sv": "Kan jag betala med kort? — Ja, absolut.",
+        "ko": "카드 되나요? — 네, 물론이죠."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "결제"
+    ]
+  },
+  {
+    "id": "ar-det-har-ledigt",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "ko": "여기 자리 비었나요?",
+    "romanization": "",
+    "sv": "Är det här ledigt?",
+    "literal_sv": "",
+    "meaning": "빈자리인지 물을 때 쓰는 표현.",
+    "words": [
+      {
+        "surface": "Är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "meaning": "~이다",
+        "note": "의문문이라 문두에 왔습니다."
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "här",
+        "base": "här",
+        "pos": "부사",
+        "meaning": "여기",
+        "note": ""
+      },
+      {
+        "surface": "ledigt",
+        "base": "ledig",
+        "pos": "형용사 (중성형)",
+        "meaning": "비어 있는, 한가한",
+        "note": "det 에 맞춰 중성형입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Ursäkta, är det här ledigt? — Ja, varsågod.",
+        "ko": "실례지만 여기 자리 비었나요? — 네, 앉으세요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문"
+    ]
+  },
+  {
+    "id": "jag-ar-vegetarian",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "ko": "저는 채식을 해요.",
+    "romanization": "",
+    "sv": "Jag är vegetarian.",
+    "literal_sv": "",
+    "meaning": "식단 제한을 알리는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "vegetarian",
+        "base": "vegetarian",
+        "pos": "명사 (en-단어, 복수 -er)",
+        "meaning": "채식주의자",
+        "note": "직업·속성을 말할 때처럼 관사를 붙이지 않습니다."
+      }
+    ],
+    "notes": [
+      "알레르기는 Jag är allergisk mot nötter(견과류 알레르기가 있어요) 처럼 mot 을 씁니다."
+    ],
+    "examples": [
+      {
+        "sv": "Jag är vegetarian. Finns det något utan kött?",
+        "ko": "저는 채식해요. 고기 없는 게 있을까요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "식단"
+    ]
+  },
+  {
+    "id": "det-smakar-jattegott",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "ko": "정말 맛있어요.",
+    "romanization": "",
+    "sv": "Det smakar jättegott.",
+    "literal_sv": "",
+    "meaning": "음식이 맛있다고 말하는 표현.",
+    "words": [
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "대명사",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "smakar",
+        "base": "smaka",
+        "pos": "동사 (현재형)",
+        "meaning": "맛이 나다",
+        "note": ""
+      },
+      {
+        "surface": "jättegott",
+        "base": "jättegod",
+        "pos": "형용사 (중성형)",
+        "meaning": "아주 맛있는",
+        "note": "jätte-(거인)를 앞에 붙이면 '아주'라는 뜻의 강조가 됩니다."
+      }
+    ],
+    "notes": [
+      "jätte- 는 어떤 형용사에나 붙일 수 있는 강조 접두사입니다. jättebra(아주 좋은), jättekul(아주 재밌는)."
+    ],
+    "examples": [
+      {
+        "sv": "Tack för maten, det smakade jättegott!",
+        "ko": "잘 먹었습니다, 정말 맛있었어요!"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "강조"
+    ]
+  },
+  {
+    "id": "fika",
+    "added": "2026-09-17",
+    "kind": "word",
+    "category": "카페·식당",
+    "ko": "피카 (커피와 간식을 곁들이는 휴식)",
+    "romanization": "",
+    "sv": "fika",
+    "literal_sv": "",
+    "meaning": "커피나 차에 달콤한 것을 곁들이며 쉬는 시간. 명사로도 동사로도 씁니다. 단순히 커피를 마시는 게 아니라 같이 앉아 이야기하는 시간 전체를 가리킵니다.",
+    "words": [
+      {
+        "surface": "fika",
+        "base": "fika",
+        "pos": "명사 (en-단어) / 동사 (원형)",
+        "meaning": "피카; 피카를 하다",
+        "note": "동사 현재형은 fikar 입니다."
+      }
+    ],
+    "notes": [
+      "직장에서 하루에 한두 번 정해 놓고 하는 곳이 많습니다. 사교 활동에 가깝습니다."
+    ],
+    "examples": [
+      {
+        "sv": "Ska vi fika?",
+        "ko": "우리 커피 한잔 할까?"
+      },
+      {
+        "sv": "Vi tar en fika efter mötet.",
+        "ko": "회의 끝나고 피카 하자."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "문화",
+      "낱말"
+    ]
+  },
+  {
+    "id": "hur-mycket-kostar-det",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "쇼핑",
+    "ko": "이거 얼마예요?",
+    "romanization": "",
+    "sv": "Hur mycket kostar det?",
+    "literal_sv": "",
+    "meaning": "가격을 묻는 가장 기본적인 표현.",
+    "words": [
+      {
+        "surface": "Hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "mycket",
+        "base": "mycket",
+        "pos": "부사",
+        "meaning": "많이",
+        "note": "hur mycket 이 묶여 '얼마나'가 됩니다."
+      },
+      {
+        "surface": "kostar",
+        "base": "kosta",
+        "pos": "동사 (현재형)",
+        "meaning": "값이 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사",
+        "meaning": "그것",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Vad kostar det? 도 같은 뜻으로 자주 씁니다."
+    ],
+    "examples": [
+      {
+        "sv": "Ursäkta, hur mycket kostar den här?",
+        "ko": "실례지만 이거 얼마예요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "의문문"
+    ]
+  },
+  {
+    "id": "jag-tittar-bara",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "쇼핑",
+    "ko": "그냥 구경하는 거예요.",
+    "romanization": "",
+    "sv": "Jag tittar bara, tack.",
+    "literal_sv": "",
+    "meaning": "점원이 도와줄지 물을 때 정중히 거절하는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "tittar",
+        "base": "titta",
+        "pos": "동사 (현재형)",
+        "meaning": "보다, 구경하다",
+        "note": ""
+      },
+      {
+        "surface": "bara",
+        "base": "bara",
+        "pos": "부사",
+        "meaning": "단지",
+        "note": ""
+      },
+      {
+        "surface": "tack",
+        "base": "tack",
+        "pos": "감탄사",
+        "meaning": "고마워요",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Behöver du hjälp? — Jag tittar bara, tack.",
+        "ko": "도와드릴까요? — 그냥 구경하는 거예요, 고마워요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "구어"
+    ]
+  },
+  {
+    "id": "kan-jag-prova-den",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "쇼핑",
+    "ko": "입어 봐도 될까요?",
+    "romanization": "",
+    "sv": "Kan jag prova den?",
+    "literal_sv": "",
+    "meaning": "옷을 입어 보거나 물건을 써 봐도 되는지 묻는 표현.",
+    "words": [
+      {
+        "surface": "Kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "prova",
+        "base": "prova",
+        "pos": "동사 (원형)",
+        "meaning": "시험 삼아 해 보다, 입어 보다",
+        "note": ""
+      },
+      {
+        "surface": "den",
+        "base": "den",
+        "pos": "대명사",
+        "meaning": "그것",
+        "note": "en-단어를 가리킵니다. ett-단어면 det 을 씁니다."
+      }
+    ],
+    "notes": [
+      "사물 대명사가 성에 따라 갈립니다. en tröja(스웨터) → den, ett par skor(신발 한 켤레) → det."
+    ],
+    "examples": [
+      {
+        "sv": "Kan jag prova den i storlek M?",
+        "ko": "M 사이즈로 입어 봐도 될까요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "대명사"
+    ]
+  },
+  {
+    "id": "har-ni-en-storre-storlek",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "쇼핑",
+    "ko": "더 큰 사이즈 있나요?",
+    "romanization": "",
+    "sv": "Har ni en större storlek?",
+    "literal_sv": "",
+    "meaning": "다른 사이즈를 묻는 표현.",
+    "words": [
+      {
+        "surface": "Har",
+        "base": "ha",
+        "pos": "동사 (현재형)",
+        "meaning": "가지다",
+        "note": "의문문이라 문두에 왔습니다."
+      },
+      {
+        "surface": "ni",
+        "base": "ni",
+        "pos": "대명사",
+        "meaning": "여러분, (가게 쪽) 당신들",
+        "note": "가게나 회사를 상대할 때 ni 를 씁니다."
+      },
+      {
+        "surface": "en",
+        "base": "en",
+        "pos": "부정관사",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "större",
+        "base": "stor",
+        "pos": "형용사 (비교급)",
+        "meaning": "더 큰",
+        "note": "stor → större → störst 로 불규칙 변화합니다."
+      },
+      {
+        "surface": "storlek",
+        "base": "storlek",
+        "pos": "명사 (en-단어, 복수 -ar)",
+        "meaning": "크기, 사이즈",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "더 작은 것은 mindre 입니다. liten → mindre → minst 역시 불규칙합니다."
+    ],
+    "examples": [
+      {
+        "sv": "Har ni den här i en mindre storlek?",
+        "ko": "이거 더 작은 사이즈 있나요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "비교급"
+    ]
+  },
+  {
+    "id": "var-ligger",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "길·교통",
+    "ko": "...가 어디에 있나요?",
+    "romanization": "",
+    "sv": "Ursäkta, var ligger stationen?",
+    "literal_sv": "",
+    "meaning": "장소를 묻는 기본 문형. ligger 는 건물·장소처럼 움직이지 않는 것에 씁니다.",
+    "words": [
+      {
+        "surface": "Ursäkta",
+        "base": "ursäkta",
+        "pos": "감탄사",
+        "meaning": "실례합니다",
+        "note": ""
+      },
+      {
+        "surface": "var",
+        "base": "var",
+        "pos": "의문부사",
+        "meaning": "어디에",
+        "note": "vart 은 '어디로'(방향)라 다릅니다."
+      },
+      {
+        "surface": "ligger",
+        "base": "ligga",
+        "pos": "동사 (현재형)",
+        "meaning": "놓여 있다, 위치하다",
+        "note": "원형 ligga, 과거형 låg"
+      },
+      {
+        "surface": "stationen",
+        "base": "station",
+        "pos": "명사 (en-단어, 정관사형)",
+        "meaning": "역",
+        "note": "station → stationen"
+      }
+    ],
+    "notes": [
+      "var(어디에)와 vart(어디로)를 구별합니다. Var är du?(어디 있어?) / Vart ska du?(어디 가?)"
+    ],
+    "examples": [
+      {
+        "sv": "Ursäkta, var ligger närmaste apotek?",
+        "ko": "실례지만 가장 가까운 약국이 어디예요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "hur-kommer-jag-till",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "길·교통",
+    "ko": "...에 어떻게 가나요?",
+    "romanization": "",
+    "sv": "Hur kommer jag till centralstationen?",
+    "literal_sv": "",
+    "meaning": "길을 묻는 문형.",
+    "words": [
+      {
+        "surface": "Hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "kommer",
+        "base": "komma",
+        "pos": "동사 (현재형)",
+        "meaning": "오다, 가다",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "till",
+        "base": "till",
+        "pos": "전치사",
+        "meaning": "~까지, ~로",
+        "note": ""
+      },
+      {
+        "surface": "centralstationen",
+        "base": "centralstation",
+        "pos": "명사 (en-단어, 정관사형)",
+        "meaning": "중앙역",
+        "note": "central + station 의 합성어입니다."
+      }
+    ],
+    "notes": [
+      "스웨덴어는 합성어를 띄지 않고 붙여 씁니다. centralstation, tunnelbanestation 처럼요."
+    ],
+    "examples": [
+      {
+        "sv": "Hur kommer jag till flygplatsen?",
+        "ko": "공항에 어떻게 가나요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "패턴",
+      "합성어"
+    ]
+  },
+  {
+    "id": "gar-den-har-bussen-till",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "길·교통",
+    "ko": "이 버스 ...까지 가나요?",
+    "romanization": "",
+    "sv": "Går den här bussen till Uppsala?",
+    "literal_sv": "",
+    "meaning": "탈 것의 행선지를 확인하는 표현.",
+    "words": [
+      {
+        "surface": "Går",
+        "base": "gå",
+        "pos": "동사 (현재형)",
+        "meaning": "가다, 운행하다",
+        "note": "의문문이라 문두에 왔습니다."
+      },
+      {
+        "surface": "den",
+        "base": "den",
+        "pos": "지시사",
+        "meaning": "그, 이",
+        "note": "en-단어를 가리킵니다."
+      },
+      {
+        "surface": "här",
+        "base": "här",
+        "pos": "부사",
+        "meaning": "여기",
+        "note": "den här 로 묶여 '이'라는 뜻이 됩니다."
+      },
+      {
+        "surface": "bussen",
+        "base": "buss",
+        "pos": "명사 (en-단어, 정관사형)",
+        "meaning": "버스",
+        "note": "den här 와 함께 쓰면 명사도 정관사형이 됩니다."
+      },
+      {
+        "surface": "till",
+        "base": "till",
+        "pos": "전치사",
+        "meaning": "~까지",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "den här + 정관사형 명사가 한 묶음입니다. den här bussen(이 버스), det här tåget(이 기차)."
+    ],
+    "examples": [
+      {
+        "sv": "Ursäkta, går det här tåget till Göteborg?",
+        "ko": "실례지만 이 기차 예테보리까지 가나요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "지시사"
+    ]
+  },
+  {
+    "id": "jag-har-gatt-vilse",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "길·교통",
+    "ko": "길을 잃었어요.",
+    "romanization": "",
+    "sv": "Jag har gått vilse.",
+    "literal_sv": "",
+    "meaning": "길을 잃었을 때 쓰는 표현. 현재완료를 씁니다.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "har",
+        "base": "ha",
+        "pos": "동사 (현재형)",
+        "meaning": "가지다",
+        "note": "완료형을 만드는 조동사로 쓰였습니다."
+      },
+      {
+        "surface": "gått",
+        "base": "gå",
+        "pos": "동사 (완료분사)",
+        "meaning": "간",
+        "note": "gå → gick(과거) → gått(완료분사)"
+      },
+      {
+        "surface": "vilse",
+        "base": "vilse",
+        "pos": "부사",
+        "meaning": "길을 잃고",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "현재완료는 har + 완료분사입니다. 영어 have + p.p. 와 같은 구조입니다."
+    ],
+    "examples": [
+      {
+        "sv": "Förlåt, jag har gått vilse. Kan du hjälpa mig?",
+        "ko": "죄송해요, 길을 잃었어요. 도와주시겠어요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "완료형"
+    ]
+  },
+  {
+    "id": "en-biljett-tack",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "길·교통",
+    "ko": "표 한 장 주세요.",
+    "romanization": "",
+    "sv": "En biljett till Uppsala, tack.",
+    "literal_sv": "",
+    "meaning": "표를 살 때 쓰는 표현. 완전한 문장이 아니어도 자연스럽습니다.",
+    "words": [
+      {
+        "surface": "En",
+        "base": "en",
+        "pos": "부정관사",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "biljett",
+        "base": "biljett",
+        "pos": "명사 (en-단어, 복수 -er)",
+        "meaning": "표, 티켓",
+        "note": ""
+      },
+      {
+        "surface": "till",
+        "base": "till",
+        "pos": "전치사",
+        "meaning": "~까지",
+        "note": ""
+      },
+      {
+        "surface": "tack",
+        "base": "tack",
+        "pos": "감탄사",
+        "meaning": "고마워요",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "왕복은 tur och retur 입니다. En biljett till Uppsala, tur och retur, tack."
+    ],
+    "examples": [
+      {
+        "sv": "Två biljetter till Malmö, tack.",
+        "ko": "말뫼행 두 장 주세요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "교통"
+    ]
+  },
+  {
+    "id": "vilken-tid-passar-dig",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "약속·시간",
+    "ko": "몇 시가 괜찮으세요?",
+    "romanization": "",
+    "sv": "Vilken tid passar dig?",
+    "literal_sv": "",
+    "meaning": "약속 시간을 정할 때 묻는 표현.",
+    "words": [
+      {
+        "surface": "Vilken",
+        "base": "vilken",
+        "pos": "의문 한정사",
+        "meaning": "어느",
+        "note": "en-단어 앞에는 vilken, ett-단어 앞에는 vilket, 복수 앞에는 vilka."
+      },
+      {
+        "surface": "tid",
+        "base": "tid",
+        "pos": "명사 (en-단어, 복수 -er)",
+        "meaning": "시간",
+        "note": ""
+      },
+      {
+        "surface": "passar",
+        "base": "passa",
+        "pos": "동사 (현재형)",
+        "meaning": "맞다, 어울리다",
+        "note": ""
+      },
+      {
+        "surface": "dig",
+        "base": "du",
+        "pos": "대명사 (목적격)",
+        "meaning": "너에게",
+        "note": "du 의 목적격입니다."
+      }
+    ],
+    "notes": [
+      "인칭대명사의 목적격: jag→mig, du→dig, han→honom, hon→henne, vi→oss, ni→er, de→dem."
+    ],
+    "examples": [
+      {
+        "sv": "Vilken tid passar dig på torsdag?",
+        "ko": "목요일 몇 시가 괜찮으세요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "목적격"
+    ]
+  },
+  {
+    "id": "ska-vi-ses",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "약속·시간",
+    "ko": "금요일에 볼까요?",
+    "romanization": "",
+    "sv": "Ska vi ses på fredag?",
+    "literal_sv": "",
+    "meaning": "약속을 제안하는 표현. Ska vi ...? 는 '우리 ~할까?'라는 뜻입니다.",
+    "words": [
+      {
+        "surface": "Ska",
+        "base": "skola",
+        "pos": "조동사 (현재형)",
+        "meaning": "~할 것이다",
+        "note": "Ska vi ...? 로 제안을 만듭니다."
+      },
+      {
+        "surface": "vi",
+        "base": "vi",
+        "pos": "대명사",
+        "meaning": "우리",
+        "note": ""
+      },
+      {
+        "surface": "ses",
+        "base": "ses",
+        "pos": "동사 (상호형)",
+        "meaning": "서로 만나다",
+        "note": ""
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "meaning": "~에",
+        "note": "요일 앞에는 på 를 씁니다."
+      },
+      {
+        "surface": "fredag",
+        "base": "fredag",
+        "pos": "명사 (en-단어)",
+        "meaning": "금요일",
+        "note": "요일 이름은 소문자로 씁니다."
+      }
+    ],
+    "notes": [
+      "요일: måndag, tisdag, onsdag, torsdag, fredag, lördag, söndag. 모두 소문자입니다."
+    ],
+    "examples": [
+      {
+        "sv": "Ska vi fika på lördag?",
+        "ko": "토요일에 커피 한잔 할까요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "패턴",
+      "제안"
+    ]
+  },
+  {
+    "id": "jag-ar-sen",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "약속·시간",
+    "ko": "늦었어요, 죄송해요!",
+    "romanization": "",
+    "sv": "Jag är sen. Förlåt!",
+    "literal_sv": "",
+    "meaning": "약속에 늦었을 때 쓰는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "sen",
+        "base": "sen",
+        "pos": "형용사",
+        "meaning": "늦은",
+        "note": "sen 은 sena(복수), senare(더 늦은)로 변합니다."
+      },
+      {
+        "surface": "Förlåt",
+        "base": "förlåta",
+        "pos": "동사 (명령형)",
+        "meaning": "용서해 주세요",
+        "note": "잘못을 사과할 때 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Jag är lite sen, jag kommer om tio minuter.",
+        "ko": "조금 늦어요, 10분 뒤에 도착해요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수"
+    ]
+  },
+  {
+    "id": "hur-dags",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "약속·시간",
+    "ko": "몇 시에요?",
+    "romanization": "",
+    "sv": "Hur dags börjar det?",
+    "literal_sv": "",
+    "meaning": "시각을 묻는 구어 표현.",
+    "words": [
+      {
+        "surface": "Hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "dags",
+        "base": "dags",
+        "pos": "부사",
+        "meaning": "때에",
+        "note": "hur dags 가 묶여 '몇 시에'라는 뜻이 됩니다."
+      },
+      {
+        "surface": "börjar",
+        "base": "börja",
+        "pos": "동사 (현재형)",
+        "meaning": "시작하다",
+        "note": ""
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사",
+        "meaning": "그것",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Vad är klockan? 은 '지금 몇 시예요?'이고, Hur dags ...? 는 '몇 시에 ~해요?'입니다."
+    ],
+    "examples": [
+      {
+        "sv": "Hur dags stänger ni?",
+        "ko": "몇 시에 닫으세요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "시간"
+    ]
+  },
+  {
+    "id": "vad-kul",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "감정·반응",
+    "ko": "좋다! / 재밌겠다!",
+    "romanization": "",
+    "sv": "Vad kul!",
+    "literal_sv": "",
+    "meaning": "반가움이나 기쁨을 드러내는 짧은 반응.",
+    "words": [
+      {
+        "surface": "Vad",
+        "base": "vad",
+        "pos": "부사",
+        "meaning": "얼마나",
+        "note": "감탄문에서는 '얼마나'라는 뜻이 됩니다."
+      },
+      {
+        "surface": "kul",
+        "base": "kul",
+        "pos": "형용사",
+        "meaning": "재미있는, 즐거운",
+        "note": "어형이 변하지 않는 형용사입니다."
+      }
+    ],
+    "notes": [
+      "Vad + 형용사 로 감탄문을 만듭니다. Vad fint!(예쁘다!), Vad synd!(아쉽다!)"
+    ],
+    "examples": [
+      {
+        "sv": "Jag ska till Sverige i sommar. — Vad kul!",
+        "ko": "여름에 스웨덴 가요. — 좋겠다!"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "구어",
+      "감탄문"
+    ]
+  },
+  {
+    "id": "sa-tragikt",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "감정·반응",
+    "ko": "아쉽네요. / 안됐네요.",
+    "romanization": "",
+    "sv": "Vad tråkigt!",
+    "literal_sv": "",
+    "meaning": "안타까움을 드러내는 반응.",
+    "words": [
+      {
+        "surface": "Vad",
+        "base": "vad",
+        "pos": "부사",
+        "meaning": "얼마나",
+        "note": ""
+      },
+      {
+        "surface": "tråkigt",
+        "base": "tråkig",
+        "pos": "형용사 (중성형)",
+        "meaning": "아쉬운, 지루한",
+        "note": "상황에는 중성형을 씁니다."
+      }
+    ],
+    "notes": [
+      "tråkig 은 '지루한'이라는 뜻도 있어 문맥으로 구별합니다."
+    ],
+    "examples": [
+      {
+        "sv": "Jag kan tyvärr inte komma. — Vad tråkigt!",
+        "ko": "아쉽지만 못 가요. — 아쉽네요!"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "구어",
+      "감탄문"
+    ]
+  },
+  {
+    "id": "jag-haller-med",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "감정·반응",
+    "ko": "저도 그렇게 생각해요.",
+    "romanization": "",
+    "sv": "Jag håller med.",
+    "literal_sv": "",
+    "meaning": "동의를 나타내는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "håller",
+        "base": "hålla",
+        "pos": "동사 (현재형)",
+        "meaning": "잡다, 유지하다",
+        "note": "원형 hålla, 과거형 höll"
+      },
+      {
+        "surface": "med",
+        "base": "med",
+        "pos": "소사(小辭)",
+        "meaning": "함께",
+        "note": "hålla med 로 묶여 '동의하다'가 됩니다."
+      }
+    ],
+    "notes": [
+      "동사 + 소사로 뜻이 달라지는 구동사가 많습니다. hålla(잡다) → hålla med(동의하다), tycka(생각하다) → tycka om(좋아하다)."
+    ],
+    "examples": [
+      {
+        "sv": "Jag håller med dig.",
+        "ko": "네 말에 동의해."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "구동사"
+    ]
+  },
+  {
+    "id": "det-later-bra",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "감정·반응",
+    "ko": "좋은 생각이에요.",
+    "romanization": "",
+    "sv": "Det låter bra.",
+    "literal_sv": "",
+    "meaning": "제안에 찬성할 때 쓰는 표현.",
+    "words": [
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "대명사",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "låter",
+        "base": "låta",
+        "pos": "동사 (현재형)",
+        "meaning": "~하게 들리다",
+        "note": "원형 låta, 과거형 lät"
+      },
+      {
+        "surface": "bra",
+        "base": "bra",
+        "pos": "부사",
+        "meaning": "좋게",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Ska vi äta ute ikväll? — Det låter bra!",
+        "ko": "오늘 저녁 밖에서 먹을까? — 좋아!"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "구어"
+    ]
+  },
+  {
+    "id": "tyvarr-kan-jag-inte",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "감정·반응",
+    "ko": "아쉽지만 안 되겠어요.",
+    "romanization": "",
+    "sv": "Tyvärr kan jag inte.",
+    "literal_sv": "",
+    "meaning": "정중히 거절하는 표현.",
+    "words": [
+      {
+        "surface": "Tyvärr",
+        "base": "tyvärr",
+        "pos": "부사",
+        "meaning": "유감스럽게도",
+        "note": ""
+      },
+      {
+        "surface": "kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "meaning": "~않다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Tyvärr 로 문장을 시작했으므로 V2 어순에 따라 동사 kan 이 두 번째, 주어 jag 이 세 번째로 갑니다."
+    ],
+    "examples": [
+      {
+        "sv": "Kan du komma på fredag? — Tyvärr kan jag inte.",
+        "ko": "금요일에 올 수 있어? — 아쉽지만 안 되겠어."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "V2어순",
+      "거절"
+    ]
+  },
+  {
+    "id": "jag-mar-inte-bra",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "건강·곤란",
+    "ko": "몸이 좀 안 좋아요.",
+    "romanization": "",
+    "sv": "Jag mår inte bra.",
+    "literal_sv": "",
+    "meaning": "컨디션이 좋지 않다고 말하는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "mår",
+        "base": "må",
+        "pos": "동사 (현재형)",
+        "meaning": "(몸·기분이) ~하다",
+        "note": ""
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "bra",
+        "base": "bra",
+        "pos": "부사",
+        "meaning": "좋게",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "아픈 곳은 Jag har ont i ...(…가 아파요) 로 말합니다. Jag har ont i huvudet(머리가 아파요)."
+    ],
+    "examples": [
+      {
+        "sv": "Jag mår inte bra, jag går hem.",
+        "ko": "몸이 안 좋아서 집에 갈게요."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "부정"
+    ]
+  },
+  {
+    "id": "jag-behover-hjalp",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "건강·곤란",
+    "ko": "도움이 필요해요.",
+    "romanization": "",
+    "sv": "Jag behöver hjälp.",
+    "literal_sv": "",
+    "meaning": "도움을 청하는 표현.",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "behöver",
+        "base": "behöva",
+        "pos": "동사 (현재형)",
+        "meaning": "필요하다",
+        "note": "원형 behöva, 과거형 behövde"
+      },
+      {
+        "surface": "hjälp",
+        "base": "hjälp",
+        "pos": "명사 (en-단어)",
+        "meaning": "도움",
+        "note": "셀 수 없는 뜻으로 쓰여 관사가 없습니다."
+      }
+    ],
+    "notes": [
+      "급할 때는 Hjälp!(도와주세요!) 한 마디면 됩니다."
+    ],
+    "examples": [
+      {
+        "sv": "Ursäkta, jag behöver hjälp. Kan du hjälpa mig?",
+        "ko": "실례합니다, 도움이 필요해요. 도와주시겠어요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "응급"
+    ]
+  },
+  {
+    "id": "kan-du-hjalpa-mig",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "건강·곤란",
+    "ko": "도와주시겠어요?",
+    "romanization": "",
+    "sv": "Kan du hjälpa mig?",
+    "literal_sv": "",
+    "meaning": "구체적으로 도움을 부탁하는 표현.",
+    "words": [
+      {
+        "surface": "Kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "meaning": "너, 당신",
+        "note": ""
+      },
+      {
+        "surface": "hjälpa",
+        "base": "hjälpa",
+        "pos": "동사 (원형)",
+        "meaning": "돕다",
+        "note": ""
+      },
+      {
+        "surface": "mig",
+        "base": "jag",
+        "pos": "대명사 (목적격)",
+        "meaning": "나를",
+        "note": "jag 의 목적격입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Kan du hjälpa mig med det här?",
+        "ko": "이것 좀 도와주시겠어요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수",
+      "목적격"
+    ]
+  },
+  {
+    "id": "var-ligger-toaletten",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "건강·곤란",
+    "ko": "화장실이 어디예요?",
+    "romanization": "",
+    "sv": "Var ligger toaletten?",
+    "literal_sv": "",
+    "meaning": "실생활에서 가장 자주 쓰게 되는 질문 중 하나.",
+    "words": [
+      {
+        "surface": "Var",
+        "base": "var",
+        "pos": "의문부사",
+        "meaning": "어디에",
+        "note": ""
+      },
+      {
+        "surface": "ligger",
+        "base": "ligga",
+        "pos": "동사 (현재형)",
+        "meaning": "위치하다",
+        "note": ""
+      },
+      {
+        "surface": "toaletten",
+        "base": "toalett",
+        "pos": "명사 (en-단어, 정관사형)",
+        "meaning": "화장실",
+        "note": "toalett → toaletten"
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "sv": "Ursäkta, var ligger toaletten?",
+        "ko": "실례합니다, 화장실이 어디예요?"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "필수"
+    ]
+  },
+  {
+    "id": "vilket-fint-vader",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "스몰토크",
+    "ko": "날씨 좋네요!",
+    "romanization": "",
+    "sv": "Vilket fint väder!",
+    "literal_sv": "",
+    "meaning": "날씨 이야기는 가장 무난한 스몰토크 소재입니다.",
+    "words": [
+      {
+        "surface": "Vilket",
+        "base": "vilken",
+        "pos": "감탄 한정사 (중성형)",
+        "meaning": "얼마나 ~한",
+        "note": "väder 가 ett-단어라 vilket 입니다."
+      },
+      {
+        "surface": "fint",
+        "base": "fin",
+        "pos": "형용사 (중성형)",
+        "meaning": "좋은, 예쁜",
+        "note": ""
+      },
+      {
+        "surface": "väder",
+        "base": "väder",
+        "pos": "명사 (ett-단어)",
+        "meaning": "날씨",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Vilken/Vilket/Vilka 는 뒤에 오는 명사의 성과 수를 따릅니다. Vilken dag!(en), Vilket väder!(ett), Vilka fina blommor!(복수)"
+    ],
+    "examples": [
+      {
+        "sv": "Vilket fint väder idag!",
+        "ko": "오늘 날씨 좋네요!"
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "스몰토크",
+      "감탄문"
+    ]
+  },
+  {
+    "id": "det-ar-kallt-idag",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "스몰토크",
+    "ko": "오늘 춥네요.",
+    "romanization": "",
+    "sv": "Det är kallt idag.",
+    "literal_sv": "",
+    "meaning": "날씨를 말할 때 형식주어 det 을 씁니다.",
+    "words": [
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "대명사 (형식주어)",
+        "meaning": "그것",
+        "note": "날씨·시간을 말할 때 자리만 채우는 주어입니다."
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "kallt",
+        "base": "kall",
+        "pos": "형용사 (중성형)",
+        "meaning": "추운",
+        "note": "형식주어 det 에 맞춰 중성형입니다."
+      },
+      {
+        "surface": "idag",
+        "base": "idag",
+        "pos": "부사",
+        "meaning": "오늘",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "날씨는 항상 Det är ... 로 시작합니다. Det regnar(비가 와요), Det snöar(눈이 와요)."
+    ],
+    "examples": [
+      {
+        "sv": "Det är kallt idag, ta med dig en jacka.",
+        "ko": "오늘 추우니까 겉옷 챙겨."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "스몰토크",
+      "형식주어"
+    ]
+  },
+  {
+    "id": "det-ar-ingen-ko-pa-isen",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "스몰토크",
+    "ko": "급할 거 없어요.",
     "romanization": "",
     "sv": "Det är ingen ko på isen.",
     "literal_sv": "얼음 위에 소가 없다.",
     "meaning": "서두를 필요 없다, 걱정할 일이 아니다. 스웨덴에서 아주 흔히 쓰는 표현입니다.",
     "words": [
-      { "surface": "Det", "base": "det", "pos": "대명사 (형식주어)", "meaning": "그것", "note": "" },
-      { "surface": "är", "base": "vara", "pos": "동사 (현재형)", "meaning": "~이다", "note": "" },
-      { "surface": "ingen", "base": "ingen", "pos": "부정 한정사", "meaning": "아무 ~도 없는", "note": "en-단어 앞에는 ingen, ett-단어 앞에는 inget, 복수 앞에는 inga 를 씁니다." },
-      { "surface": "ko", "base": "ko", "pos": "명사 (en-단어, 복수 kor)", "meaning": "소", "note": "" },
-      { "surface": "på", "base": "på", "pos": "전치사", "meaning": "~ 위에", "note": "" },
-      { "surface": "isen", "base": "is", "pos": "명사 (en-단어, 정관사형)", "meaning": "얼음", "note": "is → isen" }
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "대명사 (형식주어)",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "ingen",
+        "base": "ingen",
+        "pos": "부정 한정사",
+        "meaning": "아무 ~도 없는",
+        "note": "en-단어 앞에는 ingen, ett-단어 앞에는 inget, 복수 앞에는 inga."
+      },
+      {
+        "surface": "ko",
+        "base": "ko",
+        "pos": "명사 (en-단어, 복수 kor)",
+        "meaning": "소",
+        "note": ""
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "meaning": "~ 위에",
+        "note": ""
+      },
+      {
+        "surface": "isen",
+        "base": "is",
+        "pos": "명사 (en-단어, 정관사형)",
+        "meaning": "얼음",
+        "note": "is → isen"
+      }
     ],
-    "notes": ["원래 형태는 'Det är ingen ko på isen så länge rumpan är i land'(엉덩이가 뭍에 있는 한 얼음 위에 소가 있는 게 아니다)이지만 보통 앞부분만 씁니다."],
+    "notes": [
+      "원래는 Det är ingen ko på isen så länge rumpan är i land 이지만 보통 앞부분만 씁니다."
+    ],
     "examples": [
-      { "sv": "Ta det lugnt, det är ingen ko på isen.", "ko": "천천히 해, 급할 거 없어." }
+      {
+        "sv": "Ta det lugnt, det är ingen ko på isen.",
+        "ko": "천천히 해, 급할 거 없어."
+      }
     ],
-    "equivalent": { "sv": "", "literal": "", "note": "" },
-    "tags": ["관용구", "일상", "부정"]
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "관용구",
+      "부정"
+    ]
   },
   {
-    "id": "sv-lagom",
+    "id": "det-ordnar-sig",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "category": "스몰토크",
+    "ko": "어떻게든 잘될 거예요.",
+    "romanization": "",
+    "sv": "Det ordnar sig.",
+    "literal_sv": "그것이 스스로 정돈된다.",
+    "meaning": "걱정하는 사람을 달랠 때 쓰는 표현.",
+    "words": [
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "대명사 (형식주어)",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "ordnar",
+        "base": "ordna",
+        "pos": "동사 (현재형)",
+        "meaning": "정리하다, 해결하다",
+        "note": ""
+      },
+      {
+        "surface": "sig",
+        "base": "sig",
+        "pos": "재귀대명사 (3인칭)",
+        "meaning": "자기 자신을",
+        "note": "ordna sig 로 묶여 '일이 풀리다'가 됩니다."
+      }
+    ],
+    "notes": [
+      "재귀대명사는 인칭마다 다릅니다: mig, dig, sig, oss, er, sig."
+    ],
+    "examples": [
+      {
+        "sv": "Oroa dig inte, det ordnar sig.",
+        "ko": "걱정 마, 다 잘될 거야."
+      }
+    ],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "관용구",
+      "재귀동사"
+    ]
+  },
+  {
+    "id": "lagom",
     "added": "2026-09-17",
     "kind": "word",
+    "category": "스몰토크",
     "ko": "딱 알맞은 (정도)",
     "romanization": "",
     "sv": "lagom",
     "literal_sv": "",
     "meaning": "너무 많지도 적지도 않은, 딱 알맞은 정도. 다른 언어에 정확히 대응하는 말이 없어 스웨덴 문화를 상징하는 단어로 자주 꼽힙니다.",
     "words": [
-      { "surface": "lagom", "base": "lagom", "pos": "부사 / 형용사 (어형 변화 없음)", "meaning": "적당한, 적당히", "note": "형용사로 써도 성이나 수에 따라 변하지 않습니다." }
+      {
+        "surface": "lagom",
+        "base": "lagom",
+        "pos": "부사 / 형용사 (어형 변화 없음)",
+        "meaning": "적당한, 적당히",
+        "note": "형용사로 써도 성이나 수에 따라 변하지 않습니다."
+      }
     ],
-    "notes": ["칭찬으로도 쓰이고(딱 좋다) 미지근한 평가로도 쓰입니다(그저 그렇다). 말투와 맥락으로 구별합니다."],
+    "notes": [
+      "칭찬으로도(딱 좋다) 미지근한 평가로도(그저 그렇다) 쓰입니다. 말투와 맥락으로 구별합니다."
+    ],
     "examples": [
-      { "sv": "Kaffet är lagom varmt.", "ko": "커피가 딱 알맞게 따뜻해." },
-      { "sv": "Lagom är bäst.", "ko": "적당한 게 제일이다." }
+      {
+        "sv": "Kaffet är lagom varmt.",
+        "ko": "커피가 딱 알맞게 따뜻해."
+      },
+      {
+        "sv": "Lagom är bäst.",
+        "ko": "적당한 게 제일이다."
+      }
     ],
-    "equivalent": { "sv": "", "literal": "", "note": "" },
-    "tags": ["단어", "문화"]
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "문화",
+      "낱말"
+    ]
   },
   {
-    "id": "sv-fika",
+    "id": "hur-lange-har-du-bott-har",
     "added": "2026-09-17",
-    "kind": "word",
-    "ko": "피카 (커피와 간식을 곁들이는 휴식)",
+    "kind": "phrase",
+    "category": "스몰토크",
+    "ko": "여기 산 지 얼마나 되셨어요?",
     "romanization": "",
-    "sv": "fika",
+    "sv": "Hur länge har du bott här?",
     "literal_sv": "",
-    "meaning": "커피나 차에 달콤한 것을 곁들이며 쉬는 시간. 명사로도 동사로도 씁니다. 단순한 '커피 마시기'가 아니라 같이 앉아 이야기하는 시간 전체를 가리킵니다.",
+    "meaning": "가볍게 이어 가기 좋은 질문.",
     "words": [
-      { "surface": "fika", "base": "fika", "pos": "명사 (en-단어) / 동사 (원형)", "meaning": "피카; 피카를 하다", "note": "동사 현재형은 fikar 입니다." }
+      {
+        "surface": "Hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "länge",
+        "base": "länge",
+        "pos": "부사",
+        "meaning": "오래",
+        "note": "hur länge 가 묶여 '얼마나 오래'가 됩니다."
+      },
+      {
+        "surface": "har",
+        "base": "ha",
+        "pos": "동사 (현재형)",
+        "meaning": "가지다",
+        "note": "완료형 조동사입니다."
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "meaning": "너, 당신",
+        "note": ""
+      },
+      {
+        "surface": "bott",
+        "base": "bo",
+        "pos": "동사 (완료분사)",
+        "meaning": "살아 온",
+        "note": "bo → bodde(과거) → bott(완료분사)"
+      },
+      {
+        "surface": "här",
+        "base": "här",
+        "pos": "부사",
+        "meaning": "여기",
+        "note": ""
+      }
     ],
-    "notes": ["직장에서 하루에 한두 번 정해 놓고 하는 곳도 많습니다. 사교 활동에 가깝습니다."],
+    "notes": [
+      "지금까지 이어지는 기간에는 현재완료를 씁니다. 한국어로는 현재처럼 옮겨집니다."
+    ],
     "examples": [
-      { "sv": "Ska vi fika?", "ko": "우리 피카 할까? (커피 한잔 할까?)" },
-      { "sv": "Vi tar en fika efter mötet.", "ko": "회의 끝나고 피카 하자." }
+      {
+        "sv": "Hur länge har du pluggat svenska?",
+        "ko": "스웨덴어 공부한 지 얼마나 되셨어요?"
+      }
     ],
-    "equivalent": { "sv": "", "literal": "", "note": "" },
-    "tags": ["단어", "문화", "일상"]
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "스몰토크",
+      "완료형"
+    ]
   },
   {
-    "id": "sv-det-ordnar-sig",
+    "id": "jag-har-bokat-ett-rum",
     "added": "2026-09-17",
     "kind": "phrase",
-    "ko": "어떻게든 잘될 거야.",
+    "category": "숙소·생활",
+    "ko": "방을 예약했어요.",
     "romanization": "",
-    "sv": "Det ordnar sig.",
-    "literal_sv": "그것이 스스로 정돈된다.",
-    "meaning": "걱정하지 마, 결국 해결될 거야. 위로할 때 쓰는 흔한 표현입니다.",
+    "sv": "Jag har bokat ett rum.",
+    "literal_sv": "",
+    "meaning": "체크인할 때 쓰는 표현.",
     "words": [
-      { "surface": "Det", "base": "det", "pos": "대명사 (형식주어)", "meaning": "그것", "note": "" },
-      { "surface": "ordnar", "base": "ordna", "pos": "동사 (현재형)", "meaning": "정리하다, 해결하다", "note": "" },
-      { "surface": "sig", "base": "sig", "pos": "재귀대명사 (3인칭)", "meaning": "자기 자신을", "note": "ordna sig 로 묶여 '일이 풀리다'라는 뜻이 됩니다." }
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "har",
+        "base": "ha",
+        "pos": "동사 (현재형)",
+        "meaning": "가지다",
+        "note": "완료형 조동사입니다."
+      },
+      {
+        "surface": "bokat",
+        "base": "boka",
+        "pos": "동사 (완료분사)",
+        "meaning": "예약한",
+        "note": "boka → bokade(과거) → bokat(완료분사)"
+      },
+      {
+        "surface": "ett",
+        "base": "ett",
+        "pos": "부정관사",
+        "meaning": "하나의",
+        "note": "rum 이 중성 명사라 ett 입니다."
+      },
+      {
+        "surface": "rum",
+        "base": "rum",
+        "pos": "명사 (ett-단어, 복수 rum)",
+        "meaning": "방",
+        "note": "복수형이 단수형과 같습니다."
+      }
     ],
-    "notes": ["재귀대명사는 인칭마다 다릅니다: mig(나), dig(너), sig(3인칭), oss(우리), er(너희)."],
+    "notes": [
+      "-ar 동사(boka)의 완료분사는 -at 로 끝납니다. boka → bokat, prata → pratat, jobba → jobbat."
+    ],
     "examples": [
-      { "sv": "Oroa dig inte, det ordnar sig.", "ko": "걱정 마, 다 잘될 거야." }
+      {
+        "sv": "Hej, jag har bokat ett rum för två nätter.",
+        "ko": "안녕하세요, 2박으로 방 예약했어요."
+      }
     ],
-    "equivalent": { "sv": "", "literal": "", "note": "" },
-    "tags": ["관용구", "위로", "재귀동사"]
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "완료형",
+      "여행"
+    ]
   },
   {
-    "id": "sv-hur-ar-laget",
+    "id": "vad-ar-wifi-losenordet",
     "added": "2026-09-17",
     "kind": "phrase",
-    "ko": "요즘 어때?",
+    "category": "숙소·생활",
+    "ko": "와이파이 비밀번호가 뭐예요?",
     "romanization": "",
-    "sv": "Hur är läget?",
-    "literal_sv": "상황이 어때?",
-    "meaning": "친구나 편한 사이에서 쓰는 안부 인사.",
+    "sv": "Vad är wifi-lösenordet?",
+    "literal_sv": "",
+    "meaning": "카페나 숙소에서 자주 쓰는 질문.",
     "words": [
-      { "surface": "Hur", "base": "hur", "pos": "의문부사", "meaning": "어떻게", "note": "" },
-      { "surface": "är", "base": "vara", "pos": "동사 (현재형)", "meaning": "~이다", "note": "" },
-      { "surface": "läget", "base": "läge", "pos": "명사 (ett-단어, 정관사형)", "meaning": "상황, 형편", "note": "läge → läget" }
+      {
+        "surface": "Vad",
+        "base": "vad",
+        "pos": "의문대명사",
+        "meaning": "무엇",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "wifi-lösenordet",
+        "base": "lösenord",
+        "pos": "명사 (ett-단어, 정관사형)",
+        "meaning": "비밀번호",
+        "note": "lösen(암호) + ord(말)의 합성어입니다. lösenord → lösenordet"
+      }
     ],
-    "notes": ["더 격식 있는 표현은 'Hur mår du?'(몸은 좀 어떠세요?)입니다. 'Hur är läget?'는 구어입니다."],
+    "notes": [
+      "외래어가 섞인 합성어는 하이픈으로 잇는 일이 많습니다. wifi-lösenord, e-postadress."
+    ],
     "examples": [
-      { "sv": "Hej! Hur är läget?", "ko": "안녕! 요즘 어때?" }
+      {
+        "sv": "Ursäkta, vad är wifi-lösenordet?",
+        "ko": "실례지만 와이파이 비밀번호가 뭐예요?"
+      }
     ],
-    "equivalent": { "sv": "", "literal": "", "note": "" },
-    "tags": ["인사", "구어"]
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "합성어"
+    ]
   },
   {
-    "id": "sv-vi-ses",
+    "id": "kan-jag-fa-kvittot",
     "added": "2026-09-17",
     "kind": "phrase",
-    "ko": "또 봐!",
+    "category": "숙소·생활",
+    "ko": "영수증 주시겠어요?",
     "romanization": "",
-    "sv": "Vi ses!",
-    "literal_sv": "우리는 서로 보인다.",
-    "meaning": "헤어질 때 하는 가벼운 인사.",
+    "sv": "Kan jag få kvittot, tack?",
+    "literal_sv": "",
+    "meaning": "영수증을 달라고 하는 표현.",
     "words": [
-      { "surface": "Vi", "base": "vi", "pos": "대명사", "meaning": "우리", "note": "" },
-      { "surface": "ses", "base": "ses", "pos": "동사 (현재형, 상호형)", "meaning": "서로 만나다", "note": "se(보다)에 -s 가 붙어 '서로 ~하다'가 됩니다." }
+      {
+        "surface": "Kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "få",
+        "base": "få",
+        "pos": "동사 (원형)",
+        "meaning": "받다",
+        "note": ""
+      },
+      {
+        "surface": "kvittot",
+        "base": "kvitto",
+        "pos": "명사 (ett-단어, 정관사형)",
+        "meaning": "영수증",
+        "note": "kvitto → kvittot"
+      },
+      {
+        "surface": "tack",
+        "base": "tack",
+        "pos": "감탄사",
+        "meaning": "고마워요",
+        "note": ""
+      }
     ],
-    "notes": ["-s 동사는 세 가지로 쓰입니다. 수동(byggas 지어지다), 상호(ses 서로 만나다, träffas 서로 만나다), 그리고 그 형태가 원형인 디포넌트(hoppas 바라다)."],
+    "notes": [],
     "examples": [
-      { "sv": "Tack för idag. Vi ses!", "ko": "오늘 고마웠어. 또 봐!" }
+      {
+        "sv": "Kan jag få kvittot, tack?",
+        "ko": "영수증 주시겠어요?"
+      }
     ],
-    "equivalent": { "sv": "Hej då!", "literal": "안녕!", "note": "가장 무난한 작별 인사입니다." },
-    "tags": ["인사", "s동사"]
-  },
-  {
-    "id": "sv-jag-forstar-inte",
-    "added": "2026-09-17",
-    "kind": "phrase",
-    "ko": "잘 못 알아듣겠어요.",
-    "romanization": "",
-    "sv": "Jag förstår inte.",
-    "literal_sv": "나는 이해하지 못한다.",
-    "meaning": "상대의 말을 이해하지 못했을 때 쓰는 표현.",
-    "words": [
-      { "surface": "Jag", "base": "jag", "pos": "대명사", "meaning": "나", "note": "" },
-      { "surface": "förstår", "base": "förstå", "pos": "동사 (현재형)", "meaning": "이해하다", "note": "원형 förstå, 과거형 förstod" },
-      { "surface": "inte", "base": "inte", "pos": "부정 부사", "meaning": "~않다", "note": "주절에서는 동사 뒤에 옵니다." }
-    ],
-    "notes": ["inte 의 위치가 주절과 종속절에서 다릅니다. 주절은 'Jag förstår inte'(동사 뒤), 종속절은 'att jag inte förstår'(동사 앞)."],
-    "examples": [
-      { "sv": "Förlåt, jag förstår inte. Kan du säga det igen?", "ko": "죄송해요, 못 알아들었어요. 다시 말씀해 주시겠어요?" }
-    ],
-    "equivalent": { "sv": "", "literal": "", "note": "" },
-    "tags": ["일상", "어순", "부정"]
-  },
-  {
-    "id": "sv-kan-du-prata-langsammare",
-    "added": "2026-09-17",
-    "kind": "phrase",
-    "ko": "조금 더 천천히 말씀해 주시겠어요?",
-    "romanization": "",
-    "sv": "Kan du prata långsammare?",
-    "literal_sv": "당신은 더 천천히 말할 수 있습니까?",
-    "meaning": "상대가 빨리 말할 때 속도를 늦춰 달라고 부탁하는 표현.",
-    "words": [
-      { "surface": "Kan", "base": "kunna", "pos": "조동사 (현재형)", "meaning": "~할 수 있다", "note": "의문문이라 동사가 문두에 왔습니다." },
-      { "surface": "du", "base": "du", "pos": "대명사", "meaning": "너, 당신", "note": "스웨덴어는 처음 보는 사이에도 du 를 씁니다." },
-      { "surface": "prata", "base": "prata", "pos": "동사 (원형)", "meaning": "말하다", "note": "조동사 뒤라 att 없이 원형만 옵니다." },
-      { "surface": "långsammare", "base": "långsam", "pos": "형용사 (비교급)", "meaning": "더 천천히", "note": "långsam → långsammare → långsammast" }
-    ],
-    "notes": ["예-아니오 의문문은 동사를 문두로 보내 만듭니다. 'Du kan prata.' → 'Kan du prata?'"],
-    "examples": [
-      { "sv": "Ursäkta, kan du prata långsammare?", "ko": "실례지만, 조금 천천히 말씀해 주시겠어요?" }
-    ],
-    "equivalent": { "sv": "", "literal": "", "note": "" },
-    "tags": ["일상", "의문문", "비교급"]
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "결제"
+    ]
   }
 ]

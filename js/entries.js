@@ -30,15 +30,15 @@ export async function loadEntries() {
  * 같은 숙어가 나오고 저장할 필요도 없다.
  */
 export function pickForDate(entries, date) {
-  const pool = entries.filter((entry) => entry.kind === 'idiom');
+  const pool = entries.filter((entry) => entry.kind === 'phrase');
   if (!pool.length) return null;
   const days = Math.floor(Date.parse(`${date}T00:00:00Z`) / 86400000);
   return pool[((days % pool.length) + pool.length) % pool.length];
 }
 
-/** 오늘 것 말고 다른 숙어. `다른 숙어` 버튼이 쓴다. */
-export function nextIdiom(entries, currentId) {
-  const pool = entries.filter((entry) => entry.kind === 'idiom');
+/** 오늘 것 말고 다른 표현. `다른 표현` 버튼이 쓴다. */
+export function nextPhrase(entries, currentId) {
+  const pool = entries.filter((entry) => entry.kind === 'phrase');
   if (!pool.length) return null;
   const index = pool.findIndex((entry) => entry.id === currentId);
   return pool[(index + 1) % pool.length];
@@ -53,6 +53,7 @@ function haystack(entry) {
     entry.sv,
     entry.literal_sv,
     entry.meaning,
+    entry.category,
     ...(entry.tags || []),
     ...(entry.words || []).flatMap((word) => [word.surface, word.base, word.meaning]),
   ]
@@ -113,4 +114,37 @@ export function searchVocabulary(vocabulary, query) {
     const text = [item.base, item.pos, ...item.surfaces, ...item.meanings].join(' ').toLowerCase();
     return terms.every((term) => text.includes(term));
   });
+}
+
+/* ── 분류와 집계 ───────────────────────────────────────── */
+
+/**
+ * 분류를 항목이 많은 순으로 돌려준다. 모아보기 탭의 칩이 쓴다.
+ * @returns {Array<{name: string, count: number}>}
+ */
+export function categoriesOf(entries) {
+  const counts = new Map();
+  for (const entry of entries) {
+    const name = entry.category || '기타';
+    counts.set(name, (counts.get(name) || 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'ko'));
+}
+
+/**
+ * 화면 위에 띄우는 집계. 문장이 몇 개 들어왔는지 한눈에 보려는 것이다.
+ * @returns {{sentences: number, words: number, wordInstances: number, categories: number, latest: string}}
+ */
+export function summarize(entries, vocabulary) {
+  const dates = entries.map((entry) => entry.added).filter(Boolean).sort();
+  return {
+    sentences: entries.filter((entry) => entry.kind !== 'word').length,
+    vocabularyWords: vocabulary.length,
+    wordInstances: entries.reduce((sum, entry) => sum + (entry.words || []).length, 0),
+    categories: categoriesOf(entries).length,
+    total: entries.length,
+    latest: dates.length ? dates[dates.length - 1] : '',
+  };
 }

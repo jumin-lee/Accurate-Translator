@@ -32,13 +32,15 @@
 </header>
 
 <nav class="tabs wrap" aria-label="섹션">
-  <button class="tab is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-daily" id="tab-daily">오늘의 숙어</button>
+  <button class="tab is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-daily" id="tab-daily">오늘의 표현</button>
   <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-browse" id="tab-browse">모아보기</button>
   <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-vocab" id="tab-vocab">단어장</button>
   <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-translate" id="tab-translate">번역기</button>
 </nav>
 
 <main id="main" class="wrap">
+
+  <div id="summary" class="summary" hidden></div>
 
   <!-- ───────────── 사용량 ───────────── -->
   <details id="usage-box" class="usage" hidden>
@@ -65,11 +67,11 @@
   <section id="panel-daily" class="panel is-active" role="tabpanel" aria-labelledby="tab-daily">
     <div class="panel-head">
       <div>
-        <h2>오늘의 숙어</h2>
+        <h2>오늘의 표현</h2>
         <p class="muted" id="daily-date"></p>
       </div>
       <div class="panel-head-actions">
-        <button id="daily-refresh" class="btn btn-ghost" type="button" title="다른 숙어 보기">다른 숙어</button>
+        <button id="daily-refresh" class="btn btn-ghost" type="button" title="다른 표현 보기">다른 표현</button>
       </div>
     </div>
     <div id="daily-status" class="status" hidden></div>
@@ -87,12 +89,7 @@
 
     <div class="toolbar">
       <input id="browse-search" type="search" placeholder="한국어·스웨덴어·뜻·태그로 검색" autocomplete="off" spellcheck="false">
-      <div class="chips" id="browse-filters" role="group" aria-label="종류 거르기">
-        <button class="chip is-active" type="button" data-kind="all">전체</button>
-        <button class="chip" type="button" data-kind="idiom">속담·관용구</button>
-        <button class="chip" type="button" data-kind="phrase">표현</button>
-        <button class="chip" type="button" data-kind="word">낱말</button>
-      </div>
+      <div class="chips" id="browse-filters" role="group" aria-label="분류 거르기"></div>
     </div>
 
     <article id="browse-detail" class="card" hidden></article>

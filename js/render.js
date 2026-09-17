@@ -375,7 +375,7 @@ export function renderUsage(target, { model, totals, rateLimit }) {
 
 /* ── 단어장 항목 렌더 (data/entries.json 기반) ──────────── */
 
-const KIND_LABEL = { idiom: '속담·관용구', phrase: '표현', word: '낱말' };
+const KIND_LABEL = { phrase: '표현', word: '낱말' };
 
 /** entries.json 의 words 는 {surface, base, pos, meaning, note} 형태다. */
 function entryWordList(words) {
@@ -410,7 +410,7 @@ export function renderEntry(target, entry, options = {}) {
 
   const head = el('div');
   const tags = el('p', 'tag-row');
-  tags.append(el('span', 'tag', KIND_LABEL[entry.kind] || entry.kind));
+  if (nonEmpty(entry.category)) tags.append(el('span', 'tag', entry.category));
   for (const tag of entry.tags || []) tags.append(el('span', 'tag tag-gold', tag));
   head.append(tags);
 
@@ -487,7 +487,7 @@ export function renderEntryList(target, entries, onSelect) {
     const item = el('button', 'history-item');
     item.type = 'button';
     const meta = el('div', 'h-date');
-    meta.textContent = `${KIND_LABEL[entry.kind] || entry.kind} · ${entry.added}`;
+    meta.textContent = `${entry.category || KIND_LABEL[entry.kind] || ''} · ${entry.added}`;
     item.append(meta);
     item.append(el('div', 'h-ko', entry.ko || ''));
     item.append(el('div', 'h-sv', entry.sv || ''));
@@ -527,5 +527,60 @@ export function renderVocabulary(target, vocabulary, onSelectSource) {
     row.append(sources);
 
     target.append(row);
+  }
+}
+
+/* ── 집계 줄 ───────────────────────────────────────────── */
+
+/**
+ * 사이트에 들어온 문장이 몇 개인지 한눈에 보여 준다.
+ * 새 문장을 더 넣을지 판단하려면 지금 몇 개인지가 먼저 보여야 한다.
+ */
+export function renderSummary(target, stats) {
+  target.replaceChildren();
+
+  const figures = [
+    ['문장', stats.sentences],
+    ['낱말', stats.vocabularyWords],
+    ['분류', stats.categories],
+  ];
+
+  for (const [label, value] of figures) {
+    const unit = el('span', 'summary-unit');
+    unit.append(el('span', 'summary-value', String(value)));
+    unit.append(el('span', 'summary-label', label));
+    target.append(unit);
+  }
+
+  if (nonEmpty(stats.latest)) {
+    target.append(el('span', 'summary-updated', `마지막 추가 ${stats.latest}`));
+  }
+
+  target.hidden = false;
+}
+
+/* ── 분류 칩 ───────────────────────────────────────────── */
+
+/**
+ * @param {HTMLElement} target
+ * @param {Array<{name: string, count: number}>} categories
+ * @param {string} active 현재 고른 분류 이름, 또는 'all'
+ * @param {(name: string) => void} onSelect
+ */
+export function renderCategoryChips(target, categories, active, onSelect) {
+  target.replaceChildren();
+
+  const total = categories.reduce((sum, item) => sum + item.count, 0);
+  const rows = [{ name: 'all', label: '전체', count: total }, ...categories.map((item) => ({ ...item, label: item.name }))];
+
+  for (const row of rows) {
+    const chip = el('button', 'chip');
+    chip.type = 'button';
+    chip.dataset.category = row.name;
+    chip.classList.toggle('is-active', row.name === active);
+    chip.append(el('span', null, row.label));
+    chip.append(el('span', 'chip-count', String(row.count)));
+    chip.addEventListener('click', () => onSelect(row.name));
+    target.append(chip);
   }
 }
