@@ -55,6 +55,7 @@ function haystack(entry) {
     entry.meaning,
     entry.category,
     ...(entry.tags || []),
+    entry.ko_pron,
     ...(entry.words || []).flatMap((word) => [word.surface, word.base, word.meaning]),
   ]
     .filter(Boolean)
@@ -92,8 +93,14 @@ export function buildVocabulary(entries) {
       const key = word.base.toLowerCase();
       let item = byBase.get(key);
       if (!item) {
-        item = { base: word.base, pos: word.pos || '', meanings: [], surfaces: [], notes: [], sources: [] };
+        item = { base: word.base, pos: word.pos || '', ipa: '', meanings: [], surfaces: [], notes: [], sources: [] };
         byBase.set(key, item);
+      }
+      // 단어장은 기본형을 표제어로 삼는다. 굴절형의 발음을 기본형 옆에 붙이면
+      // 사전형 발음인 것처럼 잘못 읽히므로, 둘이 같을 때만 싣는다.
+      // 문장 첫머리라 대문자인 것(Hur/hur)은 같은 낱말로 본다.
+      if (!item.ipa && word.ipa && word.base.toLowerCase() === word.surface.toLowerCase()) {
+        item.ipa = word.ipa;
       }
       if (word.meaning && !item.meanings.includes(word.meaning)) item.meanings.push(word.meaning);
       if (word.surface && !item.surfaces.includes(word.surface)) item.surfaces.push(word.surface);

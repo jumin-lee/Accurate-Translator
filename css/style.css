@@ -477,3 +477,21 @@ a { color: var(--accent); }
   color: var(--text-muted);
 }
 .chip.is-active .chip-count { color: inherit; opacity: .75; }
+
+/* ── 발음 ──────────────────────────────────────────────── */
+
+.pron { margin-top: 12px; display: grid; gap: 3px; }
+.pron-row { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
+.pron-tag {
+  flex: none; width: 30px;
+  font-size: 10.5px; font-weight: 650; letter-spacing: .04em;
+  color: var(--text-muted); text-transform: uppercase;
+}
+.pron-ipa { font-family: var(--mono); font-size: 14px; color: var(--text-muted); overflow-wrap: anywhere; }
+.pron-ko { font-size: 14.5px; color: var(--text); overflow-wrap: anywhere; }
+
+.word-ipa {
+  margin-left: 7px;
+  font-family: var(--mono); font-size: 11.5px; font-weight: 400;
+  color: var(--text-muted); overflow-wrap: anywhere;
+}

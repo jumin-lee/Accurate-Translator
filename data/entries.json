@@ -14,6 +14,7 @@
         "surface": "Hej",
         "base": "hej",
         "pos": "감탄사",
+        "ipa": "hɛj",
         "meaning": "안녕",
         "note": "두 번 겹쳐 'Hej hej!' 라고 하면 더 친근합니다."
       }
@@ -34,7 +35,9 @@
     },
     "tags": [
       "기본"
-    ]
+    ],
+    "ipa": "hɛj",
+    "ko_pron": "헤이"
   },
   {
     "id": "god-morgon",
@@ -51,6 +54,7 @@
         "surface": "God",
         "base": "god",
         "pos": "형용사",
+        "ipa": "ɡuːd",
         "meaning": "좋은",
         "note": "뒤에 오는 명사의 성에 맞춰 변합니다. morgon 은 en-단어라 god 그대로입니다."
       },
@@ -58,6 +62,7 @@
         "surface": "morgon",
         "base": "morgon",
         "pos": "명사 (en-단어, 복수 morgnar)",
+        "ipa": "ˈmɔrɔn",
         "meaning": "아침",
         "note": ""
       }
@@ -78,7 +83,9 @@
     },
     "tags": [
       "기본"
-    ]
+    ],
+    "ipa": "ɡuːd ˈmɔrɔn",
+    "ko_pron": "구-드 모론"
   },
   {
     "id": "hur-ar-laget",
@@ -95,6 +102,7 @@
         "surface": "Hur",
         "base": "hur",
         "pos": "의문부사",
+        "ipa": "hʉːr",
         "meaning": "어떻게",
         "note": ""
       },
@@ -102,6 +110,7 @@
         "surface": "är",
         "base": "vara",
         "pos": "동사 (현재형)",
+        "ipa": "ɛː",
         "meaning": "~이다",
         "note": "원형 vara, 과거형 var"
       },
@@ -109,6 +118,7 @@
         "surface": "läget",
         "base": "läge",
         "pos": "명사 (ett-단어, 정관사형)",
+        "ipa": "ˈlɛːɡɛt",
         "meaning": "상황, 형편",
         "note": "läge → läget"
       }
@@ -129,7 +139,9 @@
     },
     "tags": [
       "구어"
-    ]
+    ],
+    "ipa": "hʉːr ɛː ˈlɛːɡɛt",
+    "ko_pron": "휘-르 에- 레-겟"
   },
   {
     "id": "hur-mar-du",
@@ -146,6 +158,7 @@
         "surface": "Hur",
         "base": "hur",
         "pos": "의문부사",
+        "ipa": "hʉːr",
         "meaning": "어떻게",
         "note": ""
       },
@@ -153,6 +166,7 @@
         "surface": "mår",
         "base": "må",
         "pos": "동사 (현재형)",
+        "ipa": "moːr",
         "meaning": "(몸·기분이) ~하다",
         "note": "원형 må. 거의 이 표현에서만 씁니다."
       },
@@ -160,6 +174,7 @@
         "surface": "du",
         "base": "du",
         "pos": "대명사",
+        "ipa": "dʉː",
         "meaning": "너, 당신",
         "note": "스웨덴어는 초면에도 du 를 씁니다."
       }
@@ -178,7 +193,9 @@
     },
     "tags": [
       "기본"
-    ]
+    ],
+    "ipa": "hʉːr moːr dʉː",
+    "ko_pron": "휘-르 모-르 뒤-"
   },
   {
     "id": "tack-bra-och-du",
@@ -195,6 +212,7 @@
         "surface": "Tack",
         "base": "tack",
         "pos": "감탄사",
+        "ipa": "tak",
         "meaning": "고마워",
         "note": ""
       },
@@ -202,6 +220,7 @@
         "surface": "bra",
         "base": "bra",
         "pos": "형용사 / 부사",
+        "ipa": "brɑː",
         "meaning": "좋은, 잘",
         "note": "비교급은 bättre, 최상급은 bäst 로 불규칙합니다."
       },
@@ -209,6 +228,7 @@
         "surface": "Och",
         "base": "och",
         "pos": "접속사",
+        "ipa": "ɔ",
         "meaning": "그리고",
         "note": ""
       },
@@ -216,6 +236,7 @@
         "surface": "du",
         "base": "du",
         "pos": "대명사",
+        "ipa": "dʉː",
         "meaning": "너, 당신",
         "note": ""
       }
@@ -236,7 +257,9 @@
     },
     "tags": [
       "기본"
-    ]
+    ],
+    "ipa": "tak brɑː ɔ dʉː",
+    "ko_pron": "탁 브라- 오 뒤-"
   },
   {
     "id": "trevligt-att-traffas",
@@ -253,6 +276,7 @@
         "surface": "Trevligt",
         "base": "trevlig",
         "pos": "형용사 (중성형)",
+        "ipa": "ˈtreːvlɪkt",
         "meaning": "즐거운, 반가운",
         "note": "trevlig → trevligt(중성) → trevliga(복수)"
       },
@@ -260,6 +284,7 @@
         "surface": "att",
         "base": "att",
         "pos": "부정사 표지",
+        "ipa": "at",
         "meaning": "~하는 것",
         "note": "영어 to 에 해당합니다."
       },
@@ -267,6 +292,7 @@
         "surface": "träffas",
         "base": "träffas",
         "pos": "동사 (상호형)",
+        "ipa": "ˈtrɛfas",
         "meaning": "서로 만나다",
         "note": "träffa(만나다)에 -s 가 붙어 '서로 만나다'가 됩니다."
       }
@@ -288,7 +314,9 @@
     "tags": [
       "기본",
       "s동사"
-    ]
+    ],
+    "ipa": "ˈtreːvlɪkt at ˈtrɛfas",
+    "ko_pron": "트레-블릭트 앗 트레파스"
   },
   {
     "id": "vi-ses",
@@ -305,6 +333,7 @@
         "surface": "Vi",
         "base": "vi",
         "pos": "대명사",
+        "ipa": "viː",
         "meaning": "우리",
         "note": ""
       },
@@ -312,6 +341,7 @@
         "surface": "ses",
         "base": "ses",
         "pos": "동사 (현재형, 상호형)",
+        "ipa": "seːs",
         "meaning": "서로 만나다",
         "note": "se(보다) + -s"
       }
@@ -333,7 +363,9 @@
     "tags": [
       "기본",
       "s동사"
-    ]
+    ],
+    "ipa": "viː seːs",
+    "ko_pron": "비- 세-스"
   },
   {
     "id": "ha-det-bra",
@@ -350,6 +382,7 @@
         "surface": "Ha",
         "base": "ha",
         "pos": "동사 (명령형)",
+        "ipa": "hɑː",
         "meaning": "가지다",
         "note": "원형 ha. 명령형도 ha 입니다."
       },
@@ -357,6 +390,7 @@
         "surface": "det",
         "base": "det",
         "pos": "대명사",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       },
@@ -364,6 +398,7 @@
         "surface": "bra",
         "base": "bra",
         "pos": "부사",
+        "ipa": "brɑː",
         "meaning": "잘",
         "note": ""
       }
@@ -384,7 +419,9 @@
     },
     "tags": [
       "기본"
-    ]
+    ],
+    "ipa": "hɑː deː brɑː",
+    "ko_pron": "하- 데- 브라-"
   },
   {
     "id": "jag-heter",
@@ -401,6 +438,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -408,6 +446,7 @@
         "surface": "heter",
         "base": "heta",
         "pos": "동사 (현재형)",
+        "ipa": "ˈheːtɛr",
         "meaning": "이름이 ~이다",
         "note": "원형 heta, 과거형 hette. '가지다(ha)'를 쓰지 않습니다."
       }
@@ -430,7 +469,9 @@
     "tags": [
       "기본",
       "패턴"
-    ]
+    ],
+    "ipa": "jɑː ˈheːtɛr ˈjʉːmɪn",
+    "ko_pron": "야- 헤-테르 위-민"
   },
   {
     "id": "vad-heter-du",
@@ -447,6 +488,7 @@
         "surface": "Vad",
         "base": "vad",
         "pos": "의문대명사",
+        "ipa": "vɑː",
         "meaning": "무엇",
         "note": ""
       },
@@ -454,6 +496,7 @@
         "surface": "heter",
         "base": "heta",
         "pos": "동사 (현재형)",
+        "ipa": "ˈheːtɛr",
         "meaning": "이름이 ~이다",
         "note": ""
       },
@@ -461,6 +504,7 @@
         "surface": "du",
         "base": "du",
         "pos": "대명사",
+        "ipa": "dʉː",
         "meaning": "너, 당신",
         "note": ""
       }
@@ -482,7 +526,9 @@
     "tags": [
       "기본",
       "의문문"
-    ]
+    ],
+    "ipa": "vɑː ˈheːtɛr dʉː",
+    "ko_pron": "바- 헤-테르 뒤-"
   },
   {
     "id": "jag-kommer-fran",
@@ -499,6 +545,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -506,6 +553,7 @@
         "surface": "kommer",
         "base": "komma",
         "pos": "동사 (현재형)",
+        "ipa": "ˈkɔmɛr",
         "meaning": "오다",
         "note": "출신을 말할 때도 현재형을 씁니다. 과거형이 아닙니다."
       },
@@ -513,6 +561,7 @@
         "surface": "från",
         "base": "från",
         "pos": "전치사",
+        "ipa": "froːn",
         "meaning": "~에서, ~로부터",
         "note": ""
       },
@@ -520,6 +569,7 @@
         "surface": "Sydkorea",
         "base": "Sydkorea",
         "pos": "고유명사",
+        "ipa": "ˈsyːdkʊˌreːa",
         "meaning": "대한민국",
         "note": "syd(남) + Korea. 북한은 Nordkorea 입니다."
       }
@@ -539,7 +589,9 @@
     "tags": [
       "기본",
       "패턴"
-    ]
+    ],
+    "ipa": "jɑː ˈkɔmɛr froːn ˈsyːdkʊˌreːa",
+    "ko_pron": "야- 코메르 프론- 쉬-드코레-아"
   },
   {
     "id": "jag-bor-i",
@@ -556,6 +608,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -563,6 +616,7 @@
         "surface": "bor",
         "base": "bo",
         "pos": "동사 (현재형)",
+        "ipa": "buːr",
         "meaning": "살다, 거주하다",
         "note": "원형 bo, 과거형 bodde"
       },
@@ -570,6 +624,7 @@
         "surface": "i",
         "base": "i",
         "pos": "전치사",
+        "ipa": "iː",
         "meaning": "~ 안에",
         "note": "도시·나라 앞에는 i 를 씁니다."
       },
@@ -577,6 +632,7 @@
         "surface": "Stockholm",
         "base": "Stockholm",
         "pos": "고유명사",
+        "ipa": "ˈstɔkˌhɔlm",
         "meaning": "스톡홀름",
         "note": ""
       }
@@ -598,7 +654,9 @@
     "tags": [
       "기본",
       "전치사"
-    ]
+    ],
+    "ipa": "jɑː buːr iː ˈstɔkˌhɔlm",
+    "ko_pron": "야- 부-르 이- 스톡홀름"
   },
   {
     "id": "jag-pluggar-svenska",
@@ -615,6 +673,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -622,6 +681,7 @@
         "surface": "pluggar",
         "base": "plugga",
         "pos": "동사 (현재형)",
+        "ipa": "ˈplɵɡar",
         "meaning": "공부하다",
         "note": "구어입니다. 격식체는 studera 입니다."
       },
@@ -629,6 +689,7 @@
         "surface": "svenska",
         "base": "svenska",
         "pos": "명사 (en-단어)",
+        "ipa": "ˈsvɛnska",
         "meaning": "스웨덴어",
         "note": "언어 이름은 소문자로 씁니다. 영어와 다릅니다."
       }
@@ -650,7 +711,9 @@
     "tags": [
       "기본",
       "시제"
-    ]
+    ],
+    "ipa": "jɑː ˈplɵɡar ˈsvɛnska",
+    "ko_pron": "야- 플뤼가르 스벤스카"
   },
   {
     "id": "jag-jobbar-som",
@@ -667,6 +730,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -674,6 +738,7 @@
         "surface": "jobbar",
         "base": "jobba",
         "pos": "동사 (현재형)",
+        "ipa": "ˈjɔbar",
         "meaning": "일하다",
         "note": "구어입니다. 격식체는 arbeta 입니다."
       },
@@ -681,6 +746,7 @@
         "surface": "som",
         "base": "som",
         "pos": "전치사",
+        "ipa": "sɔm",
         "meaning": "~로서",
         "note": ""
       },
@@ -688,6 +754,7 @@
         "surface": "lärare",
         "base": "lärare",
         "pos": "명사 (en-단어, 복수 lärare)",
+        "ipa": "ˈlɛːrarɛ",
         "meaning": "교사",
         "note": "직업 이름 앞에는 관사를 붙이지 않습니다."
       }
@@ -708,7 +775,9 @@
     },
     "tags": [
       "패턴"
-    ]
+    ],
+    "ipa": "jɑː ˈjɔbar sɔm ˈlɛːrarɛ",
+    "ko_pron": "야- 요바르 솜 레-라레"
   },
   {
     "id": "jag-forstar-inte",
@@ -725,6 +794,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -732,6 +802,7 @@
         "surface": "förstår",
         "base": "förstå",
         "pos": "동사 (현재형)",
+        "ipa": "fœrˈstoːr",
         "meaning": "이해하다",
         "note": "원형 förstå, 과거형 förstod"
       },
@@ -739,6 +810,7 @@
         "surface": "inte",
         "base": "inte",
         "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
         "meaning": "~않다",
         "note": "주절에서는 동사 뒤에 옵니다."
       }
@@ -761,7 +833,9 @@
       "필수",
       "부정",
       "어순"
-    ]
+    ],
+    "ipa": "jɑː fœrˈstoːr ˈɪntɛ",
+    "ko_pron": "야- 푀르스토-르 인테"
   },
   {
     "id": "kan-du-prata-langsammare",
@@ -778,6 +852,7 @@
         "surface": "Kan",
         "base": "kunna",
         "pos": "조동사 (현재형)",
+        "ipa": "kan",
         "meaning": "~할 수 있다",
         "note": "의문문이라 동사가 문두에 왔습니다."
       },
@@ -785,6 +860,7 @@
         "surface": "du",
         "base": "du",
         "pos": "대명사",
+        "ipa": "dʉː",
         "meaning": "너, 당신",
         "note": ""
       },
@@ -792,6 +868,7 @@
         "surface": "prata",
         "base": "prata",
         "pos": "동사 (원형)",
+        "ipa": "ˈprɑːta",
         "meaning": "말하다",
         "note": "조동사 뒤라 att 없이 원형만 옵니다."
       },
@@ -799,6 +876,7 @@
         "surface": "långsammare",
         "base": "långsam",
         "pos": "형용사 (비교급)",
+        "ipa": "ˈlɔŋˌsamarɛ",
         "meaning": "더 천천히",
         "note": "långsam → långsammare → långsammast"
       }
@@ -821,7 +899,9 @@
       "필수",
       "의문문",
       "비교급"
-    ]
+    ],
+    "ipa": "kan dʉː ˈprɑːta ˈlɔŋˌsamarɛ",
+    "ko_pron": "칸 뒤- 프라-타 롱사마레"
   },
   {
     "id": "kan-du-upprepa",
@@ -838,6 +918,7 @@
         "surface": "Kan",
         "base": "kunna",
         "pos": "조동사 (현재형)",
+        "ipa": "kan",
         "meaning": "~할 수 있다",
         "note": ""
       },
@@ -845,6 +926,7 @@
         "surface": "du",
         "base": "du",
         "pos": "대명사",
+        "ipa": "dʉː",
         "meaning": "너, 당신",
         "note": ""
       },
@@ -852,6 +934,7 @@
         "surface": "upprepa",
         "base": "upprepa",
         "pos": "동사 (원형)",
+        "ipa": "ˈɵpˌreːpa",
         "meaning": "반복하다",
         "note": ""
       },
@@ -859,6 +942,7 @@
         "surface": "det",
         "base": "det",
         "pos": "대명사",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       }
@@ -877,7 +961,9 @@
     },
     "tags": [
       "필수"
-    ]
+    ],
+    "ipa": "kan dʉː ˈɵpˌreːpa deː",
+    "ko_pron": "칸 뒤- 위프레-파 데-"
   },
   {
     "id": "talar-du-engelska",
@@ -894,6 +980,7 @@
         "surface": "Talar",
         "base": "tala",
         "pos": "동사 (현재형)",
+        "ipa": "ˈtɑːlar",
         "meaning": "말하다",
         "note": "의문문이라 문두에 왔습니다. prata 보다 조금 격식체입니다."
       },
@@ -901,6 +988,7 @@
         "surface": "du",
         "base": "du",
         "pos": "대명사",
+        "ipa": "dʉː",
         "meaning": "너, 당신",
         "note": ""
       },
@@ -908,6 +996,7 @@
         "surface": "engelska",
         "base": "engelska",
         "pos": "명사 (en-단어)",
+        "ipa": "ˈɛŋɛlska",
         "meaning": "영어",
         "note": "언어 이름은 소문자로 씁니다."
       }
@@ -929,7 +1018,9 @@
     "tags": [
       "필수",
       "의문문"
-    ]
+    ],
+    "ipa": "ˈtɑːlar dʉː ˈɛŋɛlska",
+    "ko_pron": "타-라르 뒤- 엥엘스카"
   },
   {
     "id": "vad-betyder-det",
@@ -946,6 +1037,7 @@
         "surface": "Vad",
         "base": "vad",
         "pos": "의문대명사",
+        "ipa": "vɑː",
         "meaning": "무엇",
         "note": ""
       },
@@ -953,6 +1045,7 @@
         "surface": "betyder",
         "base": "betyda",
         "pos": "동사 (현재형)",
+        "ipa": "bɛˈtyːdɛr",
         "meaning": "의미하다",
         "note": "원형 betyda, 과거형 betydde"
       },
@@ -960,6 +1053,7 @@
         "surface": "det",
         "base": "det",
         "pos": "대명사",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       }
@@ -979,7 +1073,9 @@
     "tags": [
       "필수",
       "의문문"
-    ]
+    ],
+    "ipa": "vɑː bɛˈtyːdɛr deː",
+    "ko_pron": "바- 베튀-데르 데-"
   },
   {
     "id": "hur-sager-man",
@@ -996,6 +1092,7 @@
         "surface": "Hur",
         "base": "hur",
         "pos": "의문부사",
+        "ipa": "hʉːr",
         "meaning": "어떻게",
         "note": ""
       },
@@ -1003,6 +1100,7 @@
         "surface": "säger",
         "base": "säga",
         "pos": "동사 (현재형)",
+        "ipa": "ˈsɛjɛr",
         "meaning": "말하다",
         "note": "원형 säga, 과거형 sa(sade)"
       },
@@ -1010,6 +1108,7 @@
         "surface": "man",
         "base": "man",
         "pos": "부정대명사",
+        "ipa": "man",
         "meaning": "(일반적인) 사람",
         "note": "특정인을 가리키지 않습니다. 영어 one 에 해당합니다."
       },
@@ -1017,6 +1116,7 @@
         "surface": "på",
         "base": "på",
         "pos": "전치사",
+        "ipa": "poː",
         "meaning": "~로",
         "note": "언어를 말할 때는 på 를 씁니다."
       },
@@ -1024,6 +1124,7 @@
         "surface": "svenska",
         "base": "svenska",
         "pos": "명사 (en-단어)",
+        "ipa": "ˈsvɛnska",
         "meaning": "스웨덴어",
         "note": ""
       }
@@ -1045,7 +1146,9 @@
     "tags": [
       "필수",
       "패턴"
-    ]
+    ],
+    "ipa": "hʉːr ˈsɛjɛr man ˈkafɛ poː ˈsvɛnska",
+    "ko_pron": "휘-르 세이에르 만 카페 포- 스벤스카"
   },
   {
     "id": "jag-pratar-lite-svenska",
@@ -1062,6 +1165,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -1069,6 +1173,7 @@
         "surface": "pratar",
         "base": "prata",
         "pos": "동사 (현재형)",
+        "ipa": "ˈprɑːtar",
         "meaning": "말하다",
         "note": ""
       },
@@ -1076,6 +1181,7 @@
         "surface": "bara",
         "base": "bara",
         "pos": "부사",
+        "ipa": "ˈbɑːra",
         "meaning": "단지, ~밖에",
         "note": ""
       },
@@ -1083,6 +1189,7 @@
         "surface": "lite",
         "base": "lite",
         "pos": "부사",
+        "ipa": "ˈliːtɛ",
         "meaning": "조금",
         "note": "셀 수 없는 것에 씁니다. 셀 수 있는 것에는 några 를 씁니다."
       },
@@ -1090,6 +1197,7 @@
         "surface": "svenska",
         "base": "svenska",
         "pos": "명사 (en-단어)",
+        "ipa": "ˈsvɛnska",
         "meaning": "스웨덴어",
         "note": ""
       }
@@ -1108,7 +1216,9 @@
     },
     "tags": [
       "필수"
-    ]
+    ],
+    "ipa": "jɑː ˈprɑːtar ˈbɑːra ˈliːtɛ ˈsvɛnska",
+    "ko_pron": "야- 프라-타르 바-라 리-테 스벤스카"
   },
   {
     "id": "tack-sa-mycket",
@@ -1125,6 +1235,7 @@
         "surface": "Tack",
         "base": "tack",
         "pos": "감탄사 / 명사 (ett-단어)",
+        "ipa": "tak",
         "meaning": "고마움",
         "note": ""
       },
@@ -1132,6 +1243,7 @@
         "surface": "så",
         "base": "så",
         "pos": "부사",
+        "ipa": "soː",
         "meaning": "그렇게, 아주",
         "note": ""
       },
@@ -1139,6 +1251,7 @@
         "surface": "mycket",
         "base": "mycket",
         "pos": "부사",
+        "ipa": "ˈmʏkɛ",
         "meaning": "많이",
         "note": ""
       }
@@ -1159,7 +1272,9 @@
     },
     "tags": [
       "기본"
-    ]
+    ],
+    "ipa": "tak soː ˈmʏkɛ",
+    "ko_pron": "탁 소- 뮈케"
   },
   {
     "id": "varsagod",
@@ -1176,6 +1291,7 @@
         "surface": "Varsågod",
         "base": "varsågod",
         "pos": "감탄사",
+        "ipa": "ˌvaʂoˈɡuːd",
         "meaning": "여기 있습니다; 천만에요",
         "note": "var så god(그렇게 좋으시라)가 한 단어로 굳었습니다."
       }
@@ -1196,7 +1312,9 @@
     },
     "tags": [
       "기본"
-    ]
+    ],
+    "ipa": "ˌvaʂoˈɡuːd",
+    "ko_pron": "바쇼구-드"
   },
   {
     "id": "ursakta",
@@ -1213,6 +1331,7 @@
         "surface": "Ursäkta",
         "base": "ursäkta",
         "pos": "동사 (명령형) / 감탄사",
+        "ipa": "ˈʉːʂɛkta",
         "meaning": "용서하다; 실례합니다",
         "note": ""
       }
@@ -1234,7 +1353,9 @@
     "tags": [
       "기본",
       "필수"
-    ]
+    ],
+    "ipa": "ˈʉːʂɛkta",
+    "ko_pron": "우-셱타"
   },
   {
     "id": "det-ar-lugnt",
@@ -1251,6 +1372,7 @@
         "surface": "Det",
         "base": "det",
         "pos": "대명사 (형식주어)",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       },
@@ -1258,6 +1380,7 @@
         "surface": "är",
         "base": "vara",
         "pos": "동사 (현재형)",
+        "ipa": "ɛː",
         "meaning": "~이다",
         "note": ""
       },
@@ -1265,6 +1388,7 @@
         "surface": "lugnt",
         "base": "lugn",
         "pos": "형용사 (중성형)",
+        "ipa": "lɵŋt",
         "meaning": "조용한, 괜찮은",
         "note": "형식주어 det 에 맞춰 중성형이 됩니다."
       }
@@ -1283,7 +1407,9 @@
     },
     "tags": [
       "구어"
-    ]
+    ],
+    "ipa": "deː ɛː lɵŋt",
+    "ko_pron": "데- 에- 룅트"
   },
   {
     "id": "jag-skulle-vilja-ha",
@@ -1300,6 +1426,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -1307,6 +1434,7 @@
         "surface": "skulle",
         "base": "skola",
         "pos": "조동사 (과거형)",
+        "ipa": "ˈskɵlɛ",
         "meaning": "~하겠다",
         "note": "vilja 와 함께 쓰여 공손한 요청이 됩니다."
       },
@@ -1314,6 +1442,7 @@
         "surface": "vilja",
         "base": "vilja",
         "pos": "동사 (원형)",
+        "ipa": "ˈvɪlja",
         "meaning": "원하다",
         "note": ""
       },
@@ -1321,6 +1450,7 @@
         "surface": "ha",
         "base": "ha",
         "pos": "동사 (원형)",
+        "ipa": "hɑː",
         "meaning": "가지다",
         "note": ""
       },
@@ -1328,6 +1458,7 @@
         "surface": "en",
         "base": "en",
         "pos": "부정관사",
+        "ipa": "ɛn",
         "meaning": "하나의",
         "note": "kaffe 는 여기서 '커피 한 잔'을 뜻하는 en-단어로 씁니다."
       },
@@ -1335,6 +1466,7 @@
         "surface": "kaffe",
         "base": "kaffe",
         "pos": "명사 (ett-단어)",
+        "ipa": "ˈkafɛ",
         "meaning": "커피",
         "note": "음료 자체는 ett kaffe 지만 '한 잔'을 주문할 때는 en kaffe 라고 흔히 말합니다."
       },
@@ -1342,6 +1474,7 @@
         "surface": "tack",
         "base": "tack",
         "pos": "감탄사",
+        "ipa": "tak",
         "meaning": "고마워요",
         "note": "문장 끝에 붙여 공손함을 더합니다."
       }
@@ -1364,7 +1497,9 @@
       "필수",
       "패턴",
       "주문"
-    ]
+    ],
+    "ipa": "jɑː ˈskɵlɛ ˈvɪlja hɑː ɛn ˈkafɛ tak",
+    "ko_pron": "야- 스퀼레 빌야 하- 엔 카페 탁"
   },
   {
     "id": "vad-rekommenderar-du",
@@ -1381,6 +1516,7 @@
         "surface": "Vad",
         "base": "vad",
         "pos": "의문대명사",
+        "ipa": "vɑː",
         "meaning": "무엇",
         "note": ""
       },
@@ -1388,6 +1524,7 @@
         "surface": "rekommenderar",
         "base": "rekommendera",
         "pos": "동사 (현재형)",
+        "ipa": "rɛkɔmɛnˈdeːrar",
         "meaning": "추천하다",
         "note": ""
       },
@@ -1395,6 +1532,7 @@
         "surface": "du",
         "base": "du",
         "pos": "대명사",
+        "ipa": "dʉː",
         "meaning": "너, 당신",
         "note": ""
       }
@@ -1413,7 +1551,9 @@
     },
     "tags": [
       "의문문"
-    ]
+    ],
+    "ipa": "vɑː rɛkɔmɛnˈdeːrar dʉː",
+    "ko_pron": "바- 레코멘데-라르 뒤-"
   },
   {
     "id": "kan-jag-fa-notan",
@@ -1430,6 +1570,7 @@
         "surface": "Kan",
         "base": "kunna",
         "pos": "조동사 (현재형)",
+        "ipa": "kan",
         "meaning": "~할 수 있다",
         "note": ""
       },
@@ -1437,6 +1578,7 @@
         "surface": "jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -1444,6 +1586,7 @@
         "surface": "få",
         "base": "få",
         "pos": "동사 (원형)",
+        "ipa": "foː",
         "meaning": "받다",
         "note": "원형 få, 과거형 fick"
       },
@@ -1451,6 +1594,7 @@
         "surface": "notan",
         "base": "nota",
         "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈnuːtan",
         "meaning": "계산서",
         "note": "nota → notan"
       },
@@ -1458,6 +1602,7 @@
         "surface": "tack",
         "base": "tack",
         "pos": "감탄사",
+        "ipa": "tak",
         "meaning": "고마워요",
         "note": ""
       }
@@ -1479,7 +1624,9 @@
     "tags": [
       "필수",
       "패턴"
-    ]
+    ],
+    "ipa": "kan jɑː foː ˈnuːtan tak",
+    "ko_pron": "칸 야- 포- 누-탄 탁"
   },
   {
     "id": "kan-jag-betala-med-kort",
@@ -1496,6 +1643,7 @@
         "surface": "Kan",
         "base": "kunna",
         "pos": "조동사 (현재형)",
+        "ipa": "kan",
         "meaning": "~할 수 있다",
         "note": ""
       },
@@ -1503,6 +1651,7 @@
         "surface": "jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -1510,6 +1659,7 @@
         "surface": "betala",
         "base": "betala",
         "pos": "동사 (원형)",
+        "ipa": "bɛˈtɑːla",
         "meaning": "지불하다",
         "note": ""
       },
@@ -1517,6 +1667,7 @@
         "surface": "med",
         "base": "med",
         "pos": "전치사",
+        "ipa": "meː",
         "meaning": "~로, ~와 함께",
         "note": ""
       },
@@ -1524,6 +1675,7 @@
         "surface": "kort",
         "base": "kort",
         "pos": "명사 (ett-단어, 복수 kort)",
+        "ipa": "kɔʈ",
         "meaning": "카드",
         "note": "수단을 말할 때는 관사를 붙이지 않습니다."
       }
@@ -1545,7 +1697,9 @@
     "tags": [
       "필수",
       "결제"
-    ]
+    ],
+    "ipa": "kan jɑː bɛˈtɑːla meː kɔʈ",
+    "ko_pron": "칸 야- 베타-라 메- 코트"
   },
   {
     "id": "ar-det-har-ledigt",
@@ -1562,6 +1716,7 @@
         "surface": "Är",
         "base": "vara",
         "pos": "동사 (현재형)",
+        "ipa": "ɛː",
         "meaning": "~이다",
         "note": "의문문이라 문두에 왔습니다."
       },
@@ -1569,6 +1724,7 @@
         "surface": "det",
         "base": "det",
         "pos": "대명사",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       },
@@ -1576,6 +1732,7 @@
         "surface": "här",
         "base": "här",
         "pos": "부사",
+        "ipa": "hɛːr",
         "meaning": "여기",
         "note": ""
       },
@@ -1583,6 +1740,7 @@
         "surface": "ledigt",
         "base": "ledig",
         "pos": "형용사 (중성형)",
+        "ipa": "ˈleːdɪkt",
         "meaning": "비어 있는, 한가한",
         "note": "det 에 맞춰 중성형입니다."
       }
@@ -1601,7 +1759,9 @@
     },
     "tags": [
       "의문문"
-    ]
+    ],
+    "ipa": "ɛː deː hɛːr ˈleːdɪkt",
+    "ko_pron": "에- 데- 헤-르 레-딕트"
   },
   {
     "id": "jag-ar-vegetarian",
@@ -1618,6 +1778,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -1625,6 +1786,7 @@
         "surface": "är",
         "base": "vara",
         "pos": "동사 (현재형)",
+        "ipa": "ɛː",
         "meaning": "~이다",
         "note": ""
       },
@@ -1632,6 +1794,7 @@
         "surface": "vegetarian",
         "base": "vegetarian",
         "pos": "명사 (en-단어, 복수 -er)",
+        "ipa": "vɛɡɛtaˈriːan",
         "meaning": "채식주의자",
         "note": "직업·속성을 말할 때처럼 관사를 붙이지 않습니다."
       }
@@ -1652,7 +1815,9 @@
     },
     "tags": [
       "식단"
-    ]
+    ],
+    "ipa": "jɑː ɛː vɛɡɛtaˈriːan",
+    "ko_pron": "야- 에- 베게타리-안"
   },
   {
     "id": "det-smakar-jattegott",
@@ -1669,6 +1834,7 @@
         "surface": "Det",
         "base": "det",
         "pos": "대명사",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       },
@@ -1676,6 +1842,7 @@
         "surface": "smakar",
         "base": "smaka",
         "pos": "동사 (현재형)",
+        "ipa": "ˈsmɑːkar",
         "meaning": "맛이 나다",
         "note": ""
       },
@@ -1683,6 +1850,7 @@
         "surface": "jättegott",
         "base": "jättegod",
         "pos": "형용사 (중성형)",
+        "ipa": "ˈjɛtɛˌɡɔt",
         "meaning": "아주 맛있는",
         "note": "jätte-(거인)를 앞에 붙이면 '아주'라는 뜻의 강조가 됩니다."
       }
@@ -1703,7 +1871,9 @@
     },
     "tags": [
       "강조"
-    ]
+    ],
+    "ipa": "deː ˈsmɑːkar ˈjɛtɛˌɡɔt",
+    "ko_pron": "데- 스마-카르 예테곳"
   },
   {
     "id": "fika",
@@ -1720,6 +1890,7 @@
         "surface": "fika",
         "base": "fika",
         "pos": "명사 (en-단어) / 동사 (원형)",
+        "ipa": "ˈfiːka",
         "meaning": "피카; 피카를 하다",
         "note": "동사 현재형은 fikar 입니다."
       }
@@ -1745,7 +1916,9 @@
     "tags": [
       "문화",
       "낱말"
-    ]
+    ],
+    "ipa": "ˈfiːka",
+    "ko_pron": "피-카"
   },
   {
     "id": "hur-mycket-kostar-det",
@@ -1762,6 +1935,7 @@
         "surface": "Hur",
         "base": "hur",
         "pos": "의문부사",
+        "ipa": "hʉːr",
         "meaning": "어떻게",
         "note": ""
       },
@@ -1769,6 +1943,7 @@
         "surface": "mycket",
         "base": "mycket",
         "pos": "부사",
+        "ipa": "ˈmʏkɛ",
         "meaning": "많이",
         "note": "hur mycket 이 묶여 '얼마나'가 됩니다."
       },
@@ -1776,6 +1951,7 @@
         "surface": "kostar",
         "base": "kosta",
         "pos": "동사 (현재형)",
+        "ipa": "ˈkɔstar",
         "meaning": "값이 ~이다",
         "note": ""
       },
@@ -1783,6 +1959,7 @@
         "surface": "det",
         "base": "det",
         "pos": "대명사",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       }
@@ -1804,7 +1981,9 @@
     "tags": [
       "필수",
       "의문문"
-    ]
+    ],
+    "ipa": "hʉːr ˈmʏkɛ ˈkɔstar deː",
+    "ko_pron": "휘-르 뮈케 코스타르 데-"
   },
   {
     "id": "jag-tittar-bara",
@@ -1821,6 +2000,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -1828,6 +2008,7 @@
         "surface": "tittar",
         "base": "titta",
         "pos": "동사 (현재형)",
+        "ipa": "ˈtɪtar",
         "meaning": "보다, 구경하다",
         "note": ""
       },
@@ -1835,6 +2016,7 @@
         "surface": "bara",
         "base": "bara",
         "pos": "부사",
+        "ipa": "ˈbɑːra",
         "meaning": "단지",
         "note": ""
       },
@@ -1842,6 +2024,7 @@
         "surface": "tack",
         "base": "tack",
         "pos": "감탄사",
+        "ipa": "tak",
         "meaning": "고마워요",
         "note": ""
       }
@@ -1860,7 +2043,9 @@
     },
     "tags": [
       "구어"
-    ]
+    ],
+    "ipa": "jɑː ˈtɪtar ˈbɑːra tak",
+    "ko_pron": "야- 티타르 바-라 탁"
   },
   {
     "id": "kan-jag-prova-den",
@@ -1877,6 +2062,7 @@
         "surface": "Kan",
         "base": "kunna",
         "pos": "조동사 (현재형)",
+        "ipa": "kan",
         "meaning": "~할 수 있다",
         "note": ""
       },
@@ -1884,6 +2070,7 @@
         "surface": "jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -1891,6 +2078,7 @@
         "surface": "prova",
         "base": "prova",
         "pos": "동사 (원형)",
+        "ipa": "ˈpruːva",
         "meaning": "시험 삼아 해 보다, 입어 보다",
         "note": ""
       },
@@ -1898,6 +2086,7 @@
         "surface": "den",
         "base": "den",
         "pos": "대명사",
+        "ipa": "dɛn",
         "meaning": "그것",
         "note": "en-단어를 가리킵니다. ett-단어면 det 을 씁니다."
       }
@@ -1919,7 +2108,9 @@
     "tags": [
       "의문문",
       "대명사"
-    ]
+    ],
+    "ipa": "kan jɑː ˈpruːva dɛn",
+    "ko_pron": "칸 야- 프루-바 덴"
   },
   {
     "id": "har-ni-en-storre-storlek",
@@ -1936,6 +2127,7 @@
         "surface": "Har",
         "base": "ha",
         "pos": "동사 (현재형)",
+        "ipa": "hɑːr",
         "meaning": "가지다",
         "note": "의문문이라 문두에 왔습니다."
       },
@@ -1943,6 +2135,7 @@
         "surface": "ni",
         "base": "ni",
         "pos": "대명사",
+        "ipa": "niː",
         "meaning": "여러분, (가게 쪽) 당신들",
         "note": "가게나 회사를 상대할 때 ni 를 씁니다."
       },
@@ -1950,6 +2143,7 @@
         "surface": "en",
         "base": "en",
         "pos": "부정관사",
+        "ipa": "ɛn",
         "meaning": "하나의",
         "note": ""
       },
@@ -1957,6 +2151,7 @@
         "surface": "större",
         "base": "stor",
         "pos": "형용사 (비교급)",
+        "ipa": "ˈstœrɛ",
         "meaning": "더 큰",
         "note": "stor → större → störst 로 불규칙 변화합니다."
       },
@@ -1964,6 +2159,7 @@
         "surface": "storlek",
         "base": "storlek",
         "pos": "명사 (en-단어, 복수 -ar)",
+        "ipa": "ˈstuːrleːk",
         "meaning": "크기, 사이즈",
         "note": ""
       }
@@ -1985,7 +2181,9 @@
     "tags": [
       "의문문",
       "비교급"
-    ]
+    ],
+    "ipa": "hɑːr niː ɛn ˈstœrɛ ˈstuːrleːk",
+    "ko_pron": "하-르 니- 엔 스퇴레 스투-를레-크"
   },
   {
     "id": "var-ligger",
@@ -2002,6 +2200,7 @@
         "surface": "Ursäkta",
         "base": "ursäkta",
         "pos": "감탄사",
+        "ipa": "ˈʉːʂɛkta",
         "meaning": "실례합니다",
         "note": ""
       },
@@ -2009,6 +2208,7 @@
         "surface": "var",
         "base": "var",
         "pos": "의문부사",
+        "ipa": "vɑːr",
         "meaning": "어디에",
         "note": "vart 은 '어디로'(방향)라 다릅니다."
       },
@@ -2016,6 +2216,7 @@
         "surface": "ligger",
         "base": "ligga",
         "pos": "동사 (현재형)",
+        "ipa": "ˈlɪɡɛr",
         "meaning": "놓여 있다, 위치하다",
         "note": "원형 ligga, 과거형 låg"
       },
@@ -2023,6 +2224,7 @@
         "surface": "stationen",
         "base": "station",
         "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "staˈɧuːnɛn",
         "meaning": "역",
         "note": "station → stationen"
       }
@@ -2045,7 +2247,9 @@
       "필수",
       "패턴",
       "의문문"
-    ]
+    ],
+    "ipa": "ˈʉːʂɛkta vɑːr ˈlɪɡɛr staˈɧuːnɛn",
+    "ko_pron": "우-셱타 바-르 리게르 스타휴-넨"
   },
   {
     "id": "hur-kommer-jag-till",
@@ -2062,6 +2266,7 @@
         "surface": "Hur",
         "base": "hur",
         "pos": "의문부사",
+        "ipa": "hʉːr",
         "meaning": "어떻게",
         "note": ""
       },
@@ -2069,6 +2274,7 @@
         "surface": "kommer",
         "base": "komma",
         "pos": "동사 (현재형)",
+        "ipa": "ˈkɔmɛr",
         "meaning": "오다, 가다",
         "note": ""
       },
@@ -2076,6 +2282,7 @@
         "surface": "jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -2083,6 +2290,7 @@
         "surface": "till",
         "base": "till",
         "pos": "전치사",
+        "ipa": "tɪl",
         "meaning": "~까지, ~로",
         "note": ""
       },
@@ -2090,6 +2298,7 @@
         "surface": "centralstationen",
         "base": "centralstation",
         "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "sɛnˈtrɑːlstaˌɧuːnɛn",
         "meaning": "중앙역",
         "note": "central + station 의 합성어입니다."
       }
@@ -2112,7 +2321,9 @@
       "필수",
       "패턴",
       "합성어"
-    ]
+    ],
+    "ipa": "hʉːr ˈkɔmɛr jɑː tɪl sɛnˈtrɑːlstaˌɧuːnɛn",
+    "ko_pron": "휘-르 코메르 야- 틸 센트랄-스타휴-넨"
   },
   {
     "id": "gar-den-har-bussen-till",
@@ -2129,6 +2340,7 @@
         "surface": "Går",
         "base": "gå",
         "pos": "동사 (현재형)",
+        "ipa": "ɡoːr",
         "meaning": "가다, 운행하다",
         "note": "의문문이라 문두에 왔습니다."
       },
@@ -2136,6 +2348,7 @@
         "surface": "den",
         "base": "den",
         "pos": "지시사",
+        "ipa": "dɛn",
         "meaning": "그, 이",
         "note": "en-단어를 가리킵니다."
       },
@@ -2143,6 +2356,7 @@
         "surface": "här",
         "base": "här",
         "pos": "부사",
+        "ipa": "hɛːr",
         "meaning": "여기",
         "note": "den här 로 묶여 '이'라는 뜻이 됩니다."
       },
@@ -2150,6 +2364,7 @@
         "surface": "bussen",
         "base": "buss",
         "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈbɵsːɛn",
         "meaning": "버스",
         "note": "den här 와 함께 쓰면 명사도 정관사형이 됩니다."
       },
@@ -2157,6 +2372,7 @@
         "surface": "till",
         "base": "till",
         "pos": "전치사",
+        "ipa": "tɪl",
         "meaning": "~까지",
         "note": ""
       }
@@ -2178,7 +2394,9 @@
     "tags": [
       "의문문",
       "지시사"
-    ]
+    ],
+    "ipa": "ɡoːr dɛn hɛːr ˈbɵsːɛn tɪl ˈɵpˌsɑːla",
+    "ko_pron": "고-르 덴 헤-르 뷔센 틸 윕사-라"
   },
   {
     "id": "jag-har-gatt-vilse",
@@ -2195,6 +2413,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -2202,6 +2421,7 @@
         "surface": "har",
         "base": "ha",
         "pos": "동사 (현재형)",
+        "ipa": "hɑːr",
         "meaning": "가지다",
         "note": "완료형을 만드는 조동사로 쓰였습니다."
       },
@@ -2209,6 +2429,7 @@
         "surface": "gått",
         "base": "gå",
         "pos": "동사 (완료분사)",
+        "ipa": "ɡɔt",
         "meaning": "간",
         "note": "gå → gick(과거) → gått(완료분사)"
       },
@@ -2216,6 +2437,7 @@
         "surface": "vilse",
         "base": "vilse",
         "pos": "부사",
+        "ipa": "ˈvɪlsɛ",
         "meaning": "길을 잃고",
         "note": ""
       }
@@ -2237,7 +2459,9 @@
     "tags": [
       "필수",
       "완료형"
-    ]
+    ],
+    "ipa": "jɑː hɑːr ɡɔt ˈvɪlsɛ",
+    "ko_pron": "야- 하-르 곳 빌세"
   },
   {
     "id": "en-biljett-tack",
@@ -2254,6 +2478,7 @@
         "surface": "En",
         "base": "en",
         "pos": "부정관사",
+        "ipa": "ɛn",
         "meaning": "하나의",
         "note": ""
       },
@@ -2261,6 +2486,7 @@
         "surface": "biljett",
         "base": "biljett",
         "pos": "명사 (en-단어, 복수 -er)",
+        "ipa": "bɪlˈjɛt",
         "meaning": "표, 티켓",
         "note": ""
       },
@@ -2268,6 +2494,7 @@
         "surface": "till",
         "base": "till",
         "pos": "전치사",
+        "ipa": "tɪl",
         "meaning": "~까지",
         "note": ""
       },
@@ -2275,6 +2502,7 @@
         "surface": "tack",
         "base": "tack",
         "pos": "감탄사",
+        "ipa": "tak",
         "meaning": "고마워요",
         "note": ""
       }
@@ -2296,7 +2524,9 @@
     "tags": [
       "패턴",
       "교통"
-    ]
+    ],
+    "ipa": "ɛn bɪlˈjɛt tɪl ˈɵpˌsɑːla tak",
+    "ko_pron": "엔 빌옛 틸 윕사-라 탁"
   },
   {
     "id": "vilken-tid-passar-dig",
@@ -2313,6 +2543,7 @@
         "surface": "Vilken",
         "base": "vilken",
         "pos": "의문 한정사",
+        "ipa": "ˈvɪlkɛn",
         "meaning": "어느",
         "note": "en-단어 앞에는 vilken, ett-단어 앞에는 vilket, 복수 앞에는 vilka."
       },
@@ -2320,6 +2551,7 @@
         "surface": "tid",
         "base": "tid",
         "pos": "명사 (en-단어, 복수 -er)",
+        "ipa": "tiːd",
         "meaning": "시간",
         "note": ""
       },
@@ -2327,6 +2559,7 @@
         "surface": "passar",
         "base": "passa",
         "pos": "동사 (현재형)",
+        "ipa": "ˈpasar",
         "meaning": "맞다, 어울리다",
         "note": ""
       },
@@ -2334,6 +2567,7 @@
         "surface": "dig",
         "base": "du",
         "pos": "대명사 (목적격)",
+        "ipa": "dɛj",
         "meaning": "너에게",
         "note": "du 의 목적격입니다."
       }
@@ -2355,7 +2589,9 @@
     "tags": [
       "의문문",
       "목적격"
-    ]
+    ],
+    "ipa": "ˈvɪlkɛn tiːd ˈpasar dɛj",
+    "ko_pron": "빌켄 티-드 파사르 데이"
   },
   {
     "id": "ska-vi-ses",
@@ -2372,6 +2608,7 @@
         "surface": "Ska",
         "base": "skola",
         "pos": "조동사 (현재형)",
+        "ipa": "skɑː",
         "meaning": "~할 것이다",
         "note": "Ska vi ...? 로 제안을 만듭니다."
       },
@@ -2379,6 +2616,7 @@
         "surface": "vi",
         "base": "vi",
         "pos": "대명사",
+        "ipa": "viː",
         "meaning": "우리",
         "note": ""
       },
@@ -2386,6 +2624,7 @@
         "surface": "ses",
         "base": "ses",
         "pos": "동사 (상호형)",
+        "ipa": "seːs",
         "meaning": "서로 만나다",
         "note": ""
       },
@@ -2393,6 +2632,7 @@
         "surface": "på",
         "base": "på",
         "pos": "전치사",
+        "ipa": "poː",
         "meaning": "~에",
         "note": "요일 앞에는 på 를 씁니다."
       },
@@ -2400,6 +2640,7 @@
         "surface": "fredag",
         "base": "fredag",
         "pos": "명사 (en-단어)",
+        "ipa": "ˈfreːdɑ",
         "meaning": "금요일",
         "note": "요일 이름은 소문자로 씁니다."
       }
@@ -2422,7 +2663,9 @@
       "필수",
       "패턴",
       "제안"
-    ]
+    ],
+    "ipa": "skɑː viː seːs poː ˈfreːdɑ",
+    "ko_pron": "스카- 비- 세-스 포- 프레-다"
   },
   {
     "id": "jag-ar-sen",
@@ -2439,6 +2682,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -2446,6 +2690,7 @@
         "surface": "är",
         "base": "vara",
         "pos": "동사 (현재형)",
+        "ipa": "ɛː",
         "meaning": "~이다",
         "note": ""
       },
@@ -2453,6 +2698,7 @@
         "surface": "sen",
         "base": "sen",
         "pos": "형용사",
+        "ipa": "seːn",
         "meaning": "늦은",
         "note": "sen 은 sena(복수), senare(더 늦은)로 변합니다."
       },
@@ -2460,6 +2706,7 @@
         "surface": "Förlåt",
         "base": "förlåta",
         "pos": "동사 (명령형)",
+        "ipa": "fœrˈloːt",
         "meaning": "용서해 주세요",
         "note": "잘못을 사과할 때 씁니다."
       }
@@ -2478,7 +2725,9 @@
     },
     "tags": [
       "필수"
-    ]
+    ],
+    "ipa": "jɑː ɛː seːn fœrˈloːt",
+    "ko_pron": "야- 에- 센- 푀를롯-"
   },
   {
     "id": "hur-dags",
@@ -2495,6 +2744,7 @@
         "surface": "Hur",
         "base": "hur",
         "pos": "의문부사",
+        "ipa": "hʉːr",
         "meaning": "어떻게",
         "note": ""
       },
@@ -2502,6 +2752,7 @@
         "surface": "dags",
         "base": "dags",
         "pos": "부사",
+        "ipa": "daks",
         "meaning": "때에",
         "note": "hur dags 가 묶여 '몇 시에'라는 뜻이 됩니다."
       },
@@ -2509,6 +2760,7 @@
         "surface": "börjar",
         "base": "börja",
         "pos": "동사 (현재형)",
+        "ipa": "ˈbœrjar",
         "meaning": "시작하다",
         "note": ""
       },
@@ -2516,6 +2768,7 @@
         "surface": "det",
         "base": "det",
         "pos": "대명사",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       }
@@ -2537,7 +2790,9 @@
     "tags": [
       "의문문",
       "시간"
-    ]
+    ],
+    "ipa": "hʉːr daks ˈbœrjar deː",
+    "ko_pron": "휘-르 닥스 뵈리아르 데-"
   },
   {
     "id": "vad-kul",
@@ -2554,6 +2809,7 @@
         "surface": "Vad",
         "base": "vad",
         "pos": "부사",
+        "ipa": "vɑː",
         "meaning": "얼마나",
         "note": "감탄문에서는 '얼마나'라는 뜻이 됩니다."
       },
@@ -2561,6 +2817,7 @@
         "surface": "kul",
         "base": "kul",
         "pos": "형용사",
+        "ipa": "kʉːl",
         "meaning": "재미있는, 즐거운",
         "note": "어형이 변하지 않는 형용사입니다."
       }
@@ -2582,7 +2839,9 @@
     "tags": [
       "구어",
       "감탄문"
-    ]
+    ],
+    "ipa": "vɑː kʉːl",
+    "ko_pron": "바- 퀼-"
   },
   {
     "id": "sa-tragikt",
@@ -2599,6 +2858,7 @@
         "surface": "Vad",
         "base": "vad",
         "pos": "부사",
+        "ipa": "vɑː",
         "meaning": "얼마나",
         "note": ""
       },
@@ -2606,6 +2866,7 @@
         "surface": "tråkigt",
         "base": "tråkig",
         "pos": "형용사 (중성형)",
+        "ipa": "ˈtroːkɪkt",
         "meaning": "아쉬운, 지루한",
         "note": "상황에는 중성형을 씁니다."
       }
@@ -2627,7 +2888,9 @@
     "tags": [
       "구어",
       "감탄문"
-    ]
+    ],
+    "ipa": "vɑː ˈtroːkɪkt",
+    "ko_pron": "바- 트로-킥트"
   },
   {
     "id": "jag-haller-med",
@@ -2644,6 +2907,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -2651,6 +2915,7 @@
         "surface": "håller",
         "base": "hålla",
         "pos": "동사 (현재형)",
+        "ipa": "ˈhɔlːɛr",
         "meaning": "잡다, 유지하다",
         "note": "원형 hålla, 과거형 höll"
       },
@@ -2658,6 +2923,7 @@
         "surface": "med",
         "base": "med",
         "pos": "소사(小辭)",
+        "ipa": "meː",
         "meaning": "함께",
         "note": "hålla med 로 묶여 '동의하다'가 됩니다."
       }
@@ -2678,7 +2944,9 @@
     },
     "tags": [
       "구동사"
-    ]
+    ],
+    "ipa": "jɑː ˈhɔlːɛr meː",
+    "ko_pron": "야- 홀레르 메-"
   },
   {
     "id": "det-later-bra",
@@ -2695,6 +2963,7 @@
         "surface": "Det",
         "base": "det",
         "pos": "대명사",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       },
@@ -2702,6 +2971,7 @@
         "surface": "låter",
         "base": "låta",
         "pos": "동사 (현재형)",
+        "ipa": "ˈloːtɛr",
         "meaning": "~하게 들리다",
         "note": "원형 låta, 과거형 lät"
       },
@@ -2709,6 +2979,7 @@
         "surface": "bra",
         "base": "bra",
         "pos": "부사",
+        "ipa": "brɑː",
         "meaning": "좋게",
         "note": ""
       }
@@ -2727,7 +2998,9 @@
     },
     "tags": [
       "구어"
-    ]
+    ],
+    "ipa": "deː ˈloːtɛr brɑː",
+    "ko_pron": "데- 로-테르 브라-"
   },
   {
     "id": "tyvarr-kan-jag-inte",
@@ -2744,6 +3017,7 @@
         "surface": "Tyvärr",
         "base": "tyvärr",
         "pos": "부사",
+        "ipa": "tyˈvær",
         "meaning": "유감스럽게도",
         "note": ""
       },
@@ -2751,6 +3025,7 @@
         "surface": "kan",
         "base": "kunna",
         "pos": "조동사 (현재형)",
+        "ipa": "kan",
         "meaning": "~할 수 있다",
         "note": ""
       },
@@ -2758,6 +3033,7 @@
         "surface": "jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -2765,6 +3041,7 @@
         "surface": "inte",
         "base": "inte",
         "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
         "meaning": "~않다",
         "note": ""
       }
@@ -2787,7 +3064,9 @@
       "필수",
       "V2어순",
       "거절"
-    ]
+    ],
+    "ipa": "tyˈvær kan jɑː ˈɪntɛ",
+    "ko_pron": "튀베르 칸 야- 인테"
   },
   {
     "id": "jag-mar-inte-bra",
@@ -2804,6 +3083,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -2811,6 +3091,7 @@
         "surface": "mår",
         "base": "må",
         "pos": "동사 (현재형)",
+        "ipa": "moːr",
         "meaning": "(몸·기분이) ~하다",
         "note": ""
       },
@@ -2818,6 +3099,7 @@
         "surface": "inte",
         "base": "inte",
         "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
         "meaning": "~않다",
         "note": ""
       },
@@ -2825,6 +3107,7 @@
         "surface": "bra",
         "base": "bra",
         "pos": "부사",
+        "ipa": "brɑː",
         "meaning": "좋게",
         "note": ""
       }
@@ -2846,7 +3129,9 @@
     "tags": [
       "필수",
       "부정"
-    ]
+    ],
+    "ipa": "jɑː moːr ˈɪntɛ brɑː",
+    "ko_pron": "야- 모-르 인테 브라-"
   },
   {
     "id": "jag-behover-hjalp",
@@ -2863,6 +3148,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -2870,6 +3156,7 @@
         "surface": "behöver",
         "base": "behöva",
         "pos": "동사 (현재형)",
+        "ipa": "bɛˈhøːvɛr",
         "meaning": "필요하다",
         "note": "원형 behöva, 과거형 behövde"
       },
@@ -2877,6 +3164,7 @@
         "surface": "hjälp",
         "base": "hjälp",
         "pos": "명사 (en-단어)",
+        "ipa": "jɛlp",
         "meaning": "도움",
         "note": "셀 수 없는 뜻으로 쓰여 관사가 없습니다."
       }
@@ -2898,7 +3186,9 @@
     "tags": [
       "필수",
       "응급"
-    ]
+    ],
+    "ipa": "jɑː bɛˈhøːvɛr jɛlp",
+    "ko_pron": "야- 베회-베르 옐프"
   },
   {
     "id": "kan-du-hjalpa-mig",
@@ -2915,6 +3205,7 @@
         "surface": "Kan",
         "base": "kunna",
         "pos": "조동사 (현재형)",
+        "ipa": "kan",
         "meaning": "~할 수 있다",
         "note": ""
       },
@@ -2922,6 +3213,7 @@
         "surface": "du",
         "base": "du",
         "pos": "대명사",
+        "ipa": "dʉː",
         "meaning": "너, 당신",
         "note": ""
       },
@@ -2929,6 +3221,7 @@
         "surface": "hjälpa",
         "base": "hjälpa",
         "pos": "동사 (원형)",
+        "ipa": "ˈjɛlpa",
         "meaning": "돕다",
         "note": ""
       },
@@ -2936,6 +3229,7 @@
         "surface": "mig",
         "base": "jag",
         "pos": "대명사 (목적격)",
+        "ipa": "mɛj",
         "meaning": "나를",
         "note": "jag 의 목적격입니다."
       }
@@ -2955,7 +3249,9 @@
     "tags": [
       "필수",
       "목적격"
-    ]
+    ],
+    "ipa": "kan dʉː ˈjɛlpa mɛj",
+    "ko_pron": "칸 뒤- 옐파 메이"
   },
   {
     "id": "var-ligger-toaletten",
@@ -2972,6 +3268,7 @@
         "surface": "Var",
         "base": "var",
         "pos": "의문부사",
+        "ipa": "vɑːr",
         "meaning": "어디에",
         "note": ""
       },
@@ -2979,6 +3276,7 @@
         "surface": "ligger",
         "base": "ligga",
         "pos": "동사 (현재형)",
+        "ipa": "ˈlɪɡɛr",
         "meaning": "위치하다",
         "note": ""
       },
@@ -2986,6 +3284,7 @@
         "surface": "toaletten",
         "base": "toalett",
         "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "tʊaˈlɛtɛn",
         "meaning": "화장실",
         "note": "toalett → toaletten"
       }
@@ -3004,7 +3303,9 @@
     },
     "tags": [
       "필수"
-    ]
+    ],
+    "ipa": "vɑːr ˈlɪɡɛr tʊaˈlɛtɛn",
+    "ko_pron": "바-르 리게르 토알레텐"
   },
   {
     "id": "vilket-fint-vader",
@@ -3021,6 +3322,7 @@
         "surface": "Vilket",
         "base": "vilken",
         "pos": "감탄 한정사 (중성형)",
+        "ipa": "ˈvɪlkɛt",
         "meaning": "얼마나 ~한",
         "note": "väder 가 ett-단어라 vilket 입니다."
       },
@@ -3028,6 +3330,7 @@
         "surface": "fint",
         "base": "fin",
         "pos": "형용사 (중성형)",
+        "ipa": "fɪnt",
         "meaning": "좋은, 예쁜",
         "note": ""
       },
@@ -3035,6 +3338,7 @@
         "surface": "väder",
         "base": "väder",
         "pos": "명사 (ett-단어)",
+        "ipa": "ˈvɛːdɛr",
         "meaning": "날씨",
         "note": ""
       }
@@ -3056,7 +3360,9 @@
     "tags": [
       "스몰토크",
       "감탄문"
-    ]
+    ],
+    "ipa": "ˈvɪlkɛt fɪnt ˈvɛːdɛr",
+    "ko_pron": "빌켓 핀트 베-데르"
   },
   {
     "id": "det-ar-kallt-idag",
@@ -3073,6 +3379,7 @@
         "surface": "Det",
         "base": "det",
         "pos": "대명사 (형식주어)",
+        "ipa": "deː",
         "meaning": "그것",
         "note": "날씨·시간을 말할 때 자리만 채우는 주어입니다."
       },
@@ -3080,6 +3387,7 @@
         "surface": "är",
         "base": "vara",
         "pos": "동사 (현재형)",
+        "ipa": "ɛː",
         "meaning": "~이다",
         "note": ""
       },
@@ -3087,6 +3395,7 @@
         "surface": "kallt",
         "base": "kall",
         "pos": "형용사 (중성형)",
+        "ipa": "kalt",
         "meaning": "추운",
         "note": "형식주어 det 에 맞춰 중성형입니다."
       },
@@ -3094,6 +3403,7 @@
         "surface": "idag",
         "base": "idag",
         "pos": "부사",
+        "ipa": "ɪˈdɑːɡ",
         "meaning": "오늘",
         "note": ""
       }
@@ -3115,7 +3425,9 @@
     "tags": [
       "스몰토크",
       "형식주어"
-    ]
+    ],
+    "ipa": "deː ɛː kalt ɪˈdɑːɡ",
+    "ko_pron": "데- 에- 칼트 이다-그"
   },
   {
     "id": "det-ar-ingen-ko-pa-isen",
@@ -3132,6 +3444,7 @@
         "surface": "Det",
         "base": "det",
         "pos": "대명사 (형식주어)",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       },
@@ -3139,6 +3452,7 @@
         "surface": "är",
         "base": "vara",
         "pos": "동사 (현재형)",
+        "ipa": "ɛː",
         "meaning": "~이다",
         "note": ""
       },
@@ -3146,6 +3460,7 @@
         "surface": "ingen",
         "base": "ingen",
         "pos": "부정 한정사",
+        "ipa": "ˈɪŋɛn",
         "meaning": "아무 ~도 없는",
         "note": "en-단어 앞에는 ingen, ett-단어 앞에는 inget, 복수 앞에는 inga."
       },
@@ -3153,6 +3468,7 @@
         "surface": "ko",
         "base": "ko",
         "pos": "명사 (en-단어, 복수 kor)",
+        "ipa": "kuː",
         "meaning": "소",
         "note": ""
       },
@@ -3160,6 +3476,7 @@
         "surface": "på",
         "base": "på",
         "pos": "전치사",
+        "ipa": "poː",
         "meaning": "~ 위에",
         "note": ""
       },
@@ -3167,6 +3484,7 @@
         "surface": "isen",
         "base": "is",
         "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈiːsɛn",
         "meaning": "얼음",
         "note": "is → isen"
       }
@@ -3188,7 +3506,9 @@
     "tags": [
       "관용구",
       "부정"
-    ]
+    ],
+    "ipa": "deː ɛː ˈɪŋɛn kuː poː ˈiːsɛn",
+    "ko_pron": "데- 에- 잉엔 쿠- 포- 이-센"
   },
   {
     "id": "det-ordnar-sig",
@@ -3205,6 +3525,7 @@
         "surface": "Det",
         "base": "det",
         "pos": "대명사 (형식주어)",
+        "ipa": "deː",
         "meaning": "그것",
         "note": ""
       },
@@ -3212,6 +3533,7 @@
         "surface": "ordnar",
         "base": "ordna",
         "pos": "동사 (현재형)",
+        "ipa": "ˈuːɖnar",
         "meaning": "정리하다, 해결하다",
         "note": ""
       },
@@ -3219,6 +3541,7 @@
         "surface": "sig",
         "base": "sig",
         "pos": "재귀대명사 (3인칭)",
+        "ipa": "sɛj",
         "meaning": "자기 자신을",
         "note": "ordna sig 로 묶여 '일이 풀리다'가 됩니다."
       }
@@ -3240,7 +3563,9 @@
     "tags": [
       "관용구",
       "재귀동사"
-    ]
+    ],
+    "ipa": "deː ˈuːɖnar sɛj",
+    "ko_pron": "데- 우-드나르 세이"
   },
   {
     "id": "lagom",
@@ -3257,6 +3582,7 @@
         "surface": "lagom",
         "base": "lagom",
         "pos": "부사 / 형용사 (어형 변화 없음)",
+        "ipa": "ˈlɑːɡɔm",
         "meaning": "적당한, 적당히",
         "note": "형용사로 써도 성이나 수에 따라 변하지 않습니다."
       }
@@ -3282,7 +3608,9 @@
     "tags": [
       "문화",
       "낱말"
-    ]
+    ],
+    "ipa": "ˈlɑːɡɔm",
+    "ko_pron": "라-곰"
   },
   {
     "id": "hur-lange-har-du-bott-har",
@@ -3299,6 +3627,7 @@
         "surface": "Hur",
         "base": "hur",
         "pos": "의문부사",
+        "ipa": "hʉːr",
         "meaning": "어떻게",
         "note": ""
       },
@@ -3306,6 +3635,7 @@
         "surface": "länge",
         "base": "länge",
         "pos": "부사",
+        "ipa": "ˈlɛŋɛ",
         "meaning": "오래",
         "note": "hur länge 가 묶여 '얼마나 오래'가 됩니다."
       },
@@ -3313,6 +3643,7 @@
         "surface": "har",
         "base": "ha",
         "pos": "동사 (현재형)",
+        "ipa": "hɑːr",
         "meaning": "가지다",
         "note": "완료형 조동사입니다."
       },
@@ -3320,6 +3651,7 @@
         "surface": "du",
         "base": "du",
         "pos": "대명사",
+        "ipa": "dʉː",
         "meaning": "너, 당신",
         "note": ""
       },
@@ -3327,6 +3659,7 @@
         "surface": "bott",
         "base": "bo",
         "pos": "동사 (완료분사)",
+        "ipa": "bɔt",
         "meaning": "살아 온",
         "note": "bo → bodde(과거) → bott(완료분사)"
       },
@@ -3334,6 +3667,7 @@
         "surface": "här",
         "base": "här",
         "pos": "부사",
+        "ipa": "hɛːr",
         "meaning": "여기",
         "note": ""
       }
@@ -3355,7 +3689,9 @@
     "tags": [
       "스몰토크",
       "완료형"
-    ]
+    ],
+    "ipa": "hʉːr ˈlɛŋɛ hɑːr dʉː bɔt hɛːr",
+    "ko_pron": "휘-르 렝에 하-르 뒤- 봇 헤-르"
   },
   {
     "id": "jag-har-bokat-ett-rum",
@@ -3372,6 +3708,7 @@
         "surface": "Jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -3379,6 +3716,7 @@
         "surface": "har",
         "base": "ha",
         "pos": "동사 (현재형)",
+        "ipa": "hɑːr",
         "meaning": "가지다",
         "note": "완료형 조동사입니다."
       },
@@ -3386,6 +3724,7 @@
         "surface": "bokat",
         "base": "boka",
         "pos": "동사 (완료분사)",
+        "ipa": "ˈbuːkat",
         "meaning": "예약한",
         "note": "boka → bokade(과거) → bokat(완료분사)"
       },
@@ -3393,6 +3732,7 @@
         "surface": "ett",
         "base": "ett",
         "pos": "부정관사",
+        "ipa": "ɛt",
         "meaning": "하나의",
         "note": "rum 이 중성 명사라 ett 입니다."
       },
@@ -3400,6 +3740,7 @@
         "surface": "rum",
         "base": "rum",
         "pos": "명사 (ett-단어, 복수 rum)",
+        "ipa": "rɵm",
         "meaning": "방",
         "note": "복수형이 단수형과 같습니다."
       }
@@ -3421,7 +3762,9 @@
     "tags": [
       "완료형",
       "여행"
-    ]
+    ],
+    "ipa": "jɑː hɑːr ˈbuːkat ɛt rɵm",
+    "ko_pron": "야- 하-르 부-캇 엣 룀"
   },
   {
     "id": "vad-ar-wifi-losenordet",
@@ -3438,6 +3781,7 @@
         "surface": "Vad",
         "base": "vad",
         "pos": "의문대명사",
+        "ipa": "vɑː",
         "meaning": "무엇",
         "note": ""
       },
@@ -3445,6 +3789,7 @@
         "surface": "är",
         "base": "vara",
         "pos": "동사 (현재형)",
+        "ipa": "ɛː",
         "meaning": "~이다",
         "note": ""
       },
@@ -3452,6 +3797,7 @@
         "surface": "wifi-lösenordet",
         "base": "lösenord",
         "pos": "명사 (ett-단어, 정관사형)",
+        "ipa": "ˈwajfaj ˈløːsɛnˌuːɖɛt",
         "meaning": "비밀번호",
         "note": "lösen(암호) + ord(말)의 합성어입니다. lösenord → lösenordet"
       }
@@ -3473,7 +3819,9 @@
     "tags": [
       "의문문",
       "합성어"
-    ]
+    ],
+    "ipa": "vɑː ɛː ˈwajfaj ˈløːsɛnˌuːɖɛt",
+    "ko_pron": "바- 에- 와이파이 뢰-센우-뎃"
   },
   {
     "id": "kan-jag-fa-kvittot",
@@ -3490,6 +3838,7 @@
         "surface": "Kan",
         "base": "kunna",
         "pos": "조동사 (현재형)",
+        "ipa": "kan",
         "meaning": "~할 수 있다",
         "note": ""
       },
@@ -3497,6 +3846,7 @@
         "surface": "jag",
         "base": "jag",
         "pos": "대명사",
+        "ipa": "jɑː",
         "meaning": "나",
         "note": ""
       },
@@ -3504,6 +3854,7 @@
         "surface": "få",
         "base": "få",
         "pos": "동사 (원형)",
+        "ipa": "foː",
         "meaning": "받다",
         "note": ""
       },
@@ -3511,6 +3862,7 @@
         "surface": "kvittot",
         "base": "kvitto",
         "pos": "명사 (ett-단어, 정관사형)",
+        "ipa": "ˈkvɪtʊt",
         "meaning": "영수증",
         "note": "kvitto → kvittot"
       },
@@ -3518,6 +3870,7 @@
         "surface": "tack",
         "base": "tack",
         "pos": "감탄사",
+        "ipa": "tak",
         "meaning": "고마워요",
         "note": ""
       }
@@ -3537,7 +3890,9 @@
     "tags": [
       "패턴",
       "결제"
-    ]
+    ],
+    "ipa": "kan jɑː foː ˈkvɪtʊt tak",
+    "ko_pron": "칸 야- 포- 크비톳 탁"
   },
   {
     "id": "snoberget-skyddar-oss",
@@ -3554,6 +3909,7 @@
         "surface": "Snöberget",
         "base": "snöberg",
         "pos": "명사 (ett-단어, 정관사형)",
+        "ipa": "ˈsnøːˌbærjɛt",
         "meaning": "설산, 눈 덮인 산",
         "note": "snö(눈) + berg(산)의 합성어. berg 가 ett-단어라 정관사가 -et 입니다. snöberg → snöberget"
       },
@@ -3561,6 +3917,7 @@
         "surface": "skyddar",
         "base": "skydda",
         "pos": "동사 (현재형)",
+        "ipa": "ˈɧʏdar",
         "meaning": "보호하다, 지키다",
         "note": "원형 skydda, 과거형 skyddade. 명사형은 skydd(보호)입니다."
       },
@@ -3568,6 +3925,7 @@
         "surface": "oss",
         "base": "vi",
         "pos": "대명사 (목적격)",
+        "ipa": "ɔs",
         "meaning": "우리를",
         "note": "vi(우리)의 목적격입니다."
       }
@@ -3591,6 +3949,8 @@
       "합성어",
       "목적격",
       "자연"
-    ]
+    ],
+    "ipa": "ˈsnøːˌbærjɛt ˈɧʏdar ɔs",
+    "ko_pron": "스뇌-베리엣 쉬다르 오스"
   }
 ]

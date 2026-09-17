@@ -383,7 +383,10 @@ function entryWordList(words) {
   for (const word of Array.isArray(words) ? words : []) {
     if (!word || !nonEmpty(word.surface)) continue;
     const row = el('div', 'word');
-    row.append(el('span', 'word-surface', word.surface));
+    const head = el('span', 'word-surface');
+    head.append(document.createTextNode(word.surface));
+    if (nonEmpty(word.ipa)) head.append(el('span', 'word-ipa', `/${word.ipa}/`));
+    row.append(head);
     row.append(el('span', 'word-meaning', word.meaning || ''));
     const gram = [word.pos, nonEmpty(word.base) && word.base !== word.surface ? `← ${word.base}` : '']
       .filter(nonEmpty)
@@ -417,6 +420,24 @@ export function renderEntry(target, entry, options = {}) {
   head.append(el('p', 'headline-ko', entry.ko || ''));
   if (nonEmpty(entry.romanization)) head.append(el('p', 'romanization', `[${entry.romanization}]`));
   head.append(el('p', 'headline-sv', entry.sv || ''));
+
+  // 발음 — IPA 는 정확하지만 읽기 어렵고, 한글은 읽기 쉽지만 근사치다. 둘 다 준다.
+  if (nonEmpty(entry.ipa) || nonEmpty(entry.ko_pron)) {
+    const pron = el('div', 'pron');
+    if (nonEmpty(entry.ipa)) {
+      const row = el('div', 'pron-row');
+      row.append(el('span', 'pron-tag', 'IPA'));
+      row.append(el('span', 'pron-ipa', `/${entry.ipa}/`));
+      pron.append(row);
+    }
+    if (nonEmpty(entry.ko_pron)) {
+      const row = el('div', 'pron-row');
+      row.append(el('span', 'pron-tag', '한글'));
+      row.append(el('span', 'pron-ko', entry.ko_pron));
+      pron.append(row);
+    }
+    head.append(pron);
+  }
   target.append(head);
 
   const meaning = section('뜻');
@@ -509,7 +530,10 @@ export function renderVocabulary(target, vocabulary, onSelectSource) {
     const row = el('div', 'vocab');
 
     const main = el('div', 'vocab-main');
-    main.append(el('span', 'vocab-base', item.base));
+    const title = el('span', 'vocab-base');
+    title.append(document.createTextNode(item.base));
+    if (nonEmpty(item.ipa)) title.append(el('span', 'word-ipa', `/${item.ipa}/`));
+    main.append(title);
     if (nonEmpty(item.pos)) main.append(el('span', 'vocab-pos', item.pos));
     row.append(main);
 

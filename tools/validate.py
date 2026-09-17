@@ -19,10 +19,10 @@ DATA = ROOT / "data" / "entries.json"
 
 REQUIRED = [
     "id", "added", "kind", "category", "ko", "romanization",
-    "sv", "literal_sv", "meaning", "words", "notes",
+    "sv", "literal_sv", "meaning", "ipa", "ko_pron", "words", "notes",
     "examples", "equivalent", "tags",
 ]
-WORD_KEYS = ["surface", "base", "pos", "meaning", "note"]
+WORD_KEYS = ["surface", "base", "pos", "ipa", "meaning", "note"]
 EQUIV_KEYS = ["sv", "literal", "note"]
 KINDS = {"phrase", "word"}
 
@@ -82,9 +82,12 @@ def main():
         if entry["kind"] not in KINDS:
             fail(eid, f"kind 는 {' 또는 '.join(sorted(KINDS))} 여야 합니다: {entry['kind']!r}")
 
-        for key in ("ko", "sv", "meaning", "category"):
+        for key in ("ko", "sv", "meaning", "category", "ipa", "ko_pron"):
             if not str(entry[key]).strip():
                 fail(eid, f"{key} 가 비어 있습니다.")
+
+        if "?" in entry["ipa"] or "?" in entry["ko_pron"]:
+            fail(eid, "발음에 '?' 가 남아 있습니다. tools/ipa.py 의 사전에 낱말을 더하세요.")
 
         if entry["category"] not in KNOWN_CATEGORIES:
             warn(eid, f"새 분류 '{entry['category']}' — 오타가 아니면 그대로 두어도 됩니다.")
@@ -100,7 +103,7 @@ def main():
                 if wmissing:
                     fail(eid, f"낱말 {word.get('surface', '?')!r} 에 키 누락: {', '.join(wmissing)}")
                     continue
-                for key in ("surface", "base", "pos", "meaning"):
+                for key in ("surface", "base", "pos", "ipa", "meaning"):
                     if not str(word[key]).strip():
                         fail(eid, f"낱말 {word.get('surface', '?')!r} 의 {key} 가 비어 있습니다.")
 
