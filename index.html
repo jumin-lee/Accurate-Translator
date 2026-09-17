@@ -33,14 +33,15 @@
 
 <nav class="tabs wrap" aria-label="섹션">
   <button class="tab is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-daily" id="tab-daily">오늘의 숙어</button>
+  <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-browse" id="tab-browse">모아보기</button>
+  <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-vocab" id="tab-vocab">단어장</button>
   <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-translate" id="tab-translate">번역기</button>
-  <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-history" id="tab-history">지난 숙어</button>
 </nav>
 
 <main id="main" class="wrap">
 
   <!-- ───────────── 사용량 ───────────── -->
-  <details id="usage-box" class="usage" open>
+  <details id="usage-box" class="usage" hidden>
     <summary class="usage-summary">
       <span class="usage-title">사용량</span>
       <span class="usage-brief" id="usage-brief"></span>
@@ -54,10 +55,10 @@
   <!-- ───────────── 키 없음 안내 ───────────── -->
   <section id="key-banner" class="banner" hidden>
     <div class="banner-body">
-      <strong>API 키가 아직 등록되지 않았습니다.</strong>
-      <p>이 사이트는 서버 없이 브라우저에서 바로 Claude API를 호출합니다. 번역을 사용하려면 본인의 Anthropic API 키를 등록해 주세요. 키는 이 브라우저에만 저장되고 다른 곳으로 전송되지 않습니다.</p>
+      <strong>번역기 탭은 API 키가 있어야 동작합니다.</strong>
+      <p>오늘의 숙어·모아보기·단어장은 키 없이 그대로 쓰실 수 있습니다. 아무 문장이나 새로 번역하고 싶을 때만 키가 필요합니다.</p>
     </div>
-    <button class="btn btn-primary" type="button" data-open-settings>키 등록하기</button>
+    <button class="btn btn-ghost" type="button" data-open-settings>키 등록하기</button>
   </section>
 
   <!-- ───────────── 오늘의 숙어 ───────────── -->
@@ -68,12 +69,50 @@
         <p class="muted" id="daily-date"></p>
       </div>
       <div class="panel-head-actions">
-        <button id="daily-refresh" class="btn btn-ghost" type="button" title="다른 숙어로 바꾸기"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg><span>다른 숙어</span></button>
+        <button id="daily-refresh" class="btn btn-ghost" type="button" title="다른 숙어 보기">다른 숙어</button>
+      </div>
+    </div>
+    <div id="daily-status" class="status" hidden></div>
+    <article id="daily-card" class="card idiom-card" hidden></article>
+  </section>
+
+  <!-- ───────────── 모아보기 ───────────── -->
+  <section id="panel-browse" class="panel" role="tabpanel" aria-labelledby="tab-browse" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>모아보기</h2>
+        <p class="muted" id="browse-count"></p>
       </div>
     </div>
 
-    <div id="daily-status" class="status" hidden></div>
-    <article id="daily-card" class="card idiom-card" hidden></article>
+    <div class="toolbar">
+      <input id="browse-search" type="search" placeholder="한국어·스웨덴어·뜻·태그로 검색" autocomplete="off" spellcheck="false">
+      <div class="chips" id="browse-filters" role="group" aria-label="종류 거르기">
+        <button class="chip is-active" type="button" data-kind="all">전체</button>
+        <button class="chip" type="button" data-kind="idiom">속담·관용구</button>
+        <button class="chip" type="button" data-kind="phrase">표현</button>
+        <button class="chip" type="button" data-kind="word">낱말</button>
+      </div>
+    </div>
+
+    <article id="browse-detail" class="card" hidden></article>
+    <div id="browse-list" class="history-list"></div>
+  </section>
+
+  <!-- ───────────── 단어장 ───────────── -->
+  <section id="panel-vocab" class="panel" role="tabpanel" aria-labelledby="tab-vocab" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>단어장</h2>
+        <p class="muted" id="vocab-count"></p>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <input id="vocab-search" type="search" placeholder="낱말이나 뜻으로 검색" autocomplete="off" spellcheck="false">
+    </div>
+
+    <div id="vocab-list" class="vocab-list"></div>
   </section>
 
   <!-- ───────────── 번역기 ───────────── -->
@@ -81,7 +120,7 @@
     <div class="panel-head">
       <div>
         <h2>번역기</h2>
-        <p class="muted">한국어나 스웨덴어를 입력하면 번역문과 함께 단어별 뜻을 풀어 드립니다.</p>
+        <p class="muted">아무 문장이나 새로 번역합니다. 이 탭만 API 키가 필요합니다.</p>
       </div>
     </div>
 
@@ -111,24 +150,11 @@
     <article id="translate-result" class="card result-card" hidden></article>
   </section>
 
-  <!-- ───────────── 지난 숙어 ───────────── -->
-  <section id="panel-history" class="panel" role="tabpanel" aria-labelledby="tab-history" hidden>
-    <div class="panel-head">
-      <div>
-        <h2>지난 숙어</h2>
-        <p class="muted">이 브라우저에 저장된 기록입니다.</p>
-      </div>
-      <div class="panel-head-actions">
-        <button id="history-clear" class="btn btn-ghost" type="button">기록 지우기</button>
-      </div>
-    </div>
-    <div id="history-list" class="history-list"></div>
-  </section>
 
 </main>
 
 <footer class="site-footer wrap">
-  <p>브라우저에서 직접 Claude API를 호출합니다. API 키는 이 기기의 <code>localStorage</code>에만 저장됩니다.</p>
+  <p>모든 내용은 <code>data/entries.json</code> 에서 옵니다. 번역기 탭을 쓸 때만 브라우저가 Claude API를 직접 호출하며, API 키는 이 기기의 <code>localStorage</code> 에만 저장됩니다.</p>
 </footer>
 
 <!-- ───────────── 설정 ───────────── -->

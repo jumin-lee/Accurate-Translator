@@ -372,3 +372,160 @@ export function renderUsage(target, { model, totals, rateLimit }) {
     '비용은 이 브라우저가 보낸 요청만 더한 추정치입니다.';
   target.append(foot);
 }
+
+/* ── 단어장 항목 렌더 (data/entries.json 기반) ──────────── */
+
+const KIND_LABEL = { idiom: '속담·관용구', phrase: '표현', word: '낱말' };
+
+/** entries.json 의 words 는 {surface, base, pos, meaning, note} 형태다. */
+function entryWordList(words) {
+  const box = el('div', 'words');
+  for (const word of Array.isArray(words) ? words : []) {
+    if (!word || !nonEmpty(word.surface)) continue;
+    const row = el('div', 'word');
+    row.append(el('span', 'word-surface', word.surface));
+    row.append(el('span', 'word-meaning', word.meaning || ''));
+    const gram = [word.pos, nonEmpty(word.base) && word.base !== word.surface ? `← ${word.base}` : '']
+      .filter(nonEmpty)
+      .join('  ');
+    row.append(el('span', 'word-gram', gram));
+    if (nonEmpty(word.note)) row.append(el('span', 'word-note', word.note));
+    box.append(row);
+  }
+  if (!box.childElementCount) box.append(el('p', 'muted small', '풀이할 낱말이 없습니다.'));
+  return box;
+}
+
+/**
+ * 항목 하나를 카드로 그린다. 오늘의 숙어와 모아보기가 함께 쓴다.
+ * @param {{compact?: boolean, onCopy?: (btn: HTMLElement) => void}} [options]
+ */
+export function renderEntry(target, entry, options = {}) {
+  target.replaceChildren();
+  if (!entry) {
+    target.append(el('p', 'empty', '보여 줄 항목이 없습니다.'));
+    target.hidden = false;
+    return;
+  }
+
+  const head = el('div');
+  const tags = el('p', 'tag-row');
+  tags.append(el('span', 'tag', KIND_LABEL[entry.kind] || entry.kind));
+  for (const tag of entry.tags || []) tags.append(el('span', 'tag tag-gold', tag));
+  head.append(tags);
+
+  head.append(el('p', 'headline-ko', entry.ko || ''));
+  if (nonEmpty(entry.romanization)) head.append(el('p', 'romanization', `[${entry.romanization}]`));
+  head.append(el('p', 'headline-sv', entry.sv || ''));
+  target.append(head);
+
+  const meaning = section('뜻');
+  const pairs = keyValues([
+    ['뜻풀이', entry.meaning],
+    ['직역', entry.literal_sv],
+  ]);
+  if (pairs) meaning.append(pairs);
+  target.append(meaning);
+
+  const words = section('낱말 풀이');
+  words.append(entryWordList(entry.words));
+  target.append(words);
+
+  const notes = (entry.notes || []).filter(nonEmpty);
+  if (notes.length) {
+    const box = section('문법 노트');
+    const ul = el('ul', 'list');
+    for (const note of notes) ul.append(el('li', null, note));
+    box.append(ul);
+    target.append(box);
+  }
+
+  const examples = (entry.examples || []).filter((ex) => ex && (nonEmpty(ex.sv) || nonEmpty(ex.ko)));
+  if (examples.length) {
+    const box = section('예문');
+    for (const ex of examples) {
+      const quote = el('div', 'example');
+      if (nonEmpty(ex.sv)) quote.append(el('p', 'ex-sv', ex.sv));
+      if (nonEmpty(ex.ko)) quote.append(el('p', 'ex-ko', ex.ko));
+      box.append(quote);
+    }
+    target.append(box);
+  }
+
+  const equiv = entry.equivalent;
+  if (equiv && nonEmpty(equiv.sv)) {
+    const box = section('스웨덴어의 비슷한 표현');
+    const quote = el('div', 'example');
+    quote.append(el('p', 'ex-sv', equiv.sv));
+    if (nonEmpty(equiv.literal)) quote.append(el('p', 'ex-ko', `직역: ${equiv.literal}`));
+    box.append(quote);
+    if (nonEmpty(equiv.note)) box.append(el('p', 'muted small', equiv.note));
+    target.append(box);
+  }
+
+  if (options.onCopy) {
+    const foot = el('div', 'card-foot');
+    const copy = el('button', 'btn btn-ghost', '복사');
+    copy.type = 'button';
+    copy.addEventListener('click', () => options.onCopy(copy));
+    foot.append(copy);
+    target.append(foot);
+  }
+
+  target.hidden = false;
+}
+
+/* ── 모아보기 목록 ─────────────────────────────────────── */
+
+export function renderEntryList(target, entries, onSelect) {
+  target.replaceChildren();
+  if (!entries.length) {
+    target.append(el('p', 'empty', '조건에 맞는 항목이 없습니다.'));
+    return;
+  }
+  for (const entry of entries) {
+    const item = el('button', 'history-item');
+    item.type = 'button';
+    const meta = el('div', 'h-date');
+    meta.textContent = `${KIND_LABEL[entry.kind] || entry.kind} · ${entry.added}`;
+    item.append(meta);
+    item.append(el('div', 'h-ko', entry.ko || ''));
+    item.append(el('div', 'h-sv', entry.sv || ''));
+    item.addEventListener('click', () => onSelect(entry));
+    target.append(item);
+  }
+}
+
+/* ── 단어장 ────────────────────────────────────────────── */
+
+export function renderVocabulary(target, vocabulary, onSelectSource) {
+  target.replaceChildren();
+  if (!vocabulary.length) {
+    target.append(el('p', 'empty', '조건에 맞는 낱말이 없습니다.'));
+    return;
+  }
+
+  for (const item of vocabulary) {
+    const row = el('div', 'vocab');
+
+    const main = el('div', 'vocab-main');
+    main.append(el('span', 'vocab-base', item.base));
+    if (nonEmpty(item.pos)) main.append(el('span', 'vocab-pos', item.pos));
+    row.append(main);
+
+    row.append(el('div', 'vocab-meaning', item.meanings.join('; ')));
+
+    // 이 낱말이 나온 문장들 — 눌러서 원래 항목으로 간다.
+    const sources = el('div', 'vocab-sources');
+    for (const source of item.sources) {
+      const link = el('button', 'vocab-source', source.sv);
+      link.type = 'button';
+      link.title = source.ko;
+      link.addEventListener('click', () => onSelectSource(source.id));
+      sources.append(link);
+    }
+    row.append(sources);
+
+    target.append(row);
+  }
+}

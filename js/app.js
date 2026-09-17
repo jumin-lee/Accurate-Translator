@@ -1,15 +1,27 @@
 /**
- * 화면 배선: 탭, 설정, 오늘의 숙어, 번역기, 지난 숙어.
+ * 화면 배선.
+ *
+ * 기본 동작은 data/entries.json 만 있으면 된다 — API 키도 네트워크도 필요 없다.
+ * 번역기 탭만 선택적으로 Claude API 를 부른다.
  */
 
-import { apiKey, settings, history } from './store.js';
-import { fetchIdiom, translate, describeError, MissingKeyError, setUsageListener } from './api.js';
+import { apiKey, settings } from './store.js';
+import { translate, describeError, setUsageListener } from './api.js';
 import { MODELS, findModel } from './models.js';
 import { getTotals, getRateLimit, resetTotals, formatUsd } from './usage.js';
 import {
-  renderIdiom,
+  loadEntries,
+  pickForDate,
+  nextIdiom,
+  search,
+  buildVocabulary,
+  searchVocabulary,
+} from './entries.js';
+import {
+  renderEntry,
+  renderEntryList,
+  renderVocabulary,
   renderTranslation,
-  renderHistory,
   renderUsage,
   showLoading,
   showError,
@@ -18,9 +30,12 @@ import {
 
 const $ = (selector) => document.querySelector(selector);
 
+/** 읽어 온 항목들. 첫 렌더 전까지는 빈 배열. */
+let entries = [];
+let vocabulary = [];
+
 /* ── 날짜 ──────────────────────────────────────────────── */
 
-/** 사용자의 현지 시간 기준 YYYY-MM-DD. */
 function today() {
   const now = new Date();
   const pad = (n) => String(n).padStart(2, '0');
@@ -67,32 +82,31 @@ async function copyToClipboard(text, button) {
   }, 1600);
 }
 
-/* ── 사용량 ────────────────────────────────────────────── */
+/* ── 키에 딸린 화면 ────────────────────────────────────── */
 
-function refreshUsage() {
-  const model = findModel(settings.getModel());
-  const totals = getTotals();
-  const rateLimit = getRateLimit();
-
-  renderUsage($('#usage-body'), { model, totals, rateLimit });
-
-  // 접어 두어도 핵심 숫자는 보이게 한다.
-  $('#usage-brief').textContent =
-    `${model.label} · 이번 달 ${formatUsd(totals.costUsd)} · ${totals.requests}회`;
+function refreshKeyDependentUi() {
+  const hasKey = Boolean(apiKey.get());
+  // 키는 번역기 탭에서만 쓰이므로, 배너와 사용량도 그 탭에서만 의미가 있다.
+  $('#key-banner').hidden = hasKey || $('#panel-translate').hidden;
+  $('#usage-box').hidden = !hasKey;
 }
 
-/* ── 키 배너 ───────────────────────────────────────────── */
-
-function refreshKeyBanner() {
-  $('#key-banner').hidden = Boolean(apiKey.get());
+function refreshUsage() {
+  if (!apiKey.get()) return;
+  const model = findModel(settings.getModel());
+  const totals = getTotals();
+  renderUsage($('#usage-body'), { model, totals, rateLimit: getRateLimit() });
+  $('#usage-brief').textContent =
+    `${model.label} · 이번 달 ${formatUsd(totals.costUsd)} · ${totals.requests}회`;
 }
 
 /* ── 탭 ────────────────────────────────────────────────── */
 
 const TABS = [
   ['#tab-daily', '#panel-daily'],
+  ['#tab-browse', '#panel-browse'],
+  ['#tab-vocab', '#panel-vocab'],
   ['#tab-translate', '#panel-translate'],
-  ['#tab-history', '#panel-history'],
 ];
 
 function selectTab(tabSelector) {
@@ -102,69 +116,76 @@ function selectTab(tabSelector) {
     $(tab).setAttribute('aria-selected', String(isActive));
     $(panel).hidden = !isActive;
   }
-  if (tabSelector === '#tab-history') refreshHistory();
+  refreshKeyDependentUi();
 }
 
 /* ── 오늘의 숙어 ───────────────────────────────────────── */
 
-let idiomInFlight = false;
+let shownIdiom = null;
 
-function showIdiom(idiom) {
-  renderIdiom($('#daily-card'), idiom, {
-    onCopy: (button) => {
-      const text = [idiom.korean, idiom.swedish, idiom.figurative_meaning].filter(Boolean).join('\n');
-      copyToClipboard(text, button);
-    },
+function showEntryInDaily(entry) {
+  shownIdiom = entry;
+  if (!entry) {
+    $('#daily-card').hidden = true;
+    showError($('#daily-status'), 'data/entries.json 에 속담·관용구 항목이 아직 없습니다.');
+    return;
+  }
+  hideStatus($('#daily-status'));
+  renderEntry($('#daily-card'), entry, {
+    onCopy: (button) => copyToClipboard([entry.ko, entry.sv, entry.meaning].filter(Boolean).join('\n'), button),
   });
 }
 
-/**
- * @param {{force?: boolean}} [options] force 가 참이면 저장된 값을 무시하고 새로 받아 온다.
- */
-async function loadDailyIdiom({ force = false } = {}) {
-  if (idiomInFlight) return;
-
+function loadDaily() {
   const date = today();
   $('#daily-date').textContent = formatDateLabel(date);
-
-  const status = $('#daily-status');
-  const card = $('#daily-card');
-
-  if (!force) {
-    const cached = history.forDate(date);
-    if (cached) {
-      hideStatus(status);
-      showIdiom(cached);
-      return;
-    }
-  }
-
-  if (!apiKey.get()) {
-    card.hidden = true;
-    showError(status, 'API 키를 등록하면 오늘의 숙어를 받아 옵니다.');
-    return;
-  }
-
-  idiomInFlight = true;
-  $('#daily-refresh').disabled = true;
-  card.hidden = true;
-  showLoading(status, '오늘의 숙어를 고르는 중입니다…');
-
-  try {
-    const idiom = await fetchIdiom({ date, avoid: history.recentKorean() });
-    history.save(date, idiom);
-    hideStatus(status);
-    showIdiom(idiom);
-  } catch (error) {
-    showError(status, describeError(error));
-    if (error instanceof MissingKeyError) refreshKeyBanner();
-  } finally {
-    idiomInFlight = false;
-    $('#daily-refresh').disabled = false;
-  }
+  showEntryInDaily(pickForDate(entries, date));
 }
 
-/* ── 번역기 ────────────────────────────────────────────── */
+/* ── 모아보기 ──────────────────────────────────────────── */
+
+let browseKind = 'all';
+
+function refreshBrowse() {
+  const query = $('#browse-search').value;
+  let list = search(entries, query);
+  if (browseKind !== 'all') list = list.filter((entry) => entry.kind === browseKind);
+
+  $('#browse-count').textContent = `전체 ${entries.length}개 중 ${list.length}개`;
+  renderEntryList($('#browse-list'), list, (entry) => {
+    renderEntry($('#browse-detail'), entry, {
+      onCopy: (button) => copyToClipboard([entry.ko, entry.sv].filter(Boolean).join('\n'), button),
+    });
+    $('#browse-detail').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
+
+/** 단어장에서 눌렀을 때 그 낱말이 나온 항목을 모아보기에서 펼친다. */
+function openEntryById(id) {
+  const entry = entries.find((item) => item.id === id);
+  if (!entry) return;
+  selectTab('#tab-browse');
+  $('#browse-search').value = '';
+  browseKind = 'all';
+  for (const chip of document.querySelectorAll('#browse-filters .chip')) {
+    chip.classList.toggle('is-active', chip.dataset.kind === 'all');
+  }
+  refreshBrowse();
+  renderEntry($('#browse-detail'), entry, {
+    onCopy: (button) => copyToClipboard([entry.ko, entry.sv].filter(Boolean).join('\n'), button),
+  });
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* ── 단어장 ────────────────────────────────────────────── */
+
+function refreshVocabulary() {
+  const list = searchVocabulary(vocabulary, $('#vocab-search').value);
+  $('#vocab-count').textContent = `낱말 ${vocabulary.length}개 중 ${list.length}개`;
+  renderVocabulary($('#vocab-list'), list, openEntryById);
+}
+
+/* ── 번역기 (키가 있을 때만) ───────────────────────────── */
 
 let translateInFlight = false;
 
@@ -197,23 +218,11 @@ async function runTranslation(event) {
     });
   } catch (error) {
     showError(status, describeError(error));
-    if (error instanceof MissingKeyError) refreshKeyBanner();
+    refreshKeyDependentUi();
   } finally {
     translateInFlight = false;
     $('#translate-btn').disabled = false;
   }
-}
-
-/* ── 지난 숙어 ─────────────────────────────────────────── */
-
-function refreshHistory() {
-  renderHistory($('#history-list'), history.all(), (entry) => {
-    selectTab('#tab-daily');
-    $('#daily-date').textContent = formatDateLabel(entry.date);
-    hideStatus($('#daily-status'));
-    showIdiom(entry.idiom);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
 }
 
 /* ── 설정 ──────────────────────────────────────────────── */
@@ -246,32 +255,20 @@ function openSettings() {
 }
 
 function saveSettings() {
-  const hadKey = Boolean(apiKey.get());
   apiKey.set($('#api-key').value.trim());
   settings.setModel($('#model-select').value);
   settings.setEffort($('#effort-select').value);
   $('#settings-dialog').close();
-  refreshKeyBanner();
+  refreshKeyDependentUi();
   refreshUsage();
-
-  // 키가 방금 등록되었다면 비어 있던 오늘의 숙어를 바로 채운다.
-  if (!hadKey && apiKey.get()) loadDailyIdiom();
 }
 
 /* ── 초기화 ────────────────────────────────────────────── */
 
-function init() {
+async function init() {
   applyTheme();
-  refreshKeyBanner();
   buildModelOptions();
-
-  // 매 요청이 끝날 때마다 사용량 표시를 갱신한다.
   setUsageListener(refreshUsage);
-  refreshUsage();
-
-  for (const [tab] of TABS) {
-    $(tab).addEventListener('click', () => selectTab(tab));
-  }
 
   $('#theme-toggle').addEventListener('click', toggleTheme);
   $('#open-settings').addEventListener('click', openSettings);
@@ -283,10 +280,29 @@ function init() {
   $('#clear-key').addEventListener('click', () => {
     apiKey.clear();
     $('#api-key').value = '';
-    refreshKeyBanner();
+    refreshKeyDependentUi();
   });
 
-  $('#daily-refresh').addEventListener('click', () => loadDailyIdiom({ force: true }));
+  for (const [tab] of TABS) {
+    $(tab).addEventListener('click', () => selectTab(tab));
+  }
+
+  $('#daily-refresh').addEventListener('click', () => {
+    showEntryInDaily(nextIdiom(entries, shownIdiom && shownIdiom.id));
+  });
+
+  $('#browse-search').addEventListener('input', refreshBrowse);
+  for (const chip of document.querySelectorAll('#browse-filters .chip')) {
+    chip.addEventListener('click', () => {
+      browseKind = chip.dataset.kind;
+      for (const other of document.querySelectorAll('#browse-filters .chip')) {
+        other.classList.toggle('is-active', other === chip);
+      }
+      refreshBrowse();
+    });
+  }
+
+  $('#vocab-search').addEventListener('input', refreshVocabulary);
 
   $('#translate-form').addEventListener('submit', runTranslation);
   $('#clear-btn').addEventListener('click', () => {
@@ -309,13 +325,20 @@ function init() {
     refreshUsage();
   });
 
-  $('#history-clear').addEventListener('click', () => {
-    if (!window.confirm('저장된 숙어 기록을 모두 지울까요?')) return;
-    history.clear();
-    refreshHistory();
-  });
+  refreshKeyDependentUi();
+  refreshUsage();
 
-  loadDailyIdiom();
+  // 데이터가 사이트의 본체다. 이것만 읽히면 키 없이 전부 동작한다.
+  showLoading($('#daily-status'), '단어장을 불러오는 중입니다…');
+  try {
+    entries = await loadEntries();
+    vocabulary = buildVocabulary(entries);
+    loadDaily();
+    refreshBrowse();
+    refreshVocabulary();
+  } catch (error) {
+    showError($('#daily-status'), error.message);
+  }
 }
 
 if (document.readyState === 'loading') {

@@ -1,0 +1,335 @@
+[
+  {
+    "id": "ko-bal-eomneun-mal",
+    "added": "2026-09-17",
+    "kind": "idiom",
+    "ko": "발 없는 말이 천 리 간다",
+    "romanization": "bal eomneun mari cheolli ganda",
+    "sv": "Ord färdas fort.",
+    "literal_sv": "Ett ord utan fötter går tusen mil.",
+    "meaning": "말은 순식간에 멀리까지 퍼지니 말조심하라는 뜻.",
+    "words": [
+      { "surface": "Ord", "base": "ord", "pos": "명사 (ett-단어, 복수 ord)", "meaning": "말, 단어", "note": "복수형이 단수형과 같은 중성 명사입니다." },
+      { "surface": "färdas", "base": "färdas", "pos": "동사 (현재형, 디포넌트)", "meaning": "이동하다, 퍼지다", "note": "-s 로 끝나지만 수동태가 아니라 이 형태가 원형입니다." },
+      { "surface": "fort", "base": "fort", "pos": "부사", "meaning": "빨리", "note": "" }
+    ],
+    "notes": ["스웨덴어에는 이 속담의 직역이 없어 뜻만 옮겼습니다. 아래 대응 표현이 실제로 쓰입니다."],
+    "examples": [
+      { "sv": "Var försiktig med vad du säger — ord färdas fort.", "ko": "말조심해. 말은 금방 퍼지니까." }
+    ],
+    "equivalent": { "sv": "Ett rykte går fort.", "literal": "소문은 빨리 간다", "note": "거의 같은 뜻으로 일상에서 흔히 씁니다." },
+    "tags": ["속담", "말"]
+  },
+  {
+    "id": "ko-tikkeul-moa",
+    "added": "2026-09-17",
+    "kind": "idiom",
+    "ko": "티끌 모아 태산",
+    "romanization": "tikkeul moa taesan",
+    "sv": "Många bäckar små blir en stor å.",
+    "literal_sv": "Damm som samlas blir ett stort berg.",
+    "meaning": "작은 것도 모이면 큰 것이 된다.",
+    "words": [
+      { "surface": "Många", "base": "många", "pos": "한정사", "meaning": "많은", "note": "복수 명사 앞에 씁니다." },
+      { "surface": "bäckar", "base": "bäck", "pos": "명사 (en-단어, 복수 -ar)", "meaning": "시내, 개울", "note": "" },
+      { "surface": "små", "base": "liten", "pos": "형용사 (복수형)", "meaning": "작은", "note": "liten 의 복수형은 불규칙하게 små 입니다." },
+      { "surface": "blir", "base": "bli", "pos": "동사 (현재형)", "meaning": "~이 되다", "note": "" },
+      { "surface": "en", "base": "en", "pos": "부정관사", "meaning": "하나의", "note": "en-단어 앞에 붙습니다." },
+      { "surface": "stor", "base": "stor", "pos": "형용사", "meaning": "큰", "note": "" },
+      { "surface": "å", "base": "å", "pos": "명사 (en-단어, 복수 -ar)", "meaning": "내, 작은 강", "note": "bäck 보다 크고 älv(큰 강)보다 작습니다." }
+    ],
+    "notes": ["원래 어순은 'Många små bäckar' 이지만, 속담에서는 운율을 살리려고 형용사를 명사 뒤에 두어 'bäckar små' 라고 합니다."],
+    "examples": [
+      { "sv": "Spara lite varje månad — många bäckar små blir en stor å.", "ko": "매달 조금씩 모아 봐. 티끌 모아 태산이야." }
+    ],
+    "equivalent": { "sv": "Många bäckar små blir en stor å.", "literal": "작은 시내가 여럿 모이면 큰 내가 된다", "note": "스웨덴에도 똑같은 뜻의 속담이 있어 그대로 쓰면 됩니다." },
+    "tags": ["속담", "돈", "노력"]
+  },
+  {
+    "id": "ko-sigeun-juk",
+    "added": "2026-09-17",
+    "kind": "idiom",
+    "ko": "식은 죽 먹기",
+    "romanization": "sigeun juk meokgi",
+    "sv": "Det är lätt som en plätt.",
+    "literal_sv": "Det är som att äta kall gröt.",
+    "meaning": "아주 쉬운 일.",
+    "words": [
+      { "surface": "Det", "base": "det", "pos": "대명사 (형식주어)", "meaning": "그것", "note": "뜻 없이 자리만 채우는 형식주어입니다." },
+      { "surface": "är", "base": "vara", "pos": "동사 (현재형)", "meaning": "~이다", "note": "원형 vara, 과거형 var" },
+      { "surface": "lätt", "base": "lätt", "pos": "형용사", "meaning": "쉬운, 가벼운", "note": "두 뜻을 모두 가집니다." },
+      { "surface": "som", "base": "som", "pos": "접속사", "meaning": "~처럼", "note": "" },
+      { "surface": "en", "base": "en", "pos": "부정관사", "meaning": "하나의", "note": "" },
+      { "surface": "plätt", "base": "plätt", "pos": "명사 (en-단어, 복수 -ar)", "meaning": "작은 팬케이크", "note": "" }
+    ],
+    "notes": ["lätt 와 plätt 의 각운을 맞춘 표현이라 통째로 외우는 편이 낫습니다."],
+    "examples": [
+      { "sv": "Oroa dig inte, det är lätt som en plätt.", "ko": "걱정 마, 식은 죽 먹기야." }
+    ],
+    "equivalent": { "sv": "Det är en barnlek.", "literal": "그건 애들 장난이다", "note": "같은 뜻의 다른 표현입니다." },
+    "tags": ["속담", "쉬움"]
+  },
+  {
+    "id": "ko-gosaeng-kkeute",
+    "added": "2026-09-17",
+    "kind": "idiom",
+    "ko": "고생 끝에 낙이 온다",
+    "romanization": "gosaeng kkeute nagi onda",
+    "sv": "Efter regn kommer solsken.",
+    "literal_sv": "Efter lidande kommer glädje.",
+    "meaning": "힘든 일을 견디면 좋은 날이 온다.",
+    "words": [
+      { "surface": "Efter", "base": "efter", "pos": "전치사", "meaning": "~ 뒤에", "note": "" },
+      { "surface": "regn", "base": "regn", "pos": "명사 (ett-단어)", "meaning": "비", "note": "" },
+      { "surface": "kommer", "base": "komma", "pos": "동사 (현재형)", "meaning": "오다", "note": "원형 komma, 과거형 kom" },
+      { "surface": "solsken", "base": "solsken", "pos": "명사 (ett-단어)", "meaning": "햇빛", "note": "sol(해) + sken(빛) 의 합성어입니다." }
+    ],
+    "notes": ["스웨덴어 주절의 동사는 항상 두 번째 자리에 옵니다(V2 어순). 문장을 'Efter regn' 으로 시작했으므로 동사 kommer 가 그다음에 오고 주어 solsken 이 뒤로 밀립니다."],
+    "examples": [
+      { "sv": "Ge inte upp nu. Efter regn kommer solsken.", "ko": "지금 포기하지 마. 고생 끝에 낙이 와." }
+    ],
+    "equivalent": { "sv": "Efter regn kommer solsken.", "literal": "비 온 뒤에 햇빛이 온다", "note": "스웨덴에서도 똑같이 쓰는 속담입니다." },
+    "tags": ["속담", "위로", "V2어순"]
+  },
+  {
+    "id": "ko-wonsungido-namu",
+    "added": "2026-09-17",
+    "kind": "idiom",
+    "ko": "원숭이도 나무에서 떨어진다",
+    "romanization": "wonsungido namueseo tteoreojinda",
+    "sv": "Även den bäste kan göra fel.",
+    "literal_sv": "Även apor faller från träd.",
+    "meaning": "아무리 잘하는 사람도 실수할 때가 있다.",
+    "words": [
+      { "surface": "Även", "base": "även", "pos": "부사", "meaning": "~조차, ~도", "note": "" },
+      { "surface": "den", "base": "den", "pos": "정관사", "meaning": "그", "note": "형용사가 명사처럼 쓰일 때 앞에 붙습니다." },
+      { "surface": "bäste", "base": "bra", "pos": "형용사 (최상급, 정형)", "meaning": "가장 뛰어난 사람", "note": "bra → bättre → bäst 로 불규칙 변화합니다. 정관사와 함께 쓰면 bäste 가 됩니다." },
+      { "surface": "kan", "base": "kunna", "pos": "조동사 (현재형)", "meaning": "~할 수 있다", "note": "뒤에 오는 동사는 att 없이 원형만 씁니다." },
+      { "surface": "göra", "base": "göra", "pos": "동사 (원형)", "meaning": "하다", "note": "" },
+      { "surface": "fel", "base": "fel", "pos": "명사 (ett-단어, 복수 fel)", "meaning": "실수, 잘못", "note": "göra fel 로 '실수하다'가 됩니다." }
+    ],
+    "notes": ["kan, ska, vill 같은 조동사 뒤에는 att 를 쓰지 않고 동사 원형만 옵니다."],
+    "examples": [
+      { "sv": "Var inte för hård mot dig själv — även den bäste kan göra fel.", "ko": "너무 자책하지 마. 원숭이도 나무에서 떨어져." }
+    ],
+    "equivalent": { "sv": "Ingen är fullkomlig.", "literal": "완벽한 사람은 없다", "note": "" },
+    "tags": ["속담", "실수", "조동사"]
+  },
+  {
+    "id": "ko-ganeun-mari",
+    "added": "2026-09-17",
+    "kind": "idiom",
+    "ko": "가는 말이 고와야 오는 말이 곱다",
+    "romanization": "ganeun mari gowaya oneun mari gopda",
+    "sv": "Som man ropar i skogen får man svar.",
+    "literal_sv": "Bara om orden som går är vackra blir orden som kommer vackra.",
+    "meaning": "내가 남에게 좋게 말해야 남도 나에게 좋게 말한다.",
+    "words": [
+      { "surface": "Som", "base": "som", "pos": "접속사", "meaning": "~하는 대로", "note": "" },
+      { "surface": "man", "base": "man", "pos": "부정대명사", "meaning": "(일반적인) 사람", "note": "영어 one, 독일어 man 에 해당합니다. 특정인을 가리키지 않습니다." },
+      { "surface": "ropar", "base": "ropa", "pos": "동사 (현재형)", "meaning": "외치다", "note": "" },
+      { "surface": "i", "base": "i", "pos": "전치사", "meaning": "~ 안에서", "note": "" },
+      { "surface": "skogen", "base": "skog", "pos": "명사 (en-단어, 정관사형)", "meaning": "숲", "note": "스웨덴어는 정관사를 명사 뒤에 붙입니다. skog → skogen" },
+      { "surface": "får", "base": "få", "pos": "동사 (현재형)", "meaning": "받다", "note": "원형 få, 과거형 fick" },
+      { "surface": "svar", "base": "svar", "pos": "명사 (ett-단어, 복수 svar)", "meaning": "대답", "note": "" }
+    ],
+    "notes": ["후치 정관사: 영어 the 에 해당하는 것이 명사 뒤에 붙습니다. en-단어는 -en(skog → skogen), ett-단어는 -et(hus → huset)."],
+    "examples": [
+      { "sv": "Var vänlig mot andra. Som man ropar i skogen får man svar.", "ko": "남에게 친절해. 가는 말이 고와야 오는 말이 곱지." }
+    ],
+    "equivalent": { "sv": "Som man ropar i skogen får man svar.", "literal": "숲에서 외친 대로 대답을 받는다", "note": "스웨덴에도 같은 뜻의 속담이 있습니다." },
+    "tags": ["속담", "말", "정관사"]
+  },
+  {
+    "id": "ko-baekjijangdo",
+    "added": "2026-09-17",
+    "kind": "idiom",
+    "ko": "백지장도 맞들면 낫다",
+    "romanization": "baekjijangdo matdeulmyeon natda",
+    "sv": "Många händer gör arbetet lätt.",
+    "literal_sv": "Även ett pappersark är lättare att lyfta tillsammans.",
+    "meaning": "아무리 쉬운 일이라도 함께 하면 더 낫다.",
+    "words": [
+      { "surface": "Många", "base": "många", "pos": "한정사", "meaning": "많은", "note": "" },
+      { "surface": "händer", "base": "hand", "pos": "명사 (en-단어, 복수 händer)", "meaning": "손", "note": "모음이 바뀌는 불규칙 복수형입니다. hand → händer" },
+      { "surface": "gör", "base": "göra", "pos": "동사 (현재형)", "meaning": "만들다, 하다", "note": "" },
+      { "surface": "arbetet", "base": "arbete", "pos": "명사 (ett-단어, 정관사형)", "meaning": "일, 작업", "note": "arbete → arbetet" },
+      { "surface": "lätt", "base": "lätt", "pos": "형용사", "meaning": "쉬운, 가벼운", "note": "" }
+    ],
+    "notes": ["hand → händer 처럼 복수형에서 모음이 바뀌는 명사가 있습니다. bok → böcker(책), fot → fötter(발) 도 같은 무리입니다."],
+    "examples": [
+      { "sv": "Vi hjälps åt — många händer gör arbetet lätt.", "ko": "같이 하자. 백지장도 맞들면 나아." }
+    ],
+    "equivalent": { "sv": "", "literal": "", "note": "" },
+    "tags": ["속담", "협력", "불규칙복수"]
+  },
+  {
+    "id": "sv-ingen-ko-pa-isen",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "ko": "급할 거 없어. / 별일 아니야.",
+    "romanization": "",
+    "sv": "Det är ingen ko på isen.",
+    "literal_sv": "얼음 위에 소가 없다.",
+    "meaning": "서두를 필요 없다, 걱정할 일이 아니다. 스웨덴에서 아주 흔히 쓰는 표현입니다.",
+    "words": [
+      { "surface": "Det", "base": "det", "pos": "대명사 (형식주어)", "meaning": "그것", "note": "" },
+      { "surface": "är", "base": "vara", "pos": "동사 (현재형)", "meaning": "~이다", "note": "" },
+      { "surface": "ingen", "base": "ingen", "pos": "부정 한정사", "meaning": "아무 ~도 없는", "note": "en-단어 앞에는 ingen, ett-단어 앞에는 inget, 복수 앞에는 inga 를 씁니다." },
+      { "surface": "ko", "base": "ko", "pos": "명사 (en-단어, 복수 kor)", "meaning": "소", "note": "" },
+      { "surface": "på", "base": "på", "pos": "전치사", "meaning": "~ 위에", "note": "" },
+      { "surface": "isen", "base": "is", "pos": "명사 (en-단어, 정관사형)", "meaning": "얼음", "note": "is → isen" }
+    ],
+    "notes": ["원래 형태는 'Det är ingen ko på isen så länge rumpan är i land'(엉덩이가 뭍에 있는 한 얼음 위에 소가 있는 게 아니다)이지만 보통 앞부분만 씁니다."],
+    "examples": [
+      { "sv": "Ta det lugnt, det är ingen ko på isen.", "ko": "천천히 해, 급할 거 없어." }
+    ],
+    "equivalent": { "sv": "", "literal": "", "note": "" },
+    "tags": ["관용구", "일상", "부정"]
+  },
+  {
+    "id": "sv-lagom",
+    "added": "2026-09-17",
+    "kind": "word",
+    "ko": "딱 알맞은 (정도)",
+    "romanization": "",
+    "sv": "lagom",
+    "literal_sv": "",
+    "meaning": "너무 많지도 적지도 않은, 딱 알맞은 정도. 다른 언어에 정확히 대응하는 말이 없어 스웨덴 문화를 상징하는 단어로 자주 꼽힙니다.",
+    "words": [
+      { "surface": "lagom", "base": "lagom", "pos": "부사 / 형용사 (어형 변화 없음)", "meaning": "적당한, 적당히", "note": "형용사로 써도 성이나 수에 따라 변하지 않습니다." }
+    ],
+    "notes": ["칭찬으로도 쓰이고(딱 좋다) 미지근한 평가로도 쓰입니다(그저 그렇다). 말투와 맥락으로 구별합니다."],
+    "examples": [
+      { "sv": "Kaffet är lagom varmt.", "ko": "커피가 딱 알맞게 따뜻해." },
+      { "sv": "Lagom är bäst.", "ko": "적당한 게 제일이다." }
+    ],
+    "equivalent": { "sv": "", "literal": "", "note": "" },
+    "tags": ["단어", "문화"]
+  },
+  {
+    "id": "sv-fika",
+    "added": "2026-09-17",
+    "kind": "word",
+    "ko": "피카 (커피와 간식을 곁들이는 휴식)",
+    "romanization": "",
+    "sv": "fika",
+    "literal_sv": "",
+    "meaning": "커피나 차에 달콤한 것을 곁들이며 쉬는 시간. 명사로도 동사로도 씁니다. 단순한 '커피 마시기'가 아니라 같이 앉아 이야기하는 시간 전체를 가리킵니다.",
+    "words": [
+      { "surface": "fika", "base": "fika", "pos": "명사 (en-단어) / 동사 (원형)", "meaning": "피카; 피카를 하다", "note": "동사 현재형은 fikar 입니다." }
+    ],
+    "notes": ["직장에서 하루에 한두 번 정해 놓고 하는 곳도 많습니다. 사교 활동에 가깝습니다."],
+    "examples": [
+      { "sv": "Ska vi fika?", "ko": "우리 피카 할까? (커피 한잔 할까?)" },
+      { "sv": "Vi tar en fika efter mötet.", "ko": "회의 끝나고 피카 하자." }
+    ],
+    "equivalent": { "sv": "", "literal": "", "note": "" },
+    "tags": ["단어", "문화", "일상"]
+  },
+  {
+    "id": "sv-det-ordnar-sig",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "ko": "어떻게든 잘될 거야.",
+    "romanization": "",
+    "sv": "Det ordnar sig.",
+    "literal_sv": "그것이 스스로 정돈된다.",
+    "meaning": "걱정하지 마, 결국 해결될 거야. 위로할 때 쓰는 흔한 표현입니다.",
+    "words": [
+      { "surface": "Det", "base": "det", "pos": "대명사 (형식주어)", "meaning": "그것", "note": "" },
+      { "surface": "ordnar", "base": "ordna", "pos": "동사 (현재형)", "meaning": "정리하다, 해결하다", "note": "" },
+      { "surface": "sig", "base": "sig", "pos": "재귀대명사 (3인칭)", "meaning": "자기 자신을", "note": "ordna sig 로 묶여 '일이 풀리다'라는 뜻이 됩니다." }
+    ],
+    "notes": ["재귀대명사는 인칭마다 다릅니다: mig(나), dig(너), sig(3인칭), oss(우리), er(너희)."],
+    "examples": [
+      { "sv": "Oroa dig inte, det ordnar sig.", "ko": "걱정 마, 다 잘될 거야." }
+    ],
+    "equivalent": { "sv": "", "literal": "", "note": "" },
+    "tags": ["관용구", "위로", "재귀동사"]
+  },
+  {
+    "id": "sv-hur-ar-laget",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "ko": "요즘 어때?",
+    "romanization": "",
+    "sv": "Hur är läget?",
+    "literal_sv": "상황이 어때?",
+    "meaning": "친구나 편한 사이에서 쓰는 안부 인사.",
+    "words": [
+      { "surface": "Hur", "base": "hur", "pos": "의문부사", "meaning": "어떻게", "note": "" },
+      { "surface": "är", "base": "vara", "pos": "동사 (현재형)", "meaning": "~이다", "note": "" },
+      { "surface": "läget", "base": "läge", "pos": "명사 (ett-단어, 정관사형)", "meaning": "상황, 형편", "note": "läge → läget" }
+    ],
+    "notes": ["더 격식 있는 표현은 'Hur mår du?'(몸은 좀 어떠세요?)입니다. 'Hur är läget?'는 구어입니다."],
+    "examples": [
+      { "sv": "Hej! Hur är läget?", "ko": "안녕! 요즘 어때?" }
+    ],
+    "equivalent": { "sv": "", "literal": "", "note": "" },
+    "tags": ["인사", "구어"]
+  },
+  {
+    "id": "sv-vi-ses",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "ko": "또 봐!",
+    "romanization": "",
+    "sv": "Vi ses!",
+    "literal_sv": "우리는 서로 보인다.",
+    "meaning": "헤어질 때 하는 가벼운 인사.",
+    "words": [
+      { "surface": "Vi", "base": "vi", "pos": "대명사", "meaning": "우리", "note": "" },
+      { "surface": "ses", "base": "ses", "pos": "동사 (현재형, 상호형)", "meaning": "서로 만나다", "note": "se(보다)에 -s 가 붙어 '서로 ~하다'가 됩니다." }
+    ],
+    "notes": ["-s 동사는 세 가지로 쓰입니다. 수동(byggas 지어지다), 상호(ses 서로 만나다, träffas 서로 만나다), 그리고 그 형태가 원형인 디포넌트(hoppas 바라다)."],
+    "examples": [
+      { "sv": "Tack för idag. Vi ses!", "ko": "오늘 고마웠어. 또 봐!" }
+    ],
+    "equivalent": { "sv": "Hej då!", "literal": "안녕!", "note": "가장 무난한 작별 인사입니다." },
+    "tags": ["인사", "s동사"]
+  },
+  {
+    "id": "sv-jag-forstar-inte",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "ko": "잘 못 알아듣겠어요.",
+    "romanization": "",
+    "sv": "Jag förstår inte.",
+    "literal_sv": "나는 이해하지 못한다.",
+    "meaning": "상대의 말을 이해하지 못했을 때 쓰는 표현.",
+    "words": [
+      { "surface": "Jag", "base": "jag", "pos": "대명사", "meaning": "나", "note": "" },
+      { "surface": "förstår", "base": "förstå", "pos": "동사 (현재형)", "meaning": "이해하다", "note": "원형 förstå, 과거형 förstod" },
+      { "surface": "inte", "base": "inte", "pos": "부정 부사", "meaning": "~않다", "note": "주절에서는 동사 뒤에 옵니다." }
+    ],
+    "notes": ["inte 의 위치가 주절과 종속절에서 다릅니다. 주절은 'Jag förstår inte'(동사 뒤), 종속절은 'att jag inte förstår'(동사 앞)."],
+    "examples": [
+      { "sv": "Förlåt, jag förstår inte. Kan du säga det igen?", "ko": "죄송해요, 못 알아들었어요. 다시 말씀해 주시겠어요?" }
+    ],
+    "equivalent": { "sv": "", "literal": "", "note": "" },
+    "tags": ["일상", "어순", "부정"]
+  },
+  {
+    "id": "sv-kan-du-prata-langsammare",
+    "added": "2026-09-17",
+    "kind": "phrase",
+    "ko": "조금 더 천천히 말씀해 주시겠어요?",
+    "romanization": "",
+    "sv": "Kan du prata långsammare?",
+    "literal_sv": "당신은 더 천천히 말할 수 있습니까?",
+    "meaning": "상대가 빨리 말할 때 속도를 늦춰 달라고 부탁하는 표현.",
+    "words": [
+      { "surface": "Kan", "base": "kunna", "pos": "조동사 (현재형)", "meaning": "~할 수 있다", "note": "의문문이라 동사가 문두에 왔습니다." },
+      { "surface": "du", "base": "du", "pos": "대명사", "meaning": "너, 당신", "note": "스웨덴어는 처음 보는 사이에도 du 를 씁니다." },
+      { "surface": "prata", "base": "prata", "pos": "동사 (원형)", "meaning": "말하다", "note": "조동사 뒤라 att 없이 원형만 옵니다." },
+      { "surface": "långsammare", "base": "långsam", "pos": "형용사 (비교급)", "meaning": "더 천천히", "note": "långsam → långsammare → långsammast" }
+    ],
+    "notes": ["예-아니오 의문문은 동사를 문두로 보내 만듭니다. 'Du kan prata.' → 'Kan du prata?'"],
+    "examples": [
+      { "sv": "Ursäkta, kan du prata långsammare?", "ko": "실례지만, 조금 천천히 말씀해 주시겠어요?" }
+    ],
+    "equivalent": { "sv": "", "literal": "", "note": "" },
+    "tags": ["일상", "의문문", "비교급"]
+  }
+]
