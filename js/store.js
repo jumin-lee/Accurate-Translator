@@ -5,6 +5,8 @@
  * 전부 try/catch 로 감싸고, 실패하면 메모리에만 보관한다.
  */
 
+import { MODELS, DEFAULT_MODEL } from './models.js';
+
 const PREFIX = 'accurate-translator:';
 const memory = new Map();
 
@@ -60,8 +62,16 @@ export const apiKey = {
 /* ── 설정 ──────────────────────────────────────────────── */
 
 const EFFORTS = ['low', 'medium', 'high'];
+const MODEL_IDS = MODELS.map((model) => model.id);
 
 export const settings = {
+  getModel() {
+    const value = read('model');
+    return MODEL_IDS.includes(value) ? value : DEFAULT_MODEL;
+  },
+  setModel(value) {
+    write('model', MODEL_IDS.includes(value) ? value : DEFAULT_MODEL);
+  },
   getEffort() {
     const value = read('effort');
     return EFFORTS.includes(value) ? value : 'medium';

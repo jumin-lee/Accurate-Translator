@@ -3,11 +3,14 @@
  */
 
 import { apiKey, settings, history } from './store.js';
-import { fetchIdiom, translate, describeError, MissingKeyError } from './api.js';
+import { fetchIdiom, translate, describeError, MissingKeyError, setUsageListener } from './api.js';
+import { MODELS, findModel } from './models.js';
+import { getTotals, getRateLimit, resetTotals, formatUsd } from './usage.js';
 import {
   renderIdiom,
   renderTranslation,
   renderHistory,
+  renderUsage,
   showLoading,
   showError,
   hideStatus,
@@ -62,6 +65,20 @@ async function copyToClipboard(text, button) {
   setTimeout(() => {
     button.textContent = original;
   }, 1600);
+}
+
+/* ── 사용량 ────────────────────────────────────────────── */
+
+function refreshUsage() {
+  const model = findModel(settings.getModel());
+  const totals = getTotals();
+  const rateLimit = getRateLimit();
+
+  renderUsage($('#usage-body'), { model, totals, rateLimit });
+
+  // 접어 두어도 핵심 숫자는 보이게 한다.
+  $('#usage-brief').textContent =
+    `${model.label} · 이번 달 ${formatUsd(totals.costUsd)} · ${totals.requests}회`;
 }
 
 /* ── 키 배너 ───────────────────────────────────────────── */
@@ -201,8 +218,29 @@ function refreshHistory() {
 
 /* ── 설정 ──────────────────────────────────────────────── */
 
+function describeModelPrice(modelId) {
+  const model = findModel(modelId);
+  return `${model.blurb} · 입력 $${model.inputPerMTok} / 출력 $${model.outputPerMTok} (100만 토큰당)`;
+}
+
+function buildModelOptions() {
+  const select = $('#model-select');
+  select.replaceChildren();
+  for (const model of MODELS) {
+    const option = document.createElement('option');
+    option.value = model.id;
+    option.textContent = `${model.label} — ${model.blurb}`;
+    select.append(option);
+  }
+  select.addEventListener('change', () => {
+    $('#model-price').textContent = describeModelPrice(select.value);
+  });
+}
+
 function openSettings() {
   $('#api-key').value = apiKey.get();
+  $('#model-select').value = settings.getModel();
+  $('#model-price').textContent = describeModelPrice(settings.getModel());
   $('#effort-select').value = settings.getEffort();
   $('#settings-dialog').showModal();
 }
@@ -210,9 +248,11 @@ function openSettings() {
 function saveSettings() {
   const hadKey = Boolean(apiKey.get());
   apiKey.set($('#api-key').value.trim());
+  settings.setModel($('#model-select').value);
   settings.setEffort($('#effort-select').value);
   $('#settings-dialog').close();
   refreshKeyBanner();
+  refreshUsage();
 
   // 키가 방금 등록되었다면 비어 있던 오늘의 숙어를 바로 채운다.
   if (!hadKey && apiKey.get()) loadDailyIdiom();
@@ -223,6 +263,11 @@ function saveSettings() {
 function init() {
   applyTheme();
   refreshKeyBanner();
+  buildModelOptions();
+
+  // 매 요청이 끝날 때마다 사용량 표시를 갱신한다.
+  setUsageListener(refreshUsage);
+  refreshUsage();
 
   for (const [tab] of TABS) {
     $(tab).addEventListener('click', () => selectTab(tab));
@@ -256,6 +301,12 @@ function init() {
   });
   $('#source-text').addEventListener('keydown', (event) => {
     if ((event.ctrlKey || event.metaKey) && event.key === 'Enter') runTranslation();
+  });
+
+  $('#usage-reset').addEventListener('click', () => {
+    if (!window.confirm('이번 달 누적 사용량 기록을 지울까요? 실제 청구액과는 무관합니다.')) return;
+    resetTotals();
+    refreshUsage();
   });
 
   $('#history-clear').addEventListener('click', () => {

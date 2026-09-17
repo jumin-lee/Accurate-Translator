@@ -4,6 +4,8 @@
  * 모델 출력은 신뢰할 수 없는 텍스트로 다룬다 — innerHTML 대신 textContent 만 쓴다.
  */
 
+import { compactNumber, groupedNumber, formatUsd, severityOf } from './usage.js';
+
 function el(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -258,4 +260,115 @@ export function showError(node, message) {
 export function hideStatus(node) {
   node.hidden = true;
   node.replaceChildren();
+}
+
+/* ── 사용량 표시 ───────────────────────────────────────── */
+
+const METER_ROWS = [
+  { key: 'requests', label: '요청', unit: '회' },
+  { key: 'inputTokens', label: '입력 토큰', unit: '' },
+  { key: 'outputTokens', label: '출력 토큰', unit: '' },
+];
+
+/** 값 + 라벨 한 덩어리. 색이 아니라 숫자가 뜻을 전달한다. */
+function statTile(label, value, sub) {
+  const tile = el('div', 'tile');
+  tile.append(el('span', 'tile-label', label));
+  tile.append(el('span', 'tile-value', value));
+  if (sub) tile.append(el('span', 'tile-sub', sub));
+  return tile;
+}
+
+/**
+ * 한 줄짜리 미터. 채워진 부분이 '쓴 양', 빈 부분이 '남은 양'이다.
+ * 심각도는 채움색으로 드러나되, 옆의 숫자가 항상 같은 정보를 글로 말한다.
+ */
+function meterRow(label, unit, pair, formatValue) {
+  const row = el('div', 'meter');
+  row.append(el('span', 'meter-label', label));
+
+  const track = el('div', 'meter-track');
+  // 남은 양이 음수로 보고되는 일은 없어야 하지만, 표시가 깨지지 않게 막아 둔다.
+  const remaining = Math.min(pair.limit, Math.max(0, pair.remaining));
+  const used = pair.limit - remaining;
+  const percent = Math.min(100, Math.max(0, (used / pair.limit) * 100));
+  const fill = el('div', 'meter-fill');
+  fill.dataset.severity = severityOf(pair.remaining, pair.limit);
+  // 아주 작은 사용량도 보이도록 최소 폭을 준다.
+  fill.style.width = percent > 0 && percent < 1.5 ? '1.5%' : `${percent}%`;
+  track.append(fill);
+  track.setAttribute('role', 'img');
+  track.setAttribute(
+    'aria-label',
+    `${label} 남은 양 ${formatValue(remaining)}${unit}, 한도 ${formatValue(pair.limit)}${unit}`
+  );
+  row.append(track);
+
+  row.append(
+    el('span', 'meter-value', `${formatValue(remaining)}${unit} / ${formatValue(pair.limit)}${unit}`)
+  );
+  return row;
+}
+
+function formatResetTime(iso) {
+  if (!iso) return '';
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return '';
+  const seconds = Math.round((date.getTime() - Date.now()) / 1000);
+  if (seconds <= 0) return '지금 회복됨';
+  if (seconds < 60) return `${seconds}초 뒤 회복`;
+  return `${Math.ceil(seconds / 60)}분 뒤 회복`;
+}
+
+/**
+ * @param {HTMLElement} target
+ * @param {{model: object, totals: object, rateLimit: object|null}} state
+ */
+export function renderUsage(target, { model, totals, rateLimit }) {
+  target.replaceChildren();
+
+  /* 이번 달 누적 — 이 브라우저에서 보낸 요청만 센 추정치 */
+  const tiles = el('div', 'tiles');
+  tiles.append(statTile('이번 달 추정 비용', formatUsd(totals.costUsd), totals.month));
+  tiles.append(statTile('요청', `${groupedNumber(totals.requests)}회`, model.label));
+  tiles.append(statTile('입력 토큰', compactNumber(totals.inputTokens), `$${model.inputPerMTok}/MTok`));
+  tiles.append(statTile('출력 토큰', compactNumber(totals.outputTokens), `$${model.outputPerMTok}/MTok`));
+  target.append(tiles);
+
+  /* 분당 속도 제한 — 마지막 응답 헤더에서 읽은 실제 값 */
+  const limits = el('div', 'meters');
+  const heading = el('div', 'meters-head');
+  heading.append(el('span', 'sec-title', '분당 한도 · 남은 양'));
+  if (rateLimit && rateLimit.at) {
+    const resets = METER_ROWS.map((row) => rateLimit[row.key])
+      .filter(Boolean)
+      .map((pair) => formatResetTime(pair.reset))
+      .filter(Boolean);
+    if (resets.length) heading.append(el('span', 'muted small', resets[0]));
+  }
+  limits.append(heading);
+
+  let drew = 0;
+  for (const row of METER_ROWS) {
+    const pair = rateLimit && rateLimit[row.key];
+    if (!pair) continue;
+    limits.append(
+      meterRow(row.label, row.unit, pair, row.key === 'requests' ? groupedNumber : compactNumber)
+    );
+    drew += 1;
+  }
+
+  if (!drew) {
+    limits.append(
+      el('p', 'muted small', '아직 요청이 없습니다. 한 번 번역하면 남은 분당 한도가 여기에 표시됩니다.')
+    );
+  }
+  target.append(limits);
+
+  const foot = el('p', 'usage-foot muted small');
+  foot.textContent =
+    '위 막대는 Anthropic이 매 응답에 실어 주는 분당 속도 제한입니다. ' +
+    '월 지출 한도와 실제 청구액은 여기서 알 수 없으니 Anthropic 콘솔에서 확인하세요. ' +
+    '비용은 이 브라우저가 보낸 요청만 더한 추정치입니다.';
+  target.append(foot);
 }

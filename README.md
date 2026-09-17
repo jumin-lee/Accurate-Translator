@@ -16,6 +16,19 @@
 
 **지난 숙어** — 이 브라우저에 저장된 지난 숙어 기록을 다시 볼 수 있습니다.
 
+**사용량 표시** — 화면 위쪽에 매 요청마다 갱신되는 사용량 패널이 있습니다.
+- **분당 한도 막대**: Anthropic이 매 응답 헤더(`anthropic-ratelimit-*`)에 실어 주는
+  실제 값입니다. 요청 수, 입력 토큰, 출력 토큰 각각의 남은 양을 보여 줍니다.
+- **이번 달 누적**: 응답의 `usage` 를 달 단위로 쌓아 비용을 추정합니다.
+
+> ⚠️ 막대는 **분당** 속도 제한이지 월 지출 한도가 아닙니다. 월 지출 한도와 실제
+> 청구액은 API 응답으로 알 수 없으므로 Anthropic 콘솔에서 확인해야 합니다.
+> 누적 비용도 이 브라우저가 보낸 요청만 더한 추정치입니다.
+
+**모델 선택** — 설정에서 Opus 5 / Sonnet 5 / Haiku 4.5 를 고를 수 있습니다.
+가격 차이가 크니(입력 기준 $5 / $2 / $1 per MTok) 가볍게 쓸 땐 Haiku,
+문법 설명이 중요할 땐 Opus 를 권합니다.
+
 ## 쓰는 법
 
 1. [console.anthropic.com](https://console.anthropic.com/settings/keys) 에서 Anthropic API 키를 발급받습니다.
@@ -24,15 +37,38 @@
 
 ### 보안에 관하여
 
-이 사이트에는 서버가 없어서 **API 키가 브라우저 안에서 그대로 사용됩니다.**
-같은 기기를 쓰는 사람은 개발자 도구로 키를 꺼내 볼 수 있습니다.
+**사이트를 공개해도 키가 소스에 들어가지는 않습니다.** 키는 코드 어디에도 없고,
+방문자가 각자 자기 브라우저에 자기 키를 넣는 구조입니다. 내 키는 내 브라우저의
+`localStorage` 에만 있습니다.
+
+실제 위험은 이것뿐입니다.
+
+- 내 기기를 쓰는 다른 사람이 개발자 도구로 `localStorage` 를 열어 볼 수 있음
+- 악성 브라우저 확장 프로그램이 `localStorage` 를 읽어 감
+- 이 사이트에 XSS 취약점이 생기면 훔쳐 갈 수 있음
+  (그래서 모델 출력을 `innerHTML` 없이 `textContent` 로만 넣습니다)
+
+즉 **본인 기기에서 혼자 쓰는 용도라면 위험이 크지 않습니다.** 대신 아래를 권합니다.
 
 - 공용 컴퓨터에서는 쓰지 마세요.
-- 이 사이트 전용 키를 따로 발급하고, 콘솔에서 사용량 한도를 걸어 두시길 권합니다.
-- 키가 노출된 것 같으면 콘솔에서 즉시 폐기(revoke)하면 됩니다.
+- 이 사이트 전용 키를 쓰고, 워크스페이스에 월 지출 한도를 걸어 두세요 (아래 참고).
+- 키가 샜다 싶으면 콘솔에서 즉시 삭제하면 그 키는 바로 무효화됩니다.
 
-서버를 두고 키를 서버 환경변수에 감추는 방식이 더 안전합니다. 나중에 그쪽으로 옮기려면
-`js/api.js` 의 호출부만 자체 백엔드 엔드포인트로 바꾸면 됩니다.
+남들에게 공유할 계획이라면 서버(예: Cloudflare Workers)를 두고 키를 서버
+환경변수에 감추는 편이 낫습니다. `js/api.js` 의 호출부만 자체 백엔드
+엔드포인트로 바꾸면 됩니다.
+
+### 월 지출 한도 거는 법
+
+Default Workspace 에는 한도를 걸 수 없으므로 워크스페이스를 따로 만들어야 합니다.
+
+1. Console → **Settings → Workspaces** → **Create workspace** (예: `Translator`)
+2. 그 워크스페이스 → **Spend limits** 탭 → 월 상한과 알림 임계값 설정
+3. 그 워크스페이스 안에서 API 키를 발급해 이 사이트에 등록
+
+조직 전체 한도는 **Settings → Billing → Spend limits** 에서 겁니다.
+자기가 건 한도를 넘으면 HTTP 400 (`You have reached your specified API usage limits`),
+티어 자동 상한을 넘으면 HTTP 429 (`enforced_spend_limit_reached`) 가 돌아옵니다.
 
 ## 로컬에서 실행
 
@@ -58,6 +94,8 @@ js/api.js               Claude API 호출, 프롬프트, 오류 메시지
 js/schemas.js           구조화 출력(JSON Schema) 정의
 js/render.js            응답 → DOM 렌더링
 js/store.js             localStorage 래퍼 (키, 설정, 숙어 기록)
+js/models.js            고를 수 있는 모델과 가격표
+js/usage.js             속도 제한 갈무리, 누적 사용량·비용 추정
 vendor/anthropic-sdk.js 브라우저용으로 번들한 공식 Anthropic SDK
 tools/build-vendor.sh   위 번들을 다시 만드는 스크립트
 ```
@@ -68,6 +106,11 @@ tools/build-vendor.sh   위 번들을 다시 만드는 스크립트
   JSON Schema 에 맞춰 받습니다. 덕분에 파싱이 깨질 일이 없고 렌더링이 단순해집니다.
 - 설정의 *응답 품질 / 속도* 는 `output_config.effort` 에 해당합니다.
   기본값은 `medium` 이며, 화면이 응답을 기다리는 구조라 속도와 품질의 균형을 잡은 값입니다.
+- 속도 제한 막대는 SDK 의 `.withResponse()` 로 원시 응답을 받아 헤더를 읽습니다.
+  `api.anthropic.com` 이 `access-control-expose-headers: *` 를 보내므로 브라우저에서
+  읽을 수 있습니다. 429 같은 오류 응답에서도 헤더를 갈무리합니다.
+- 미터 색(정상/경고/위험)은 dataviz 팔레트 검증기로 색각 이상 분리도를 확인해
+  골랐고, 색만으로 뜻이 전달되지 않도록 항상 숫자와 `aria-label` 을 함께 붙입니다.
 - 공식 SDK 를 CDN 에서 불러오지 않고 `vendor/` 에 번들해 두었습니다.
   런타임 외부 의존성이 없고, CDN 이 막힌 망에서도 동작합니다.
   SDK 버전을 올리려면 `./tools/build-vendor.sh <버전>` 을 실행하세요.

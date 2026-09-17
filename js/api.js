@@ -9,9 +9,19 @@
 import { Anthropic } from '../vendor/anthropic-sdk.js';
 import { apiKey, settings } from './store.js';
 import { IDIOM_SCHEMA, TRANSLATION_SCHEMA } from './schemas.js';
+import { captureRateLimit, recordUsage } from './usage.js';
 
-const MODEL = 'claude-opus-5';
 const MAX_TOKENS = 16000;
+
+/**
+ * 요청이 끝날 때마다 불리는 콜백. 화면이 사용량 표시를 갱신하는 데 쓴다.
+ * @type {null | (() => void)}
+ */
+let onUsageChange = null;
+
+export function setUsageListener(listener) {
+  onUsageChange = listener;
+}
 
 export class MissingKeyError extends Error {
   constructor() {
@@ -36,16 +46,36 @@ function client() {
  * @param {{system: string, user: string, schema: object}} options
  */
 async function ask({ system, user, schema }) {
-  const response = await client().messages.create({
-    model: MODEL,
-    max_tokens: MAX_TOKENS,
-    output_config: {
-      effort: settings.getEffort(),
-      format: { type: 'json_schema', schema },
-    },
-    system,
-    messages: [{ role: 'user', content: user }],
-  });
+  const model = settings.getModel();
+
+  // 원시 응답까지 받아야 anthropic-ratelimit-* 헤더를 읽을 수 있다.
+  let response;
+  let raw;
+  try {
+    ({ data: response, response: raw } = await client()
+      .messages.create({
+        model,
+        max_tokens: MAX_TOKENS,
+        output_config: {
+          effort: settings.getEffort(),
+          format: { type: 'json_schema', schema },
+        },
+        system,
+        messages: [{ role: 'user', content: user }],
+      })
+      .withResponse());
+  } catch (error) {
+    // 429 처럼 거절당한 응답에도 남은 한도가 실려 오므로 표시를 갱신해 둔다.
+    if (error && error.headers && typeof error.headers.get === 'function') {
+      captureRateLimit(error.headers);
+      if (onUsageChange) onUsageChange();
+    }
+    throw error;
+  }
+
+  captureRateLimit(raw.headers);
+  if (response.usage) recordUsage(model, response.usage);
+  if (onUsageChange) onUsageChange();
 
   if (response.stop_reason === 'refusal') {
     throw new Error('모델이 이 요청에 대한 응답을 거부했습니다. 입력 내용을 바꿔서 다시 시도해 주세요.');
