@@ -177,6 +177,10 @@ vendor/anthropic-sdk.js   브라우저용으로 번들한 공식 Anthropic SDK
 tools/build-vendor.sh     위 번들 재생성
 ```
 
+**SDK 는 동적 import 로 불러옵니다** (`js/api.js` 의 `loadSdk`). 194KB 나 되는데
+번역기 탭은 선택 기능이라 대부분의 방문은 쓰지 않습니다. 정적으로 import 하면
+안 쓰는 사람에게까지 받게 하니, 이 구조를 되돌리지 마세요.
+
 사이트의 기본 기능은 **API 키 없이 동작합니다.** 번역기 탭만 사용자 본인의
 Anthropic API 키를 씁니다. 이 구분을 깨뜨리지 마세요 — 키 없이도 오늘의 표현,
 모아보기, 단어장, 발음 듣기가 전부 동작해야 합니다.

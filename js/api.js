@@ -6,7 +6,6 @@
  * 브라우저 실행은 dangerouslyAllowBrowser 로 명시적으로 허용한다.
  */
 
-import { Anthropic } from '../vendor/anthropic-sdk.js';
 import { apiKey, settings } from './store.js';
 import { IDIOM_SCHEMA, TRANSLATION_SCHEMA } from './schemas.js';
 import { captureRateLimit, recordUsage } from './usage.js';
@@ -30,9 +29,22 @@ export class MissingKeyError extends Error {
   }
 }
 
-function client() {
+/**
+ * SDK 는 194KB 나 된다. 번역기 탭은 선택 기능이라 대부분의 방문은 쓰지
+ * 않으므로, 정적으로 import 하면 안 쓰는 사람에게까지 받게 만든다.
+ * 실제로 번역할 때 처음 한 번만 받아 온다.
+ */
+let sdkPromise = null;
+
+function loadSdk() {
+  if (!sdkPromise) sdkPromise = import('../vendor/anthropic-sdk.js');
+  return sdkPromise;
+}
+
+async function client() {
   const key = apiKey.get();
   if (!key) throw new MissingKeyError();
+  const { Anthropic } = await loadSdk();
   return new Anthropic({
     apiKey: key,
     // 서버가 없는 구조라 키가 브라우저에 노출된다. 설정 화면에서 그 점을 안내한다.
@@ -52,7 +64,8 @@ async function ask({ system, user, schema }) {
   let response;
   let raw;
   try {
-    ({ data: response, response: raw } = await client()
+    const anthropic = await client();
+    ({ data: response, response: raw } = await anthropic
       .messages.create({
         model,
         max_tokens: MAX_TOKENS,
@@ -183,8 +196,14 @@ export function describeError(error) {
   if (typeof status === 'number' && status >= 500) {
     return 'Anthropic 서버에 일시적인 문제가 있습니다. 잠시 뒤에 다시 시도해 주세요.';
   }
-  if (error && error.name === 'APIConnectionError') {
+  // SDK 의 연결 오류는 이름이 판본마다 달라 메시지도 함께 본다.
+  const name = (error && error.name) || '';
+  const message = (error && error.message) || '';
+  if (/APIConnection|Connection error|Failed to fetch|NetworkError/i.test(`${name} ${message}`)) {
     return '네트워크에 연결하지 못했습니다. 인터넷 연결을 확인해 주세요.';
   }
-  return (error && error.message) || '알 수 없는 오류가 발생했습니다.';
+  // 영어 메시지가 그대로 새어 나가면 화면이 갑자기 영어가 된다. 짧은 것만 덧붙인다.
+  return message && message.length < 120
+    ? `요청이 실패했습니다: ${message}`
+    : '요청이 실패했습니다. 잠시 뒤에 다시 시도해 주세요.';
 }
