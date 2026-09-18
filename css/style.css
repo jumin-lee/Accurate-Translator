@@ -528,3 +528,7 @@ a { color: var(--accent); }
   border-radius: var(--radius-sm); padding: 9px 12px;
 }
 .speak-note[hidden] { display: none; }
+
+.dialog-sep { border: 0; border-top: 1px solid var(--border-soft); margin: 18px 0; }
+#voice-test { margin-top: 8px; font-size: 13px; }
+#voice-test:disabled { opacity: .5; cursor: not-allowed; }

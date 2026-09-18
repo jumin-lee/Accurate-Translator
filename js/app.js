@@ -19,7 +19,16 @@ import {
   categoriesOf,
   summarize,
 } from './entries.js';
-import { canSpeak, onVoiceChange, voiceCount, stop as stopSpeech } from './speech.js';
+import {
+  canSpeak,
+  onVoiceChange,
+  voiceCount,
+  swedishVoices,
+  currentVoice,
+  setPreferredVoice,
+  speak,
+  stop as stopSpeech,
+} from './speech.js';
 import {
   renderEntry,
   renderEntryList,
@@ -131,6 +140,44 @@ function refreshSpeech() {
     refreshBrowse();
     refreshVocabulary();
   }
+
+  refreshVoicePicker();
+}
+
+/** 설정의 음성 목록. 어떤 음성이 쓰이는지 눈으로 확인하고 고를 수 있어야 한다. */
+function refreshVoicePicker() {
+  const select = $('#voice-select');
+  const note = $('#voice-note');
+  const test = $('#voice-test');
+  if (!select) return;
+
+  const voices = swedishVoices();
+  const active = currentVoice();
+  select.replaceChildren();
+
+  if (!voices.length) {
+    const option = document.createElement('option');
+    option.textContent = '스웨덴어 음성 없음';
+    select.append(option);
+    select.disabled = true;
+    test.disabled = true;
+    note.textContent =
+      voiceCount() > 0
+        ? `이 기기에 음성은 ${voiceCount()}개 있지만 스웨덴어는 없습니다. 운영체제 설정에서 스웨덴어 음성을 추가해 주세요.`
+        : '이 브라우저에서는 음성 합성을 쓸 수 없습니다.';
+    return;
+  }
+
+  select.disabled = false;
+  test.disabled = false;
+  for (const voice of voices) {
+    const option = document.createElement('option');
+    option.value = voice.name;
+    option.textContent = `${voice.name} (${voice.lang})${voice.localService ? ' · 기기 내장' : ''}`;
+    select.append(option);
+  }
+  if (active) select.value = active.name;
+  note.textContent = `스웨덴어 음성 ${voices.length}개를 찾았습니다. 기기 전체 음성은 ${voiceCount()}개입니다.`;
 }
 
 /* ── 탭 ────────────────────────────────────────────────── */
@@ -282,6 +329,7 @@ function buildModelOptions() {
 }
 
 function openSettings() {
+  refreshVoicePicker();
   $('#api-key').value = apiKey.get();
   $('#model-select').value = settings.getModel();
   $('#model-price').textContent = describeModelPrice(settings.getModel());
@@ -311,6 +359,12 @@ async function init() {
     button.addEventListener('click', openSettings);
   }
   $('#settings-save').addEventListener('click', saveSettings);
+  $('#voice-select').addEventListener('change', (event) => {
+    setPreferredVoice(event.target.value);
+  });
+  $('#voice-test').addEventListener('click', () => {
+    speak('Hej! Det här är svenska.', { rate: 1 });
+  });
   $('#settings-cancel').addEventListener('click', () => $('#settings-dialog').close());
   $('#clear-key').addEventListener('click', () => {
     apiKey.clear();
