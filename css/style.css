@@ -295,12 +295,27 @@ kbd {
 .dialog {
   border: 1px solid var(--border); border-radius: var(--radius);
   background: var(--bg-elev); color: var(--text);
-  padding: 0; width: min(520px, calc(100vw - 32px)); box-shadow: 0 12px 40px rgba(0,0,0,.2);
+  padding: 0; width: min(520px, calc(100vw - 32px));
+  /* 내용이 길어지면 다이얼로그가 화면을 넘겨 저장 버튼이 닿지 않게 된다.
+     본문만 스크롤시키고 버튼줄은 아래에 붙여 둔다. */
+  max-height: calc(100dvh - 32px);
+  box-shadow: 0 12px 40px rgba(0,0,0,.2);
+  overflow: hidden;
 }
 .dialog::backdrop { background: rgba(10, 12, 16, .5); }
-.dialog-inner { padding: 22px; }
-.dialog h2 { margin: 0 0 16px; font-size: 19px; }
-.dialog-actions { display: flex; align-items: center; gap: 8px; margin-top: 20px; }
+.dialog-inner {
+  display: flex; flex-direction: column;
+  max-height: calc(100dvh - 32px);
+  padding: 22px;
+}
+.dialog h2 { margin: 0 0 16px; font-size: 19px; flex: none; }
+.dialog-body { overflow-y: auto; flex: 1 1 auto; margin: 0 -22px; padding: 0 22px; }
+.dialog-actions {
+  display: flex; align-items: center; gap: 8px; flex: none;
+  margin: 0 -22px -22px; padding: 16px 22px 22px;
+  border-top: 1px solid var(--border-soft);
+  background: var(--bg-elev);
+}
 .dialog-actions .spacer { flex: 1; }
 
 .notice {

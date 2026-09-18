@@ -44,6 +44,20 @@ import {
 
 const $ = (selector) => document.querySelector(selector);
 
+/**
+ * 이벤트를 안전하게 건다. 요소가 없으면 조용히 넘어간다.
+ *
+ * 예전에는 `$('#x').addEventListener(...)` 를 죽 늘어놓았는데, 캐시가 엇갈려
+ * HTML 과 JS 의 판본이 다르면 그 한 줄에서 예외가 나고 init 이 통째로
+ * 멈췄다. 그러면 문장 데이터조차 안 불러온다. 한 부분이 없어도 나머지는
+ * 돌아가야 한다.
+ */
+function on(selector, event, handler) {
+  const node = $(selector);
+  if (node) node.addEventListener(event, handler);
+  return Boolean(node);
+}
+
 /** 읽어 온 항목들. 첫 렌더 전까지는 빈 배열. */
 let entries = [];
 let vocabulary = [];
@@ -149,7 +163,7 @@ function refreshVoicePicker() {
   const select = $('#voice-select');
   const note = $('#voice-note');
   const test = $('#voice-test');
-  if (!select) return;
+  if (!select || !note || !test) return;
 
   const voices = swedishVoices();
   const active = currentVoice();
@@ -329,7 +343,12 @@ function buildModelOptions() {
 }
 
 function openSettings() {
-  refreshVoicePicker();
+  // 음성 목록에서 무슨 일이 나더라도 설정 자체는 열려야 한다.
+  try {
+    refreshVoicePicker();
+  } catch (error) {
+    console.error('음성 목록을 그리지 못했습니다:', error);
+  }
   $('#api-key').value = apiKey.get();
   $('#model-select').value = settings.getModel();
   $('#model-price').textContent = describeModelPrice(settings.getModel());
@@ -353,20 +372,20 @@ async function init() {
   buildModelOptions();
   setUsageListener(refreshUsage);
 
-  $('#theme-toggle').addEventListener('click', toggleTheme);
-  $('#open-settings').addEventListener('click', openSettings);
+  on('#theme-toggle', 'click', toggleTheme);
+  on('#open-settings', 'click', openSettings);
   for (const button of document.querySelectorAll('[data-open-settings]')) {
     button.addEventListener('click', openSettings);
   }
-  $('#settings-save').addEventListener('click', saveSettings);
-  $('#voice-select').addEventListener('change', (event) => {
+  on('#settings-save', 'click', saveSettings);
+  on('#voice-select', 'change', (event) => {
     setPreferredVoice(event.target.value);
   });
-  $('#voice-test').addEventListener('click', () => {
+  on('#voice-test', 'click', () => {
     speak('Hej! Det här är svenska.', { rate: 1 });
   });
-  $('#settings-cancel').addEventListener('click', () => $('#settings-dialog').close());
-  $('#clear-key').addEventListener('click', () => {
+  on('#settings-cancel', 'click', () => $('#settings-dialog').close());
+  on('#clear-key', 'click', () => {
     apiKey.clear();
     $('#api-key').value = '';
     refreshKeyDependentUi();
@@ -376,30 +395,30 @@ async function init() {
     $(tab).addEventListener('click', () => selectTab(tab));
   }
 
-  $('#daily-refresh').addEventListener('click', () => {
+  on('#daily-refresh', 'click', () => {
     showEntryInDaily(nextPhrase(entries, shownPhrase && shownPhrase.id));
   });
 
-  $('#browse-search').addEventListener('input', refreshBrowse);
+  on('#browse-search', 'input', refreshBrowse);
 
-  $('#vocab-search').addEventListener('input', refreshVocabulary);
+  on('#vocab-search', 'input', refreshVocabulary);
 
-  $('#translate-form').addEventListener('submit', runTranslation);
-  $('#clear-btn').addEventListener('click', () => {
+  on('#translate-form', 'submit', runTranslation);
+  on('#clear-btn', 'click', () => {
     $('#source-text').value = '';
     $('#char-count').textContent = '0자';
     hideStatus($('#translate-status'));
     $('#translate-result').hidden = true;
     $('#source-text').focus();
   });
-  $('#source-text').addEventListener('input', (event) => {
+  on('#source-text', 'input', (event) => {
     $('#char-count').textContent = `${event.target.value.length}자`;
   });
-  $('#source-text').addEventListener('keydown', (event) => {
+  on('#source-text', 'keydown', (event) => {
     if ((event.ctrlKey || event.metaKey) && event.key === 'Enter') runTranslation();
   });
 
-  $('#usage-reset').addEventListener('click', () => {
+  on('#usage-reset', 'click', () => {
     if (!window.confirm('이번 달 누적 사용량 기록을 지울까요? 실제 청구액과는 무관합니다.')) return;
     resetTotals();
     refreshUsage();
