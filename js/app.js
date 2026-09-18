@@ -19,6 +19,7 @@ import {
   categoriesOf,
   summarize,
 } from './entries.js';
+import { canSpeak, onVoiceChange, voiceCount, stop as stopSpeech } from './speech.js';
 import {
   renderEntry,
   renderEntryList,
@@ -105,6 +106,33 @@ function refreshUsage() {
     `${model.label} · 이번 달 ${formatUsd(totals.costUsd)} · ${totals.requests}회`;
 }
 
+/* ── 발음 듣기 ─────────────────────────────────────────── */
+
+/**
+ * 목소리 목록은 비동기로 채워지므로, 준비되면 화면을 다시 그려
+ * 듣기 버튼이 뒤늦게라도 나타나게 한다.
+ */
+function refreshSpeech() {
+  const note = $('#speech-note');
+
+  if (canSpeak()) {
+    note.hidden = true;
+  } else {
+    note.hidden = false;
+    note.textContent =
+      voiceCount() > 0
+        ? '이 기기에 스웨덴어 음성이 없어 듣기 버튼을 숨겼습니다. 운영체제 설정에서 스웨덴어 음성을 추가하면 나타납니다.'
+        : '이 브라우저에서는 음성 합성을 쓸 수 없어 듣기 버튼을 숨겼습니다.';
+  }
+
+  // 이미 그려 둔 카드들에 버튼을 반영한다.
+  if (entries.length) {
+    if (shownPhrase) showEntryInDaily(shownPhrase);
+    refreshBrowse();
+    refreshVocabulary();
+  }
+}
+
 /* ── 탭 ────────────────────────────────────────────────── */
 
 const TABS = [
@@ -115,6 +143,7 @@ const TABS = [
 ];
 
 function selectTab(tabSelector) {
+  stopSpeech(); // 탭을 옮기면 읽던 것을 멈춘다
   for (const [tab, panel] of TABS) {
     const isActive = tab === tabSelector;
     $(tab).classList.toggle('is-active', isActive);
@@ -324,6 +353,7 @@ async function init() {
 
   refreshKeyDependentUi();
   refreshUsage();
+  onVoiceChange(refreshSpeech);
 
   // 데이터가 사이트의 본체다. 이것만 읽히면 키 없이 전부 동작한다.
   showLoading($('#daily-status'), '문장을 불러오는 중입니다…');
@@ -335,6 +365,7 @@ async function init() {
     loadDaily();
     refreshBrowse();
     refreshVocabulary();
+    refreshSpeech();
   } catch (error) {
     showError($('#daily-status'), error.message);
   }
