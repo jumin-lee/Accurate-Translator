@@ -3952,5 +3952,828 @@
     ],
     "ipa": "ˈsnøːˌbærjɛt ˈɧʏdar ɔs",
     "ko_pron": "스뇌-베리엣 쉬다르 오스"
+  },
+  {
+    "id": "blunda",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "눈을 감아봐.",
+    "romanization": "",
+    "sv": "Blunda.",
+    "literal_sv": "",
+    "meaning": "눈을 감으라고 말하는 표현.",
+    "ipa": "ˈblɵnda",
+    "ko_pron": "블룬다",
+    "words": [
+      {
+        "surface": "Blunda",
+        "base": "blunda",
+        "pos": "동사 (명령형)",
+        "ipa": "ˈblɵnda",
+        "meaning": "눈을 감다",
+        "note": "blunda 는 '눈을 감다' 한 낱말로 쓰는 동사입니다. stänga ögonen 처럼 풀어 쓰지 않아도 됩니다."
+      }
+    ],
+    "notes": [
+      "명령형은 대개 동사 원형에서 -a 를 떼거나 그대로 씁니다. blunda 처럼 -ar 동사는 원형이 곧 명령형입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "명령형"
+    ]
+  },
+  {
+    "id": "det-ar-normalt-att-det-kanns-lite-varmt",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "조금 뜨거운 건 정상이야.",
+    "romanization": "",
+    "sv": "Det är normalt att det känns lite varmt.",
+    "literal_sv": "",
+    "meaning": "따뜻하게 느껴지는 게 이상한 게 아니라고 안심시키는 말.",
+    "ipa": "deː ɛː nɔrˈmɑːlt at deː ɕɛns ˈliːtɛ varmt",
+    "ko_pron": "데- 에- 노르말-트 앗 데- 셴스 리-테 바름트",
+    "words": [
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "대명사 (형식주어)",
+        "ipa": "deː",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "ipa": "ɛː",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "normalt",
+        "base": "normal",
+        "pos": "형용사 (중성형)",
+        "ipa": "nɔrˈmɑːlt",
+        "meaning": "정상적인",
+        "note": ""
+      },
+      {
+        "surface": "att",
+        "base": "att",
+        "pos": "접속사",
+        "ipa": "at",
+        "meaning": "~라는 것",
+        "note": ""
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사 (형식주어)",
+        "ipa": "deː",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "känns",
+        "base": "kännas",
+        "pos": "동사 (현재형)",
+        "ipa": "ɕɛns",
+        "meaning": "느껴지다",
+        "note": "-s 동사. känna(느끼다)의 수동형이 '느껴지다'가 됩니다."
+      },
+      {
+        "surface": "lite",
+        "base": "lite",
+        "pos": "부사",
+        "ipa": "ˈliːtɛ",
+        "meaning": "조금",
+        "note": ""
+      },
+      {
+        "surface": "varmt",
+        "base": "varm",
+        "pos": "형용사 (중성형)",
+        "ipa": "varmt",
+        "meaning": "따뜻한",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "형식주어 det 이 두 번 나옵니다. 앞의 det 은 att 절 전체를 대신하고, 뒤의 det 은 그 절 안의 주어 자리입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형식주어",
+      "s동사"
+    ]
+  },
+  {
+    "id": "oppna-dem-inte-an",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "아직 뜨지 마.",
+    "romanization": "",
+    "sv": "Öppna dem inte än.",
+    "literal_sv": "",
+    "meaning": "눈을 아직 뜨지 말라고 이르는 말.",
+    "ipa": "ˈœpna dɔm ˈɪntɛ ɛn",
+    "ko_pron": "외프나 돔 인테 엔",
+    "words": [
+      {
+        "surface": "Öppna",
+        "base": "öppna",
+        "pos": "동사 (명령형)",
+        "ipa": "ˈœpna",
+        "meaning": "열다",
+        "note": ""
+      },
+      {
+        "surface": "dem",
+        "base": "de",
+        "pos": "대명사 (목적격)",
+        "ipa": "dɔm",
+        "meaning": "그것들을",
+        "note": "구어에서는 dom 으로 발음합니다."
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "än",
+        "base": "än",
+        "pos": "부사",
+        "ipa": "ɛn",
+        "meaning": "아직",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "명령문에서 inte 는 목적어 뒤에 옵니다. Öppna dem inte — Öppna inte dem 이 아닙니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "명령형",
+      "부정",
+      "어순"
+    ]
+  },
+  {
+    "id": "det-ar-finhackade-orter",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "잘게 다진 약초야.",
+    "romanization": "",
+    "sv": "Det är finhackade örter.",
+    "literal_sv": "",
+    "meaning": "눈에 올린 것이 무엇인지 알려 주는 말.",
+    "ipa": "deː ɛː ˈfiːnˌhakadɛ ˈœʈɛr",
+    "ko_pron": "데- 에- 핀-하카데 외르테르",
+    "words": [
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "대명사 (형식주어)",
+        "ipa": "deː",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "ipa": "ɛː",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "finhackade",
+        "base": "finhackad",
+        "pos": "형용사 (복수형)",
+        "ipa": "ˈfiːnˌhakadɛ",
+        "meaning": "잘게 다진",
+        "note": "fin(고운) + hackad(다진)의 합성어입니다."
+      },
+      {
+        "surface": "örter",
+        "base": "ört",
+        "pos": "명사 (en-단어, 복수 -er)",
+        "ipa": "ˈœʈɛr",
+        "meaning": "약초, 허브",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "형용사가 복수 명사를 꾸미면 -a 가 붙습니다. finhackad → finhackade"
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "합성어",
+      "복수"
+    ]
+  },
+  {
+    "id": "de-lindrar-spanningen-i-ogonen",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "눈의 긴장을 풀어 주는 효과가 있어.",
+    "romanization": "",
+    "sv": "De lindrar spänningen i ögonen.",
+    "literal_sv": "",
+    "meaning": "약초가 하는 일을 설명하는 말.",
+    "ipa": "dɔm ˈlɪndrar ˈspɛnɪŋɛn iː ˈøːɡɔnɛn",
+    "ko_pron": "돔 린드라르 스페닝엔 이- 외-고넨",
+    "words": [
+      {
+        "surface": "De",
+        "base": "de",
+        "pos": "대명사",
+        "ipa": "dɔm",
+        "meaning": "그것들",
+        "note": "구어 발음은 dom 입니다."
+      },
+      {
+        "surface": "lindrar",
+        "base": "lindra",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈlɪndrar",
+        "meaning": "완화하다, 덜어 주다",
+        "note": ""
+      },
+      {
+        "surface": "spänningen",
+        "base": "spänning",
+        "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈspɛnɪŋɛn",
+        "meaning": "긴장",
+        "note": "spänning → spänningen"
+      },
+      {
+        "surface": "i",
+        "base": "i",
+        "pos": "전치사",
+        "ipa": "iː",
+        "meaning": "~ 안의",
+        "note": ""
+      },
+      {
+        "surface": "ögonen",
+        "base": "öga",
+        "pos": "명사 (ett-단어, 정관사형)",
+        "ipa": "ˈøːɡɔnɛn",
+        "meaning": "눈",
+        "note": "öga → ögat(단수) → ögon → ögonen(복수). 불규칙입니다."
+      }
+    ],
+    "notes": [
+      "öga(눈)는 복수 정관사형이 ögonen 으로 불규칙합니다. öra(귀) → öronen 도 같은 무리입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "불규칙복수",
+      "정관사"
+    ]
+  },
+  {
+    "id": "du-har-stirrat-efter-faror-igen",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "또 위험한 게 있나 계속 노려보고 있었던 거지?",
+    "romanization": "",
+    "sv": "Du har stirrat efter faror igen, eller hur?",
+    "literal_sv": "",
+    "meaning": "상대가 늘 경계하고 있었음을 짚는 말.",
+    "ipa": "dʉː hɑːr ˈstɪrat ˈɛftɛr ˈfɑːrʊr ɪˈjɛn ˈɛlɛr hʉːr",
+    "ko_pron": "뒤- 하-르 스티라트 에프테르 파-로르 이옌 엘레르 휘-르",
+    "words": [
+      {
+        "surface": "Du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "har",
+        "base": "ha",
+        "pos": "동사 (현재형)",
+        "ipa": "hɑːr",
+        "meaning": "가지다",
+        "note": "완료형 조동사입니다."
+      },
+      {
+        "surface": "stirrat",
+        "base": "stirra",
+        "pos": "동사 (완료분사)",
+        "ipa": "ˈstɪrat",
+        "meaning": "노려본",
+        "note": "stirra → stirrade → stirrat"
+      },
+      {
+        "surface": "efter",
+        "base": "efter",
+        "pos": "전치사",
+        "ipa": "ˈɛftɛr",
+        "meaning": "~을 찾아",
+        "note": ""
+      },
+      {
+        "surface": "faror",
+        "base": "fara",
+        "pos": "명사 (en-단어, 복수 -or)",
+        "ipa": "ˈfɑːrʊr",
+        "meaning": "위험",
+        "note": ""
+      },
+      {
+        "surface": "igen",
+        "base": "igen",
+        "pos": "부사",
+        "ipa": "ɪˈjɛn",
+        "meaning": "또, 다시",
+        "note": ""
+      },
+      {
+        "surface": "eller",
+        "base": "eller",
+        "pos": "접속사",
+        "ipa": "ˈɛlɛr",
+        "meaning": "또는",
+        "note": ""
+      },
+      {
+        "surface": "hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "ipa": "hʉːr",
+        "meaning": "어떻게",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "eller hur? 는 문장 끝에 붙여 '그렇지?'라고 확인하는 말입니다. 영어의 부가의문문에 해당합니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "완료형",
+      "부가의문"
+    ]
+  },
+  {
+    "id": "jag-ar-van-vid-sant-har",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "이런 건 익숙해.",
+    "romanization": "",
+    "sv": "Jag är van vid sånt här.",
+    "literal_sv": "",
+    "meaning": "그런 일에 익숙하다고 말하는 표현.",
+    "ipa": "jɑː ɛː vɑːn viːd sɔnt hɛːr",
+    "ko_pron": "야- 에- 반- 비-드 손트 헤-르",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "ipa": "ɛː",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "van",
+        "base": "van",
+        "pos": "형용사",
+        "ipa": "vɑːn",
+        "meaning": "익숙한",
+        "note": ""
+      },
+      {
+        "surface": "vid",
+        "base": "vid",
+        "pos": "전치사",
+        "ipa": "viːd",
+        "meaning": "~에",
+        "note": "van vid 로 묶여 '~에 익숙하다'가 됩니다."
+      },
+      {
+        "surface": "sånt",
+        "base": "sånt",
+        "pos": "대명사",
+        "ipa": "sɔnt",
+        "meaning": "그런 것",
+        "note": "sådant 의 구어형입니다."
+      },
+      {
+        "surface": "här",
+        "base": "här",
+        "pos": "부사",
+        "ipa": "hɛːr",
+        "meaning": "여기",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "형용사 + 전치사 조합은 통째로 외웁니다. van vid(~에 익숙한), rädd för(~를 무서워하는), intresserad av(~에 관심 있는)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "전치사",
+      "구어"
+    ]
+  },
+  {
+    "id": "lat-mig-skota-det",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "나한테 맡겨.",
+    "romanization": "",
+    "sv": "Låt mig sköta det.",
+    "literal_sv": "",
+    "meaning": "내가 처리하겠다고 나서는 말.",
+    "ipa": "loːt mɛj ˈɧøːta deː",
+    "ko_pron": "로-트 메이 쇠-타 데-",
+    "words": [
+      {
+        "surface": "Låt",
+        "base": "låta",
+        "pos": "동사 (명령형)",
+        "ipa": "loːt",
+        "meaning": "~하게 하다",
+        "note": ""
+      },
+      {
+        "surface": "mig",
+        "base": "jag",
+        "pos": "대명사 (목적격)",
+        "ipa": "mɛj",
+        "meaning": "나를",
+        "note": ""
+      },
+      {
+        "surface": "sköta",
+        "base": "sköta",
+        "pos": "동사 (원형)",
+        "ipa": "ˈɧøːta",
+        "meaning": "돌보다, 처리하다",
+        "note": ""
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사",
+        "ipa": "deː",
+        "meaning": "그것",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "låta + 목적어 + 원형 은 '~가 …하게 두다'라는 구조입니다. att 를 넣지 않습니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "명령형",
+      "목적격"
+    ]
+  },
+  {
+    "id": "ror-den-inte",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "만지지 마.",
+    "romanization": "",
+    "sv": "Rör den inte.",
+    "literal_sv": "",
+    "meaning": "손대지 말라고 막는 말.",
+    "ipa": "røːr dɛn ˈɪntɛ",
+    "ko_pron": "뢰-르 덴 인테",
+    "words": [
+      {
+        "surface": "Rör",
+        "base": "röra",
+        "pos": "동사 (명령형)",
+        "ipa": "røːr",
+        "meaning": "만지다",
+        "note": ""
+      },
+      {
+        "surface": "den",
+        "base": "den",
+        "pos": "대명사",
+        "ipa": "dɛn",
+        "meaning": "그것",
+        "note": "en-단어를 가리킵니다."
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
+        "meaning": "~않다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "명령형",
+      "부정"
+    ]
+  },
+  {
+    "id": "min-bage-far-inte-vidroras-av-nagon",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "내 활은 그 누구도 만져선 안 돼.",
+    "romanization": "",
+    "sv": "Min båge får inte vidröras av någon.",
+    "literal_sv": "",
+    "meaning": "자기 활에 아무도 손대지 못하게 하는 말.",
+    "ipa": "mɪn ˈboːɡɛ foːr ˈɪntɛ ˈviːdˌrøːras ɑːv ˈnoːɡɔn",
+    "ko_pron": "민 보-게 포-르 인테 비-드뢰-라스 아-브 노-곤",
+    "words": [
+      {
+        "surface": "Min",
+        "base": "min",
+        "pos": "소유대명사",
+        "ipa": "mɪn",
+        "meaning": "나의",
+        "note": "en-단어 앞에는 min, ett-단어 앞에는 mitt, 복수 앞에는 mina."
+      },
+      {
+        "surface": "båge",
+        "base": "båge",
+        "pos": "명사 (en-단어, 복수 -ar)",
+        "ipa": "ˈboːɡɛ",
+        "meaning": "활",
+        "note": ""
+      },
+      {
+        "surface": "får",
+        "base": "få",
+        "pos": "조동사 (현재형)",
+        "ipa": "foːr",
+        "meaning": "~해도 된다",
+        "note": ""
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "vidröras",
+        "base": "vidröra",
+        "pos": "동사 (수동 원형)",
+        "ipa": "ˈviːdˌrøːras",
+        "meaning": "만져지다",
+        "note": "-s 가 붙어 수동이 됩니다. vidröra(만지다) → vidröras(만져지다)"
+      },
+      {
+        "surface": "av",
+        "base": "av",
+        "pos": "전치사",
+        "ipa": "ɑːv",
+        "meaning": "~에 의해",
+        "note": ""
+      },
+      {
+        "surface": "någon",
+        "base": "någon",
+        "pos": "대명사",
+        "ipa": "ˈnoːɡɔn",
+        "meaning": "누군가",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "-s 수동태: 행위자는 av 로 밝힙니다. Boken läses av många(그 책은 많은 사람에게 읽힌다)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "수동태",
+      "s동사",
+      "소유"
+    ]
+  },
+  {
+    "id": "inga-smeder-och-inte-du-heller",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "대장장이들은 물론이고, 너도 안 돼.",
+    "romanization": "",
+    "sv": "Inga smeder, och inte du heller.",
+    "literal_sv": "",
+    "meaning": "예외 없이 아무도 안 된다고 못 박는 말.",
+    "ipa": "ˈɪŋa ˈsmeːdɛr ɔ ˈɪntɛ dʉː ˈhɛlɛr",
+    "ko_pron": "잉아 스메-데르 오 인테 뒤- 헬레르",
+    "words": [
+      {
+        "surface": "Inga",
+        "base": "ingen",
+        "pos": "부정 한정사 (복수형)",
+        "ipa": "ˈɪŋa",
+        "meaning": "아무 ~도 없는",
+        "note": "en→ingen, ett→inget, 복수→inga"
+      },
+      {
+        "surface": "smeder",
+        "base": "smed",
+        "pos": "명사 (en-단어, 복수 -er)",
+        "ipa": "ˈsmeːdɛr",
+        "meaning": "대장장이",
+        "note": ""
+      },
+      {
+        "surface": "och",
+        "base": "och",
+        "pos": "접속사",
+        "ipa": "ɔ",
+        "meaning": "그리고",
+        "note": ""
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "heller",
+        "base": "heller",
+        "pos": "부사",
+        "ipa": "ˈhɛlɛr",
+        "meaning": "~도 (아니다)",
+        "note": "부정문에서 '~도'는 också 가 아니라 heller 를 씁니다."
+      }
+    ],
+    "notes": [
+      "긍정문의 '~도'는 också, 부정문의 '~도'는 heller 입니다. Jag också(나도) / Inte jag heller(나도 아니야)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "부정",
+      "한정사"
+    ]
+  },
+  {
+    "id": "titta-pa-tidigare-expeditioners-anteckningar",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "이전 탐사대의 기록을 확인해 봐.",
+    "romanization": "",
+    "sv": "Titta på tidigare expeditioners anteckningar.",
+    "literal_sv": "",
+    "meaning": "예전 기록을 보라고 권하는 말.",
+    "ipa": "ˈtɪta poː ˈtiːdɪɡarɛ ɛkspɛdɪˈɧuːnɛrs ˈantɛkˌnɪŋar",
+    "ko_pron": "티타 포- 티-디가레 엑스페디슈-네르스 안테크닝아르",
+    "words": [
+      {
+        "surface": "Titta",
+        "base": "titta",
+        "pos": "동사 (명령형)",
+        "ipa": "ˈtɪta",
+        "meaning": "보다",
+        "note": ""
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "ipa": "poː",
+        "meaning": "~을",
+        "note": "titta på 로 묶여 '~를 보다'가 됩니다."
+      },
+      {
+        "surface": "tidigare",
+        "base": "tidig",
+        "pos": "형용사 (비교급)",
+        "ipa": "ˈtiːdɪɡarɛ",
+        "meaning": "이전의",
+        "note": ""
+      },
+      {
+        "surface": "expeditioners",
+        "base": "expedition",
+        "pos": "명사 (en-단어, 복수 -er)",
+        "ipa": "ɛkspɛdɪˈɧuːnɛrs",
+        "meaning": "탐사대",
+        "note": "-s 가 붙어 소유를 나타냅니다. 아포스트로피는 쓰지 않습니다."
+      },
+      {
+        "surface": "anteckningar",
+        "base": "anteckning",
+        "pos": "명사 (en-단어, 복수 -ar)",
+        "ipa": "ˈantɛkˌnɪŋar",
+        "meaning": "기록, 메모",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "스웨덴어 소유격은 -s 만 붙입니다. 영어와 달리 아포스트로피가 없습니다. Annas bok(안나의 책)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "소유격",
+      "구동사"
+    ]
   }
 ]

@@ -6,6 +6,17 @@
 
 const DATA_URL = 'data/entries.json';
 
+/**
+ * 오늘의 표현에서 제외할 분류.
+ * 일상에서 쓰는 말이 아니라 읽을거리로 모아 둔 것이라, 매일 뜨는 자리에는
+ * 올리지 않는다. 모아보기와 단어장에는 그대로 들어간다.
+ */
+const NOT_DAILY = new Set(['대사·서사']);
+
+function dailyPool(entries) {
+  return entries.filter((entry) => entry.kind === 'phrase' && !NOT_DAILY.has(entry.category));
+}
+
 let cache = null;
 
 /** 한 번만 읽고 재사용한다. */
@@ -30,7 +41,7 @@ export async function loadEntries() {
  * 같은 숙어가 나오고 저장할 필요도 없다.
  */
 export function pickForDate(entries, date) {
-  const pool = entries.filter((entry) => entry.kind === 'phrase');
+  const pool = dailyPool(entries);
   if (!pool.length) return null;
   const days = Math.floor(Date.parse(`${date}T00:00:00Z`) / 86400000);
   return pool[((days % pool.length) + pool.length) % pool.length];
@@ -38,7 +49,7 @@ export function pickForDate(entries, date) {
 
 /** 오늘 것 말고 다른 표현. `다른 표현` 버튼이 쓴다. */
 export function nextPhrase(entries, currentId) {
-  const pool = entries.filter((entry) => entry.kind === 'phrase');
+  const pool = dailyPool(entries);
   if (!pool.length) return null;
   const index = pool.findIndex((entry) => entry.id === currentId);
   return pool[(index + 1) % pool.length];
