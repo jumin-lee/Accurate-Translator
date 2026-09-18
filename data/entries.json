@@ -6192,5 +6192,1544 @@
       "구동사",
       "합성어"
     ]
+  },
+  {
+    "id": "lagg-ner-navigatorn",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "그 내비게이션 장치는 내려놔.",
+    "romanization": "",
+    "sv": "Lägg ner navigatorn.",
+    "literal_sv": "",
+    "meaning": "기계를 내려놓으라고 이르는 말.",
+    "ipa": "lɛɡ neːr navɪˈɡɑːtʊɳ",
+    "ko_pron": "레그 네-르 나비가-토른",
+    "words": [
+      {
+        "surface": "Lägg",
+        "base": "lägga",
+        "pos": "동사 (명령형)",
+        "ipa": "lɛɡ",
+        "meaning": "놓다",
+        "note": ""
+      },
+      {
+        "surface": "ner",
+        "base": "ner",
+        "pos": "부사",
+        "ipa": "neːr",
+        "meaning": "아래로",
+        "note": "lägga ner 로 '내려놓다'가 됩니다."
+      },
+      {
+        "surface": "navigatorn",
+        "base": "navigator",
+        "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "navɪˈɡɑːtʊɳ",
+        "meaning": "내비게이션 장치",
+        "note": "navigator → navigatorn"
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "구동사",
+      "명령형"
+    ]
+  },
+  {
+    "id": "du-trottnar-snabbt-om-du-bar-runt-pa-sant",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "전문가도 아니면서 그런 걸 지면 금방 지쳐버려.",
+    "romanization": "",
+    "sv": "Du tröttnar snabbt om du bär runt på sånt utan att vara expert.",
+    "literal_sv": "",
+    "meaning": "장비를 함부로 지고 다니지 말라는 말.",
+    "ipa": "dʉː ˈtrœtnar snapt ɔm dʉː bɛːr rɵnt poː sɔnt ˈʉːtan at ˈvɑːra ɛksˈpæʈ",
+    "ko_pron": "뒤- 트뢰트나르 스납트 옴 뒤- 베-르 룬트 포- 손트 위-탄 앗 바-라 엑스페트",
+    "words": [
+      {
+        "surface": "Du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "tröttnar",
+        "base": "tröttna",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈtrœtnar",
+        "meaning": "지치다",
+        "note": ""
+      },
+      {
+        "surface": "snabbt",
+        "base": "snabb",
+        "pos": "형용사 (중성형)",
+        "ipa": "snapt",
+        "meaning": "빠르게",
+        "note": ""
+      },
+      {
+        "surface": "om",
+        "base": "om",
+        "pos": "접속사",
+        "ipa": "ɔm",
+        "meaning": "만약 ~면",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "bär",
+        "base": "bära",
+        "pos": "동사 (현재형)",
+        "ipa": "bɛːr",
+        "meaning": "지다, 나르다",
+        "note": "bära → bar → burit. 불규칙입니다."
+      },
+      {
+        "surface": "runt",
+        "base": "runt",
+        "pos": "부사",
+        "ipa": "rɵnt",
+        "meaning": "이리저리",
+        "note": "bära runt på 로 '~를 지고 다니다'가 됩니다."
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "ipa": "poː",
+        "meaning": "~를",
+        "note": ""
+      },
+      {
+        "surface": "sånt",
+        "base": "sånt",
+        "pos": "대명사",
+        "ipa": "sɔnt",
+        "meaning": "그런 것",
+        "note": ""
+      },
+      {
+        "surface": "utan",
+        "base": "utan",
+        "pos": "전치사",
+        "ipa": "ˈʉːtan",
+        "meaning": "~ 없이",
+        "note": ""
+      },
+      {
+        "surface": "att",
+        "base": "att",
+        "pos": "부정사 표지",
+        "ipa": "at",
+        "meaning": "~하는 것",
+        "note": ""
+      },
+      {
+        "surface": "vara",
+        "base": "vara",
+        "pos": "동사 (원형)",
+        "ipa": "ˈvɑːra",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "expert",
+        "base": "expert",
+        "pos": "명사 (en-단어, 복수 -er)",
+        "ipa": "ɛksˈpæʈ",
+        "meaning": "전문가",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "utan att + 원형 으로 '~하지 않고'를 나타냅니다. utan att vara expert(전문가도 아니면서)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "조건절",
+      "구동사",
+      "패턴"
+    ]
+  },
+  {
+    "id": "overlat-vagledningen-till-mig",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "안내는 나한테 맡겨.",
+    "romanization": "",
+    "sv": "Överlåt vägledningen till mig.",
+    "literal_sv": "",
+    "meaning": "길 안내를 자기가 맡겠다는 말.",
+    "ipa": "ˈøːvɛrˌloːt ˈvɛːɡˌleːdnɪŋɛn tɪl mɛj",
+    "ko_pron": "외-베를로-트 베-그레-드닝엔 틸 메이",
+    "words": [
+      {
+        "surface": "Överlåt",
+        "base": "överlåta",
+        "pos": "동사 (명령형)",
+        "ipa": "ˈøːvɛrˌloːt",
+        "meaning": "넘기다, 맡기다",
+        "note": ""
+      },
+      {
+        "surface": "vägledningen",
+        "base": "vägledning",
+        "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈvɛːɡˌleːdnɪŋɛn",
+        "meaning": "안내",
+        "note": "väg(길) + ledning(인도)의 합성어입니다."
+      },
+      {
+        "surface": "till",
+        "base": "till",
+        "pos": "전치사",
+        "ipa": "tɪl",
+        "meaning": "~에게",
+        "note": ""
+      },
+      {
+        "surface": "mig",
+        "base": "jag",
+        "pos": "대명사 (목적격)",
+        "ipa": "mɛj",
+        "meaning": "나에게",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "명령형",
+      "합성어"
+    ]
+  },
+  {
+    "id": "forr-ledde-argus-mig-sa-har",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "예전에는 아르게스가 이렇게 날 이끌어 줬었어.",
+    "romanization": "",
+    "sv": "Förr ledde Argus mig så här.",
+    "literal_sv": "",
+    "meaning": "과거에 누군가가 자신을 이끌어 줬음을 회상하는 말.",
+    "ipa": "fœr ˈlɛdɛ ˈarɡɵs mɛj soː hɛːr",
+    "ko_pron": "푀르 레데 아르구스 메이 소- 헤-르",
+    "words": [
+      {
+        "surface": "Förr",
+        "base": "förr",
+        "pos": "부사",
+        "ipa": "fœr",
+        "meaning": "예전에",
+        "note": ""
+      },
+      {
+        "surface": "ledde",
+        "base": "leda",
+        "pos": "동사 (과거형)",
+        "ipa": "ˈlɛdɛ",
+        "meaning": "이끌었다",
+        "note": "leda → ledde → lett"
+      },
+      {
+        "surface": "mig",
+        "base": "jag",
+        "pos": "대명사 (목적격)",
+        "ipa": "mɛj",
+        "meaning": "나를",
+        "note": ""
+      },
+      {
+        "surface": "så",
+        "base": "så",
+        "pos": "부사",
+        "ipa": "soː",
+        "meaning": "그렇게",
+        "note": ""
+      },
+      {
+        "surface": "här",
+        "base": "här",
+        "pos": "부사",
+        "ipa": "hɛːr",
+        "meaning": "여기",
+        "note": "så här 로 '이렇게'가 됩니다."
+      }
+    ],
+    "notes": [
+      "Förr 로 문장을 시작했으므로 V2 어순에 따라 동사 ledde 가 두 번째, 주어 Argus 가 세 번째로 갑니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "V2어순",
+      "과거형"
+    ]
+  },
+  {
+    "id": "hon-brukade-saga-att-svarigheter-ocksa-ar-odets-vagvisare",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "고난과 역경도 운명의 길잡이라고 말하곤 했어.",
+    "romanization": "",
+    "sv": "Hon brukade säga att svårigheter också är ödets vägvisare.",
+    "literal_sv": "",
+    "meaning": "옛 스승의 말을 옮기는 표현.",
+    "ipa": "hʊn ˈbrʉːkadɛ ˈsɛːɡa at ˈsvoːrɪˌheːtɛr ˈɔksɔ ɛː ˈøːdɛts ˈvɛːɡˌviːsarɛ",
+    "ko_pron": "혼 브뤼-카데 세-가 앗 스보-리헤-테르 옥소 에- 외-뎃스 베-그비-사레",
+    "words": [
+      {
+        "surface": "Hon",
+        "base": "hon",
+        "pos": "대명사",
+        "ipa": "hʊn",
+        "meaning": "그녀",
+        "note": ""
+      },
+      {
+        "surface": "brukade",
+        "base": "bruka",
+        "pos": "동사 (과거형)",
+        "ipa": "ˈbrʉːkadɛ",
+        "meaning": "~하곤 했다",
+        "note": "bruka + 원형으로 과거의 습관을 나타냅니다."
+      },
+      {
+        "surface": "säga",
+        "base": "säga",
+        "pos": "동사 (원형)",
+        "ipa": "ˈsɛːɡa",
+        "meaning": "말하다",
+        "note": ""
+      },
+      {
+        "surface": "att",
+        "base": "att",
+        "pos": "접속사",
+        "ipa": "at",
+        "meaning": "~라고",
+        "note": ""
+      },
+      {
+        "surface": "svårigheter",
+        "base": "svårighet",
+        "pos": "명사 (en-단어, 복수 -er)",
+        "ipa": "ˈsvoːrɪˌheːtɛr",
+        "meaning": "어려움",
+        "note": "svår(어려운) + -het(명사화 접미사)"
+      },
+      {
+        "surface": "också",
+        "base": "också",
+        "pos": "부사",
+        "ipa": "ˈɔksɔ",
+        "meaning": "~도",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "ipa": "ɛː",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "ödets",
+        "base": "öde",
+        "pos": "명사 (ett-단어, 정관사형)",
+        "ipa": "ˈøːdɛts",
+        "meaning": "운명의",
+        "note": "öde → ödet → ödets(소유격)"
+      },
+      {
+        "surface": "vägvisare",
+        "base": "vägvisare",
+        "pos": "명사 (en-단어, 복수 vägvisare)",
+        "ipa": "ˈvɛːɡˌviːsarɛ",
+        "meaning": "길잡이",
+        "note": "väg(길) + visare(가리키는 것)"
+      }
+    ],
+    "notes": [
+      "brukade + 원형 은 '~하곤 했다'는 과거의 습관입니다. 영어 used to 에 해당합니다.",
+      "-het 는 형용사를 명사로 만드는 접미사입니다. svår → svårighet, fri → frihet(자유)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "과거형",
+      "접미사",
+      "합성어"
+    ]
+  },
+  {
+    "id": "forst-senare-forstod-jag",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "나중에야 알게 됐어.",
+    "romanization": "",
+    "sv": "Först senare förstod jag.",
+    "literal_sv": "",
+    "meaning": "뒤늦게 깨달았다는 말.",
+    "ipa": "fœʂt ˈseːnarɛ fœrˈstuːd jɑː",
+    "ko_pron": "푀슈트 세-나레 푀르스투-드 야-",
+    "words": [
+      {
+        "surface": "Först",
+        "base": "först",
+        "pos": "부사",
+        "ipa": "fœʂt",
+        "meaning": "비로소, 처음",
+        "note": ""
+      },
+      {
+        "surface": "senare",
+        "base": "sen",
+        "pos": "형용사 (비교급)",
+        "ipa": "ˈseːnarɛ",
+        "meaning": "나중에",
+        "note": ""
+      },
+      {
+        "surface": "förstod",
+        "base": "förstå",
+        "pos": "동사 (과거형)",
+        "ipa": "fœrˈstuːd",
+        "meaning": "이해했다",
+        "note": "förstå → förstod → förstått"
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "först 는 '처음'이라는 뜻 외에 '비로소'로도 쓰입니다. Först nu förstår jag(이제야 알겠다)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "V2어순",
+      "과거형"
+    ]
+  },
+  {
+    "id": "foljer-du-vindens-ljud-och-grenarna-kommer-du-fram",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "바람 소리와 나뭇가지를 따라가다 보면 원하는 곳에 도달할 수 있어.",
+    "romanization": "",
+    "sv": "Följer du vindens ljud och grenarna kommer du naturligt fram dit du vill.",
+    "literal_sv": "",
+    "meaning": "자연의 신호를 따라가라는 조언.",
+    "ipa": "ˈfœljɛr dʉː ˈvɪndɛns jʉːd ɔ ˈɡreːnaɳa ˈkɔmɛr dʉː naˈtʉːɭɪkt fram diːt dʉː vɪl",
+    "ko_pron": "푈리에르 뒤- 빈덴스 위-드 오 그레-나르나 코메르 뒤- 나튀-를릭트 프람 디-트 뒤- 빌",
+    "words": [
+      {
+        "surface": "Följer",
+        "base": "följa",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈfœljɛr",
+        "meaning": "따르다",
+        "note": "om 없이 동사를 앞으로 보내 조건절을 만들었습니다."
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "vindens",
+        "base": "vind",
+        "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈvɪndɛns",
+        "meaning": "바람의",
+        "note": "vind → vinden → vindens"
+      },
+      {
+        "surface": "ljud",
+        "base": "ljud",
+        "pos": "명사 (ett-단어, 복수 ljud)",
+        "ipa": "jʉːd",
+        "meaning": "소리",
+        "note": "lj- 는 /j/ 로 발음합니다. l 은 묵음입니다."
+      },
+      {
+        "surface": "och",
+        "base": "och",
+        "pos": "접속사",
+        "ipa": "ɔ",
+        "meaning": "그리고",
+        "note": ""
+      },
+      {
+        "surface": "grenarna",
+        "base": "gren",
+        "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈɡreːnaɳa",
+        "meaning": "나뭇가지들",
+        "note": "gren → grenar → grenarna"
+      },
+      {
+        "surface": "kommer",
+        "base": "komma",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈkɔmɛr",
+        "meaning": "오다",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "naturligt",
+        "base": "naturlig",
+        "pos": "형용사 (중성형)",
+        "ipa": "naˈtʉːɭɪkt",
+        "meaning": "자연스럽게",
+        "note": ""
+      },
+      {
+        "surface": "fram",
+        "base": "fram",
+        "pos": "부사",
+        "ipa": "fram",
+        "meaning": "앞으로",
+        "note": "komma fram 으로 '도착하다'가 됩니다."
+      },
+      {
+        "surface": "dit",
+        "base": "dit",
+        "pos": "부사",
+        "ipa": "diːt",
+        "meaning": "그곳으로",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "vill",
+        "base": "vilja",
+        "pos": "조동사 (현재형)",
+        "ipa": "vɪl",
+        "meaning": "원하다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "lj- 로 시작하는 낱말은 l 을 읽지 않습니다. ljud(소리), ljus(빛), ljuga(거짓말하다).",
+      "var(어디에)와 dit(어디로)를 구별하듯, 관계부사도 där(그곳에)와 dit(그곳으로)로 갈립니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "조건절",
+      "구동사",
+      "발음"
+    ]
+  },
+  {
+    "id": "har-du-sovit-pa-botten-av-en-grotta",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "동굴 바닥에서 잠들어 본 적 있어?",
+    "romanization": "",
+    "sv": "Har du sovit på botten av en grotta?",
+    "literal_sv": "",
+    "meaning": "특이한 잠자리를 경험해 봤는지 묻는 말.",
+    "ipa": "hɑːr dʉː ˈsoːvɪt poː ˈbɔtɛn ɑːv ɛn ˈɡrɔta",
+    "ko_pron": "하-르 뒤- 소-비트 포- 보텐 아-브 엔 그로타",
+    "words": [
+      {
+        "surface": "Har",
+        "base": "ha",
+        "pos": "동사 (현재형)",
+        "ipa": "hɑːr",
+        "meaning": "가지다",
+        "note": "완료형 조동사입니다."
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "sovit",
+        "base": "sova",
+        "pos": "동사 (완료분사)",
+        "ipa": "ˈsoːvɪt",
+        "meaning": "잔",
+        "note": "sova → sov → sovit"
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "ipa": "poː",
+        "meaning": "~에서",
+        "note": ""
+      },
+      {
+        "surface": "botten",
+        "base": "botten",
+        "pos": "명사 (en-단어)",
+        "ipa": "ˈbɔtɛn",
+        "meaning": "바닥",
+        "note": ""
+      },
+      {
+        "surface": "av",
+        "base": "av",
+        "pos": "전치사",
+        "ipa": "ɑːv",
+        "meaning": "~의",
+        "note": ""
+      },
+      {
+        "surface": "en",
+        "base": "en",
+        "pos": "부정관사",
+        "ipa": "ɛn",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "grotta",
+        "base": "grotta",
+        "pos": "명사 (en-단어, 복수 -or)",
+        "ipa": "ˈɡrɔta",
+        "meaning": "동굴",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "경험을 묻는 '~해 본 적 있어?'는 현재완료로 나타냅니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "완료형",
+      "의문문"
+    ]
+  },
+  {
+    "id": "eller-ovanpa-rankor",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "덩굴 위에서는?",
+    "romanization": "",
+    "sv": "Eller ovanpå rankor?",
+    "literal_sv": "",
+    "meaning": "앞의 질문에 이어 다른 경우를 묻는 말.",
+    "ipa": "ˈɛlɛr ˈoːvanˌpoː ˈraŋkʊr",
+    "ko_pron": "엘레르 오-반포- 랑코르",
+    "words": [
+      {
+        "surface": "Eller",
+        "base": "eller",
+        "pos": "접속사",
+        "ipa": "ˈɛlɛr",
+        "meaning": "또는",
+        "note": ""
+      },
+      {
+        "surface": "ovanpå",
+        "base": "ovanpå",
+        "pos": "전치사",
+        "ipa": "ˈoːvanˌpoː",
+        "meaning": "~ 위에",
+        "note": ""
+      },
+      {
+        "surface": "rankor",
+        "base": "ranka",
+        "pos": "명사 (en-단어, 복수 -or)",
+        "ipa": "ˈraŋkʊr",
+        "meaning": "덩굴",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "전치사"
+    ]
+  },
+  {
+    "id": "prova-om-du-far-tillfalle",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "기회가 되면 한번 시도해 봐.",
+    "romanization": "",
+    "sv": "Prova om du får tillfälle.",
+    "literal_sv": "",
+    "meaning": "기회가 있으면 해 보라고 권하는 말.",
+    "ipa": "ˈpruːva ɔm dʉː foːr ˈtɪlˌfɛlɛ",
+    "ko_pron": "프루-바 옴 뒤- 포-르 틸펠레",
+    "words": [
+      {
+        "surface": "Prova",
+        "base": "prova",
+        "pos": "동사 (명령형)",
+        "ipa": "ˈpruːva",
+        "meaning": "시도하다",
+        "note": ""
+      },
+      {
+        "surface": "om",
+        "base": "om",
+        "pos": "접속사",
+        "ipa": "ɔm",
+        "meaning": "만약 ~면",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "får",
+        "base": "få",
+        "pos": "동사 (현재형)",
+        "ipa": "foːr",
+        "meaning": "얻다",
+        "note": ""
+      },
+      {
+        "surface": "tillfälle",
+        "base": "tillfälle",
+        "pos": "명사 (ett-단어, 복수 -n)",
+        "ipa": "ˈtɪlˌfɛlɛ",
+        "meaning": "기회",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "명령형",
+      "조건절"
+    ]
+  },
+  {
+    "id": "jag-sover-daligt-nar-jag-inte-hor-samis-puls",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "사미의 맥박 소리가 들리지 않으면 잠이 잘 안 와.",
+    "romanization": "",
+    "sv": "Jag sover dåligt när jag inte hör Samis puls.",
+    "literal_sv": "",
+    "meaning": "익숙한 소리가 없으면 잠들지 못한다는 말.",
+    "ipa": "jɑː ˈsoːvɛr ˈdoːlɪkt nɛːr jɑː ˈɪntɛ høːr ˈsɑːmɪs pɵls",
+    "ko_pron": "야- 소-베르 도-릭트 네-르 야- 인테 회-르 사-미스 풀스",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "sover",
+        "base": "sova",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈsoːvɛr",
+        "meaning": "자다",
+        "note": ""
+      },
+      {
+        "surface": "dåligt",
+        "base": "dålig",
+        "pos": "형용사 (중성형)",
+        "ipa": "ˈdoːlɪkt",
+        "meaning": "나쁘게",
+        "note": ""
+      },
+      {
+        "surface": "när",
+        "base": "när",
+        "pos": "접속사",
+        "ipa": "nɛːr",
+        "meaning": "~할 때",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
+        "meaning": "~않다",
+        "note": "종속절이라 inte 가 동사 앞에 왔습니다."
+      },
+      {
+        "surface": "hör",
+        "base": "höra",
+        "pos": "동사 (현재형)",
+        "ipa": "høːr",
+        "meaning": "듣다",
+        "note": ""
+      },
+      {
+        "surface": "puls",
+        "base": "puls",
+        "pos": "명사 (en-단어, 복수 -ar)",
+        "ipa": "pɵls",
+        "meaning": "맥박",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "종속절에서는 inte 가 동사 앞에 옵니다. 주절은 jag hör inte, 종속절은 när jag inte hör 입니다. 이 문장 안에 둘 다 들어 있지는 않지만 어순 차이를 눈여겨보세요."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "종속절",
+      "어순",
+      "부정"
+    ]
+  },
+  {
+    "id": "hur-kan-jag-vila-lugnt-om-jag-inte-kan-vakna-genast",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "바로 깨어날 수 없다면, 어떻게 편히 쉴 수 있겠어?",
+    "romanization": "",
+    "sv": "Hur kan jag vila lugnt om jag inte kan vakna genast när något händer?",
+    "literal_sv": "",
+    "meaning": "늘 경계해야 하는 이유를 되묻는 말.",
+    "ipa": "hʉːr kan jɑː ˈviːla lɵŋt ɔm jɑː ˈɪntɛ kan ˈvɑːkna ˈjeːnast nɛːr ˈnoːɡɔt ˈhɛndɛr",
+    "ko_pron": "휘-르 칸 야- 비-라 룅트 옴 야- 인테 칸 바-크나 예-나스트 네-르 노-곳 헨데르",
+    "words": [
+      {
+        "surface": "Hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "ipa": "hʉːr",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "ipa": "kan",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "vila",
+        "base": "vila",
+        "pos": "동사 (원형)",
+        "ipa": "ˈviːla",
+        "meaning": "쉬다",
+        "note": ""
+      },
+      {
+        "surface": "lugnt",
+        "base": "lugn",
+        "pos": "형용사 (중성형)",
+        "ipa": "lɵŋt",
+        "meaning": "편안하게",
+        "note": ""
+      },
+      {
+        "surface": "om",
+        "base": "om",
+        "pos": "접속사",
+        "ipa": "ɔm",
+        "meaning": "만약 ~면",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "ipa": "kan",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "vakna",
+        "base": "vakna",
+        "pos": "동사 (원형)",
+        "ipa": "ˈvɑːkna",
+        "meaning": "깨다",
+        "note": ""
+      },
+      {
+        "surface": "genast",
+        "base": "genast",
+        "pos": "부사",
+        "ipa": "ˈjeːnast",
+        "meaning": "즉시",
+        "note": ""
+      },
+      {
+        "surface": "när",
+        "base": "när",
+        "pos": "접속사",
+        "ipa": "nɛːr",
+        "meaning": "~할 때",
+        "note": ""
+      },
+      {
+        "surface": "något",
+        "base": "något",
+        "pos": "대명사",
+        "ipa": "ˈnoːɡɔt",
+        "meaning": "무언가",
+        "note": ""
+      },
+      {
+        "surface": "händer",
+        "base": "hända",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈhɛndɛr",
+        "meaning": "일어나다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "종속절",
+      "수사의문"
+    ]
+  },
+  {
+    "id": "ja-jag-har-ofta-mardrommar",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "악몽은 자주 꾸는데.",
+    "romanization": "",
+    "sv": "Ja, jag har ofta mardrömmar.",
+    "literal_sv": "",
+    "meaning": "악몽을 자주 꾼다고 담담히 말하는 표현.",
+    "ipa": "jɑː jɑː hɑːr ˈɔfta ˈmɑːɖˌrœmar",
+    "ko_pron": "야- 야- 하-르 오프타 마-드뢰마르",
+    "words": [
+      {
+        "surface": "Ja",
+        "base": "ja",
+        "pos": "감탄사",
+        "ipa": "jɑː",
+        "meaning": "응",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "har",
+        "base": "ha",
+        "pos": "동사 (현재형)",
+        "ipa": "hɑːr",
+        "meaning": "가지다",
+        "note": ""
+      },
+      {
+        "surface": "ofta",
+        "base": "ofta",
+        "pos": "부사",
+        "ipa": "ˈɔfta",
+        "meaning": "자주",
+        "note": ""
+      },
+      {
+        "surface": "mardrömmar",
+        "base": "mardröm",
+        "pos": "명사 (en-단어, 복수 -mar)",
+        "ipa": "ˈmɑːɖˌrœmar",
+        "meaning": "악몽",
+        "note": "mara(가위눌림) + dröm(꿈)의 합성어입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "합성어"
+    ]
+  },
+  {
+    "id": "ropade-du",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "불렀어?",
+    "romanization": "",
+    "sv": "Ropade du?",
+    "literal_sv": "",
+    "meaning": "자기를 불렀는지 되묻는 말.",
+    "ipa": "ˈruːpadɛ dʉː",
+    "ko_pron": "루-파데 뒤-",
+    "words": [
+      {
+        "surface": "Ropade",
+        "base": "ropa",
+        "pos": "동사 (과거형)",
+        "ipa": "ˈruːpadɛ",
+        "meaning": "불렀다",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "과거형",
+      "의문문"
+    ]
+  },
+  {
+    "id": "har-nagot-hant",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "무슨 문제라도 생긴 거야?",
+    "romanization": "",
+    "sv": "Har något hänt?",
+    "literal_sv": "",
+    "meaning": "무슨 일이 있었는지 묻는 말.",
+    "ipa": "hɑːr ˈnoːɡɔt hɛnt",
+    "ko_pron": "하-르 노-곳 헨트",
+    "words": [
+      {
+        "surface": "Har",
+        "base": "ha",
+        "pos": "동사 (현재형)",
+        "ipa": "hɑːr",
+        "meaning": "가지다",
+        "note": "완료형 조동사입니다."
+      },
+      {
+        "surface": "något",
+        "base": "något",
+        "pos": "대명사",
+        "ipa": "ˈnoːɡɔt",
+        "meaning": "무언가",
+        "note": ""
+      },
+      {
+        "surface": "hänt",
+        "base": "hända",
+        "pos": "동사 (완료분사)",
+        "ipa": "hɛnt",
+        "meaning": "일어난",
+        "note": "hända → hände → hänt"
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "완료형",
+      "의문문"
+    ]
+  },
+  {
+    "id": "om-ingenting-hant-lamna-mig-ensam-ett-tag",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "별일 없는 거면, 조금만 혼자 있게 해 줄래?",
+    "romanization": "",
+    "sv": "Om ingenting hänt, lämna mig ensam ett tag.",
+    "literal_sv": "",
+    "meaning": "잠시 혼자 있고 싶다고 청하는 말.",
+    "ipa": "ɔm ˈɪŋɛnˌtɪŋ hɛnt ˈlɛmna mɛj ˈeːnsam ɛt tɑːɡ",
+    "ko_pron": "옴 잉엔팅 헨트 렘나 메이 엔-삼 엣 타-그",
+    "words": [
+      {
+        "surface": "Om",
+        "base": "om",
+        "pos": "접속사",
+        "ipa": "ɔm",
+        "meaning": "만약 ~면",
+        "note": ""
+      },
+      {
+        "surface": "ingenting",
+        "base": "ingenting",
+        "pos": "대명사",
+        "ipa": "ˈɪŋɛnˌtɪŋ",
+        "meaning": "아무것도",
+        "note": ""
+      },
+      {
+        "surface": "hänt",
+        "base": "hända",
+        "pos": "동사 (완료분사)",
+        "ipa": "hɛnt",
+        "meaning": "일어난",
+        "note": ""
+      },
+      {
+        "surface": "lämna",
+        "base": "lämna",
+        "pos": "동사 (명령형)",
+        "ipa": "ˈlɛmna",
+        "meaning": "남기다, 두다",
+        "note": ""
+      },
+      {
+        "surface": "mig",
+        "base": "jag",
+        "pos": "대명사 (목적격)",
+        "ipa": "mɛj",
+        "meaning": "나를",
+        "note": ""
+      },
+      {
+        "surface": "ensam",
+        "base": "ensam",
+        "pos": "형용사",
+        "ipa": "ˈeːnsam",
+        "meaning": "혼자인",
+        "note": ""
+      },
+      {
+        "surface": "ett",
+        "base": "ett",
+        "pos": "부정관사",
+        "ipa": "ɛt",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "tag",
+        "base": "tag",
+        "pos": "명사 (ett-단어)",
+        "ipa": "tɑːɡ",
+        "meaning": "잠시",
+        "note": "ett tag 으로 '잠깐'이 됩니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "조건절",
+      "명령형"
+    ]
+  },
+  {
+    "id": "jag-tittade-pa-de-doda",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "죽어간 사람들을 보고 있었어.",
+    "romanization": "",
+    "sv": "Jag tittade på de döda.",
+    "literal_sv": "",
+    "meaning": "죽은 이들을 바라보고 있었다는 말.",
+    "ipa": "jɑː ˈtɪtadɛ poː dɔm ˈdøːda",
+    "ko_pron": "야- 티타데 포- 돔 되-다",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "tittade",
+        "base": "titta",
+        "pos": "동사 (과거형)",
+        "ipa": "ˈtɪtadɛ",
+        "meaning": "보았다",
+        "note": ""
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "ipa": "poː",
+        "meaning": "~를",
+        "note": ""
+      },
+      {
+        "surface": "de",
+        "base": "de",
+        "pos": "정관사 (복수)",
+        "ipa": "dɔm",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "döda",
+        "base": "död",
+        "pos": "형용사 (복수형)",
+        "ipa": "ˈdøːda",
+        "meaning": "죽은 (사람들)",
+        "note": "형용사가 정관사와 함께 명사처럼 쓰였습니다."
+      }
+    ],
+    "notes": [
+      "형용사를 명사처럼 쓸 수 있습니다. de döda(죽은 자들), de gamla(노인들), den sjuke(그 환자)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사명사화"
+    ]
+  },
+  {
+    "id": "de-oforstorda-doda-vandrar-bland-skogen-och-djuren",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "오염되지 않은 죽은 자들은 숲과 짐승들 사이를 떠돌아다녀.",
+    "romanization": "",
+    "sv": "De oförstörda döda vandrar bland skogen och djuren.",
+    "literal_sv": "",
+    "meaning": "죽은 자들이 머무는 곳을 말하는 표현.",
+    "ipa": "dɔm ˈuːfœrˌstœɖa ˈdøːda ˈvandrar bland ˈskuːɡɛn ɔ ˈjʉːrɛn",
+    "ko_pron": "돔 우-푀르스퇴르다 되-다 반드라르 블란드 스쿠-겐 오 위-렌",
+    "words": [
+      {
+        "surface": "De",
+        "base": "de",
+        "pos": "정관사 (복수)",
+        "ipa": "dɔm",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "oförstörda",
+        "base": "oförstörd",
+        "pos": "형용사 (복수형)",
+        "ipa": "ˈuːfœrˌstœɖa",
+        "meaning": "훼손되지 않은",
+        "note": "o-(부정) + förstörd(파괴된)"
+      },
+      {
+        "surface": "döda",
+        "base": "död",
+        "pos": "형용사 (복수형)",
+        "ipa": "ˈdøːda",
+        "meaning": "죽은 (사람들)",
+        "note": ""
+      },
+      {
+        "surface": "vandrar",
+        "base": "vandra",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈvandrar",
+        "meaning": "떠돌다",
+        "note": ""
+      },
+      {
+        "surface": "bland",
+        "base": "bland",
+        "pos": "전치사",
+        "ipa": "bland",
+        "meaning": "~ 사이를",
+        "note": ""
+      },
+      {
+        "surface": "skogen",
+        "base": "skog",
+        "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈskuːɡɛn",
+        "meaning": "숲",
+        "note": ""
+      },
+      {
+        "surface": "och",
+        "base": "och",
+        "pos": "접속사",
+        "ipa": "ɔ",
+        "meaning": "그리고",
+        "note": ""
+      },
+      {
+        "surface": "djuren",
+        "base": "djur",
+        "pos": "명사 (ett-단어, 정관사형)",
+        "ipa": "ˈjʉːrɛn",
+        "meaning": "짐승들",
+        "note": "djur → djuret → djur → djuren"
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사명사화",
+      "접두사"
+    ]
+  },
+  {
+    "id": "jag-letar-fortfarande-efter-min-mor-och-far",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "난 계속 어머니와 아버지를 찾고 있어.",
+    "romanization": "",
+    "sv": "Jag letar fortfarande efter min mor och far.",
+    "literal_sv": "",
+    "meaning": "부모를 아직 찾고 있다는 말.",
+    "ipa": "jɑː ˈleːtar ˈfɔʈˌfɑːrandɛ ˈɛftɛr mɪn muːr ɔ fɑːr",
+    "ko_pron": "야- 레-타르 포트파-란데 에프테르 민 무-르 오 파-르",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "letar",
+        "base": "leta",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈleːtar",
+        "meaning": "찾다",
+        "note": ""
+      },
+      {
+        "surface": "fortfarande",
+        "base": "fortfarande",
+        "pos": "부사",
+        "ipa": "ˈfɔʈˌfɑːrandɛ",
+        "meaning": "여전히",
+        "note": ""
+      },
+      {
+        "surface": "efter",
+        "base": "efter",
+        "pos": "전치사",
+        "ipa": "ˈɛftɛr",
+        "meaning": "~를",
+        "note": "leta efter 로 '~를 찾다'가 됩니다."
+      },
+      {
+        "surface": "min",
+        "base": "min",
+        "pos": "소유대명사",
+        "ipa": "mɪn",
+        "meaning": "나의",
+        "note": ""
+      },
+      {
+        "surface": "mor",
+        "base": "mor",
+        "pos": "명사 (en-단어, 복수 mödrar)",
+        "ipa": "muːr",
+        "meaning": "어머니",
+        "note": "구어형은 mamma 입니다."
+      },
+      {
+        "surface": "och",
+        "base": "och",
+        "pos": "접속사",
+        "ipa": "ɔ",
+        "meaning": "그리고",
+        "note": ""
+      },
+      {
+        "surface": "far",
+        "base": "far",
+        "pos": "명사 (en-단어, 복수 fäder)",
+        "ipa": "fɑːr",
+        "meaning": "아버지",
+        "note": "구어형은 pappa 입니다."
+      }
+    ],
+    "notes": [
+      "mor/far 는 글말에 가깝고, 일상에서는 mamma/pappa 를 훨씬 많이 씁니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "구동사",
+      "불규칙복수"
+    ]
   }
 ]
