@@ -4775,5 +4775,1422 @@
       "소유격",
       "구동사"
     ]
+  },
+  {
+    "id": "saknar-du-formagan-att-doda",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "사냥당하기 전에 죽일 실력이 없다면, 그림자에게 들켜선 안 돼.",
+    "romanization": "",
+    "sv": "Saknar du förmågan att döda innan du själv blir dödad, får skuggorna aldrig se dig.",
+    "literal_sv": "",
+    "meaning": "사냥꾼의 규칙을 일러 주는 말.",
+    "ipa": "ˈsɑːknar dʉː fœrˈmoːɡan at ˈdøːda ˈɪnan dʉː ɧɛlv bliːr ˈdøːdad foːr ˈskɵɡɔrna ˈaldrɪ seː dɛj",
+    "ko_pron": "사-크나르 뒤- 푀르모-간 앗 되-다 이난 뒤- 셸브 블리-르 되-다드 포-르 스쿠고르나 알드리 세- 데이",
+    "words": [
+      {
+        "surface": "Saknar",
+        "base": "sakna",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈsɑːknar",
+        "meaning": "없다, 결여하다",
+        "note": "조건절을 if 없이 동사를 앞으로 보내 만들었습니다."
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "förmågan",
+        "base": "förmåga",
+        "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "fœrˈmoːɡan",
+        "meaning": "능력",
+        "note": "förmåga → förmågan"
+      },
+      {
+        "surface": "att",
+        "base": "att",
+        "pos": "부정사 표지",
+        "ipa": "at",
+        "meaning": "~하는 것",
+        "note": ""
+      },
+      {
+        "surface": "döda",
+        "base": "döda",
+        "pos": "동사 (원형)",
+        "ipa": "ˈdøːda",
+        "meaning": "죽이다",
+        "note": ""
+      },
+      {
+        "surface": "innan",
+        "base": "innan",
+        "pos": "접속사",
+        "ipa": "ˈɪnan",
+        "meaning": "~하기 전에",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "själv",
+        "base": "själv",
+        "pos": "대명사",
+        "ipa": "ɧɛlv",
+        "meaning": "스스로",
+        "note": ""
+      },
+      {
+        "surface": "blir",
+        "base": "bli",
+        "pos": "동사 (현재형)",
+        "ipa": "bliːr",
+        "meaning": "~이 되다",
+        "note": ""
+      },
+      {
+        "surface": "dödad",
+        "base": "dödad",
+        "pos": "동사 (완료분사)",
+        "ipa": "ˈdøːdad",
+        "meaning": "죽임당한",
+        "note": "bli + 완료분사로 수동을 만듭니다."
+      },
+      {
+        "surface": "får",
+        "base": "få",
+        "pos": "조동사 (현재형)",
+        "ipa": "foːr",
+        "meaning": "~해도 된다",
+        "note": ""
+      },
+      {
+        "surface": "skuggorna",
+        "base": "skugga",
+        "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈskɵɡɔrna",
+        "meaning": "그림자들",
+        "note": "skugga → skuggor → skuggorna"
+      },
+      {
+        "surface": "aldrig",
+        "base": "aldrig",
+        "pos": "부사",
+        "ipa": "ˈaldrɪ",
+        "meaning": "결코 ~않다",
+        "note": ""
+      },
+      {
+        "surface": "se",
+        "base": "se",
+        "pos": "동사 (원형)",
+        "ipa": "seː",
+        "meaning": "보다",
+        "note": ""
+      },
+      {
+        "surface": "dig",
+        "base": "du",
+        "pos": "대명사 (목적격)",
+        "ipa": "dɛj",
+        "meaning": "너를",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "om 없이 조건절을 만들 수 있습니다. 동사를 문두로 보내면 됩니다. Saknar du… = Om du saknar…",
+      "수동을 만드는 방법이 둘입니다. -s 형(dödas)과 bli + 완료분사(bli dödad). 후자가 한 번의 사건을 더 분명히 나타냅니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "조건절",
+      "수동태",
+      "도치"
+    ]
+  },
+  {
+    "id": "jag-har-sett-dig-forut",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "너 같은 사람들은 많이 봐 왔어.",
+    "romanization": "",
+    "sv": "Jag har sett många som du förut.",
+    "literal_sv": "",
+    "meaning": "비슷한 사람을 여럿 겪어 봤다는 말.",
+    "ipa": "jɑː hɑːr sɛt ˈmɔŋa sɔm dʉː fœˈrʉːt",
+    "ko_pron": "야- 하-르 셋 몽아 솜 뒤- 푀뤼-트",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "har",
+        "base": "ha",
+        "pos": "동사 (현재형)",
+        "ipa": "hɑːr",
+        "meaning": "가지다",
+        "note": "완료형 조동사입니다."
+      },
+      {
+        "surface": "sett",
+        "base": "se",
+        "pos": "동사 (완료분사)",
+        "ipa": "sɛt",
+        "meaning": "본",
+        "note": "se → såg → sett. 불규칙입니다."
+      },
+      {
+        "surface": "många",
+        "base": "många",
+        "pos": "한정사",
+        "ipa": "ˈmɔŋa",
+        "meaning": "많은",
+        "note": ""
+      },
+      {
+        "surface": "som",
+        "base": "som",
+        "pos": "접속사",
+        "ipa": "sɔm",
+        "meaning": "~같은",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "förut",
+        "base": "förut",
+        "pos": "부사",
+        "ipa": "fœˈrʉːt",
+        "meaning": "전에",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "완료형",
+      "불규칙동사"
+    ]
+  },
+  {
+    "id": "det-gor-inget",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "괜찮아.",
+    "romanization": "",
+    "sv": "Det gör inget.",
+    "literal_sv": "그건 아무것도 하지 않아.",
+    "meaning": "문제될 것 없다고 넘기는 말.",
+    "ipa": "deː jøːr ˈɪŋɛt",
+    "ko_pron": "데- 외-르 잉엣",
+    "words": [
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "대명사 (형식주어)",
+        "ipa": "deː",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "gör",
+        "base": "göra",
+        "pos": "동사 (현재형)",
+        "ipa": "jøːr",
+        "meaning": "하다",
+        "note": ""
+      },
+      {
+        "surface": "inget",
+        "base": "ingen",
+        "pos": "부정 한정사 (중성형)",
+        "ipa": "ˈɪŋɛt",
+        "meaning": "아무것도 아닌",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Det gör inget 은 직역하면 '그것은 아무것도 하지 않는다'지만 '괜찮다'는 뜻으로 굳은 표현입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "관용구",
+      "부정"
+    ]
+  },
+  {
+    "id": "jag-sager-det-garna-om-igen",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "내가 몇 번이고 다시 말해 줄게.",
+    "romanization": "",
+    "sv": "Jag säger det gärna om igen, hur många gånger som helst.",
+    "literal_sv": "",
+    "meaning": "필요하면 얼마든지 되풀이하겠다는 말.",
+    "ipa": "jɑː ˈsɛjɛr deː ˈjæːɳa ɔm ɪˈjɛn hʉːr ˈmɔŋa ˈɡɔŋɛr sɔm hɛlst",
+    "ko_pron": "야- 세이에르 데- 예-르나 옴 이옌 휘-르 몽아 공에르 솜 헬스트",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "säger",
+        "base": "säga",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈsɛjɛr",
+        "meaning": "말하다",
+        "note": ""
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사",
+        "ipa": "deː",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "gärna",
+        "base": "gärna",
+        "pos": "부사",
+        "ipa": "ˈjæːɳa",
+        "meaning": "기꺼이",
+        "note": ""
+      },
+      {
+        "surface": "om",
+        "base": "om",
+        "pos": "부사",
+        "ipa": "ɔm",
+        "meaning": "다시",
+        "note": "om igen 으로 묶여 '다시 한 번'이 됩니다."
+      },
+      {
+        "surface": "igen",
+        "base": "igen",
+        "pos": "부사",
+        "ipa": "ɪˈjɛn",
+        "meaning": "다시",
+        "note": ""
+      },
+      {
+        "surface": "hur",
+        "base": "hur",
+        "pos": "의문부사",
+        "ipa": "hʉːr",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "många",
+        "base": "många",
+        "pos": "한정사",
+        "ipa": "ˈmɔŋa",
+        "meaning": "많은",
+        "note": ""
+      },
+      {
+        "surface": "gånger",
+        "base": "gång",
+        "pos": "명사 (en-단어, 복수 -er)",
+        "ipa": "ˈɡɔŋɛr",
+        "meaning": "번, 횟수",
+        "note": ""
+      },
+      {
+        "surface": "som",
+        "base": "som",
+        "pos": "접속사",
+        "ipa": "sɔm",
+        "meaning": "~든",
+        "note": ""
+      },
+      {
+        "surface": "helst",
+        "base": "helst",
+        "pos": "부사",
+        "ipa": "hɛlst",
+        "meaning": "아무거나",
+        "note": "… som helst 로 '얼마든지'가 됩니다."
+      }
+    ],
+    "notes": [
+      "som helst 를 의문사에 붙이면 '아무 ~나'가 됩니다. vad som helst(뭐든), när som helst(언제든), vem som helst(누구든)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "관용구",
+      "패턴"
+    ]
+  },
+  {
+    "id": "det-har-ar-en-ung-hornbeest",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "이건 어린 혼비스트인데 우리의 친구야.",
+    "romanization": "",
+    "sv": "Det här är en ung hornbeest, en vän till oss.",
+    "literal_sv": "",
+    "meaning": "사진 속 짐승을 소개하는 말.",
+    "ipa": "deː hɛːr ɛː ɛn ɵŋ ˈhɔrnbiːst ɛn vɛn tɪl ɔs",
+    "ko_pron": "데- 헤-르 에- 엔 웅 호른비-스트 엔 벤 틸 오스",
+    "words": [
+      {
+        "surface": "Det",
+        "base": "det",
+        "pos": "지시사",
+        "ipa": "deː",
+        "meaning": "이",
+        "note": ""
+      },
+      {
+        "surface": "här",
+        "base": "här",
+        "pos": "부사",
+        "ipa": "hɛːr",
+        "meaning": "여기",
+        "note": "det här 로 묶여 '이것'이 됩니다."
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "ipa": "ɛː",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "en",
+        "base": "en",
+        "pos": "부정관사",
+        "ipa": "ɛn",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "ung",
+        "base": "ung",
+        "pos": "형용사",
+        "ipa": "ɵŋ",
+        "meaning": "어린",
+        "note": ""
+      },
+      {
+        "surface": "en",
+        "base": "en",
+        "pos": "부정관사",
+        "ipa": "ɛn",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "vän",
+        "base": "vän",
+        "pos": "명사 (en-단어, 복수 -ner)",
+        "ipa": "vɛn",
+        "meaning": "친구",
+        "note": ""
+      },
+      {
+        "surface": "till",
+        "base": "till",
+        "pos": "전치사",
+        "ipa": "tɪl",
+        "meaning": "~의",
+        "note": ""
+      },
+      {
+        "surface": "oss",
+        "base": "vi",
+        "pos": "대명사 (목적격)",
+        "ipa": "ɔs",
+        "meaning": "우리",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "동격을 쉼표로 이어 붙입니다. en ung hornbeest, en vän till oss — 앞말을 다시 설명합니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "지시사",
+      "동격"
+    ]
+  },
+  {
+    "id": "sadan-sno-kan-bara-kontrolleras-med-arts",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "이런 눈은 아츠로밖에 제어할 수 없어.",
+    "romanization": "",
+    "sv": "Sådan snö kan bara kontrolleras med Arts.",
+    "literal_sv": "",
+    "meaning": "그 눈을 다루는 유일한 방법을 알려 주는 말.",
+    "ipa": "ˈsoːdan snøː kan ˈbɑːra kɔntrɔˈleːras meː ɑːʈs",
+    "ko_pron": "소-단 스뇌- 칸 바-라 콘트롤레-라스 메- 아-츠",
+    "words": [
+      {
+        "surface": "Sådan",
+        "base": "sådan",
+        "pos": "한정사",
+        "ipa": "ˈsoːdan",
+        "meaning": "그런",
+        "note": "en-단어 앞 sådan, ett-단어 앞 sådant, 복수 앞 sådana."
+      },
+      {
+        "surface": "snö",
+        "base": "snö",
+        "pos": "명사 (en-단어)",
+        "ipa": "snøː",
+        "meaning": "눈",
+        "note": ""
+      },
+      {
+        "surface": "kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "ipa": "kan",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "bara",
+        "base": "bara",
+        "pos": "부사",
+        "ipa": "ˈbɑːra",
+        "meaning": "오직",
+        "note": ""
+      },
+      {
+        "surface": "kontrolleras",
+        "base": "kontrollera",
+        "pos": "동사 (수동 원형)",
+        "ipa": "kɔntrɔˈleːras",
+        "meaning": "제어되다",
+        "note": "-s 가 붙어 수동이 됩니다."
+      },
+      {
+        "surface": "med",
+        "base": "med",
+        "pos": "전치사",
+        "ipa": "meː",
+        "meaning": "~로",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "수동태",
+      "한정사"
+    ]
+  },
+  {
+    "id": "ropa-pa-mig-om-du-stoter-pa-den",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "혹시 마주치게 되면 꼭 날 불러.",
+    "romanization": "",
+    "sv": "Ropa på mig om du stöter på den.",
+    "literal_sv": "",
+    "meaning": "위험한 것을 만나면 부르라고 이르는 말.",
+    "ipa": "ˈruːpa poː mɛj ɔm dʉː ˈstøːtɛr poː dɛn",
+    "ko_pron": "루-파 포- 메이 옴 뒤- 스퇴-테르 포- 덴",
+    "words": [
+      {
+        "surface": "Ropa",
+        "base": "ropa",
+        "pos": "동사 (명령형)",
+        "ipa": "ˈruːpa",
+        "meaning": "부르다",
+        "note": ""
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "ipa": "poː",
+        "meaning": "~를",
+        "note": "ropa på 로 '~를 부르다'가 됩니다."
+      },
+      {
+        "surface": "mig",
+        "base": "jag",
+        "pos": "대명사 (목적격)",
+        "ipa": "mɛj",
+        "meaning": "나를",
+        "note": ""
+      },
+      {
+        "surface": "om",
+        "base": "om",
+        "pos": "접속사",
+        "ipa": "ɔm",
+        "meaning": "만약 ~면",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "stöter",
+        "base": "stöta",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈstøːtɛr",
+        "meaning": "부딪치다",
+        "note": "stöta på 로 '우연히 마주치다'가 됩니다."
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "ipa": "poː",
+        "meaning": "~에",
+        "note": ""
+      },
+      {
+        "surface": "den",
+        "base": "den",
+        "pos": "대명사",
+        "ipa": "dɛn",
+        "meaning": "그것",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "같은 전치사 på 가 두 구동사에 각각 붙었습니다. ropa på(부르다), stöta på(마주치다). 구동사는 통째로 외웁니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "구동사",
+      "명령형",
+      "조건절"
+    ]
+  },
+  {
+    "id": "skriv-en-anteckning-under-fotot",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "사진 밑에 메모를 남겨두는 게 좋을 거야.",
+    "romanization": "",
+    "sv": "Skriv en anteckning under fotot.",
+    "literal_sv": "",
+    "meaning": "기록을 남기라고 권하는 말.",
+    "ipa": "skriːv ɛn ˈantɛkˌnɪŋ ˈɵndɛr ˈfuːtʊt",
+    "ko_pron": "스크리-브 엔 안테크닝 운데르 푸-톳",
+    "words": [
+      {
+        "surface": "Skriv",
+        "base": "skriva",
+        "pos": "동사 (명령형)",
+        "ipa": "skriːv",
+        "meaning": "쓰다",
+        "note": ""
+      },
+      {
+        "surface": "en",
+        "base": "en",
+        "pos": "부정관사",
+        "ipa": "ɛn",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "anteckning",
+        "base": "anteckning",
+        "pos": "명사 (en-단어, 복수 -ar)",
+        "ipa": "ˈantɛkˌnɪŋ",
+        "meaning": "메모",
+        "note": ""
+      },
+      {
+        "surface": "under",
+        "base": "under",
+        "pos": "전치사",
+        "ipa": "ˈɵndɛr",
+        "meaning": "~ 아래에",
+        "note": ""
+      },
+      {
+        "surface": "fotot",
+        "base": "foto",
+        "pos": "명사 (ett-단어, 정관사형)",
+        "ipa": "ˈfuːtʊt",
+        "meaning": "사진",
+        "note": "foto → fotot"
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "명령형",
+      "정관사"
+    ]
+  },
+  {
+    "id": "du-ar-ganska-smart",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "너 꽤 똑똑하잖아.",
+    "romanization": "",
+    "sv": "Du är ganska smart.",
+    "literal_sv": "",
+    "meaning": "상대를 가볍게 칭찬하는 말.",
+    "ipa": "dʉː ɛː ˈɡanska smaʈ",
+    "ko_pron": "뒤- 에- 간스카 스마트",
+    "words": [
+      {
+        "surface": "Du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "ipa": "ɛː",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "ganska",
+        "base": "ganska",
+        "pos": "부사",
+        "ipa": "ˈɡanska",
+        "meaning": "꽤",
+        "note": ""
+      },
+      {
+        "surface": "smart",
+        "base": "smart",
+        "pos": "형용사",
+        "ipa": "smaʈ",
+        "meaning": "똑똑한",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "정도 부사의 세기: lite(조금) < ganska(꽤) < mycket(매우) < jätte-(아주)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "정도부사"
+    ]
+  },
+  {
+    "id": "vad-menar-du-med-den-blicken",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "뭐야, 그 표정은.",
+    "romanization": "",
+    "sv": "Vad menar du med den blicken?",
+    "literal_sv": "",
+    "meaning": "상대의 표정에 담긴 뜻을 되묻는 말.",
+    "ipa": "vɑː ˈmeːnar dʉː meː dɛn ˈblɪkɛn",
+    "ko_pron": "바- 메-나르 뒤- 메- 덴 블리켄",
+    "words": [
+      {
+        "surface": "Vad",
+        "base": "vad",
+        "pos": "의문대명사",
+        "ipa": "vɑː",
+        "meaning": "무엇",
+        "note": ""
+      },
+      {
+        "surface": "menar",
+        "base": "mena",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈmeːnar",
+        "meaning": "의미하다",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "med",
+        "base": "med",
+        "pos": "전치사",
+        "ipa": "meː",
+        "meaning": "~로",
+        "note": ""
+      },
+      {
+        "surface": "den",
+        "base": "den",
+        "pos": "지시사",
+        "ipa": "dɛn",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "blicken",
+        "base": "blick",
+        "pos": "명사 (en-단어, 정관사형)",
+        "ipa": "ˈblɪkɛn",
+        "meaning": "눈빛, 시선",
+        "note": "blick → blicken"
+      }
+    ],
+    "notes": [
+      "den + 정관사형 명사로 '그 ~'를 나타냅니다. den blicken(그 눈빛)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "지시사"
+    ]
+  },
+  {
+    "id": "ar-det-sa-konstigt-att-jag-anvander-elektronik",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "내가 전자 기기를 쓰는 게 그렇게 신기해?",
+    "romanization": "",
+    "sv": "Är det så konstigt att jag använder elektronik?",
+    "literal_sv": "",
+    "meaning": "자기가 기계를 다루는 걸 이상해하는 상대에게 되묻는 말.",
+    "ipa": "ɛː deː soː ˈkɔnstɪkt at jɑː ˈanˌvɛndɛr ɛlɛktrʊˈniːk",
+    "ko_pron": "에- 데- 소- 콘스틱트 앗 야- 안벤데르 엘렉트로니-크",
+    "words": [
+      {
+        "surface": "Är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "ipa": "ɛː",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "대명사 (형식주어)",
+        "ipa": "deː",
+        "meaning": "그것",
+        "note": ""
+      },
+      {
+        "surface": "så",
+        "base": "så",
+        "pos": "부사",
+        "ipa": "soː",
+        "meaning": "그렇게",
+        "note": ""
+      },
+      {
+        "surface": "konstigt",
+        "base": "konstig",
+        "pos": "형용사 (중성형)",
+        "ipa": "ˈkɔnstɪkt",
+        "meaning": "이상한",
+        "note": ""
+      },
+      {
+        "surface": "att",
+        "base": "att",
+        "pos": "접속사",
+        "ipa": "at",
+        "meaning": "~라는 것",
+        "note": ""
+      },
+      {
+        "surface": "jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "använder",
+        "base": "använda",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈanˌvɛndɛr",
+        "meaning": "사용하다",
+        "note": ""
+      },
+      {
+        "surface": "elektronik",
+        "base": "elektronik",
+        "pos": "명사 (en-단어)",
+        "ipa": "ɛlɛktrʊˈniːk",
+        "meaning": "전자 기기",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형식주어",
+      "의문문"
+    ]
+  },
+  {
+    "id": "ni-ar-lika-konstiga-som-magellan",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "너희들은 참 마젤란만큼 이상하다니까.",
+    "romanization": "",
+    "sv": "Ni är lika konstiga som Magellan.",
+    "literal_sv": "",
+    "meaning": "상대를 다른 사람에 빗대는 말.",
+    "ipa": "niː ɛː ˈliːka ˈkɔnstɪɡa sɔm maɡɛˈlɑːn",
+    "ko_pron": "니- 에- 리-카 콘스티가 솜 마겔란-",
+    "words": [
+      {
+        "surface": "Ni",
+        "base": "ni",
+        "pos": "대명사",
+        "ipa": "niː",
+        "meaning": "너희",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "ipa": "ɛː",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "lika",
+        "base": "lika",
+        "pos": "부사",
+        "ipa": "ˈliːka",
+        "meaning": "똑같이",
+        "note": "lika … som 으로 동등 비교를 만듭니다."
+      },
+      {
+        "surface": "konstiga",
+        "base": "konstig",
+        "pos": "형용사 (복수형)",
+        "ipa": "ˈkɔnstɪɡa",
+        "meaning": "이상한",
+        "note": ""
+      },
+      {
+        "surface": "som",
+        "base": "som",
+        "pos": "접속사",
+        "ipa": "sɔm",
+        "meaning": "~만큼",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "동등 비교는 lika + 형용사 + som 입니다. 우열 비교는 형용사 비교급 + än 입니다. lika stor som(~만큼 큰) / större än(~보다 큰)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "비교",
+      "복수형"
+    ]
+  },
+  {
+    "id": "ni-forsoker-forsta-landet-pa-ett-annat-satt",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "굳이 다른 방식으로 이 대지를 이해하려고 하잖아.",
+    "romanization": "",
+    "sv": "Ni försöker förstå landet på ett annat sätt.",
+    "literal_sv": "",
+    "meaning": "상대의 접근 방식을 짚는 말.",
+    "ipa": "niː fœrˈsøːkɛr fœrˈstoː ˈlandɛt poː ɛt ˈanat sɛt",
+    "ko_pron": "니- 푀르쇠-케르 푀르스토- 란뎃 포- 엣 안앗 셋",
+    "words": [
+      {
+        "surface": "Ni",
+        "base": "ni",
+        "pos": "대명사",
+        "ipa": "niː",
+        "meaning": "너희",
+        "note": ""
+      },
+      {
+        "surface": "försöker",
+        "base": "försöka",
+        "pos": "동사 (현재형)",
+        "ipa": "fœrˈsøːkɛr",
+        "meaning": "시도하다",
+        "note": "försöka 뒤에는 att 없이 원형이 옵니다."
+      },
+      {
+        "surface": "förstå",
+        "base": "förstå",
+        "pos": "동사 (원형)",
+        "ipa": "fœrˈstoː",
+        "meaning": "이해하다",
+        "note": ""
+      },
+      {
+        "surface": "landet",
+        "base": "land",
+        "pos": "명사 (ett-단어, 정관사형)",
+        "ipa": "ˈlandɛt",
+        "meaning": "땅, 대지",
+        "note": "land → landet"
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "ipa": "poː",
+        "meaning": "~로",
+        "note": ""
+      },
+      {
+        "surface": "ett",
+        "base": "ett",
+        "pos": "부정관사",
+        "ipa": "ɛt",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "annat",
+        "base": "annan",
+        "pos": "형용사 (중성형)",
+        "ipa": "ˈanat",
+        "meaning": "다른",
+        "note": ""
+      },
+      {
+        "surface": "sätt",
+        "base": "sätt",
+        "pos": "명사 (ett-단어, 복수 sätt)",
+        "ipa": "sɛt",
+        "meaning": "방식",
+        "note": "복수형이 단수형과 같습니다."
+      }
+    ],
+    "notes": [
+      "på … sätt 로 '~한 방식으로'를 나타냅니다. på ett annat sätt(다른 방식으로)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "중성형"
+    ]
+  },
+  {
+    "id": "kanske-kan-ni-en-dag-dromma-om-det-verkliga-sami",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "언젠가는 진정한 사미의 모습을 꿈꿀 수 있을지도 모르겠네.",
+    "romanization": "",
+    "sv": "Kanske kan ni en dag drömma om det verkliga Sami.",
+    "literal_sv": "",
+    "meaning": "먼 가능성을 말하는 표현.",
+    "ipa": "ˈkanɧɛ kan niː ɛn dɑːɡ ˈdrœma ɔm deː ˈvæɳklɪɡa ˈsɑːmi",
+    "ko_pron": "칸셰 칸 니- 엔 다-그 드뢰마 옴 데- 베르클리가 사-미",
+    "words": [
+      {
+        "surface": "Kanske",
+        "base": "kanske",
+        "pos": "부사",
+        "ipa": "ˈkanɧɛ",
+        "meaning": "어쩌면",
+        "note": ""
+      },
+      {
+        "surface": "kan",
+        "base": "kunna",
+        "pos": "조동사 (현재형)",
+        "ipa": "kan",
+        "meaning": "~할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "ni",
+        "base": "ni",
+        "pos": "대명사",
+        "ipa": "niː",
+        "meaning": "너희",
+        "note": ""
+      },
+      {
+        "surface": "en",
+        "base": "en",
+        "pos": "부정관사",
+        "ipa": "ɛn",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "dag",
+        "base": "dag",
+        "pos": "명사 (en-단어, 복수 -ar)",
+        "ipa": "dɑːɡ",
+        "meaning": "날",
+        "note": ""
+      },
+      {
+        "surface": "drömma",
+        "base": "drömma",
+        "pos": "동사 (원형)",
+        "ipa": "ˈdrœma",
+        "meaning": "꿈꾸다",
+        "note": ""
+      },
+      {
+        "surface": "om",
+        "base": "om",
+        "pos": "전치사",
+        "ipa": "ɔm",
+        "meaning": "~에 대해",
+        "note": "drömma om 으로 '~을 꿈꾸다'가 됩니다."
+      },
+      {
+        "surface": "det",
+        "base": "det",
+        "pos": "정관사 (중성)",
+        "ipa": "deː",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "verkliga",
+        "base": "verklig",
+        "pos": "형용사",
+        "ipa": "ˈvæɳklɪɡa",
+        "meaning": "진정한",
+        "note": "정관사와 함께 쓰면 -a 가 붙습니다."
+      }
+    ],
+    "notes": [
+      "Kanske 로 문장을 시작하면 V2 어순에 따라 동사가 두 번째로 옵니다. Kanske kan ni… 처럼요. 다만 구어에서는 도치하지 않고 Kanske ni kan… 도 흔히 씁니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "V2어순",
+      "구동사"
+    ]
+  },
+  {
+    "id": "men-inte-annu",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "지금의 너희에겐 무리겠지만 말이야.",
+    "romanization": "",
+    "sv": "Men inte ännu.",
+    "literal_sv": "",
+    "meaning": "아직은 이르다고 덧붙이는 말.",
+    "ipa": "mɛn ˈɪntɛ ˈɛnʉ",
+    "ko_pron": "멘 인테 에뉘",
+    "words": [
+      {
+        "surface": "Men",
+        "base": "men",
+        "pos": "접속사",
+        "ipa": "mɛn",
+        "meaning": "하지만",
+        "note": ""
+      },
+      {
+        "surface": "inte",
+        "base": "inte",
+        "pos": "부정 부사",
+        "ipa": "ˈɪntɛ",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "ännu",
+        "base": "ännu",
+        "pos": "부사",
+        "ipa": "ˈɛnʉ",
+        "meaning": "아직",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "부정"
+    ]
+  },
+  {
+    "id": "jag-ar-orolig",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "하아, 진짜 걱정이라니까.",
+    "romanization": "",
+    "sv": "Jag är orolig.",
+    "literal_sv": "",
+    "meaning": "걱정스러움을 드러내는 말.",
+    "ipa": "jɑː ɛː ʊˈruːlɪ",
+    "ko_pron": "야- 에- 오루-리",
+    "words": [
+      {
+        "surface": "Jag",
+        "base": "jag",
+        "pos": "대명사",
+        "ipa": "jɑː",
+        "meaning": "나",
+        "note": ""
+      },
+      {
+        "surface": "är",
+        "base": "vara",
+        "pos": "동사 (현재형)",
+        "ipa": "ɛː",
+        "meaning": "~이다",
+        "note": ""
+      },
+      {
+        "surface": "orolig",
+        "base": "orolig",
+        "pos": "형용사",
+        "ipa": "ʊˈruːlɪ",
+        "meaning": "걱정스러운",
+        "note": "o-(부정) + rolig 이 아니라 o- + ro(평온)에서 왔습니다. rolig 은 '재미있는'이라 뜻이 다릅니다."
+      }
+    ],
+    "notes": [
+      "o- 는 부정 접두사입니다. möjlig(가능한) → omöjlig(불가능한), vanlig(평범한) → ovanlig(드문)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "접두사"
+    ]
+  },
+  {
+    "id": "vi-samarbetar-nu-sa-du-maste-lyssna-pa-mig",
+    "added": "2026-09-18",
+    "kind": "phrase",
+    "category": "대사·서사",
+    "ko": "협력 관계를 맺었으니, 내 말에 잘 따라줘야 해.",
+    "romanization": "",
+    "sv": "Vi samarbetar nu, så du måste lyssna på mig.",
+    "literal_sv": "",
+    "meaning": "협력하기로 했으니 지시를 따르라는 말.",
+    "ipa": "viː ˈsamarˌbeːtar nʉː soː dʉː ˈmɔstɛ ˈlʏsna poː mɛj",
+    "ko_pron": "비- 사마르베-타르 뉘- 소- 뒤- 모스테 뤼스나 포- 메이",
+    "words": [
+      {
+        "surface": "Vi",
+        "base": "vi",
+        "pos": "대명사",
+        "ipa": "viː",
+        "meaning": "우리",
+        "note": ""
+      },
+      {
+        "surface": "samarbetar",
+        "base": "samarbeta",
+        "pos": "동사 (현재형)",
+        "ipa": "ˈsamarˌbeːtar",
+        "meaning": "협력하다",
+        "note": "sam-(함께) + arbeta(일하다)"
+      },
+      {
+        "surface": "nu",
+        "base": "nu",
+        "pos": "부사",
+        "ipa": "nʉː",
+        "meaning": "이제",
+        "note": ""
+      },
+      {
+        "surface": "så",
+        "base": "så",
+        "pos": "접속사",
+        "ipa": "soː",
+        "meaning": "그러니",
+        "note": ""
+      },
+      {
+        "surface": "du",
+        "base": "du",
+        "pos": "대명사",
+        "ipa": "dʉː",
+        "meaning": "너",
+        "note": ""
+      },
+      {
+        "surface": "måste",
+        "base": "måste",
+        "pos": "조동사 (현재형)",
+        "ipa": "ˈmɔstɛ",
+        "meaning": "~해야 한다",
+        "note": "형태가 변하지 않는 조동사입니다. 현재·과거가 같습니다."
+      },
+      {
+        "surface": "lyssna",
+        "base": "lyssna",
+        "pos": "동사 (원형)",
+        "ipa": "ˈlʏsna",
+        "meaning": "듣다",
+        "note": ""
+      },
+      {
+        "surface": "på",
+        "base": "på",
+        "pos": "전치사",
+        "ipa": "poː",
+        "meaning": "~를",
+        "note": "lyssna på 로 '~를 듣다'가 됩니다."
+      },
+      {
+        "surface": "mig",
+        "base": "jag",
+        "pos": "대명사 (목적격)",
+        "ipa": "mɛj",
+        "meaning": "나를",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "sv": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "조동사",
+      "구동사",
+      "합성어"
+    ]
   }
 ]
