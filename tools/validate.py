@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "entries.json"
 
 REQUIRED = [
-    "id", "added", "kind", "category", "ko", "romanization",
+    "id", "added", "kind", "category", "source", "ko", "romanization",
     "sv", "literal_sv", "meaning", "ipa", "ko_pron", "words", "notes",
     "examples", "equivalent", "tags",
 ]
@@ -27,9 +27,13 @@ EQUIV_KEYS = ["sv", "literal", "note"]
 KINDS = {"phrase", "word"}
 
 # 이미 쓰고 있는 분류. 새로 만들어도 되지만 경고를 띄워 오타를 걸러 낸다.
+# source 는 그 항목이 어디서 왔는지 남긴다. 분류를 옮겨도 출처는 남으므로
+# 나중에 특정 출처만 통째로 걷어낼 수 있다. 직접 쓴 것은 "" 로 둔다.
+KNOWN_SOURCES = {"", "dialogue"}
+
 KNOWN_CATEGORIES = {
     "인사", "소개", "언어·소통", "예의", "카페·식당", "쇼핑", "길·교통",
-    "약속·시간", "감정·반응", "건강·곤란", "스몰토크", "숙소·생활", "자연·풍경", "대사·서사",
+    "약속·시간", "감정·반응", "건강·곤란", "스몰토크", "숙소·생활", "자연·풍경", "기타",
 }
 
 errors = []
@@ -88,6 +92,9 @@ def main():
 
         if "?" in entry["ipa"] or "?" in entry["ko_pron"]:
             fail(eid, "발음에 '?' 가 남아 있습니다. tools/ipa.py 의 사전에 낱말을 더하세요.")
+
+        if entry["source"] not in KNOWN_SOURCES:
+            warn(eid, f"처음 보는 source '{entry['source']}' — 오타가 아니면 그대로 두어도 됩니다.")
 
         if entry["category"] not in KNOWN_CATEGORIES:
             warn(eid, f"새 분류 '{entry['category']}' — 오타가 아니면 그대로 두어도 됩니다.")

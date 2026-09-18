@@ -8,10 +8,10 @@ const DATA_URL = 'data/entries.json';
 
 /**
  * 오늘의 표현에서 제외할 분류.
- * 일상에서 쓰는 말이 아니라 읽을거리로 모아 둔 것이라, 매일 뜨는 자리에는
- * 올리지 않는다. 모아보기와 단어장에는 그대로 들어간다.
+ * 일상에서 쓸 일이 없는 것들을 모아 둔 자리라 매일 뜨는 화면에는 올리지
+ * 않는다. 모아보기와 단어장에는 그대로 들어간다.
  */
-const NOT_DAILY = new Set(['대사·서사']);
+const NOT_DAILY = new Set(['기타']);
 
 function dailyPool(entries) {
   return entries.filter((entry) => entry.kind === 'phrase' && !NOT_DAILY.has(entry.category));
@@ -65,6 +65,7 @@ function haystack(entry) {
     entry.literal_sv,
     entry.meaning,
     entry.category,
+    entry.source,
     ...(entry.tags || []),
     entry.ko_pron,
     ...(entry.words || []).flatMap((word) => [word.surface, word.base, word.meaning]),

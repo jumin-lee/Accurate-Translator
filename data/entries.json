@@ -4,11 +4,14 @@
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "인사",
+    "source": "",
     "ko": "안녕!",
     "romanization": "",
     "sv": "Hej!",
     "literal_sv": "",
     "meaning": "가장 기본적인 인사. 시간대와 상관없이 만날 때도 헤어질 때도 씁니다.",
+    "ipa": "hɛj",
+    "ko_pron": "헤이",
     "words": [
       {
         "surface": "Hej",
@@ -35,20 +38,21 @@
     },
     "tags": [
       "기본"
-    ],
-    "ipa": "hɛj",
-    "ko_pron": "헤이"
+    ]
   },
   {
     "id": "god-morgon",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "인사",
+    "source": "",
     "ko": "좋은 아침이에요.",
     "romanization": "",
     "sv": "God morgon.",
     "literal_sv": "",
     "meaning": "아침에 하는 인사. 대략 오전 10시까지 씁니다.",
+    "ipa": "ɡuːd ˈmɔrɔn",
+    "ko_pron": "구-드 모론",
     "words": [
       {
         "surface": "God",
@@ -83,20 +87,21 @@
     },
     "tags": [
       "기본"
-    ],
-    "ipa": "ɡuːd ˈmɔrɔn",
-    "ko_pron": "구-드 모론"
+    ]
   },
   {
     "id": "hur-ar-laget",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "인사",
+    "source": "",
     "ko": "요즘 어때?",
     "romanization": "",
     "sv": "Hur är läget?",
     "literal_sv": "",
     "meaning": "친구나 편한 사이에서 쓰는 안부 인사.",
+    "ipa": "hʉːr ɛː ˈlɛːɡɛt",
+    "ko_pron": "휘-르 에- 레-겟",
     "words": [
       {
         "surface": "Hur",
@@ -139,20 +144,21 @@
     },
     "tags": [
       "구어"
-    ],
-    "ipa": "hʉːr ɛː ˈlɛːɡɛt",
-    "ko_pron": "휘-르 에- 레-겟"
+    ]
   },
   {
     "id": "hur-mar-du",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "인사",
+    "source": "",
     "ko": "잘 지내세요?",
     "romanization": "",
     "sv": "Hur mår du?",
     "literal_sv": "",
     "meaning": "상대의 안부를 묻는 표준적인 인사. 몸 상태를 묻는 뜻도 됩니다.",
+    "ipa": "hʉːr moːr dʉː",
+    "ko_pron": "휘-르 모-르 뒤-",
     "words": [
       {
         "surface": "Hur",
@@ -193,20 +199,21 @@
     },
     "tags": [
       "기본"
-    ],
-    "ipa": "hʉːr moːr dʉː",
-    "ko_pron": "휘-르 모-르 뒤-"
+    ]
   },
   {
     "id": "tack-bra-och-du",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "인사",
+    "source": "",
     "ko": "고마워요, 잘 지내요. 그쪽은요?",
     "romanization": "",
     "sv": "Tack, bra. Och du?",
     "literal_sv": "",
     "meaning": "안부 인사에 답하고 되묻는 가장 흔한 방식.",
+    "ipa": "tak brɑː ɔ dʉː",
+    "ko_pron": "탁 브라- 오 뒤-",
     "words": [
       {
         "surface": "Tack",
@@ -257,20 +264,21 @@
     },
     "tags": [
       "기본"
-    ],
-    "ipa": "tak brɑː ɔ dʉː",
-    "ko_pron": "탁 브라- 오 뒤-"
+    ]
   },
   {
     "id": "trevligt-att-traffas",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "인사",
+    "source": "",
     "ko": "만나서 반갑습니다.",
     "romanization": "",
     "sv": "Trevligt att träffas.",
     "literal_sv": "",
     "meaning": "처음 만났을 때 하는 인사.",
+    "ipa": "ˈtreːvlɪkt at ˈtrɛfas",
+    "ko_pron": "트레-블릭트 앗 트레파스",
     "words": [
       {
         "surface": "Trevligt",
@@ -314,20 +322,21 @@
     "tags": [
       "기본",
       "s동사"
-    ],
-    "ipa": "ˈtreːvlɪkt at ˈtrɛfas",
-    "ko_pron": "트레-블릭트 앗 트레파스"
+    ]
   },
   {
     "id": "vi-ses",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "인사",
+    "source": "",
     "ko": "또 봐요!",
     "romanization": "",
     "sv": "Vi ses!",
     "literal_sv": "",
     "meaning": "헤어질 때 하는 가벼운 인사.",
+    "ipa": "viː seːs",
+    "ko_pron": "비- 세-스",
     "words": [
       {
         "surface": "Vi",
@@ -363,20 +372,21 @@
     "tags": [
       "기본",
       "s동사"
-    ],
-    "ipa": "viː seːs",
-    "ko_pron": "비- 세-스"
+    ]
   },
   {
     "id": "ha-det-bra",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "인사",
+    "source": "",
     "ko": "잘 지내세요!",
     "romanization": "",
     "sv": "Ha det bra!",
     "literal_sv": "",
     "meaning": "헤어질 때 건네는 인사. '잘 지내'에 가깝습니다.",
+    "ipa": "hɑː deː brɑː",
+    "ko_pron": "하- 데- 브라-",
     "words": [
       {
         "surface": "Ha",
@@ -419,20 +429,21 @@
     },
     "tags": [
       "기본"
-    ],
-    "ipa": "hɑː deː brɑː",
-    "ko_pron": "하- 데- 브라-"
+    ]
   },
   {
     "id": "jag-heter",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "소개",
+    "source": "",
     "ko": "제 이름은 ...입니다.",
     "romanization": "",
     "sv": "Jag heter Jumin.",
     "literal_sv": "",
     "meaning": "이름을 말하는 가장 흔한 방식. heter 는 '이름이 ~이다'라는 뜻의 동사입니다.",
+    "ipa": "jɑː ˈheːtɛr ˈjʉːmɪn",
+    "ko_pron": "야- 헤-테르 위-민",
     "words": [
       {
         "surface": "Jag",
@@ -469,20 +480,21 @@
     "tags": [
       "기본",
       "패턴"
-    ],
-    "ipa": "jɑː ˈheːtɛr ˈjʉːmɪn",
-    "ko_pron": "야- 헤-테르 위-민"
+    ]
   },
   {
     "id": "vad-heter-du",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "소개",
+    "source": "",
     "ko": "이름이 어떻게 되세요?",
     "romanization": "",
     "sv": "Vad heter du?",
     "literal_sv": "",
     "meaning": "이름을 묻는 표현.",
+    "ipa": "vɑː ˈheːtɛr dʉː",
+    "ko_pron": "바- 헤-테르 뒤-",
     "words": [
       {
         "surface": "Vad",
@@ -526,20 +538,21 @@
     "tags": [
       "기본",
       "의문문"
-    ],
-    "ipa": "vɑː ˈheːtɛr dʉː",
-    "ko_pron": "바- 헤-테르 뒤-"
+    ]
   },
   {
     "id": "jag-kommer-fran",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "소개",
+    "source": "",
     "ko": "저는 한국에서 왔어요.",
     "romanization": "",
     "sv": "Jag kommer från Sydkorea.",
     "literal_sv": "",
     "meaning": "출신을 말하는 표현. 현재형을 씁니다.",
+    "ipa": "jɑː ˈkɔmɛr froːn ˈsyːdkʊˌreːa",
+    "ko_pron": "야- 코메르 프론- 쉬-드코레-아",
     "words": [
       {
         "surface": "Jag",
@@ -589,20 +602,21 @@
     "tags": [
       "기본",
       "패턴"
-    ],
-    "ipa": "jɑː ˈkɔmɛr froːn ˈsyːdkʊˌreːa",
-    "ko_pron": "야- 코메르 프론- 쉬-드코레-아"
+    ]
   },
   {
     "id": "jag-bor-i",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "소개",
+    "source": "",
     "ko": "저는 스톡홀름에 살아요.",
     "romanization": "",
     "sv": "Jag bor i Stockholm.",
     "literal_sv": "",
     "meaning": "사는 곳을 말하는 표현.",
+    "ipa": "jɑː buːr iː ˈstɔkˌhɔlm",
+    "ko_pron": "야- 부-르 이- 스톡홀름",
     "words": [
       {
         "surface": "Jag",
@@ -654,20 +668,21 @@
     "tags": [
       "기본",
       "전치사"
-    ],
-    "ipa": "jɑː buːr iː ˈstɔkˌhɔlm",
-    "ko_pron": "야- 부-르 이- 스톡홀름"
+    ]
   },
   {
     "id": "jag-pluggar-svenska",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "소개",
+    "source": "",
     "ko": "스웨덴어를 공부하고 있어요.",
     "romanization": "",
     "sv": "Jag pluggar svenska.",
     "literal_sv": "",
     "meaning": "무엇을 공부하는지 말하는 표현.",
+    "ipa": "jɑː ˈplɵɡar ˈsvɛnska",
+    "ko_pron": "야- 플뤼가르 스벤스카",
     "words": [
       {
         "surface": "Jag",
@@ -711,20 +726,21 @@
     "tags": [
       "기본",
       "시제"
-    ],
-    "ipa": "jɑː ˈplɵɡar ˈsvɛnska",
-    "ko_pron": "야- 플뤼가르 스벤스카"
+    ]
   },
   {
     "id": "jag-jobbar-som",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "소개",
+    "source": "",
     "ko": "저는 ...로 일해요.",
     "romanization": "",
     "sv": "Jag jobbar som lärare.",
     "literal_sv": "",
     "meaning": "직업을 말하는 표현. som 뒤에 직업 이름을 넣습니다.",
+    "ipa": "jɑː ˈjɔbar sɔm ˈlɛːrarɛ",
+    "ko_pron": "야- 요바르 솜 레-라레",
     "words": [
       {
         "surface": "Jag",
@@ -775,20 +791,21 @@
     },
     "tags": [
       "패턴"
-    ],
-    "ipa": "jɑː ˈjɔbar sɔm ˈlɛːrarɛ",
-    "ko_pron": "야- 요바르 솜 레-라레"
+    ]
   },
   {
     "id": "jag-forstar-inte",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "언어·소통",
+    "source": "",
     "ko": "잘 못 알아듣겠어요.",
     "romanization": "",
     "sv": "Jag förstår inte.",
     "literal_sv": "",
     "meaning": "상대의 말을 이해하지 못했을 때 쓰는 표현.",
+    "ipa": "jɑː fœrˈstoːr ˈɪntɛ",
+    "ko_pron": "야- 푀르스토-르 인테",
     "words": [
       {
         "surface": "Jag",
@@ -833,20 +850,21 @@
       "필수",
       "부정",
       "어순"
-    ],
-    "ipa": "jɑː fœrˈstoːr ˈɪntɛ",
-    "ko_pron": "야- 푀르스토-르 인테"
+    ]
   },
   {
     "id": "kan-du-prata-langsammare",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "언어·소통",
+    "source": "",
     "ko": "조금 더 천천히 말씀해 주시겠어요?",
     "romanization": "",
     "sv": "Kan du prata långsammare?",
     "literal_sv": "",
     "meaning": "상대가 빨리 말할 때 속도를 늦춰 달라고 부탁하는 표현.",
+    "ipa": "kan dʉː ˈprɑːta ˈlɔŋˌsamarɛ",
+    "ko_pron": "칸 뒤- 프라-타 롱사마레",
     "words": [
       {
         "surface": "Kan",
@@ -899,20 +917,21 @@
       "필수",
       "의문문",
       "비교급"
-    ],
-    "ipa": "kan dʉː ˈprɑːta ˈlɔŋˌsamarɛ",
-    "ko_pron": "칸 뒤- 프라-타 롱사마레"
+    ]
   },
   {
     "id": "kan-du-upprepa",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "언어·소통",
+    "source": "",
     "ko": "다시 한 번 말씀해 주시겠어요?",
     "romanization": "",
     "sv": "Kan du upprepa det?",
     "literal_sv": "",
     "meaning": "못 들었을 때 다시 말해 달라고 하는 표현.",
+    "ipa": "kan dʉː ˈɵpˌreːpa deː",
+    "ko_pron": "칸 뒤- 위프레-파 데-",
     "words": [
       {
         "surface": "Kan",
@@ -961,20 +980,21 @@
     },
     "tags": [
       "필수"
-    ],
-    "ipa": "kan dʉː ˈɵpˌreːpa deː",
-    "ko_pron": "칸 뒤- 위프레-파 데-"
+    ]
   },
   {
     "id": "talar-du-engelska",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "언어·소통",
+    "source": "",
     "ko": "영어 하세요?",
     "romanization": "",
     "sv": "Talar du engelska?",
     "literal_sv": "",
     "meaning": "상대가 영어를 하는지 묻는 표현.",
+    "ipa": "ˈtɑːlar dʉː ˈɛŋɛlska",
+    "ko_pron": "타-라르 뒤- 엥엘스카",
     "words": [
       {
         "surface": "Talar",
@@ -1018,20 +1038,21 @@
     "tags": [
       "필수",
       "의문문"
-    ],
-    "ipa": "ˈtɑːlar dʉː ˈɛŋɛlska",
-    "ko_pron": "타-라르 뒤- 엥엘스카"
+    ]
   },
   {
     "id": "vad-betyder-det",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "언어·소통",
+    "source": "",
     "ko": "그게 무슨 뜻이에요?",
     "romanization": "",
     "sv": "Vad betyder det?",
     "literal_sv": "",
     "meaning": "모르는 말이 나왔을 때 뜻을 묻는 표현.",
+    "ipa": "vɑː bɛˈtyːdɛr deː",
+    "ko_pron": "바- 베튀-데르 데-",
     "words": [
       {
         "surface": "Vad",
@@ -1073,20 +1094,21 @@
     "tags": [
       "필수",
       "의문문"
-    ],
-    "ipa": "vɑː bɛˈtyːdɛr deː",
-    "ko_pron": "바- 베튀-데르 데-"
+    ]
   },
   {
     "id": "hur-sager-man",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "언어·소통",
+    "source": "",
     "ko": "...를 스웨덴어로 뭐라고 해요?",
     "romanization": "",
     "sv": "Hur säger man kaffe på svenska?",
     "literal_sv": "",
     "meaning": "단어를 물어볼 때 쓰는 문형. 배우는 사람에게 가장 쓸모 있는 문장입니다.",
+    "ipa": "hʉːr ˈsɛjɛr man ˈkafɛ poː ˈsvɛnska",
+    "ko_pron": "휘-르 세이에르 만 카페 포- 스벤스카",
     "words": [
       {
         "surface": "Hur",
@@ -1146,20 +1168,21 @@
     "tags": [
       "필수",
       "패턴"
-    ],
-    "ipa": "hʉːr ˈsɛjɛr man ˈkafɛ poː ˈsvɛnska",
-    "ko_pron": "휘-르 세이에르 만 카페 포- 스벤스카"
+    ]
   },
   {
     "id": "jag-pratar-lite-svenska",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "언어·소통",
+    "source": "",
     "ko": "스웨덴어를 조금밖에 못 해요.",
     "romanization": "",
     "sv": "Jag pratar bara lite svenska.",
     "literal_sv": "",
     "meaning": "스웨덴어 실력이 부족하다고 미리 알리는 표현.",
+    "ipa": "jɑː ˈprɑːtar ˈbɑːra ˈliːtɛ ˈsvɛnska",
+    "ko_pron": "야- 프라-타르 바-라 리-테 스벤스카",
     "words": [
       {
         "surface": "Jag",
@@ -1216,20 +1239,21 @@
     },
     "tags": [
       "필수"
-    ],
-    "ipa": "jɑː ˈprɑːtar ˈbɑːra ˈliːtɛ ˈsvɛnska",
-    "ko_pron": "야- 프라-타르 바-라 리-테 스벤스카"
+    ]
   },
   {
     "id": "tack-sa-mycket",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "예의",
+    "source": "",
     "ko": "정말 고맙습니다.",
     "romanization": "",
     "sv": "Tack så mycket.",
     "literal_sv": "",
     "meaning": "감사를 표하는 표현. 그냥 Tack 만 해도 됩니다.",
+    "ipa": "tak soː ˈmʏkɛ",
+    "ko_pron": "탁 소- 뮈케",
     "words": [
       {
         "surface": "Tack",
@@ -1272,20 +1296,21 @@
     },
     "tags": [
       "기본"
-    ],
-    "ipa": "tak soː ˈmʏkɛ",
-    "ko_pron": "탁 소- 뮈케"
+    ]
   },
   {
     "id": "varsagod",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "예의",
+    "source": "",
     "ko": "여기요. / 천만에요.",
     "romanization": "",
     "sv": "Varsågod.",
     "literal_sv": "",
     "meaning": "물건을 건넬 때와 감사 인사에 답할 때 모두 씁니다.",
+    "ipa": "ˌvaʂoˈɡuːd",
+    "ko_pron": "바쇼구-드",
     "words": [
       {
         "surface": "Varsågod",
@@ -1312,20 +1337,21 @@
     },
     "tags": [
       "기본"
-    ],
-    "ipa": "ˌvaʂoˈɡuːd",
-    "ko_pron": "바쇼구-드"
+    ]
   },
   {
     "id": "ursakta",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "예의",
+    "source": "",
     "ko": "실례합니다. / 죄송합니다.",
     "romanization": "",
     "sv": "Ursäkta.",
     "literal_sv": "",
     "meaning": "말을 걸 때, 지나갈 때, 가볍게 사과할 때 두루 씁니다.",
+    "ipa": "ˈʉːʂɛkta",
+    "ko_pron": "우-셱타",
     "words": [
       {
         "surface": "Ursäkta",
@@ -1353,20 +1379,21 @@
     "tags": [
       "기본",
       "필수"
-    ],
-    "ipa": "ˈʉːʂɛkta",
-    "ko_pron": "우-셱타"
+    ]
   },
   {
     "id": "det-ar-lugnt",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "예의",
+    "source": "",
     "ko": "괜찮아요.",
     "romanization": "",
     "sv": "Det är lugnt.",
     "literal_sv": "",
     "meaning": "사과를 받아 넘기거나 문제없다고 할 때 쓰는 구어 표현.",
+    "ipa": "deː ɛː lɵŋt",
+    "ko_pron": "데- 에- 룅트",
     "words": [
       {
         "surface": "Det",
@@ -1407,20 +1434,21 @@
     },
     "tags": [
       "구어"
-    ],
-    "ipa": "deː ɛː lɵŋt",
-    "ko_pron": "데- 에- 룅트"
+    ]
   },
   {
     "id": "jag-skulle-vilja-ha",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "카페·식당",
+    "source": "",
     "ko": "커피 한 잔 주세요.",
     "romanization": "",
     "sv": "Jag skulle vilja ha en kaffe, tack.",
     "literal_sv": "",
     "meaning": "주문할 때 가장 공손한 표현. skulle vilja 는 영어 would like 에 해당합니다.",
+    "ipa": "jɑː ˈskɵlɛ ˈvɪlja hɑː ɛn ˈkafɛ tak",
+    "ko_pron": "야- 스퀼레 빌야 하- 엔 카페 탁",
     "words": [
       {
         "surface": "Jag",
@@ -1497,20 +1525,21 @@
       "필수",
       "패턴",
       "주문"
-    ],
-    "ipa": "jɑː ˈskɵlɛ ˈvɪlja hɑː ɛn ˈkafɛ tak",
-    "ko_pron": "야- 스퀼레 빌야 하- 엔 카페 탁"
+    ]
   },
   {
     "id": "vad-rekommenderar-du",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "카페·식당",
+    "source": "",
     "ko": "뭘 추천하시나요?",
     "romanization": "",
     "sv": "Vad rekommenderar du?",
     "literal_sv": "",
     "meaning": "메뉴를 고르기 어려울 때 묻는 표현.",
+    "ipa": "vɑː rɛkɔmɛnˈdeːrar dʉː",
+    "ko_pron": "바- 레코멘데-라르 뒤-",
     "words": [
       {
         "surface": "Vad",
@@ -1551,20 +1580,21 @@
     },
     "tags": [
       "의문문"
-    ],
-    "ipa": "vɑː rɛkɔmɛnˈdeːrar dʉː",
-    "ko_pron": "바- 레코멘데-라르 뒤-"
+    ]
   },
   {
     "id": "kan-jag-fa-notan",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "카페·식당",
+    "source": "",
     "ko": "계산서 주시겠어요?",
     "romanization": "",
     "sv": "Kan jag få notan, tack?",
     "literal_sv": "",
     "meaning": "식당에서 계산할 때 쓰는 표현.",
+    "ipa": "kan jɑː foː ˈnuːtan tak",
+    "ko_pron": "칸 야- 포- 누-탄 탁",
     "words": [
       {
         "surface": "Kan",
@@ -1624,20 +1654,21 @@
     "tags": [
       "필수",
       "패턴"
-    ],
-    "ipa": "kan jɑː foː ˈnuːtan tak",
-    "ko_pron": "칸 야- 포- 누-탄 탁"
+    ]
   },
   {
     "id": "kan-jag-betala-med-kort",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "카페·식당",
+    "source": "",
     "ko": "카드로 결제 되나요?",
     "romanization": "",
     "sv": "Kan jag betala med kort?",
     "literal_sv": "",
     "meaning": "결제 수단을 묻는 표현. 스웨덴은 카드·모바일 결제가 기본이라 현금을 안 받는 곳도 많습니다.",
+    "ipa": "kan jɑː bɛˈtɑːla meː kɔʈ",
+    "ko_pron": "칸 야- 베타-라 메- 코트",
     "words": [
       {
         "surface": "Kan",
@@ -1697,20 +1728,21 @@
     "tags": [
       "필수",
       "결제"
-    ],
-    "ipa": "kan jɑː bɛˈtɑːla meː kɔʈ",
-    "ko_pron": "칸 야- 베타-라 메- 코트"
+    ]
   },
   {
     "id": "ar-det-har-ledigt",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "카페·식당",
+    "source": "",
     "ko": "여기 자리 비었나요?",
     "romanization": "",
     "sv": "Är det här ledigt?",
     "literal_sv": "",
     "meaning": "빈자리인지 물을 때 쓰는 표현.",
+    "ipa": "ɛː deː hɛːr ˈleːdɪkt",
+    "ko_pron": "에- 데- 헤-르 레-딕트",
     "words": [
       {
         "surface": "Är",
@@ -1759,20 +1791,21 @@
     },
     "tags": [
       "의문문"
-    ],
-    "ipa": "ɛː deː hɛːr ˈleːdɪkt",
-    "ko_pron": "에- 데- 헤-르 레-딕트"
+    ]
   },
   {
     "id": "jag-ar-vegetarian",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "카페·식당",
+    "source": "",
     "ko": "저는 채식을 해요.",
     "romanization": "",
     "sv": "Jag är vegetarian.",
     "literal_sv": "",
     "meaning": "식단 제한을 알리는 표현.",
+    "ipa": "jɑː ɛː vɛɡɛtaˈriːan",
+    "ko_pron": "야- 에- 베게타리-안",
     "words": [
       {
         "surface": "Jag",
@@ -1815,20 +1848,21 @@
     },
     "tags": [
       "식단"
-    ],
-    "ipa": "jɑː ɛː vɛɡɛtaˈriːan",
-    "ko_pron": "야- 에- 베게타리-안"
+    ]
   },
   {
     "id": "det-smakar-jattegott",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "카페·식당",
+    "source": "",
     "ko": "정말 맛있어요.",
     "romanization": "",
     "sv": "Det smakar jättegott.",
     "literal_sv": "",
     "meaning": "음식이 맛있다고 말하는 표현.",
+    "ipa": "deː ˈsmɑːkar ˈjɛtɛˌɡɔt",
+    "ko_pron": "데- 스마-카르 예테곳",
     "words": [
       {
         "surface": "Det",
@@ -1871,20 +1905,21 @@
     },
     "tags": [
       "강조"
-    ],
-    "ipa": "deː ˈsmɑːkar ˈjɛtɛˌɡɔt",
-    "ko_pron": "데- 스마-카르 예테곳"
+    ]
   },
   {
     "id": "fika",
     "added": "2026-09-17",
     "kind": "word",
     "category": "카페·식당",
+    "source": "",
     "ko": "피카 (커피와 간식을 곁들이는 휴식)",
     "romanization": "",
     "sv": "fika",
     "literal_sv": "",
     "meaning": "커피나 차에 달콤한 것을 곁들이며 쉬는 시간. 명사로도 동사로도 씁니다. 단순히 커피를 마시는 게 아니라 같이 앉아 이야기하는 시간 전체를 가리킵니다.",
+    "ipa": "ˈfiːka",
+    "ko_pron": "피-카",
     "words": [
       {
         "surface": "fika",
@@ -1916,20 +1951,21 @@
     "tags": [
       "문화",
       "낱말"
-    ],
-    "ipa": "ˈfiːka",
-    "ko_pron": "피-카"
+    ]
   },
   {
     "id": "hur-mycket-kostar-det",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "쇼핑",
+    "source": "",
     "ko": "이거 얼마예요?",
     "romanization": "",
     "sv": "Hur mycket kostar det?",
     "literal_sv": "",
     "meaning": "가격을 묻는 가장 기본적인 표현.",
+    "ipa": "hʉːr ˈmʏkɛ ˈkɔstar deː",
+    "ko_pron": "휘-르 뮈케 코스타르 데-",
     "words": [
       {
         "surface": "Hur",
@@ -1981,20 +2017,21 @@
     "tags": [
       "필수",
       "의문문"
-    ],
-    "ipa": "hʉːr ˈmʏkɛ ˈkɔstar deː",
-    "ko_pron": "휘-르 뮈케 코스타르 데-"
+    ]
   },
   {
     "id": "jag-tittar-bara",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "쇼핑",
+    "source": "",
     "ko": "그냥 구경하는 거예요.",
     "romanization": "",
     "sv": "Jag tittar bara, tack.",
     "literal_sv": "",
     "meaning": "점원이 도와줄지 물을 때 정중히 거절하는 표현.",
+    "ipa": "jɑː ˈtɪtar ˈbɑːra tak",
+    "ko_pron": "야- 티타르 바-라 탁",
     "words": [
       {
         "surface": "Jag",
@@ -2043,20 +2080,21 @@
     },
     "tags": [
       "구어"
-    ],
-    "ipa": "jɑː ˈtɪtar ˈbɑːra tak",
-    "ko_pron": "야- 티타르 바-라 탁"
+    ]
   },
   {
     "id": "kan-jag-prova-den",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "쇼핑",
+    "source": "",
     "ko": "입어 봐도 될까요?",
     "romanization": "",
     "sv": "Kan jag prova den?",
     "literal_sv": "",
     "meaning": "옷을 입어 보거나 물건을 써 봐도 되는지 묻는 표현.",
+    "ipa": "kan jɑː ˈpruːva dɛn",
+    "ko_pron": "칸 야- 프루-바 덴",
     "words": [
       {
         "surface": "Kan",
@@ -2108,20 +2146,21 @@
     "tags": [
       "의문문",
       "대명사"
-    ],
-    "ipa": "kan jɑː ˈpruːva dɛn",
-    "ko_pron": "칸 야- 프루-바 덴"
+    ]
   },
   {
     "id": "har-ni-en-storre-storlek",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "쇼핑",
+    "source": "",
     "ko": "더 큰 사이즈 있나요?",
     "romanization": "",
     "sv": "Har ni en större storlek?",
     "literal_sv": "",
     "meaning": "다른 사이즈를 묻는 표현.",
+    "ipa": "hɑːr niː ɛn ˈstœrɛ ˈstuːrleːk",
+    "ko_pron": "하-르 니- 엔 스퇴레 스투-를레-크",
     "words": [
       {
         "surface": "Har",
@@ -2181,20 +2220,21 @@
     "tags": [
       "의문문",
       "비교급"
-    ],
-    "ipa": "hɑːr niː ɛn ˈstœrɛ ˈstuːrleːk",
-    "ko_pron": "하-르 니- 엔 스퇴레 스투-를레-크"
+    ]
   },
   {
     "id": "var-ligger",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "길·교통",
+    "source": "",
     "ko": "...가 어디에 있나요?",
     "romanization": "",
     "sv": "Ursäkta, var ligger stationen?",
     "literal_sv": "",
     "meaning": "장소를 묻는 기본 문형. ligger 는 건물·장소처럼 움직이지 않는 것에 씁니다.",
+    "ipa": "ˈʉːʂɛkta vɑːr ˈlɪɡɛr staˈɧuːnɛn",
+    "ko_pron": "우-셱타 바-르 리게르 스타휴-넨",
     "words": [
       {
         "surface": "Ursäkta",
@@ -2247,20 +2287,21 @@
       "필수",
       "패턴",
       "의문문"
-    ],
-    "ipa": "ˈʉːʂɛkta vɑːr ˈlɪɡɛr staˈɧuːnɛn",
-    "ko_pron": "우-셱타 바-르 리게르 스타휴-넨"
+    ]
   },
   {
     "id": "hur-kommer-jag-till",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "길·교통",
+    "source": "",
     "ko": "...에 어떻게 가나요?",
     "romanization": "",
     "sv": "Hur kommer jag till centralstationen?",
     "literal_sv": "",
     "meaning": "길을 묻는 문형.",
+    "ipa": "hʉːr ˈkɔmɛr jɑː tɪl sɛnˈtrɑːlstaˌɧuːnɛn",
+    "ko_pron": "휘-르 코메르 야- 틸 센트랄-스타휴-넨",
     "words": [
       {
         "surface": "Hur",
@@ -2321,20 +2362,21 @@
       "필수",
       "패턴",
       "합성어"
-    ],
-    "ipa": "hʉːr ˈkɔmɛr jɑː tɪl sɛnˈtrɑːlstaˌɧuːnɛn",
-    "ko_pron": "휘-르 코메르 야- 틸 센트랄-스타휴-넨"
+    ]
   },
   {
     "id": "gar-den-har-bussen-till",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "길·교통",
+    "source": "",
     "ko": "이 버스 ...까지 가나요?",
     "romanization": "",
     "sv": "Går den här bussen till Uppsala?",
     "literal_sv": "",
     "meaning": "탈 것의 행선지를 확인하는 표현.",
+    "ipa": "ɡoːr dɛn hɛːr ˈbɵsːɛn tɪl ˈɵpˌsɑːla",
+    "ko_pron": "고-르 덴 헤-르 뷔센 틸 윕사-라",
     "words": [
       {
         "surface": "Går",
@@ -2394,20 +2436,21 @@
     "tags": [
       "의문문",
       "지시사"
-    ],
-    "ipa": "ɡoːr dɛn hɛːr ˈbɵsːɛn tɪl ˈɵpˌsɑːla",
-    "ko_pron": "고-르 덴 헤-르 뷔센 틸 윕사-라"
+    ]
   },
   {
     "id": "jag-har-gatt-vilse",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "길·교통",
+    "source": "",
     "ko": "길을 잃었어요.",
     "romanization": "",
     "sv": "Jag har gått vilse.",
     "literal_sv": "",
     "meaning": "길을 잃었을 때 쓰는 표현. 현재완료를 씁니다.",
+    "ipa": "jɑː hɑːr ɡɔt ˈvɪlsɛ",
+    "ko_pron": "야- 하-르 곳 빌세",
     "words": [
       {
         "surface": "Jag",
@@ -2459,20 +2502,21 @@
     "tags": [
       "필수",
       "완료형"
-    ],
-    "ipa": "jɑː hɑːr ɡɔt ˈvɪlsɛ",
-    "ko_pron": "야- 하-르 곳 빌세"
+    ]
   },
   {
     "id": "en-biljett-tack",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "길·교통",
+    "source": "",
     "ko": "표 한 장 주세요.",
     "romanization": "",
     "sv": "En biljett till Uppsala, tack.",
     "literal_sv": "",
     "meaning": "표를 살 때 쓰는 표현. 완전한 문장이 아니어도 자연스럽습니다.",
+    "ipa": "ɛn bɪlˈjɛt tɪl ˈɵpˌsɑːla tak",
+    "ko_pron": "엔 빌옛 틸 윕사-라 탁",
     "words": [
       {
         "surface": "En",
@@ -2524,20 +2568,21 @@
     "tags": [
       "패턴",
       "교통"
-    ],
-    "ipa": "ɛn bɪlˈjɛt tɪl ˈɵpˌsɑːla tak",
-    "ko_pron": "엔 빌옛 틸 윕사-라 탁"
+    ]
   },
   {
     "id": "vilken-tid-passar-dig",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "약속·시간",
+    "source": "",
     "ko": "몇 시가 괜찮으세요?",
     "romanization": "",
     "sv": "Vilken tid passar dig?",
     "literal_sv": "",
     "meaning": "약속 시간을 정할 때 묻는 표현.",
+    "ipa": "ˈvɪlkɛn tiːd ˈpasar dɛj",
+    "ko_pron": "빌켄 티-드 파사르 데이",
     "words": [
       {
         "surface": "Vilken",
@@ -2589,20 +2634,21 @@
     "tags": [
       "의문문",
       "목적격"
-    ],
-    "ipa": "ˈvɪlkɛn tiːd ˈpasar dɛj",
-    "ko_pron": "빌켄 티-드 파사르 데이"
+    ]
   },
   {
     "id": "ska-vi-ses",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "약속·시간",
+    "source": "",
     "ko": "금요일에 볼까요?",
     "romanization": "",
     "sv": "Ska vi ses på fredag?",
     "literal_sv": "",
     "meaning": "약속을 제안하는 표현. Ska vi ...? 는 '우리 ~할까?'라는 뜻입니다.",
+    "ipa": "skɑː viː seːs poː ˈfreːdɑ",
+    "ko_pron": "스카- 비- 세-스 포- 프레-다",
     "words": [
       {
         "surface": "Ska",
@@ -2663,20 +2709,21 @@
       "필수",
       "패턴",
       "제안"
-    ],
-    "ipa": "skɑː viː seːs poː ˈfreːdɑ",
-    "ko_pron": "스카- 비- 세-스 포- 프레-다"
+    ]
   },
   {
     "id": "jag-ar-sen",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "약속·시간",
+    "source": "",
     "ko": "늦었어요, 죄송해요!",
     "romanization": "",
     "sv": "Jag är sen. Förlåt!",
     "literal_sv": "",
     "meaning": "약속에 늦었을 때 쓰는 표현.",
+    "ipa": "jɑː ɛː seːn fœrˈloːt",
+    "ko_pron": "야- 에- 센- 푀를롯-",
     "words": [
       {
         "surface": "Jag",
@@ -2725,20 +2772,21 @@
     },
     "tags": [
       "필수"
-    ],
-    "ipa": "jɑː ɛː seːn fœrˈloːt",
-    "ko_pron": "야- 에- 센- 푀를롯-"
+    ]
   },
   {
     "id": "hur-dags",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "약속·시간",
+    "source": "",
     "ko": "몇 시에요?",
     "romanization": "",
     "sv": "Hur dags börjar det?",
     "literal_sv": "",
     "meaning": "시각을 묻는 구어 표현.",
+    "ipa": "hʉːr daks ˈbœrjar deː",
+    "ko_pron": "휘-르 닥스 뵈리아르 데-",
     "words": [
       {
         "surface": "Hur",
@@ -2790,20 +2838,21 @@
     "tags": [
       "의문문",
       "시간"
-    ],
-    "ipa": "hʉːr daks ˈbœrjar deː",
-    "ko_pron": "휘-르 닥스 뵈리아르 데-"
+    ]
   },
   {
     "id": "vad-kul",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "감정·반응",
+    "source": "",
     "ko": "좋다! / 재밌겠다!",
     "romanization": "",
     "sv": "Vad kul!",
     "literal_sv": "",
     "meaning": "반가움이나 기쁨을 드러내는 짧은 반응.",
+    "ipa": "vɑː kʉːl",
+    "ko_pron": "바- 퀼-",
     "words": [
       {
         "surface": "Vad",
@@ -2839,20 +2888,21 @@
     "tags": [
       "구어",
       "감탄문"
-    ],
-    "ipa": "vɑː kʉːl",
-    "ko_pron": "바- 퀼-"
+    ]
   },
   {
     "id": "sa-tragikt",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "감정·반응",
+    "source": "",
     "ko": "아쉽네요. / 안됐네요.",
     "romanization": "",
     "sv": "Vad tråkigt!",
     "literal_sv": "",
     "meaning": "안타까움을 드러내는 반응.",
+    "ipa": "vɑː ˈtroːkɪkt",
+    "ko_pron": "바- 트로-킥트",
     "words": [
       {
         "surface": "Vad",
@@ -2888,20 +2938,21 @@
     "tags": [
       "구어",
       "감탄문"
-    ],
-    "ipa": "vɑː ˈtroːkɪkt",
-    "ko_pron": "바- 트로-킥트"
+    ]
   },
   {
     "id": "jag-haller-med",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "감정·반응",
+    "source": "",
     "ko": "저도 그렇게 생각해요.",
     "romanization": "",
     "sv": "Jag håller med.",
     "literal_sv": "",
     "meaning": "동의를 나타내는 표현.",
+    "ipa": "jɑː ˈhɔlːɛr meː",
+    "ko_pron": "야- 홀레르 메-",
     "words": [
       {
         "surface": "Jag",
@@ -2944,20 +2995,21 @@
     },
     "tags": [
       "구동사"
-    ],
-    "ipa": "jɑː ˈhɔlːɛr meː",
-    "ko_pron": "야- 홀레르 메-"
+    ]
   },
   {
     "id": "det-later-bra",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "감정·반응",
+    "source": "",
     "ko": "좋은 생각이에요.",
     "romanization": "",
     "sv": "Det låter bra.",
     "literal_sv": "",
     "meaning": "제안에 찬성할 때 쓰는 표현.",
+    "ipa": "deː ˈloːtɛr brɑː",
+    "ko_pron": "데- 로-테르 브라-",
     "words": [
       {
         "surface": "Det",
@@ -2998,20 +3050,21 @@
     },
     "tags": [
       "구어"
-    ],
-    "ipa": "deː ˈloːtɛr brɑː",
-    "ko_pron": "데- 로-테르 브라-"
+    ]
   },
   {
     "id": "tyvarr-kan-jag-inte",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "감정·반응",
+    "source": "",
     "ko": "아쉽지만 안 되겠어요.",
     "romanization": "",
     "sv": "Tyvärr kan jag inte.",
     "literal_sv": "",
     "meaning": "정중히 거절하는 표현.",
+    "ipa": "tyˈvær kan jɑː ˈɪntɛ",
+    "ko_pron": "튀베르 칸 야- 인테",
     "words": [
       {
         "surface": "Tyvärr",
@@ -3064,20 +3117,21 @@
       "필수",
       "V2어순",
       "거절"
-    ],
-    "ipa": "tyˈvær kan jɑː ˈɪntɛ",
-    "ko_pron": "튀베르 칸 야- 인테"
+    ]
   },
   {
     "id": "jag-mar-inte-bra",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "건강·곤란",
+    "source": "",
     "ko": "몸이 좀 안 좋아요.",
     "romanization": "",
     "sv": "Jag mår inte bra.",
     "literal_sv": "",
     "meaning": "컨디션이 좋지 않다고 말하는 표현.",
+    "ipa": "jɑː moːr ˈɪntɛ brɑː",
+    "ko_pron": "야- 모-르 인테 브라-",
     "words": [
       {
         "surface": "Jag",
@@ -3129,20 +3183,21 @@
     "tags": [
       "필수",
       "부정"
-    ],
-    "ipa": "jɑː moːr ˈɪntɛ brɑː",
-    "ko_pron": "야- 모-르 인테 브라-"
+    ]
   },
   {
     "id": "jag-behover-hjalp",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "건강·곤란",
+    "source": "",
     "ko": "도움이 필요해요.",
     "romanization": "",
     "sv": "Jag behöver hjälp.",
     "literal_sv": "",
     "meaning": "도움을 청하는 표현.",
+    "ipa": "jɑː bɛˈhøːvɛr jɛlp",
+    "ko_pron": "야- 베회-베르 옐프",
     "words": [
       {
         "surface": "Jag",
@@ -3186,20 +3241,21 @@
     "tags": [
       "필수",
       "응급"
-    ],
-    "ipa": "jɑː bɛˈhøːvɛr jɛlp",
-    "ko_pron": "야- 베회-베르 옐프"
+    ]
   },
   {
     "id": "kan-du-hjalpa-mig",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "건강·곤란",
+    "source": "",
     "ko": "도와주시겠어요?",
     "romanization": "",
     "sv": "Kan du hjälpa mig?",
     "literal_sv": "",
     "meaning": "구체적으로 도움을 부탁하는 표현.",
+    "ipa": "kan dʉː ˈjɛlpa mɛj",
+    "ko_pron": "칸 뒤- 옐파 메이",
     "words": [
       {
         "surface": "Kan",
@@ -3249,20 +3305,21 @@
     "tags": [
       "필수",
       "목적격"
-    ],
-    "ipa": "kan dʉː ˈjɛlpa mɛj",
-    "ko_pron": "칸 뒤- 옐파 메이"
+    ]
   },
   {
     "id": "var-ligger-toaletten",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "건강·곤란",
+    "source": "",
     "ko": "화장실이 어디예요?",
     "romanization": "",
     "sv": "Var ligger toaletten?",
     "literal_sv": "",
     "meaning": "실생활에서 가장 자주 쓰게 되는 질문 중 하나.",
+    "ipa": "vɑːr ˈlɪɡɛr tʊaˈlɛtɛn",
+    "ko_pron": "바-르 리게르 토알레텐",
     "words": [
       {
         "surface": "Var",
@@ -3303,20 +3360,21 @@
     },
     "tags": [
       "필수"
-    ],
-    "ipa": "vɑːr ˈlɪɡɛr tʊaˈlɛtɛn",
-    "ko_pron": "바-르 리게르 토알레텐"
+    ]
   },
   {
     "id": "vilket-fint-vader",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "스몰토크",
+    "source": "",
     "ko": "날씨 좋네요!",
     "romanization": "",
     "sv": "Vilket fint väder!",
     "literal_sv": "",
     "meaning": "날씨 이야기는 가장 무난한 스몰토크 소재입니다.",
+    "ipa": "ˈvɪlkɛt fɪnt ˈvɛːdɛr",
+    "ko_pron": "빌켓 핀트 베-데르",
     "words": [
       {
         "surface": "Vilket",
@@ -3360,20 +3418,21 @@
     "tags": [
       "스몰토크",
       "감탄문"
-    ],
-    "ipa": "ˈvɪlkɛt fɪnt ˈvɛːdɛr",
-    "ko_pron": "빌켓 핀트 베-데르"
+    ]
   },
   {
     "id": "det-ar-kallt-idag",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "스몰토크",
+    "source": "",
     "ko": "오늘 춥네요.",
     "romanization": "",
     "sv": "Det är kallt idag.",
     "literal_sv": "",
     "meaning": "날씨를 말할 때 형식주어 det 을 씁니다.",
+    "ipa": "deː ɛː kalt ɪˈdɑːɡ",
+    "ko_pron": "데- 에- 칼트 이다-그",
     "words": [
       {
         "surface": "Det",
@@ -3425,20 +3484,21 @@
     "tags": [
       "스몰토크",
       "형식주어"
-    ],
-    "ipa": "deː ɛː kalt ɪˈdɑːɡ",
-    "ko_pron": "데- 에- 칼트 이다-그"
+    ]
   },
   {
     "id": "det-ar-ingen-ko-pa-isen",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "스몰토크",
+    "source": "",
     "ko": "급할 거 없어요.",
     "romanization": "",
     "sv": "Det är ingen ko på isen.",
     "literal_sv": "얼음 위에 소가 없다.",
     "meaning": "서두를 필요 없다, 걱정할 일이 아니다. 스웨덴에서 아주 흔히 쓰는 표현입니다.",
+    "ipa": "deː ɛː ˈɪŋɛn kuː poː ˈiːsɛn",
+    "ko_pron": "데- 에- 잉엔 쿠- 포- 이-센",
     "words": [
       {
         "surface": "Det",
@@ -3506,20 +3566,21 @@
     "tags": [
       "관용구",
       "부정"
-    ],
-    "ipa": "deː ɛː ˈɪŋɛn kuː poː ˈiːsɛn",
-    "ko_pron": "데- 에- 잉엔 쿠- 포- 이-센"
+    ]
   },
   {
     "id": "det-ordnar-sig",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "스몰토크",
+    "source": "",
     "ko": "어떻게든 잘될 거예요.",
     "romanization": "",
     "sv": "Det ordnar sig.",
     "literal_sv": "그것이 스스로 정돈된다.",
     "meaning": "걱정하는 사람을 달랠 때 쓰는 표현.",
+    "ipa": "deː ˈuːɖnar sɛj",
+    "ko_pron": "데- 우-드나르 세이",
     "words": [
       {
         "surface": "Det",
@@ -3563,20 +3624,21 @@
     "tags": [
       "관용구",
       "재귀동사"
-    ],
-    "ipa": "deː ˈuːɖnar sɛj",
-    "ko_pron": "데- 우-드나르 세이"
+    ]
   },
   {
     "id": "lagom",
     "added": "2026-09-17",
     "kind": "word",
     "category": "스몰토크",
+    "source": "",
     "ko": "딱 알맞은 (정도)",
     "romanization": "",
     "sv": "lagom",
     "literal_sv": "",
     "meaning": "너무 많지도 적지도 않은, 딱 알맞은 정도. 다른 언어에 정확히 대응하는 말이 없어 스웨덴 문화를 상징하는 단어로 자주 꼽힙니다.",
+    "ipa": "ˈlɑːɡɔm",
+    "ko_pron": "라-곰",
     "words": [
       {
         "surface": "lagom",
@@ -3608,20 +3670,21 @@
     "tags": [
       "문화",
       "낱말"
-    ],
-    "ipa": "ˈlɑːɡɔm",
-    "ko_pron": "라-곰"
+    ]
   },
   {
     "id": "hur-lange-har-du-bott-har",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "스몰토크",
+    "source": "",
     "ko": "여기 산 지 얼마나 되셨어요?",
     "romanization": "",
     "sv": "Hur länge har du bott här?",
     "literal_sv": "",
     "meaning": "가볍게 이어 가기 좋은 질문.",
+    "ipa": "hʉːr ˈlɛŋɛ hɑːr dʉː bɔt hɛːr",
+    "ko_pron": "휘-르 렝에 하-르 뒤- 봇 헤-르",
     "words": [
       {
         "surface": "Hur",
@@ -3689,20 +3752,21 @@
     "tags": [
       "스몰토크",
       "완료형"
-    ],
-    "ipa": "hʉːr ˈlɛŋɛ hɑːr dʉː bɔt hɛːr",
-    "ko_pron": "휘-르 렝에 하-르 뒤- 봇 헤-르"
+    ]
   },
   {
     "id": "jag-har-bokat-ett-rum",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "숙소·생활",
+    "source": "",
     "ko": "방을 예약했어요.",
     "romanization": "",
     "sv": "Jag har bokat ett rum.",
     "literal_sv": "",
     "meaning": "체크인할 때 쓰는 표현.",
+    "ipa": "jɑː hɑːr ˈbuːkat ɛt rɵm",
+    "ko_pron": "야- 하-르 부-캇 엣 룀",
     "words": [
       {
         "surface": "Jag",
@@ -3762,20 +3826,21 @@
     "tags": [
       "완료형",
       "여행"
-    ],
-    "ipa": "jɑː hɑːr ˈbuːkat ɛt rɵm",
-    "ko_pron": "야- 하-르 부-캇 엣 룀"
+    ]
   },
   {
     "id": "vad-ar-wifi-losenordet",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "숙소·생활",
+    "source": "",
     "ko": "와이파이 비밀번호가 뭐예요?",
     "romanization": "",
     "sv": "Vad är wifi-lösenordet?",
     "literal_sv": "",
     "meaning": "카페나 숙소에서 자주 쓰는 질문.",
+    "ipa": "vɑː ɛː ˈwajfaj ˈløːsɛnˌuːɖɛt",
+    "ko_pron": "바- 에- 와이파이 뢰-센우-뎃",
     "words": [
       {
         "surface": "Vad",
@@ -3819,20 +3884,21 @@
     "tags": [
       "의문문",
       "합성어"
-    ],
-    "ipa": "vɑː ɛː ˈwajfaj ˈløːsɛnˌuːɖɛt",
-    "ko_pron": "바- 에- 와이파이 뢰-센우-뎃"
+    ]
   },
   {
     "id": "kan-jag-fa-kvittot",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "숙소·생활",
+    "source": "",
     "ko": "영수증 주시겠어요?",
     "romanization": "",
     "sv": "Kan jag få kvittot, tack?",
     "literal_sv": "",
     "meaning": "영수증을 달라고 하는 표현.",
+    "ipa": "kan jɑː foː ˈkvɪtʊt tak",
+    "ko_pron": "칸 야- 포- 크비톳 탁",
     "words": [
       {
         "surface": "Kan",
@@ -3890,20 +3956,21 @@
     "tags": [
       "패턴",
       "결제"
-    ],
-    "ipa": "kan jɑː foː ˈkvɪtʊt tak",
-    "ko_pron": "칸 야- 포- 크비톳 탁"
+    ]
   },
   {
     "id": "snoberget-skyddar-oss",
     "added": "2026-09-17",
     "kind": "phrase",
     "category": "자연·풍경",
+    "source": "",
     "ko": "설산이 우리를 보호한다.",
     "romanization": "",
     "sv": "Snöberget skyddar oss.",
     "literal_sv": "",
     "meaning": "눈 덮인 산이 우리를 지켜 준다는 뜻. 한국어의 '설산(雪山)'처럼 스웨덴어도 눈(snö)과 산(berg)을 붙여 한 낱말로 만듭니다.",
+    "ipa": "ˈsnøːˌbærjɛt ˈɧʏdar ɔs",
+    "ko_pron": "스뇌-베리엣 쉬다르 오스",
     "words": [
       {
         "surface": "Snöberget",
@@ -3949,15 +4016,14 @@
       "합성어",
       "목적격",
       "자연"
-    ],
-    "ipa": "ˈsnøːˌbærjɛt ˈɧʏdar ɔs",
-    "ko_pron": "스뇌-베리엣 쉬다르 오스"
+    ]
   },
   {
     "id": "blunda",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "건강·곤란",
+    "source": "dialogue",
     "ko": "눈을 감아봐.",
     "romanization": "",
     "sv": "Blunda.",
@@ -3992,7 +4058,8 @@
     "id": "det-ar-normalt-att-det-kanns-lite-varmt",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "건강·곤란",
+    "source": "dialogue",
     "ko": "조금 뜨거운 건 정상이야.",
     "romanization": "",
     "sv": "Det är normalt att det känns lite varmt.",
@@ -4084,7 +4151,8 @@
     "id": "oppna-dem-inte-an",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "건강·곤란",
+    "source": "dialogue",
     "ko": "아직 뜨지 마.",
     "romanization": "",
     "sv": "Öppna dem inte än.",
@@ -4145,7 +4213,8 @@
     "id": "det-ar-finhackade-orter",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "잘게 다진 약초야.",
     "romanization": "",
     "sv": "Det är finhackade örter.",
@@ -4205,7 +4274,8 @@
     "id": "de-lindrar-spanningen-i-ogonen",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "건강·곤란",
+    "source": "dialogue",
     "ko": "눈의 긴장을 풀어 주는 효과가 있어.",
     "romanization": "",
     "sv": "De lindrar spänningen i ögonen.",
@@ -4273,7 +4343,8 @@
     "id": "du-har-stirrat-efter-faror-igen",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "또 위험한 게 있나 계속 노려보고 있었던 거지?",
     "romanization": "",
     "sv": "Du har stirrat efter faror igen, eller hur?",
@@ -4365,7 +4436,8 @@
     "id": "jag-ar-van-vid-sant-har",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "이런 건 익숙해.",
     "romanization": "",
     "sv": "Jag är van vid sånt här.",
@@ -4441,7 +4513,8 @@
     "id": "lat-mig-skota-det",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "나한테 맡겨.",
     "romanization": "",
     "sv": "Låt mig sköta det.",
@@ -4501,7 +4574,8 @@
     "id": "ror-den-inte",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "예의",
+    "source": "dialogue",
     "ko": "만지지 마.",
     "romanization": "",
     "sv": "Rör den inte.",
@@ -4551,7 +4625,8 @@
     "id": "min-bage-far-inte-vidroras-av-nagon",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "내 활은 그 누구도 만져선 안 돼.",
     "romanization": "",
     "sv": "Min båge får inte vidröras av någon.",
@@ -4636,7 +4711,8 @@
     "id": "inga-smeder-och-inte-du-heller",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "대장장이들은 물론이고, 너도 안 돼.",
     "romanization": "",
     "sv": "Inga smeder, och inte du heller.",
@@ -4712,7 +4788,8 @@
     "id": "titta-pa-tidigare-expeditioners-anteckningar",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "이전 탐사대의 기록을 확인해 봐.",
     "romanization": "",
     "sv": "Titta på tidigare expeditioners anteckningar.",
@@ -4780,7 +4857,8 @@
     "id": "saknar-du-formagan-att-doda",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "사냥당하기 전에 죽일 실력이 없다면, 그림자에게 들켜선 안 돼.",
     "romanization": "",
     "sv": "Saknar du förmågan att döda innan du själv blir dödad, får skuggorna aldrig se dig.",
@@ -4930,7 +5008,8 @@
     "id": "jag-har-sett-dig-forut",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "너 같은 사람들은 많이 봐 왔어.",
     "romanization": "",
     "sv": "Jag har sett många som du förut.",
@@ -5012,7 +5091,8 @@
     "id": "det-gor-inget",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "예의",
+    "source": "dialogue",
     "ko": "괜찮아.",
     "romanization": "",
     "sv": "Det gör inget.",
@@ -5064,7 +5144,8 @@
     "id": "jag-sager-det-garna-om-igen",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "언어·소통",
+    "source": "dialogue",
     "ko": "내가 몇 번이고 다시 말해 줄게.",
     "romanization": "",
     "sv": "Jag säger det gärna om igen, hur många gånger som helst.",
@@ -5180,7 +5261,8 @@
     "id": "det-har-ar-en-ung-hornbeest",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "이건 어린 혼비스트인데 우리의 친구야.",
     "romanization": "",
     "sv": "Det här är en ung hornbeest, en vän till oss.",
@@ -5280,7 +5362,8 @@
     "id": "sadan-sno-kan-bara-kontrolleras-med-arts",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "이런 눈은 아츠로밖에 제어할 수 없어.",
     "romanization": "",
     "sv": "Sådan snö kan bara kontrolleras med Arts.",
@@ -5354,7 +5437,8 @@
     "id": "ropa-pa-mig-om-du-stoter-pa-den",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "혹시 마주치게 되면 꼭 날 불러.",
     "romanization": "",
     "sv": "Ropa på mig om du stöter på den.",
@@ -5447,7 +5531,8 @@
     "id": "skriv-en-anteckning-under-fotot",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "사진 밑에 메모를 남겨두는 게 좋을 거야.",
     "romanization": "",
     "sv": "Skriv en anteckning under fotot.",
@@ -5513,7 +5598,8 @@
     "id": "du-ar-ganska-smart",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "너 꽤 똑똑하잖아.",
     "romanization": "",
     "sv": "Du är ganska smart.",
@@ -5572,7 +5658,8 @@
     "id": "vad-menar-du-med-den-blicken",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "뭐야, 그 표정은.",
     "romanization": "",
     "sv": "Vad menar du med den blicken?",
@@ -5648,7 +5735,8 @@
     "id": "ar-det-sa-konstigt-att-jag-anvander-elektronik",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "내가 전자 기기를 쓰는 게 그렇게 신기해?",
     "romanization": "",
     "sv": "Är det så konstigt att jag använder elektronik?",
@@ -5738,7 +5826,8 @@
     "id": "ni-ar-lika-konstiga-som-magellan",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "너희들은 참 마젤란만큼 이상하다니까.",
     "romanization": "",
     "sv": "Ni är lika konstiga som Magellan.",
@@ -5806,7 +5895,8 @@
     "id": "ni-forsoker-forsta-landet-pa-ett-annat-satt",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "굳이 다른 방식으로 이 대지를 이해하려고 하잖아.",
     "romanization": "",
     "sv": "Ni försöker förstå landet på ett annat sätt.",
@@ -5898,7 +5988,8 @@
     "id": "kanske-kan-ni-en-dag-dromma-om-det-verkliga-sami",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "언젠가는 진정한 사미의 모습을 꿈꿀 수 있을지도 모르겠네.",
     "romanization": "",
     "sv": "Kanske kan ni en dag drömma om det verkliga Sami.",
@@ -5998,7 +6089,8 @@
     "id": "men-inte-annu",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "지금의 너희에겐 무리겠지만 말이야.",
     "romanization": "",
     "sv": "Men inte ännu.",
@@ -6047,7 +6139,8 @@
     "id": "jag-ar-orolig",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "하아, 진짜 걱정이라니까.",
     "romanization": "",
     "sv": "Jag är orolig.",
@@ -6098,7 +6191,8 @@
     "id": "vi-samarbetar-nu-sa-du-maste-lyssna-pa-mig",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "협력 관계를 맺었으니, 내 말에 잘 따라줘야 해.",
     "romanization": "",
     "sv": "Vi samarbetar nu, så du måste lyssna på mig.",
@@ -6197,7 +6291,8 @@
     "id": "lagg-ner-navigatorn",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "그 내비게이션 장치는 내려놔.",
     "romanization": "",
     "sv": "Lägg ner navigatorn.",
@@ -6247,7 +6342,8 @@
     "id": "du-trottnar-snabbt-om-du-bar-runt-pa-sant",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "전문가도 아니면서 그런 걸 지면 금방 지쳐버려.",
     "romanization": "",
     "sv": "Du tröttnar snabbt om du bär runt på sånt utan att vara expert.",
@@ -6380,7 +6476,8 @@
     "id": "overlat-vagledningen-till-mig",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "안내는 나한테 맡겨.",
     "romanization": "",
     "sv": "Överlåt vägledningen till mig.",
@@ -6438,7 +6535,8 @@
     "id": "forr-ledde-argus-mig-sa-har",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "예전에는 아르게스가 이렇게 날 이끌어 줬었어.",
     "romanization": "",
     "sv": "Förr ledde Argus mig så här.",
@@ -6506,7 +6604,8 @@
     "id": "hon-brukade-saga-att-svarigheter-ocksa-ar-odets-vagvisare",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "고난과 역경도 운명의 길잡이라고 말하곤 했어.",
     "romanization": "",
     "sv": "Hon brukade säga att svårigheter också är ödets vägvisare.",
@@ -6608,7 +6707,8 @@
     "id": "forst-senare-forstod-jag",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "나중에야 알게 됐어.",
     "romanization": "",
     "sv": "Först senare förstod jag.",
@@ -6668,7 +6768,8 @@
     "id": "foljer-du-vindens-ljud-och-grenarna-kommer-du-fram",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "바람 소리와 나뭇가지를 따라가다 보면 원하는 곳에 도달할 수 있어.",
     "romanization": "",
     "sv": "Följer du vindens ljud och grenarna kommer du naturligt fram dit du vill.",
@@ -6802,7 +6903,8 @@
     "id": "har-du-sovit-pa-botten-av-en-grotta",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "스몰토크",
+    "source": "dialogue",
     "ko": "동굴 바닥에서 잠들어 본 적 있어?",
     "romanization": "",
     "sv": "Har du sovit på botten av en grotta?",
@@ -6894,7 +6996,8 @@
     "id": "eller-ovanpa-rankor",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "덩굴 위에서는?",
     "romanization": "",
     "sv": "Eller ovanpå rankor?",
@@ -6943,7 +7046,8 @@
     "id": "prova-om-du-far-tillfalle",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "기회가 되면 한번 시도해 봐.",
     "romanization": "",
     "sv": "Prova om du får tillfälle.",
@@ -7009,7 +7113,8 @@
     "id": "jag-sover-daligt-nar-jag-inte-hor-samis-puls",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "사미의 맥박 소리가 들리지 않으면 잠이 잘 안 와.",
     "romanization": "",
     "sv": "Jag sover dåligt när jag inte hör Samis puls.",
@@ -7102,7 +7207,8 @@
     "id": "hur-kan-jag-vila-lugnt-om-jag-inte-kan-vakna-genast",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "바로 깨어날 수 없다면, 어떻게 편히 쉴 수 있겠어?",
     "romanization": "",
     "sv": "Hur kan jag vila lugnt om jag inte kan vakna genast när något händer?",
@@ -7240,7 +7346,8 @@
     "id": "ja-jag-har-ofta-mardrommar",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "건강·곤란",
+    "source": "dialogue",
     "ko": "악몽은 자주 꾸는데.",
     "romanization": "",
     "sv": "Ja, jag har ofta mardrömmar.",
@@ -7305,7 +7412,8 @@
     "id": "ropade-du",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "인사",
+    "source": "dialogue",
     "ko": "불렀어?",
     "romanization": "",
     "sv": "Ropade du?",
@@ -7347,7 +7455,8 @@
     "id": "har-nagot-hant",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "건강·곤란",
+    "source": "dialogue",
     "ko": "무슨 문제라도 생긴 거야?",
     "romanization": "",
     "sv": "Har något hänt?",
@@ -7397,7 +7506,8 @@
     "id": "om-ingenting-hant-lamna-mig-ensam-ett-tag",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "별일 없는 거면, 조금만 혼자 있게 해 줄래?",
     "romanization": "",
     "sv": "Om ingenting hänt, lämna mig ensam ett tag.",
@@ -7487,7 +7597,8 @@
     "id": "jag-tittade-pa-de-doda",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "죽어간 사람들을 보고 있었어.",
     "romanization": "",
     "sv": "Jag tittade på de döda.",
@@ -7554,7 +7665,8 @@
     "id": "de-oforstorda-doda-vandrar-bland-skogen-och-djuren",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "오염되지 않은 죽은 자들은 숲과 짐승들 사이를 떠돌아다녀.",
     "romanization": "",
     "sv": "De oförstörda döda vandrar bland skogen och djuren.",
@@ -7644,7 +7756,8 @@
     "id": "jag-letar-fortfarande-efter-min-mor-och-far",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "난 계속 어머니와 아버지를 찾고 있어.",
     "romanization": "",
     "sv": "Jag letar fortfarande efter min mor och far.",
@@ -7736,7 +7849,8 @@
     "id": "har-jag-nagonsin-gatt-vilse-kanske",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "길·교통",
+    "source": "dialogue",
     "ko": "길을 잃은 적이 있냐고? 있었을지도.",
     "romanization": "",
     "sv": "Har jag någonsin gått vilse? Kanske.",
@@ -7810,7 +7924,8 @@
     "id": "jag-lamnade-hemmet-for-att-hamnas",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "난 복수를 위해 집을 떠났어.",
     "romanization": "",
     "sv": "Jag lämnade hemmet för att hämnas.",
@@ -7887,7 +8002,8 @@
     "id": "jag-tankte-bara-hoja-bagen-och-bevisa",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "그저 활을 겨눠 나야말로 사냥꾼이라는 걸 증명해야겠다는 생각밖엔 안 떠올랐어.",
     "romanization": "",
     "sv": "När jag mötte den förstörda snön tänkte jag bara höja bågen och bevisa för skuggan att det var jag som var jägaren.",
@@ -8085,7 +8201,8 @@
     "id": "har-du-anlag-for-att-bli-en-jagare",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "너에겐 사냥꾼의 자질이 있을까?",
     "romanization": "",
     "sv": "Har du anlag för att bli en jägare?",
@@ -8177,7 +8294,8 @@
     "id": "eller-kunde-du-bli-en-kamrat-som-bar-mig",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "아니면, 내가 다쳤을 때 날 업어줄 동료가 될 수 있을까?",
     "romanization": "",
     "sv": "Eller kunde du bli en kamrat som bär mig när jag är skadad?",
@@ -8309,7 +8427,8 @@
     "id": "dromer-du-samma-drom-som-jag",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "너도 나랑 같은 꿈을 꾸는 걸까?",
     "romanization": "",
     "sv": "Drömmer du samma dröm som jag?",
@@ -8385,7 +8504,8 @@
     "id": "nej-det-ar-omojligt",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "아니, 그럴 리 없지.",
     "romanization": "",
     "sv": "Nej, det är omöjligt.",
@@ -8443,7 +8563,8 @@
     "id": "eftersom-det-har-inte-ar-sami",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "여기는 사미가 아니니까.",
     "romanization": "",
     "sv": "Eftersom det här inte är Sami.",
@@ -8512,7 +8633,8 @@
     "id": "jag-avundas-dig",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "부럽네.",
     "romanization": "",
     "sv": "Jag avundas dig.",
@@ -8562,7 +8684,8 @@
     "id": "skuggorna-jagar-dig-inte-i-drommarna",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "그림자가 꿈속에서 널 쫓거나 하진 않을 테니까.",
     "romanization": "",
     "sv": "Skuggorna jagar dig inte i drömmarna.",
@@ -8636,7 +8759,8 @@
     "id": "om-nagot-onormalt-dyker-upp-tar-jag-hand-om-det",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "협력 도중에 이상 현상이 나타나면 내가 대신 처리해 줄게.",
     "romanization": "",
     "sv": "Om något onormalt dyker upp under samarbetet tar jag hand om det.",
@@ -8752,7 +8876,8 @@
     "id": "kalla-mig-typhon",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "티폰이라고 불러줘.",
     "romanization": "",
     "sv": "Kalla mig Typhon.",
@@ -8796,7 +8921,8 @@
     "id": "namnet-fann-jag-i-hornsmycket",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "이건 어머니가 남겨 준 뿔 장식에서 찾은 이름이야.",
     "romanization": "",
     "sv": "Namnet fann jag i hornsmycket som min mor lämnade efter sig.",
@@ -8913,7 +9039,8 @@
     "id": "vissa-tyckte-att-det-var-skrammande",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "무섭다던 사람들도 있었지만 말이야.",
     "romanization": "",
     "sv": "Vissa tyckte att det var skrämmande.",
@@ -8989,7 +9116,8 @@
     "id": "vill-ni-visa-upp-era-fototekniker",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "너희 촬영 기술을 자랑하고 싶은 거야?",
     "romanization": "",
     "sv": "Vill ni visa upp era fototekniker?",
@@ -9063,7 +9191,8 @@
     "id": "men-om-du-inte-upplever-det-sjalv-kan-det-inte-kallas-erfarenhet",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "하지만 직접 체험하지 않으면, 경험이라 부를 수 없는 거 아니야?",
     "romanization": "",
     "sv": "Men om du inte upplever det själv kan det inte kallas erfarenhet.",
@@ -9188,7 +9317,8 @@
     "id": "hur-anvands-medaljen-for-befordran",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "이 승진 메달은 어디에 쓰는 거야?",
     "romanization": "",
     "sv": "Hur används medaljen för befordran?",
@@ -9254,7 +9384,8 @@
     "id": "hjalper-den-inte-i-strid-tackar-jag-nej-tills-vidare",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "전투에 도움이 안 되는 거면 지금은 사양할래.",
     "romanization": "",
     "sv": "Hjälper den inte i strid tackar jag nej tills vidare.",
@@ -9361,7 +9492,8 @@
     "id": "beratta-om-det-igen-nar-vi-lost-krisen",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "약속·시간",
+    "source": "dialogue",
     "ko": "눈앞의 위기를 해결하고 나서, 그때 다시 얘기를 들려줘.",
     "romanization": "",
     "sv": "Berätta om det igen när vi löst krisen framför oss.",
@@ -9470,7 +9602,8 @@
     "id": "manga-besokare-har-forlorat-livet-pa-grund-av-sitt-hogmod",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "수많은 방문객들이 오만함 때문에 목숨을 잃었어.",
     "romanization": "",
     "sv": "Många besökare har förlorat livet på grund av sitt högmod.",
@@ -9579,7 +9712,8 @@
     "id": "lavinen-tog-dem-innan-de-hann-se-skuggan",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "그들의 큰소리가 일으킨 눈사태에 휩쓸려, 그림자를 제대로 볼 기회도 없었지.",
     "romanization": "",
     "sv": "Lavinen som deras höga röster orsakade tog dem innan de hann se Samis skugga riktigt.",
@@ -9720,7 +9854,8 @@
     "id": "jag-foljer-med-er-sa-att-ni-inte-begar-samma-misstag",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "너희들은 그런 실수를 저지르지 않도록 내가 함께할게.",
     "romanization": "",
     "sv": "Jag följer med er så att ni inte begår samma misstag.",
@@ -9834,7 +9969,8 @@
     "id": "ta-vapnen-och-verktygen-nu",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "어서 이 무기와 도구를 챙겨.",
     "romanization": "",
     "sv": "Ta vapnen och verktygen nu.",
@@ -9900,7 +10036,8 @@
     "id": "antalet-kommer-senare",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "머릿수는 그 다음 얘기야.",
     "romanization": "",
     "sv": "Antalet kommer senare.",
@@ -9949,7 +10086,8 @@
     "id": "bra-jag-gar-forst",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "좋아, 내가 앞장설게.",
     "romanization": "",
     "sv": "Bra, jag går först.",
@@ -10006,7 +10144,8 @@
     "id": "var-inte-spand",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "긴장하지 말고.",
     "romanization": "",
     "sv": "Var inte spänd.",
@@ -10058,7 +10197,8 @@
     "id": "kom-nu-kor-vi",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "자, 힘내자.",
     "romanization": "",
     "sv": "Kom, nu kör vi.",
@@ -10118,7 +10258,8 @@
     "id": "sprid-inte-ut-er-pa-egen-hand",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "멋대로 흩어지지 마.",
     "romanization": "",
     "sv": "Sprid inte ut er på egen hand.",
@@ -10201,7 +10342,8 @@
     "id": "vand-inte-bort-blicken-aven-om-snon-svider-i-ogonen",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "눈이 따가워도 시선을 돌려선 안 돼.",
     "romanization": "",
     "sv": "Vänd inte bort blicken även om snön svider i ögonen.",
@@ -10310,7 +10452,8 @@
     "id": "hall-huvudet-kallt-nar-du-fattar-beslut",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "결정을 내릴 땐 냉정해야 해.",
     "romanization": "",
     "sv": "Håll huvudet kallt när du fattar beslut.",
@@ -10392,7 +10535,8 @@
     "id": "jag-skyddar-dig-sa-stressa-inte",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "내가 지켜줄 테니까, 서두르지 마.",
     "romanization": "",
     "sv": "Jag skyddar dig, så stressa inte.",
@@ -10466,7 +10610,8 @@
     "id": "vad-onskar-du",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "예의",
+    "source": "dialogue",
     "ko": "부탁이 뭐야?",
     "romanization": "",
     "sv": "Vad önskar du?",
@@ -10515,7 +10660,8 @@
     "id": "dags-att-avgora-vem-som-ar-bytet",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "누가 사냥감인지 결정할 시간이야.",
     "romanization": "",
     "sv": "Dags att avgöra vem som är bytet.",
@@ -10599,7 +10745,8 @@
     "id": "perfekt-tillfalle",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "절호의 기회야.",
     "romanization": "",
     "sv": "Perfekt tillfälle.",
@@ -10640,7 +10787,8 @@
     "id": "jag-spikar-fast-din-skugga-i-marken",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "네 그림자에 못을 박아 주마.",
     "romanization": "",
     "sv": "Jag spikar fast din skugga i marken.",
@@ -10722,7 +10870,8 @@
     "id": "det-ar-alltid-fegisarna-som-bryter-tystnaden",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "겁쟁이들이 먼저 침묵을 깨뜨리는 법이지.",
     "romanization": "",
     "sv": "Det är alltid fegisarna som bryter tystnaden.",
@@ -10806,7 +10955,8 @@
     "id": "jag-later-ingen-rubba-naturens-ordning",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "자연의 섭리를 어지럽히게 두지 않겠어.",
     "romanization": "",
     "sv": "Jag låter ingen rubba naturens ordning.",
@@ -10880,7 +11030,8 @@
     "id": "forsvinn-fran-mitt-hem",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "내 집에서 사라져!",
     "romanization": "",
     "sv": "Försvinn från mitt hem!",
@@ -10938,7 +11089,8 @@
     "id": "varje-gang-en-pil-lamnar-bagstrangen-skjuts-stunden-upp",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "내 화살이 시위를 떠날 때마다, 사미의 눈이 검게 물들 시간이 조금이나마 늦춰지겠지.",
     "romanization": "",
     "sv": "Varje gång en pil lämnar bågsträngen skjuts stunden då Samis snö svartnar upp lite grann.",
@@ -11080,7 +11232,8 @@
     "id": "du-har-slutfort-uppdraget-utan-onodigt-lidande",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "임무를 완수했구나, 사냥감에게 불필요한 고통을 주지도 않았고.",
     "romanization": "",
     "sv": "Du har slutfört uppdraget utan onödigt lidande för bytet.",
@@ -11179,7 +11332,8 @@
     "id": "bra-gjort",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "잘했어.",
     "romanization": "",
     "sv": "Bra gjort.",
@@ -11224,7 +11378,8 @@
     "id": "lat-oss-vila-lite-over-en-varm-dryck",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "카페·식당",
+    "source": "dialogue",
     "ko": "따뜻한 음료라도 마시면서 좀 쉬도록 하자.",
     "romanization": "",
     "sv": "Låt oss vila lite över en varm dryck.",
@@ -11316,7 +11471,8 @@
     "id": "om-pilarna-ar-slut-och-du-missat-ska-du-inte-jaga-vidare",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "화살을 다 썼는데도 사냥감을 놓쳤다면, 더 이상 쫓아가선 안 돼.",
     "romanization": "",
     "sv": "Om pilarna är slut och du missat bytet ska du inte jaga vidare.",
@@ -11447,7 +11603,8 @@
     "id": "du-har-redan-forlorat",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "이미 네가 진 거나 마찬가지니까.",
     "romanization": "",
     "sv": "Du har redan förlorat.",
@@ -11504,7 +11661,8 @@
     "id": "hall-frona-hart-i-handen-och-spring",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "이 씨앗들을 손에 꼭 쥐고, 그대로 달려.",
     "romanization": "",
     "sv": "Håll fröna hårt i handen och spring.",
@@ -11586,7 +11744,8 @@
     "id": "titta-inte-tillbaka",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "절대 뒤돌아보지 말고.",
     "romanization": "",
     "sv": "Titta inte tillbaka.",
@@ -11636,7 +11795,8 @@
     "id": "jag-skoter-det-har",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "여긴 내가 처리할 테니까.",
     "romanization": "",
     "sv": "Jag sköter det här.",
@@ -11693,7 +11853,8 @@
     "id": "kan-du-forklara-vad-apparaterna-anvands-till",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "언어·소통",
+    "source": "dialogue",
     "ko": "이 장치들의 용도를 설명해 줄 수 있어?",
     "romanization": "",
     "sv": "Kan du förklara vad apparaterna används till?",
@@ -11777,7 +11938,8 @@
     "id": "jag-litar-pa-mitt-minne",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "기억력은 자신 있거든.",
     "romanization": "",
     "sv": "Jag litar på mitt minne.",
@@ -11843,7 +12005,8 @@
     "id": "jag-minns-fortfarande-observatoriets-uppbyggnad",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "전에 마젤란이 설명해 줬던 관측소 구조도 아직 기억하고 있어.",
     "romanization": "",
     "sv": "Jag minns fortfarande observatoriets uppbyggnad som Magellan förklarade.",
@@ -11928,7 +12091,8 @@
     "id": "jag-har-nog-inte-glomt-tror-jag",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "안 잊어버렸을 거야, 아마도.",
     "romanization": "",
     "sv": "Jag har nog inte glömt, tror jag.",
@@ -12012,7 +12176,8 @@
     "id": "nej-snabbare-an-sa",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "아니, 좀 더 빠르게.",
     "romanization": "",
     "sv": "Nej, snabbare än så.",
@@ -12069,7 +12234,8 @@
     "id": "annars-kan-det-inte-kallas-en-overraskning",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "그러지 않으면 기습이라 할 수 없어.",
     "romanization": "",
     "sv": "Annars kan det inte kallas en överraskning.",
@@ -12153,7 +12319,8 @@
     "id": "star-nagon-palitlig-vakt",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "믿을 만한 사람이 보초를 서고 있는 거지?",
     "romanization": "",
     "sv": "Står någon pålitlig vakt, eller hur?",
@@ -12227,7 +12394,8 @@
     "id": "jag-skulle-vilja-vila-en-stund",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "조금 쉬고 싶어서.",
     "romanization": "",
     "sv": "Jag skulle vilja vila en stund.",
@@ -12303,7 +12471,8 @@
     "id": "er-bas-ar-alldeles-for-varm",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "스몰토크",
+    "source": "dialogue",
     "ko": "너희 기지는 너무 따뜻하거든.",
     "romanization": "",
     "sv": "Er bas är alldeles för varm.",
@@ -12379,7 +12548,8 @@
     "id": "det-verkar-som-att-fler-firar-nyar",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "스몰토크",
+    "source": "dialogue",
     "ko": "새해를 축하하는 사람들이 점점 많아지는 것 같네.",
     "romanization": "",
     "sv": "Det verkar som att fler och fler firar nyår.",
@@ -12480,7 +12650,8 @@
     "id": "haller-ni-fest-har-ocksa",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "스몰토크",
+    "source": "dialogue",
     "ko": "여기서도 축제를 여는 거야?",
     "romanization": "",
     "sv": "Håller ni fest här också?",
@@ -12546,7 +12717,8 @@
     "id": "och-fyrverkerier",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "스몰토크",
+    "source": "dialogue",
     "ko": "불꽃놀이는?",
     "romanization": "",
     "sv": "Och fyrverkerier?",
@@ -12587,7 +12759,8 @@
     "id": "finns-det-ocksa-da-har-jag-kommit-ratt",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "스몰토크",
+    "source": "dialogue",
     "ko": "그것도 있다고? 제대로 왔나 보네.",
     "romanization": "",
     "sv": "Finns det också? Då har jag kommit till rätt ställe.",
@@ -12696,7 +12869,8 @@
     "id": "jag-ska-bara-kolla-om-det-finns-evenemang",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "스몰토크",
+    "source": "dialogue",
     "ko": "처음 보는 이벤트가 있나 확인하러 가보려는 거뿐이야.",
     "romanization": "",
     "sv": "Jag ska bara kolla om det finns evenemang jag inte sett förut.",
@@ -12820,7 +12994,8 @@
     "id": "doktorn-behover-inte-oroa-sig-for-mig",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "박사가 날 신경 쓸 필요 없어.",
     "romanization": "",
     "sv": "Doktorn behöver inte oroa sig för mig.",
@@ -12902,7 +13077,8 @@
     "id": "hej-doktorn",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "인사",
+    "source": "dialogue",
     "ko": "안녕, 박사.",
     "romanization": "",
     "sv": "Hej, doktorn.",
@@ -12943,7 +13119,8 @@
     "id": "vart-tog-du-vagen",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "인사",
+    "source": "dialogue",
     "ko": "어디 갔었어?",
     "romanization": "",
     "sv": "Vart tog du vägen?",
@@ -13003,7 +13180,8 @@
     "id": "du-gick-val-inte-vilse",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "길·교통",
+    "source": "dialogue",
     "ko": "길을 잃었던 건 아니지?",
     "romanization": "",
     "sv": "Du gick väl inte vilse?",
@@ -13071,7 +13249,8 @@
     "id": "jag-har-hittat-en-saker-plats-at-dig",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "숙소·생활",
+    "source": "dialogue",
     "ko": "널 위해 안전한 곳을 찾아뒀어.",
     "romanization": "",
     "sv": "Jag har hittat en säker plats åt dig.",
@@ -13155,7 +13334,8 @@
     "id": "tacka-kraften-som-traden-och-jorden-gett-dig",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "나무와 흙이 네게 가져다준 기운에 감사하도록 해.",
     "romanization": "",
     "sv": "Tacka kraften som träden, smältvattnet och jorden gett dig.",
@@ -13254,7 +13434,8 @@
     "id": "tack-vare-det-gar-du-pa-marken",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "그 덕분에 네가 대지에서 걸어 다닐 수 있는 거야.",
     "romanization": "",
     "sv": "Tack vare det går du på marken.",
@@ -13338,7 +13519,8 @@
     "id": "nu-gar-vi-ta-min-hand",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "자, 가자. 내 손을 잡아.",
     "romanization": "",
     "sv": "Nu går vi. Ta min hand.",
@@ -13412,7 +13594,8 @@
     "id": "att-ordna-skorden-ar-en-god-vana",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "수확한 사냥감을 정리해 두는 건 좋은 습관이야.",
     "romanization": "",
     "sv": "Att ordna skörden är en god vana.",
@@ -13496,7 +13679,8 @@
     "id": "jakten-tar-aldrig-slut",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "사냥엔 끝이 없으니까.",
     "romanization": "",
     "sv": "Jakten tar aldrig slut.",
@@ -13554,7 +13738,8 @@
     "id": "jag-har-sett-er-vinna-manga-segrar-och-radda-liv",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "너희들이 수많은 승리를 거두고, 수많은 생명들을 구해내는 걸 봤어.",
     "romanization": "",
     "sv": "Jag har sett er vinna många segrar och rädda många liv.",
@@ -13662,7 +13847,8 @@
     "id": "ni-gor-bra-ifran-er",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "감정·반응",
+    "source": "dialogue",
     "ko": "잘하더라.",
     "romanization": "",
     "sv": "Ni gör bra ifrån er.",
@@ -13730,7 +13916,8 @@
     "id": "men-vill-ni-driva-bort-era-fiender-helt-bor-ni-sluta",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "하지만 이 대지에서 너희들의 적을 완전히 몰아내려는 거라면 그만두는 게 좋을 거야.",
     "romanization": "",
     "sv": "Men vill ni driva bort era fiender helt bör ni sluta.",
@@ -13847,7 +14034,8 @@
     "id": "att-vanta-sig-evig-ro-efter-en-enda-insats-ar-fel",
     "added": "2026-09-18",
     "kind": "phrase",
-    "category": "대사·서사",
+    "category": "기타",
+    "source": "dialogue",
     "ko": "한 번의 노력으로 영원한 안식을 얻으려 하는 건 잘못된 거니까.",
     "romanization": "",
     "sv": "Att vänta sig evig ro efter en enda insats är fel.",

@@ -32,6 +32,7 @@
   "added": "2026-09-17",      // 오늘 날짜
   "kind": "phrase",           // phrase(문장) | word(낱말 하나)
   "category": "카페·식당",      // 아래 목록에서 고르기
+  "source": "",               // 출처. 직접 쓴 것은 "". 아래 "출처" 참고.
   "ko": "계산서 주시겠어요?",    // 사용자가 준 한국어. 다듬되 뜻은 바꾸지 않기
   "romanization": "",         // 보통 빈 문자열
   "sv": "Kan jag få notan, tack?",  // 스웨덴 사람이 실제로 쓸 법한 자연스러운 번역
@@ -103,12 +104,29 @@
 ```
 인사 · 소개 · 언어·소통 · 예의 · 카페·식당 · 쇼핑 · 길·교통
 약속·시간 · 감정·반응 · 건강·곤란 · 스몰토크 · 숙소·생활 · 자연·풍경
-대사·서사
+기타
 ```
 
-`대사·서사` 는 읽을거리로 모아 둔 긴 대사입니다. 일상 회화가 아니므로
+`기타` 는 일상에서 쓸 일이 없는 것들을 모아 둔 자리입니다.
 **오늘의 표현 로테이션에서 빠집니다** (`js/entries.js` 의 `NOT_DAILY`).
 모아보기와 단어장에는 그대로 들어갑니다.
+
+### `source` — 출처
+
+어디서 가져온 내용인지 남깁니다. **분류와는 별개입니다.**
+
+- 직접 쓴 문장은 `""`.
+- 어딘가에서 옮겨 온 것은 그 출처 이름 (지금은 `"dialogue"` 하나).
+
+분류는 쓸모에 따라 여기저기로 흩어져도, `source` 는 그대로 남습니다.
+그래서 나중에 한 출처만 통째로 걷어낼 수 있습니다:
+
+```bash
+python3 tools/remove-source.py dialogue --dry-run   # 몇 개 지워질지 보기
+python3 tools/remove-source.py dialogue             # 실제로 지우기
+```
+
+새 출처를 쓰면 `tools/validate.py` 의 `KNOWN_SOURCES` 에도 더해 주세요.
 
 새 분류를 만들면 `tools/validate.py` 의 `KNOWN_CATEGORIES` 에도 더해 주세요.
 (경고만 뜨고 실패하지는 않지만, 오타를 걸러 주는 장치입니다.)
@@ -141,6 +159,9 @@ python3 -m http.server 8000   # 화면 확인 (file:// 로는 안 열립니다)
 data/entries.json   ← 사이트의 모든 내용. 대부분의 작업이 여기서 끝납니다
 data/SCHEMA.md      형식 명세
 tools/validate.py   검사기 (로컬·CI 공용)
+tools/ipa.py        낱말별 IPA·한글 근사 사전
+tools/regen-pron.py 발음 재생성
+tools/remove-source.py  특정 출처 항목 일괄 제거
 
 index.html          화면 구조
 css/style.css       스타일 (라이트/다크)
