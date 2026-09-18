@@ -546,7 +546,7 @@ WORDS = {
 
 # sv 문장에는 나오지만 words 에는 없는 낱말(고유명사 등)
 EXTRA = {
-    "jumin": ("ˈjʉːmɪn", "위-민"),
+    "anna": ("ˈana", "안나"),
     "uppsala": ("ˈɵpˌsɑːla", "윕사-라"),
     "malmö": ("ˈmalmø", "말뫼"),
     "göteborg": ("jœtɛˈbɔrj", "예테보리"),

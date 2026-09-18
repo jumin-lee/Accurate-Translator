@@ -221,7 +221,7 @@ Anthropic API 키를 씁니다. 이 구분을 깨뜨리지 마세요 — 키 없
 ## 배포
 
 `main` 에 푸시하면 `.github/workflows/pages.yml` 이 GitHub Pages 로 배포합니다.
-사이트: <https://jumin-lee.github.io/Accurate-Translator/>
+배포된 주소는 저장소 Settings → Pages 에서 확인하세요.
 
 Pages 를 처음 켤 때만 저장소 소유자가 Settings → Pages → Source 를
 "GitHub Actions" 로 바꿔야 합니다. 워크플로 토큰에는 그 권한이 없습니다.

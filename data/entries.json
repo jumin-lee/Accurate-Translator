@@ -310,8 +310,8 @@
     ],
     "examples": [
       {
-        "sv": "Jag heter Jumin. — Trevligt att träffas!",
-        "ko": "저는 주민이에요. — 만나서 반가워요!"
+        "sv": "Jag heter Anna. — Trevligt att träffas!",
+        "ko": "저는 안나예요. — 만나서 반가워요!"
       }
     ],
     "equivalent": {
@@ -439,11 +439,11 @@
     "source": "",
     "ko": "제 이름은 ...입니다.",
     "romanization": "",
-    "sv": "Jag heter Jumin.",
+    "sv": "Jag heter Anna.",
     "literal_sv": "",
     "meaning": "이름을 말하는 가장 흔한 방식. heter 는 '이름이 ~이다'라는 뜻의 동사입니다.",
-    "ipa": "jɑː ˈheːtɛr ˈjʉːmɪn",
-    "ko_pron": "야- 헤-테르 위-민",
+    "ipa": "jɑː ˈheːtɛr ˈana",
+    "ko_pron": "야- 헤-테르 안나",
     "words": [
       {
         "surface": "Jag",
@@ -464,12 +464,12 @@
     ],
     "notes": [
       "Mitt namn är ... 도 틀리지 않지만 일상에서는 Jag heter ... 가 훨씬 자연스럽습니다.",
-      "Jumin 자리에 자기 이름을 넣으면 됩니다."
+      "Anna 자리에 자기 이름을 넣으면 됩니다. 스웨덴어 교재에서 흔히 쓰는 예시 이름입니다."
     ],
     "examples": [
       {
-        "sv": "Hej, jag heter Jumin. Vad heter du?",
-        "ko": "안녕하세요, 저는 주민이에요. 이름이 어떻게 되세요?"
+        "sv": "Hej, jag heter Anna. Vad heter du?",
+        "ko": "안녕하세요, 저는 안나예요. 이름이 어떻게 되세요?"
       }
     ],
     "equivalent": {
