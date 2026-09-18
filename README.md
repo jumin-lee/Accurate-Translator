@@ -82,8 +82,26 @@ python3 -m http.server 8000
 
 ## 배포 (GitHub Pages)
 
-빌드 단계가 없습니다. 저장소 설정 → Pages 에서 브랜치와 `/ (root)` 를 고르면
-그대로 배포됩니다. (`.nojekyll` 이 이미 들어 있습니다.)
+빌드 단계가 없습니다. Settings → Pages → Source 를 **GitHub Actions** 로 두면
+`main` 에 푸시할 때마다 자동 배포됩니다. (`.nojekyll` 이 이미 들어 있습니다.)
+
+### 개인 도메인에 붙이기
+
+모든 경로를 상대 경로로 써 두어서 **하위 경로에서도 그대로 동작합니다.**
+(`css/style.css`, `js/app.js`, `data/entries.json` — 앞에 `/` 가 없습니다.)
+
+| 원하는 주소 | 방법 |
+|---|---|
+| `example.com/translator/` | `<계정>.github.io` 레포에 도메인을 걸고, 이 레포 이름을 `translator` 로 바꾸기 |
+| `translator.example.com` | 이 레포 Settings → Pages 에 서브도메인을 직접 등록 (가장 간단) |
+| `example.com` | 이 레포에 apex 도메인을 직접 등록 (루트를 이 사이트가 차지) |
+
+도메인 한 개당 레포 하나가 원칙입니다. 한 도메인 아래 여러 프로젝트를 두려면
+사용자 사이트(`<계정>.github.io`)에 도메인을 걸어야, 나머지 레포가
+`example.com/<레포이름>/` 으로 자동으로 딸려 옵니다.
+
+**절대 경로를 쓰지 마세요.** `/data/entries.json` 처럼 앞에 `/` 를 붙이면
+하위 경로 배포에서 404 가 납니다.
 
 ## 번역기 탭을 쓰려면 (선택)
 
